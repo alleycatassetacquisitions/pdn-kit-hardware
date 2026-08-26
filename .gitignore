@@ -51,7 +51,6 @@ fp-info-cache
 *.gbrjob
 *.ps
 *.prn
-schematic-pdfs/
 
 # OS / editor
 .DS_Store
