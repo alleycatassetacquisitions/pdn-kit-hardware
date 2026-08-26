@@ -1,0 +1,61 @@
+# Official KiCad gitignore (github/gitignore KiCad.gitignore)
+# https://github.com/github/gitignore/blob/main/KiCad.gitignore
+# Covers KiCad 6–10 including .history (9+) and *.kicad_prl (local UI state).
+
+# Temporary files
+*.000
+*.bak
+*.bck
+*.kicad_pcb-bak
+*.kicad_sch-bak
+*-backups
+*-cache*
+*-bak
+*-bak*
+*~
+~*
+_autosave-*
+\#auto_saved_files\#
+*.tmp
+*-save.pro
+*-save.kicad_pcb
+fp-info-cache
+~*.lck
+\#auto_saved_files#
+
+# Netlist files (exported from Eeschema)
+*.net
+
+# Autorouter files (exported from Pcbnew)
+*.dsn
+*.ses
+
+# Exported BOM files (KiCad BOM tool output)
+*.xml
+*.csv
+
+# Archived backups (KiCad 6.0+)
+**/*-backups/*.zip
+
+# Local git-based history (KiCad 9.0+)
+.history
+
+# Local project settings (window layout, last paths — machine-specific)
+*.kicad_prl
+
+# KiCad CLI / checker reports (regenerate locally)
+*-erc.rpt
+*-drc.rpt
+
+# Plot and print output
+*.gbrjob
+*.ps
+*.prn
+schematic-pdfs/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+*.swp
+.vscode/
+.idea/

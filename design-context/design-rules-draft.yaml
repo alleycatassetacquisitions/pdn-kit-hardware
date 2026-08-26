@@ -1,0 +1,306 @@
+status: draft
+promotionPolicy: Nothing in this file is an enforced design rule. Observations may
+  be wrong. Promote to Konnect add_design_rule or .konnect/project.json only after
+  datasheet review and explicit human approval.
+verifiedRules: []
+processRules:
+- id: prefer-global-lib
+  rule: 'Use global: library symbols and footprints for LCSC parts where possible.'
+  status: policy
+- id: dump-before-review
+  rule: Re-run dump-design-context after major schematic edits before system review.
+  status: policy
+observations:
+- id: ic-b+/-1
+  kind: component_selection
+  observed: B+/-1 = GH-2AW R (LCSC C16965)
+  source: /power/
+  confidence: high
+  status: unverified
+  validateBeforePromoting:
+  - datasheet typical application
+  - JLC stock and footprint
+- id: ic-mot1
+  kind: component_selection
+  observed: MOT1 = Vibration Motor (LCSC C2759984)
+  source: /ui/
+  confidence: high
+  status: unverified
+  validateBeforePromoting:
+  - datasheet typical application
+  - JLC stock and footprint
+- id: ic-tv2
+  kind: component_selection
+  observed: TV2 = SRV05-4-P-T7 (LCSC C85364)
+  source: /brain/
+  confidence: high
+  status: unverified
+  validateBeforePromoting:
+  - datasheet typical application
+  - JLC stock and footprint
+- id: ic-tv3
+  kind: component_selection
+  observed: TV3 = SRV05-4-P-T7 (LCSC C85364)
+  source: /brain/
+  confidence: high
+  status: unverified
+  validateBeforePromoting:
+  - datasheet typical application
+  - JLC stock and footprint
+- id: ic-u1
+  kind: component_selection
+  observed: U1 = BQ25619RTWR (LCSC C2864534)
+  source: /power/
+  confidence: high
+  status: unverified
+  validateBeforePromoting:
+  - datasheet typical application
+  - JLC stock and footprint
+- id: ic-u2
+  kind: component_selection
+  observed: U2 = TPS22917DBVR (LCSC C2681320)
+  source: /power/
+  confidence: high
+  status: unverified
+  validateBeforePromoting:
+  - datasheet typical application
+  - JLC stock and footprint
+- id: ic-u3
+  kind: component_selection
+  observed: U3 = TPS63802DLAR (LCSC C2845237)
+  source: /power/
+  confidence: high
+  status: unverified
+  validateBeforePromoting:
+  - datasheet typical application
+  - JLC stock and footprint
+- id: ic-u4
+  kind: component_selection
+  observed: U4 = MAX17260SEWL (LCSC C3682467)
+  source: /power/
+  confidence: high
+  status: unverified
+  validateBeforePromoting:
+  - datasheet typical application
+  - JLC stock and footprint
+- id: ic-u5
+  kind: component_selection
+  observed: U5 = IS31FL3236A-QFLS2-TR (LCSC C246443)
+  source: /LEDs/
+  confidence: high
+  status: unverified
+  validateBeforePromoting:
+  - datasheet typical application
+  - JLC stock and footprint
+- id: ic-u6
+  kind: component_selection
+  observed: U6 = ESP32-S3-WROOM-1(N8R8) (LCSC C2913201)
+  source: /brain/
+  confidence: high
+  status: unverified
+  validateBeforePromoting:
+  - datasheet typical application
+  - JLC stock and footprint
+- id: ic-u7
+  kind: component_selection
+  observed: U7 = IS31FL3236A-QFLS2-TR (LCSC C246443)
+  source: /LEDs/
+  confidence: high
+  status: unverified
+  validateBeforePromoting:
+  - datasheet typical application
+  - JLC stock and footprint
+- id: ic-u9
+  kind: component_selection
+  observed: U9 = X096-2864KSWPG01-H30 (LCSC C18723026)
+  source: /ui/
+  confidence: high
+  status: unverified
+  validateBeforePromoting:
+  - datasheet typical application
+  - JLC stock and footprint
+- id: ic-usb1
+  kind: component_selection
+  observed: USB1 = USB-C Connector (LCSC C2982555)
+  source: /power/
+  confidence: high
+  status: unverified
+  validateBeforePromoting:
+  - datasheet typical application
+  - JLC stock and footprint
+- id: signal-bt_prim
+  kind: interface
+  observed: 'Signal BT_PRIM connects sheets: brain, ui'
+  source: hierarchy
+  confidence: high
+  status: unverified
+  validateBeforePromoting:
+  - firmware pin map
+  - pull-ups and levels
+- id: signal-bt_sec
+  kind: interface
+  observed: 'Signal BT_SEC connects sheets: brain, ui'
+  source: hierarchy
+  confidence: high
+  status: unverified
+  validateBeforePromoting:
+  - firmware pin map
+  - pull-ups and levels
+- id: signal-ce
+  kind: interface
+  observed: 'Signal CE connects sheets: brain, power'
+  source: hierarchy
+  confidence: high
+  status: unverified
+  validateBeforePromoting:
+  - firmware pin map
+  - pull-ups and levels
+- id: signal-cs
+  kind: interface
+  observed: 'Signal CS connects sheets: brain, ui'
+  source: hierarchy
+  confidence: high
+  status: unverified
+  validateBeforePromoting:
+  - firmware pin map
+  - pull-ups and levels
+- id: signal-d+
+  kind: interface
+  observed: 'Signal D+ connects sheets: brain, power'
+  source: hierarchy
+  confidence: high
+  status: unverified
+  validateBeforePromoting:
+  - firmware pin map
+  - pull-ups and levels
+- id: signal-d-
+  kind: interface
+  observed: 'Signal D- connects sheets: brain, power'
+  source: hierarchy
+  confidence: high
+  status: unverified
+  validateBeforePromoting:
+  - firmware pin map
+  - pull-ups and levels
+- id: signal-dc
+  kind: interface
+  observed: 'Signal DC connects sheets: brain, ui'
+  source: hierarchy
+  confidence: high
+  status: unverified
+  validateBeforePromoting:
+  - firmware pin map
+  - pull-ups and levels
+- id: signal-i2c_scl
+  kind: interface
+  observed: 'Signal I2C_SCL connects sheets: brain, power, LEDs'
+  source: hierarchy
+  confidence: high
+  status: unverified
+  validateBeforePromoting:
+  - firmware pin map
+  - pull-ups and levels
+- id: signal-i2c_sda
+  kind: interface
+  observed: 'Signal I2C_SDA connects sheets: brain, power, LEDs'
+  source: hierarchy
+  confidence: high
+  status: unverified
+  validateBeforePromoting:
+  - firmware pin map
+  - pull-ups and levels
+- id: signal-int
+  kind: interface
+  observed: 'Signal INT connects sheets: brain, power'
+  source: hierarchy
+  confidence: high
+  status: unverified
+  validateBeforePromoting:
+  - firmware pin map
+  - pull-ups and levels
+- id: signal-led_off
+  kind: interface
+  observed: 'Signal LED_OFF connects sheets: brain, LEDs'
+  source: hierarchy
+  confidence: high
+  status: unverified
+  validateBeforePromoting:
+  - firmware pin map
+  - pull-ups and levels
+- id: signal-max_alrt
+  kind: interface
+  observed: 'Signal MAX_ALRT connects sheets: brain, power'
+  source: hierarchy
+  confidence: high
+  status: unverified
+  validateBeforePromoting:
+  - firmware pin map
+  - pull-ups and levels
+- id: signal-pwr_hold
+  kind: interface
+  observed: 'Signal PWR_HOLD connects sheets: brain, power'
+  source: hierarchy
+  confidence: high
+  status: unverified
+  validateBeforePromoting:
+  - firmware pin map
+  - pull-ups and levels
+- id: signal-pwr_off
+  kind: interface
+  observed: 'Signal PWR_OFF connects sheets: brain, power'
+  source: hierarchy
+  confidence: high
+  status: unverified
+  validateBeforePromoting:
+  - firmware pin map
+  - pull-ups and levels
+- id: signal-reset
+  kind: interface
+  observed: 'Signal RESET connects sheets: brain, ui'
+  source: hierarchy
+  confidence: high
+  status: unverified
+  validateBeforePromoting:
+  - firmware pin map
+  - pull-ups and levels
+- id: signal-sclk
+  kind: interface
+  observed: 'Signal SCLK connects sheets: brain, ui'
+  source: hierarchy
+  confidence: high
+  status: unverified
+  validateBeforePromoting:
+  - firmware pin map
+  - pull-ups and levels
+- id: signal-sdin
+  kind: interface
+  observed: 'Signal SDIN connects sheets: brain, ui'
+  source: hierarchy
+  confidence: high
+  status: unverified
+  validateBeforePromoting:
+  - firmware pin map
+  - pull-ups and levels
+- id: signal-vib_motor
+  kind: interface
+  observed: 'Signal VIB_MOTOR connects sheets: brain, ui'
+  source: hierarchy
+  confidence: high
+  status: unverified
+  validateBeforePromoting:
+  - firmware pin map
+  - pull-ups and levels
+openQuestionIds:
+- placeholder-D2
+- placeholder-D6
+- placeholder-D7
+- placeholder-SW2
+- placeholder-J1
+- placeholder-J2
+- placeholder-SW4
+- placeholder-SW1
+- placeholder-SW3
+- passive-bom-incomplete
+- auto-net-names
+- explicit-nc-pins
+- cross-sheet-interfaces

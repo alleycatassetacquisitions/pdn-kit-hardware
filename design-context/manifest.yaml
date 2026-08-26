@@ -1,0 +1,15 @@
+kind: design-context-dump
+status: as-built
+epistemicStatus: observation_not_requirement
+generatedAt: '2026-08-23T14:46:17Z'
+rootSchematic: C:\Users\Elli Furedy\projects\pdn-hardware\pdn-v2.5\PDN V2.5\PDN V2.5.kicad_sch
+projectDir: C:\Users\Elli Furedy\projects\pdn-hardware\pdn-v2.5\PDN V2.5
+sourceTool: dump_design_context.py
+connectivitySource: kicad-cli sch export netlist (kicadxml)
+files:
+  asBuilt: as-built.yaml
+  systemMap: system-map.md
+  openQuestions: open-questions.md
+  designRulesDraft: design-rules-draft.yaml
+promotionPolicy: Do not treat this dump as requirements. Use open-questions.md to
+  drive review. Only move validated findings into Konnect design rules.
