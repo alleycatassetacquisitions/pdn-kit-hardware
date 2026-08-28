@@ -268,6 +268,10 @@
       [
         "lib_symbol_mismatch|698500|825500|aff85116-0fae-4e9d-8bfa-99eec820e3d7|00000000-0000-0000-0000-000000000000|||",
         "keeping generic library component with more clear specifications for this specific use case in this project."
+      ],
+      [
+        "lib_symbol_mismatch|711200|1244600|aff85116-0fae-4e9d-8bfa-99eec820e3d7|00000000-0000-0000-0000-000000000000|||",
+        "keeping generic library component with more clear specifications for this specific use case in this project."
       ]
     ],
     "meta": {
@@ -705,7 +709,7 @@
         "uuid": "7ba8b3ae-d553-4981-99e4-6a44bc3bbf14"
       }
     ],
-    "used_designators": "",
+    "used_designators": "TP1-26,#PWR116,#PWR120-125,C25",
     "variants": []
   },
   "sheets": [

@@ -12,6 +12,129 @@
 		(comment 2 "License: CERN-OHL-S")
 	)
 	(lib_symbols
+		(symbol "Connector:TestPoint"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.762)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 5.08 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:C"
 			(pin_numbers
 				(hide yes)
@@ -5838,6 +5961,12 @@
 		(uuid "e5fed0a1-f0eb-44a4-9d1a-3c527f8ca0d7")
 	)
 	(junction
+		(at 185.42 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "031fe493-e93f-4587-9020-a958760c21b9")
+	)
+	(junction
 		(at 73.66 134.62)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5970,6 +6099,12 @@
 		(uuid "6fedef09-ae15-4df9-9807-3603e348d4e4")
 	)
 	(junction
+		(at 139.7 149.86)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7e30b489-0485-42d3-960c-e895f4fe28f5")
+	)
+	(junction
 		(at 266.7 43.18)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5992,12 +6127,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8e8f0af1-3e0a-4dcf-a20d-423f4381645a")
-	)
-	(junction
-		(at 139.7 160.02)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "91a0ed91-b312-45c1-82eb-539e5835b76d")
 	)
 	(junction
 		(at 97.79 64.77)
@@ -6108,6 +6237,12 @@
 		(uuid "f4c9b1a1-2d3a-48ee-82ee-8cf756a4a157")
 	)
 	(junction
+		(at 139.7 160.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f4eeda9e-c2b9-49a6-8d7e-6c50b136a813")
+	)
+	(junction
 		(at 162.56 143.51)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6150,6 +6285,16 @@
 			(type default)
 		)
 		(uuid "014c0f1c-426e-404d-ac0f-aed79b22215f")
+	)
+	(wire
+		(pts
+			(xy 139.7 152.4) (xy 139.7 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "05d5b814-b821-43ef-a7fc-213e61fb8a0a")
 	)
 	(wire
 		(pts
@@ -6503,6 +6648,16 @@
 	)
 	(wire
 		(pts
+			(xy 139.7 149.86) (xy 139.7 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a322d4d-aae4-4de8-be3b-39268255908d")
+	)
+	(wire
+		(pts
 			(xy 123.19 119.38) (xy 139.7 119.38)
 		)
 		(stroke
@@ -6633,16 +6788,6 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 148.59) (xy 139.7 160.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4fc79452-096a-4459-8ce0-7713f1884609")
-	)
-	(wire
-		(pts
 			(xy 72.39 139.7) (xy 72.39 152.4)
 		)
 		(stroke
@@ -6723,7 +6868,7 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 45.72) (xy 182.88 48.26)
+			(xy 175.26 45.72) (xy 175.26 48.26)
 		)
 		(stroke
 			(width 0)
@@ -6763,7 +6908,7 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 48.26) (xy 185.42 48.26)
+			(xy 175.26 48.26) (xy 177.8 48.26)
 		)
 		(stroke
 			(width 0)
@@ -6993,7 +7138,7 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 48.26) (xy 201.93 48.26)
+			(xy 185.42 48.26) (xy 201.93 48.26)
 		)
 		(stroke
 			(width 0)
@@ -7531,6 +7676,16 @@
 		)
 		(uuid "0c391015-5504-4cbf-935c-2e571cec514a")
 	)
+	(label "PWR_HOLD"
+		(at 90.17 185.42 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "103ec978-32b5-4f59-a71b-ff73e8a9aaa5")
+	)
 	(label "MAX_ALRT"
 		(at 146.05 81.28 0)
 		(effects
@@ -7591,6 +7746,26 @@
 		)
 		(uuid "282bab07-8af2-4b39-bbb0-fa3e20245a5b")
 	)
+	(label "INT"
+		(at 83.82 185.42 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "29427d48-651f-4510-830f-2dbc0840369d")
+	)
+	(label "BATT_BQ"
+		(at 71.12 185.42 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "2ae15976-177c-47a0-bb4e-74a68c2f0ceb")
+	)
 	(label "I2C_SCL"
 		(at 227.33 123.19 180)
 		(effects
@@ -7620,6 +7795,16 @@
 			(justify right bottom)
 		)
 		(uuid "53d3d982-48b7-4cd9-b42e-aeaddb757855")
+	)
+	(label "PWR_OFF"
+		(at 116.84 185.42 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "57f01bbc-2b56-41e8-a9e1-57b8e1fb464d")
 	)
 	(label "CE"
 		(at 201.93 60.96 180)
@@ -7680,6 +7865,26 @@
 			(justify right bottom)
 		)
 		(uuid "72819b89-c88e-454f-87a1-4456897ccfa2")
+	)
+	(label "CE"
+		(at 124.46 185.42 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "83aee46b-6cf3-483c-98fc-59ab7562e427")
+	)
+	(label "MAX_ALRT"
+		(at 107.95 185.42 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "84df620f-ee7e-47c8-ba0d-1a8946221649")
 	)
 	(label "INT"
 		(at 227.33 132.08 180)
@@ -7760,6 +7965,16 @@
 			(justify right bottom)
 		)
 		(uuid "c524ce6a-a2c4-424c-8bde-2ea135229c60")
+	)
+	(label "REGN"
+		(at 99.06 185.42 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "c9c4d45a-06f6-4ba7-94bc-fe3240ba9227")
 	)
 	(label "BATT_BQ"
 		(at 240.03 68.58 0)
@@ -8881,6 +9096,83 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3V3")
+		(at 52.07 186.69 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "171bd84f-78d3-4b64-b808-fd7a2132af48")
+		(property "Reference" "#PWR0125"
+			(at 52.07 190.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 51.816 182.88 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 52.07 186.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 52.07 186.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 52.07 186.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b1c84a3d-1adb-4190-b812-06fbfca901f1")
+		)
+		(instances
+			(project "pdn-kit-hardware"
+				(path "/7ba8b3ae-d553-4981-99e4-6a44bc3bbf14/6f3ed791-0315-4451-8217-27e18b2be217"
+					(reference "#PWR0125")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 29.21 160.02 90)
 		(unit 1)
@@ -8976,6 +9268,85 @@
 			(project "pdn-kit-hardware"
 				(path "/7ba8b3ae-d553-4981-99e4-6a44bc3bbf14/6f3ed791-0315-4451-8217-27e18b2be217"
 					(reference "R16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 256.54 43.18 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "191fc742-2071-4582-b70c-5a26823df179")
+		(property "Reference" "TP15"
+			(at 259.08 38.608 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TP_PMID"
+			(at 259.08 41.148 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 261.62 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 261.62 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 256.54 43.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8dbe2b31-6c2c-41d3-a759-7b4f5682bb07")
+		)
+		(instances
+			(project "pdn-kit-hardware"
+				(path "/7ba8b3ae-d553-4981-99e4-6a44bc3bbf14/6f3ed791-0315-4451-8217-27e18b2be217"
+					(reference "TP15")
 					(unit 1)
 				)
 			)
@@ -9200,6 +9571,84 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 43.18 186.69 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "1e40c2be-9d01-4901-948f-91bab6ae92a1")
+		(property "Reference" "TP3"
+			(at 45.974 196.088 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TP_VCC"
+			(at 45.974 193.548 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 38.1 186.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 38.1 186.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 43.18 186.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3e5a9c79-8376-4f51-a695-372e748f8a5c")
+		)
+		(instances
+			(project "pdn-kit-hardware"
+				(path "/7ba8b3ae-d553-4981-99e4-6a44bc3bbf14/6f3ed791-0315-4451-8217-27e18b2be217"
+					(reference "TP3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:VCC")
 		(at 123.19 119.38 0)
 		(unit 1)
@@ -9349,6 +9798,84 @@
 			(project "pdn-kit-hardware"
 				(path "/7ba8b3ae-d553-4981-99e4-6a44bc3bbf14/6f3ed791-0315-4451-8217-27e18b2be217"
 					(reference "#PWR032")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 43.18 186.69 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "221995a5-cd0f-423c-b238-025571a1b49a")
+		(property "Reference" "#PWR0124"
+			(at 43.18 190.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VCC"
+			(at 43.18 181.61 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 43.18 186.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 43.18 186.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 43.18 186.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "025d5675-c1e4-4b3d-a5d9-baf3a4ef4736")
+		)
+		(instances
+			(project "pdn-kit-hardware"
+				(path "/7ba8b3ae-d553-4981-99e4-6a44bc3bbf14/6f3ed791-0315-4451-8217-27e18b2be217"
+					(reference "#PWR0124")
 					(unit 1)
 				)
 			)
@@ -9505,6 +10032,84 @@
 			(project "pdn-kit-hardware"
 				(path "/7ba8b3ae-d553-4981-99e4-6a44bc3bbf14/6f3ed791-0315-4451-8217-27e18b2be217"
 					(reference "#PWR011")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VBUS")
+		(at 60.96 186.69 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "317765f8-3b2e-4f2b-bc85-fc56adb26847")
+		(property "Reference" "#PWR0123"
+			(at 60.96 190.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VBUS"
+			(at 58.42 182.118 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 60.96 186.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 60.96 186.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VBUS\""
+			(at 60.96 186.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "67f8dd00-cb10-431d-9bd2-3b8deac9dcb9")
+		)
+		(instances
+			(project "pdn-kit-hardware"
+				(path "/7ba8b3ae-d553-4981-99e4-6a44bc3bbf14/6f3ed791-0315-4451-8217-27e18b2be217"
+					(reference "#PWR0123")
 					(unit 1)
 				)
 			)
@@ -10088,7 +10693,7 @@
 	)
 	(symbol
 		(lib_id "global:VSYS")
-		(at 182.88 38.1 0)
+		(at 175.26 38.1 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10099,7 +10704,7 @@
 		(fields_autoplaced yes)
 		(uuid "3adc032d-79d7-4a73-8f97-f3e8e32d2edf")
 		(property "Reference" "#PWR0112"
-			(at 182.88 38.1 0)
+			(at 175.26 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10110,7 +10715,7 @@
 			)
 		)
 		(property "Value" "VSYS"
-			(at 182.88 33.02 0)
+			(at 175.26 33.02 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10120,7 +10725,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 182.88 38.1 0)
+			(at 175.26 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10131,7 +10736,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 182.88 38.1 0)
+			(at 175.26 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10142,7 +10747,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 182.88 38.1 0)
+			(at 175.26 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10284,6 +10889,84 @@
 			(project "pdn-kit-hardware"
 				(path "/7ba8b3ae-d553-4981-99e4-6a44bc3bbf14/6f3ed791-0315-4451-8217-27e18b2be217"
 					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 60.96 186.69 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "3ca429f8-6504-4544-aca2-5867876b9845")
+		(property "Reference" "TP5"
+			(at 64.516 195.834 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TP_VBUS"
+			(at 64.516 193.294 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 55.88 186.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 55.88 186.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 60.96 186.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9810aefd-f414-4565-bbd8-ef2910233dad")
+		)
+		(instances
+			(project "pdn-kit-hardware"
+				(path "/7ba8b3ae-d553-4981-99e4-6a44bc3bbf14/6f3ed791-0315-4451-8217-27e18b2be217"
+					(reference "TP5")
 					(unit 1)
 				)
 			)
@@ -10623,6 +11306,84 @@
 			(project "pdn-kit-hardware"
 				(path "/7ba8b3ae-d553-4981-99e4-6a44bc3bbf14/6f3ed791-0315-4451-8217-27e18b2be217"
 					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 71.12 185.42 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "44a6b62a-ac44-4453-8724-432e3b135499")
+		(property "Reference" "TP20"
+			(at 68.58 176.784 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TP_BQ_BATT"
+			(at 68.58 179.324 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 76.2 185.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 76.2 185.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 71.12 185.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4e13279b-407a-431d-beb7-4eda0f2fb8e2")
+		)
+		(instances
+			(project "pdn-kit-hardware"
+				(path "/7ba8b3ae-d553-4981-99e4-6a44bc3bbf14/6f3ed791-0315-4451-8217-27e18b2be217"
+					(reference "TP20")
 					(unit 1)
 				)
 			)
@@ -11014,7 +11775,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 189.23 48.26 90)
+		(at 181.61 48.26 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11024,7 +11785,7 @@
 		(dnp no)
 		(uuid "48d14bda-5cb0-4992-9095-1ded68f06372")
 		(property "Reference" "R6"
-			(at 189.23 51.308 90)
+			(at 182.372 43.18 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11034,7 +11795,7 @@
 			)
 		)
 		(property "Value" "2.2k"
-			(at 188.976 53.594 90)
+			(at 182.118 45.466 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11044,7 +11805,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 189.23 50.038 90)
+			(at 181.61 50.038 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11055,7 +11816,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 189.23 48.26 0)
+			(at 181.61 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11066,7 +11827,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 189.23 48.26 0)
+			(at 181.61 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11077,7 +11838,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 189.23 48.26 90)
+			(at 181.61 48.26 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11846,7 +12607,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 139.7 144.78 180)
+		(at 139.7 156.21 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11856,7 +12617,7 @@
 		(dnp no)
 		(uuid "59a1d821-39fe-49bf-bbd1-3b364ce4e696")
 		(property "Reference" "R12"
-			(at 144.018 146.304 0)
+			(at 144.018 155.194 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11866,7 +12627,7 @@
 			)
 		)
 		(property "Value" "100k"
-			(at 144.018 148.59 0)
+			(at 144.018 157.48 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11876,7 +12637,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 141.478 144.78 90)
+			(at 141.478 156.21 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11887,7 +12648,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 139.7 144.78 0)
+			(at 139.7 156.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11898,7 +12659,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 139.7 144.78 0)
+			(at 139.7 156.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11909,7 +12670,7 @@
 			)
 		)
 		(property "LCSC Part #" ""
-			(at 139.7 144.78 0)
+			(at 139.7 156.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11920,7 +12681,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 139.7 144.78 0)
+			(at 139.7 156.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12181,6 +12942,163 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 99.06 185.42 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "61109b96-fe8d-4e28-a879-6c61e151a9f3")
+		(property "Reference" "TP17"
+			(at 96.52 176.784 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TP_REGN"
+			(at 96.52 179.324 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 104.14 185.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 104.14 185.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 99.06 185.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0cd7c4b1-f8e2-45dc-a73b-a9bc21580dc2")
+		)
+		(instances
+			(project "pdn-kit-hardware"
+				(path "/7ba8b3ae-d553-4981-99e4-6a44bc3bbf14/6f3ed791-0315-4451-8217-27e18b2be217"
+					(reference "TP17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 182.88 66.04 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "612cf195-0f1b-494a-9b9b-c3ca7aec0cd6")
+		(property "Reference" "TP19"
+			(at 185.42 61.468 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TP_TS"
+			(at 185.42 64.008 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 187.96 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 187.96 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 182.88 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "bdd81d27-c68e-437f-8c0a-f261e12d32dc")
+		)
+		(instances
+			(project "pdn-kit-hardware"
+				(path "/7ba8b3ae-d553-4981-99e4-6a44bc3bbf14/6f3ed791-0315-4451-8217-27e18b2be217"
+					(reference "TP19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+BATT")
 		(at 146.05 83.82 270)
 		(unit 1)
@@ -12333,6 +13251,161 @@
 			(project "pdn-kit-hardware"
 				(path "/7ba8b3ae-d553-4981-99e4-6a44bc3bbf14/6f3ed791-0315-4451-8217-27e18b2be217"
 					(reference "#PWR088")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "global:VSYS")
+		(at 35.56 186.69 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files no)
+		(dnp no)
+		(uuid "680547eb-f894-445f-9e3a-fcf1f9c1e123")
+		(property "Reference" "#PWR0122"
+			(at 35.56 186.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VSYS"
+			(at 35.306 182.372 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 35.56 186.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 35.56 186.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 35.56 186.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin ""
+			(uuid "4056ba57-e180-40a3-8401-4deb2f9e0386")
+		)
+		(instances
+			(project "pdn-kit-hardware"
+				(path "/7ba8b3ae-d553-4981-99e4-6a44bc3bbf14/6f3ed791-0315-4451-8217-27e18b2be217"
+					(reference "#PWR0122")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+BATT")
+		(at 26.67 186.69 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6c965161-93ee-4076-b953-c918a21111da")
+		(property "Reference" "#PWR0121"
+			(at 26.67 190.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+BATT"
+			(at 26.67 181.61 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 26.67 186.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 26.67 186.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+BATT\""
+			(at 26.67 186.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "283a6eae-bab7-4b1f-88ba-06007ca6d42e")
+		)
+		(instances
+			(project "pdn-kit-hardware"
+				(path "/7ba8b3ae-d553-4981-99e4-6a44bc3bbf14/6f3ed791-0315-4451-8217-27e18b2be217"
+					(reference "#PWR0121")
 					(unit 1)
 				)
 			)
@@ -14126,6 +15199,84 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 52.07 186.69 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "90c1fdb8-d751-429d-82db-8dede01b6210")
+		(property "Reference" "TP4"
+			(at 54.356 196.088 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TP_3V3"
+			(at 54.356 193.548 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 46.99 186.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 46.99 186.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 52.07 186.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "dd910402-ebf1-43f2-a2f8-64b2d2eeec30")
+		)
+		(instances
+			(project "pdn-kit-hardware"
+				(path "/7ba8b3ae-d553-4981-99e4-6a44bc3bbf14/6f3ed791-0315-4451-8217-27e18b2be217"
+					(reference "TP4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:PWR_FLAG")
 		(at 92.71 50.8 180)
 		(unit 1)
@@ -14868,6 +16019,162 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 107.95 185.42 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "a057de28-7e9a-4f7a-b86c-f7b9a8f3f378")
+		(property "Reference" "TP24"
+			(at 105.41 176.784 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TP_ALRT"
+			(at 105.41 179.324 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 113.03 185.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 113.03 185.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 107.95 185.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8d447650-b05d-44ae-8bf0-afd0c7a8f1b9")
+		)
+		(instances
+			(project "pdn-kit-hardware"
+				(path "/7ba8b3ae-d553-4981-99e4-6a44bc3bbf14/6f3ed791-0315-4451-8217-27e18b2be217"
+					(reference "TP24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 90.17 185.42 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "a1206591-edc7-4048-9791-e22bd3d36d9f")
+		(property "Reference" "TP10"
+			(at 87.63 176.784 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TP_HOLD"
+			(at 87.63 179.324 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 95.25 185.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 95.25 185.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 90.17 185.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7290adaf-b1c2-4967-94ea-32805af44c48")
+		)
+		(instances
+			(project "pdn-kit-hardware"
+				(path "/7ba8b3ae-d553-4981-99e4-6a44bc3bbf14/6f3ed791-0315-4451-8217-27e18b2be217"
+					(reference "TP10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:VBUS")
 		(at 40.64 72.39 0)
 		(unit 1)
@@ -15018,6 +16325,162 @@
 			(project "pdn-kit-hardware"
 				(path "/7ba8b3ae-d553-4981-99e4-6a44bc3bbf14/6f3ed791-0315-4451-8217-27e18b2be217"
 					(reference "#PWR09")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 17.78 189.23 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "a2319591-013d-409e-b875-77967bf58e66")
+		(property "Reference" "#PWR0120"
+			(at 17.78 195.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 19.558 193.294 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 17.78 189.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 17.78 189.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 17.78 189.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "52ce6a55-f0ff-415e-96fa-a5b7955f4b7b")
+		)
+		(instances
+			(project "pdn-kit-hardware"
+				(path "/7ba8b3ae-d553-4981-99e4-6a44bc3bbf14/6f3ed791-0315-4451-8217-27e18b2be217"
+					(reference "#PWR0120")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 35.56 186.69 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "a35444a8-c2ec-4fb2-a1b3-9d9e1e2cae8c")
+		(property "Reference" "TP6"
+			(at 38.862 195.834 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TP_VSYS"
+			(at 38.862 193.294 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 30.48 186.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 30.48 186.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 35.56 186.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "863eb508-3d3e-4a52-a462-93b4265ec22f")
+		)
+		(instances
+			(project "pdn-kit-hardware"
+				(path "/7ba8b3ae-d553-4981-99e4-6a44bc3bbf14/6f3ed791-0315-4451-8217-27e18b2be217"
+					(reference "TP6")
 					(unit 1)
 				)
 			)
@@ -15620,7 +17083,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 182.88 41.91 90)
+		(at 175.26 41.91 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -15630,7 +17093,7 @@
 		(dnp no)
 		(uuid "b063e5e6-be69-46fb-b1b0-937b833e5b16")
 		(property "Reference" "D6"
-			(at 176.022 41.656 90)
+			(at 168.402 41.656 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15641,7 +17104,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 176.022 44.196 90)
+			(at 168.402 44.196 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15652,7 +17115,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 182.88 41.91 0)
+			(at 175.26 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15663,7 +17126,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 182.88 41.91 0)
+			(at 175.26 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15674,7 +17137,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 182.88 41.91 0)
+			(at 175.26 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15685,7 +17148,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 182.88 41.91 0)
+			(at 175.26 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15696,7 +17159,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 182.88 41.91 90)
+			(at 175.26 41.91 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16570,6 +18033,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 139.7 149.86 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c201bbc1-d561-4b63-ae85-3610785b07b7")
+		(property "Reference" "TP23"
+			(at 144.78 148.59 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TP_PG"
+			(at 144.78 151.13 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 139.7 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 139.7 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 139.7 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "94ea2e6c-1b63-42dd-84b9-5486519f55a9")
+		)
+		(instances
+			(project "pdn-kit-hardware"
+				(path "/7ba8b3ae-d553-4981-99e4-6a44bc3bbf14/6f3ed791-0315-4451-8217-27e18b2be217"
+					(reference "TP23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 193.04 76.2 0)
 		(unit 1)
@@ -16719,6 +18261,162 @@
 			(project "pdn-kit-hardware"
 				(path "/7ba8b3ae-d553-4981-99e4-6a44bc3bbf14/6f3ed791-0315-4451-8217-27e18b2be217"
 					(reference "#PWR013")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 83.82 185.42 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "c4e5ee04-f74c-41a3-882f-52a2463a9ed4")
+		(property "Reference" "TP7"
+			(at 80.772 177.038 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TP_INT"
+			(at 80.772 179.578 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 88.9 185.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 88.9 185.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 83.82 185.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "808b1914-6860-4535-a19a-01b12b302de5")
+		)
+		(instances
+			(project "pdn-kit-hardware"
+				(path "/7ba8b3ae-d553-4981-99e4-6a44bc3bbf14/6f3ed791-0315-4451-8217-27e18b2be217"
+					(reference "TP7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 116.84 185.42 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "c9c84783-3f98-4e26-9708-73b5d482caf2")
+		(property "Reference" "TP25"
+			(at 114.3 176.784 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TP_OFF"
+			(at 114.3 179.324 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 121.92 185.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 121.92 185.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 116.84 185.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8b6f3dae-807a-4a2e-b514-143f5351bbfd")
+		)
+		(instances
+			(project "pdn-kit-hardware"
+				(path "/7ba8b3ae-d553-4981-99e4-6a44bc3bbf14/6f3ed791-0315-4451-8217-27e18b2be217"
+					(reference "TP25")
 					(unit 1)
 				)
 			)
@@ -17691,6 +19389,84 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 185.42 48.26 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "dd9de5e9-37c1-4c0e-ab0c-bb14547a5452")
+		(property "Reference" "TP22"
+			(at 184.15 54.356 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "TP_STAT"
+			(at 184.15 56.896 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 180.34 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 180.34 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 185.42 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7c36be80-d4e4-4dfb-b2d9-ff36dfbe6dcf")
+		)
+		(instances
+			(project "pdn-kit-hardware"
+				(path "/7ba8b3ae-d553-4981-99e4-6a44bc3bbf14/6f3ed791-0315-4451-8217-27e18b2be217"
+					(reference "TP22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "global:MAX17260SEWL+T")
 		(at 132.08 80.01 0)
 		(unit 1)
@@ -18246,6 +20022,84 @@
 			(project "pdn-kit-hardware"
 				(path "/7ba8b3ae-d553-4981-99e4-6a44bc3bbf14/6f3ed791-0315-4451-8217-27e18b2be217"
 					(reference "C22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 124.46 185.42 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ee403050-d461-4cba-8a5e-bbbf5b835420")
+		(property "Reference" "TP26"
+			(at 121.92 176.784 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TP_CE"
+			(at 121.92 179.324 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 129.54 185.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 129.54 185.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 124.46 185.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "bf82a6f0-6e9b-4923-86b0-2804e8704eb4")
+		)
+		(instances
+			(project "pdn-kit-hardware"
+				(path "/7ba8b3ae-d553-4981-99e4-6a44bc3bbf14/6f3ed791-0315-4451-8217-27e18b2be217"
+					(reference "TP26")
 					(unit 1)
 				)
 			)
@@ -18845,6 +20699,162 @@
 			(project "pdn-kit-hardware"
 				(path "/7ba8b3ae-d553-4981-99e4-6a44bc3bbf14/6f3ed791-0315-4451-8217-27e18b2be217"
 					(reference "#PWR020")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 17.78 189.23 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "f6c755e8-61a3-484c-b70f-7c6fa48f6e1a")
+		(property "Reference" "TP1"
+			(at 14.732 180.848 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TP_GND"
+			(at 14.732 183.388 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 22.86 189.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 22.86 189.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 17.78 189.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "155889c1-8fc4-4e94-afa2-9c458c865baa")
+		)
+		(instances
+			(project "pdn-kit-hardware"
+				(path "/7ba8b3ae-d553-4981-99e4-6a44bc3bbf14/6f3ed791-0315-4451-8217-27e18b2be217"
+					(reference "TP1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 26.67 186.69 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "fa5e240c-851f-4c36-a50d-cb538c8e99d9")
+		(property "Reference" "TP2"
+			(at 27.94 195.834 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TP_BATT"
+			(at 30.48 193.294 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 21.59 186.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 21.59 186.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 26.67 186.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d4332a20-cf18-4d64-ba17-28aef022feba")
+		)
+		(instances
+			(project "pdn-kit-hardware"
+				(path "/7ba8b3ae-d553-4981-99e4-6a44bc3bbf14/6f3ed791-0315-4451-8217-27e18b2be217"
+					(reference "TP2")
 					(unit 1)
 				)
 			)
