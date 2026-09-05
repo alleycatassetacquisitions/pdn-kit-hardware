@@ -1,0 +1,40 @@
+source: bq25619.pdf
+page: 39
+title: 7.5.7 Charger Control 2 Register (Address = 06h) [Reset = E6h] Figure 7-22.
+  REG06 Register
+header:
+- '7'
+- '6'
+- '5'
+- '4'
+- '3'
+- '2'
+- '1'
+- '0'
+rows:
+- - '1'
+  - '1'
+  - '1'
+  - '0'
+  - '0'
+  - '1'
+  - '1'
+  - '0'
+- - R/WR/WR/WR/WR/WR/WR/WR/W
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+records:
+- '7': '1'
+  '6': '1'
+  '5': '1'
+  '4': '0'
+  '3': '0'
+  '2': '1'
+  '1': '1'
+  '0': '0'
+- '7': R/WR/WR/WR/WR/WR/WR/WR/W

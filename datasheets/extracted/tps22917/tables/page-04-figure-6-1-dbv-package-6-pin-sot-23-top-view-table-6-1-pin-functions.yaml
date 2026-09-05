@@ -1,0 +1,76 @@
+source: tps22917.pdf
+page: 4
+title: Figure 6-1. DBV Package 6-Pin SOT-23 Top View Table 6-1. Pin Functions
+header:
+- PIN
+- ''
+- I/O
+- DESCRIPTION
+rows:
+- - NO.
+  - NAME
+  - I/O
+  - DESCRIPTION
+- - '1'
+  - VIN
+  - I
+  - Switch input
+- - '2'
+  - GND
+  - —
+  - Device ground
+- - '3'
+  - 'ON'
+  - I
+  - Active high switch control input. Do not leave floating.
+- - '4'
+  - CT
+  - O
+  - Switch slew rate control. Connect capacitor from this pin to VIN to increase output
+    slew rate and turn-on time. Can be left floating for fastest timing.
+- - '5'
+  - QOD
+  - O
+  - Quick Output Discharge pin. This functionality can be enabled in one of three
+    ways. •Placing an external resistor between VOUT and QOD •Tying QOD directly to
+    VOUT and using the internal resistor value (R) PD •Disabling QOD by leaving pin
+    floatingSee the Fall Time (t) and Quick Output Discharge (QOD) section for more
+    FALLinformation.
+- - '6'
+  - VOUT
+  - O
+  - Switch output
+records:
+- pin: NO.
+  col_1: NAME
+  i/o: I/O
+  description: DESCRIPTION
+- pin: '1'
+  col_1: VIN
+  i/o: I
+  description: Switch input
+- pin: '2'
+  col_1: GND
+  i/o: —
+  description: Device ground
+- pin: '3'
+  col_1: 'ON'
+  i/o: I
+  description: Active high switch control input. Do not leave floating.
+- pin: '4'
+  col_1: CT
+  i/o: O
+  description: Switch slew rate control. Connect capacitor from this pin to VIN to
+    increase output slew rate and turn-on time. Can be left floating for fastest timing.
+- pin: '5'
+  col_1: QOD
+  i/o: O
+  description: Quick Output Discharge pin. This functionality can be enabled in one
+    of three ways. •Placing an external resistor between VOUT and QOD •Tying QOD directly
+    to VOUT and using the internal resistor value (R) PD •Disabling QOD by leaving
+    pin floatingSee the Fall Time (t) and Quick Output Discharge (QOD) section for
+    more FALLinformation.
+- pin: '6'
+  col_1: VOUT
+  i/o: O
+  description: Switch output

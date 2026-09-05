@@ -1,0 +1,153 @@
+source: bq25619.pdf
+page: 8
+title: 6.6 Electrical CharacteristicsV < V < V and V > V + V, T = -40°C to +125°C,
+  and T = 25°C for typical values (unless VBUS_UVLOZVBUSVBUS_OVVBUSBATSLEEPJJotherwise
+  noted)
+header:
+- PARAMETER
+- ''
+- TEST CONDITIONS
+- MIN
+- TYP
+- MAX
+- UNIT
+rows:
+- - QUIESCENT CURRENTS
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+- - IQ_BAT
+  - Quiescent battery current (BATSNS, BAT, SYS, SW)
+  - VBAT = 4.5V, VBUS floating, SCL, SDA = 0V or 1.8V, T < 85 °C, JBATFET enabled
+  - '9.515'
+  - ''
+  - ''
+  - µA
+- - ISHIP_BAT
+  - Shipmode battery current (BATSNS, BAT, SYS, SW)
+  - VBAT = 4.5V, VBUS floating, SCL, SDA = 0V or 1.8V, T < 85 °C, JBATFET disabled
+  - '79.5'
+  - ''
+  - ''
+  - µA
+- - IVBUS
+  - Input current (VBUS) in buck mode when converter is switching
+  - VBUS=5V, charge disabled, converter switching, ISYS = 0A
+  - '2.3'
+  - ''
+  - ''
+  - mA
+- - IHIZ_VBUS
+  - Quiescent input current in HIZ
+  - VAC/VBUS = 5V, HIZ mode, no battery
+  - '3750'
+  - ''
+  - ''
+  - µA
+- - ''
+  - ''
+  - VAC/VBUS = 12V, HIZ mode, no battery
+  - '6890'
+  - ''
+  - ''
+  - µA
+- - IBST
+  - Quiescent battery current (BATSNS, BAT, SYS, SW) in boost mode when converter
+    is switching
+  - VBAT = 4.5V, VBUS = 5V, boost mode enabled, converter switching, I = PMID0A
+  - '2.4'
+  - ''
+  - ''
+  - mA
+- - VBUS / VBAT SUPPLY
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+- - VVBUS_OP
+  - VBUS operating range
+  - ''
+  - '413.5'
+  - ''
+  - ''
+  - V
+- - VVBUS_UVLOZ
+  - VBUS rising for active I2C, no battery
+  - VBUS rising
+  - 3.33.7
+  - ''
+  - ''
+  - V
+- - VVBUS_UVLO
+  - VBUS falling to turnoff I2C, no battery
+  - VBUS falling
+  - '33.3'
+  - ''
+  - ''
+  - V
+- - VVBUS_PRESENT
+  - VBUS to enable REGN
+  - VBUS rising
+  - 3.653.9
+  - ''
+  - ''
+  - V
+records:
+- parameter: QUIESCENT CURRENTS
+- parameter: IQ_BAT
+  col_1: Quiescent battery current (BATSNS, BAT, SYS, SW)
+  test_conditions: VBAT = 4.5V, VBUS floating, SCL, SDA = 0V or 1.8V, T < 85 °C, JBATFET
+    enabled
+  min: '9.515'
+  unit: µA
+- parameter: ISHIP_BAT
+  col_1: Shipmode battery current (BATSNS, BAT, SYS, SW)
+  test_conditions: VBAT = 4.5V, VBUS floating, SCL, SDA = 0V or 1.8V, T < 85 °C, JBATFET
+    disabled
+  min: '79.5'
+  unit: µA
+- parameter: IVBUS
+  col_1: Input current (VBUS) in buck mode when converter is switching
+  test_conditions: VBUS=5V, charge disabled, converter switching, ISYS = 0A
+  min: '2.3'
+  unit: mA
+- parameter: IHIZ_VBUS
+  col_1: Quiescent input current in HIZ
+  test_conditions: VAC/VBUS = 5V, HIZ mode, no battery; VAC/VBUS = 12V, HIZ mode,
+    no battery
+  min: '3750'
+  unit: µA
+  min_2: '6890'
+  unit_2: µA
+- parameter: IBST
+  col_1: Quiescent battery current (BATSNS, BAT, SYS, SW) in boost mode when converter
+    is switching
+  test_conditions: VBAT = 4.5V, VBUS = 5V, boost mode enabled, converter switching,
+    I = PMID0A
+  min: '2.4'
+  unit: mA
+- parameter: VBUS / VBAT SUPPLY
+- parameter: VVBUS_OP
+  col_1: VBUS operating range
+  min: '413.5'
+  unit: V
+- parameter: VVBUS_UVLOZ
+  col_1: VBUS rising for active I2C, no battery
+  test_conditions: VBUS rising
+  min: 3.33.7
+  unit: V
+- parameter: VVBUS_UVLO
+  col_1: VBUS falling to turnoff I2C, no battery
+  test_conditions: VBUS falling
+  min: '33.3'
+  unit: V
+- parameter: VVBUS_PRESENT
+  col_1: VBUS to enable REGN
+  test_conditions: VBUS rising
+  min: 3.653.9
+  unit: V

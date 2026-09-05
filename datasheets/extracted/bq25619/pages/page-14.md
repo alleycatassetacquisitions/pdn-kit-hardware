@@ -1,0 +1,7 @@
+###### **6.8 Typical Characteristics** 
+
+![](../images/bq25619.pdf-0014-03.png)
+
+<!-- Start of picture text -->
+100 100<br>95<br>95<br>90<br>90<br>85<br>80<br>85<br>75<br>80 VBUS = 5 V VBUS = 5 V<br>70<br>VBUS = 9 V VBUS = 9 V<br>VBUS = 12 V VBUS = 12 V<br>75 65<br>0 0.2 0.4 0.6 0.8 1 1.2 1.4 1.6 0 0.2 0.4 0.6 0.8 1 1.2 1.4 1.6<br>Charge Current (A) Char Charge Current (A) Char<br>BQ25619EVM VBAT = 3.8V Inductor 2.2µH, DCR = 40 mΩ BQ25618EVM VBAT =  Inductor 1.0µH, DCR = 27 mΩ<br>3.8V<br>Figure 6-1. Charge Efficiency<br>Figure 6-2. Charge Efficiency<br>100 100<br>95 95<br>90 90<br>85 85<br>80 VBAT = 3.2 V 80 VBAT = 4.2 V<br>VBAT = 3.8 V VBAT = 3.8 V<br>VBAT = 4.2 V VBAT = 3.2 V<br>75 75<br>0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1 0 0.1 0.2 0.3 0.4 0.5 0.6 0.7 0.8 0.9 1<br>Boost Output Current (A) OTG_ Boost Ouput Current (A) Boos<br>BQ25619EVM VPMID =  Inductor 2.2µH, DCR = 40 mΩ BQ25618EVM VPMID = 4.6V 1.0 µH Inductor,<br>4.6V DCR = 27 mΩ<br>Figure 6-3. Boost Efficiency Figure 6-4. Boost Efficiency<br>10 4.45<br>9 VBUS = 5 VVBUS = 9 V VBATREG = 4.35 V<br>8<br>4.4<br>7<br>6<br>5 4.35<br>4<br>3<br>4.3<br>2<br>1<br>0 4.25<br>0 0.2 0.4 0.6 0.8 1 1.2 1.4 1.6 -40 -15 10 35 60 85 110 125<br>Charge Current (A) Char Junction Temperature (qC) Char<br>Figure 6-5. Charge Current Accuracy Figure 6-6. Battery Charge Voltage vs Junction<br>Temperature<br>Charge Efficiency (%) Charge Efficiency (%)<br>Boost Efficiency (%) Boost Efficiency (%)<br>Charge Current Accuracy (%) BATREG Charge Voltage (V)<br><!-- End of picture text -->
+

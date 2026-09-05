@@ -1,0 +1,140 @@
+source: bq25619.pdf
+page: 40
+title: 'LEGEND: R/W = Read/Write; R = Read only; -n = value after resetTable 7-14.
+  REG07 Field Descriptions'
+header:
+- Bit
+- Field
+- POR
+- Type
+- Reset
+- Description
+rows:
+- - '7'
+  - IINDET_EN
+  - '0'
+  - R/W
+  - by REG_RSTby Watchdog
+  - Force input source type detection. After the detection is complete, this bit returns
+    to 0. 0 – Not in input current limit detection. (default) 1 – Force input current
+    limit detection when adapter is present.
+- - '6'
+  - TMR2X_EN
+  - '1'
+  - R/W
+  - by REG_RSTby Watchdog
+  - Safety timer is slowed by 2X during input DPM, JEITA cool/warm or thermal regulation.
+    0 – Disable. Safety timer duration is set by REG05[2]. 1 – Safety timer slowed
+    by 2X during input DPM (both V and I) or JEITA cool/warm (except I=100%), or thermal
+    regulation. (default) CHG
+- - '5'
+  - BATFET_DIS
+  - '0'
+  - R/W
+  - by REG_RST
+  - BATFET Q4 ON/OFF control. Set this bit to 1 to enter ship mode. To reset the device
+    with adapter present, the host shall set BATFET_RST_WVBUS to 1 and then BATFET_DIS
+    to 1. 0 – Turn on Q4. (default) 1 – Turn off Q4 after t delay time (REG07[3])
+    BATFET_DLY
+- - '4'
+  - BATFET_RST_WVBUS
+  - '0'
+  - R/W
+  - by REG_RST
+  - Start BATFET full system reset with or without adapter present. 0 – Start BATFET
+    full system reset after adapter is removed from VBUS. (default) 1 – Start BATFET
+    full system reset when adapter is present on VBUS.
+- - '3'
+  - BATFET_DLY
+  - '1'
+  - R/W
+  - by REG_RST
+  - Delay from BATFET_DIS (REG07[5]) set to 1 to BATFET turn off during ship mode.
+    0 – Turn off BATFET immediately when BATFET_DIS bit is set. 1 – Turn off BATFET
+    after t (typ 10 s) when BATFET_DIS bit BATFET_DLYis set. (default)
+- - '2'
+  - BATFET_RST_EN
+  - '1'
+  - R/W
+  - by REG_RSTby Watchdog
+  - Enable BATFET full system reset. The time to start of BATFET full system reset
+    is based on the setting of BATFET_RST_WVBUS bit. 0 – Disable BATFET reset function1
+    – Enable BATFET reset function when REG07[5] is also 1. (default)
+- - '1'
+  - VINDPM_BAT_TRACK[1]
+  - '0'
+  - R/W
+  - by REG_RST
+  - Sets VINDPM to track BAT voltage. Actual VINDPM is higher of register value and
+    V + VINDPM_BAT_TRACK. BAT00 – Disable function (VINDPM set by register) (default)
+    01 – V + 200 mVBAT 10 – V + 250 mVBAT 11 – V + 300 mVBAT
+- - '0'
+  - VINDPM_BAT_TRACK[0]
+  - '0'
+  - R/W
+  - by REG_RST
+  - ''
+records:
+- bit: '7'
+  field: IINDET_EN
+  por: '0'
+  type: R/W
+  reset: by REG_RSTby Watchdog
+  description: Force input source type detection. After the detection is complete,
+    this bit returns to 0. 0 – Not in input current limit detection. (default) 1 –
+    Force input current limit detection when adapter is present.
+- bit: '6'
+  field: TMR2X_EN
+  por: '1'
+  type: R/W
+  reset: by REG_RSTby Watchdog
+  description: Safety timer is slowed by 2X during input DPM, JEITA cool/warm or thermal
+    regulation. 0 – Disable. Safety timer duration is set by REG05[2]. 1 – Safety
+    timer slowed by 2X during input DPM (both V and I) or JEITA cool/warm (except
+    I=100%), or thermal regulation. (default) CHG
+- bit: '5'
+  field: BATFET_DIS
+  por: '0'
+  type: R/W
+  reset: by REG_RST
+  description: BATFET Q4 ON/OFF control. Set this bit to 1 to enter ship mode. To
+    reset the device with adapter present, the host shall set BATFET_RST_WVBUS to
+    1 and then BATFET_DIS to 1. 0 – Turn on Q4. (default) 1 – Turn off Q4 after t
+    delay time (REG07[3]) BATFET_DLY
+- bit: '4'
+  field: BATFET_RST_WVBUS
+  por: '0'
+  type: R/W
+  reset: by REG_RST
+  description: Start BATFET full system reset with or without adapter present. 0 –
+    Start BATFET full system reset after adapter is removed from VBUS. (default) 1
+    – Start BATFET full system reset when adapter is present on VBUS.
+- bit: '3'
+  field: BATFET_DLY
+  por: '1'
+  type: R/W
+  reset: by REG_RST
+  description: Delay from BATFET_DIS (REG07[5]) set to 1 to BATFET turn off during
+    ship mode. 0 – Turn off BATFET immediately when BATFET_DIS bit is set. 1 – Turn
+    off BATFET after t (typ 10 s) when BATFET_DIS bit BATFET_DLYis set. (default)
+- bit: '2'
+  field: BATFET_RST_EN
+  por: '1'
+  type: R/W
+  reset: by REG_RSTby Watchdog
+  description: Enable BATFET full system reset. The time to start of BATFET full system
+    reset is based on the setting of BATFET_RST_WVBUS bit. 0 – Disable BATFET reset
+    function1 – Enable BATFET reset function when REG07[5] is also 1. (default)
+- bit: '1'
+  field: VINDPM_BAT_TRACK[1]
+  por: '0'
+  type: R/W
+  reset: by REG_RST
+  description: Sets VINDPM to track BAT voltage. Actual VINDPM is higher of register
+    value and V + VINDPM_BAT_TRACK. BAT00 – Disable function (VINDPM set by register)
+    (default) 01 – V + 200 mVBAT 10 – V + 250 mVBAT 11 – V + 300 mVBAT
+- bit: '0'
+  field: VINDPM_BAT_TRACK[0]
+  por: '0'
+  type: R/W
+  reset: by REG_RST

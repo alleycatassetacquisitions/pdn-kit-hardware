@@ -1,0 +1,89 @@
+source: bq25619.pdf
+page: 32
+title: 'Default I2C Slave Address: 0x6A (1101 010B + R/ W) Table 7-5. I2C Registers'
+header:
+- Address
+- Access Type
+- Acronym
+- Register Name
+- Section
+rows:
+- - 00hR/WREG00Input Current LimitGo
+  - ''
+  - ''
+  - ''
+  - ''
+- - 01hR/WREG01Charger Control 0Go
+  - ''
+  - ''
+  - ''
+  - ''
+- - 02hR/WREG02Charge Current LimitGo
+  - ''
+  - ''
+  - ''
+  - ''
+- - 03hR/WREG03Precharge and Termination Current LimitGo
+  - ''
+  - ''
+  - ''
+  - ''
+- - 04hR/WREG04Battery Voltage LimitGo
+  - ''
+  - ''
+  - ''
+  - ''
+- - 05hR/WREG05Charger Control 1Go
+  - ''
+  - ''
+  - ''
+  - ''
+- - 06hR/WREG06Charger Control 2Go
+  - ''
+  - ''
+  - ''
+  - ''
+- - 07hR/WREG07Charger Control 3Go
+  - ''
+  - ''
+  - ''
+  - ''
+- - 08hRREG08Charger Status 0Go
+  - ''
+  - ''
+  - ''
+  - ''
+- - 09hRREG09Charger Status 1Go
+  - ''
+  - ''
+  - ''
+  - ''
+- - 0AhRREG0ACharger Status 2Go
+  - ''
+  - ''
+  - ''
+  - ''
+- - 0BhRREG0BPart InformationGo
+  - ''
+  - ''
+  - ''
+  - ''
+- - 0ChR/WREG0CCharger Control 4Go
+  - ''
+  - ''
+  - ''
+  - ''
+records:
+- address: 00hR/WREG00Input Current LimitGo
+- address: 01hR/WREG01Charger Control 0Go
+- address: 02hR/WREG02Charge Current LimitGo
+- address: 03hR/WREG03Precharge and Termination Current LimitGo
+- address: 04hR/WREG04Battery Voltage LimitGo
+- address: 05hR/WREG05Charger Control 1Go
+- address: 06hR/WREG06Charger Control 2Go
+- address: 07hR/WREG07Charger Control 3Go
+- address: 08hRREG08Charger Status 0Go
+- address: 09hRREG09Charger Status 1Go
+- address: 0AhRREG0ACharger Status 2Go
+- address: 0BhRREG0BPart InformationGo
+- address: 0ChR/WREG0CCharger Control 4Go

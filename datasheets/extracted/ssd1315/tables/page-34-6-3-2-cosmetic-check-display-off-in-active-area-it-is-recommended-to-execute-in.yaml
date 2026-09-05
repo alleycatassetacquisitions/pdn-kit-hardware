@@ -1,0 +1,32 @@
+source: ssd1315.pdf
+page: 34
+title: 6.3.2 Cosmetic Check (Display Off) in Active Area It is recommended to execute
+  in clear room environment (class 10k) if actual in necessary.
+header:
+- Check Item
+- Classification
+- Criteria
+rows:
+- - Any Dirt & Scratch on Polarizer’s Protective Film Scratches, Fiber, Line-Shape
+    Defect (On Polarizer) Dirt, Black Spot, Foreign Material, (On Polarizer) Dent,
+    Bubbles, White spot (Any Transparent Spot on Polarizer) Fingerprint, Flow Mark
+    (On Polarizer)
+  - Acceptable Minor Minor Minor Minor
+  - Ignore for not Affect the Polarizer W ≤ 0.1 Ignore W > 0.1 L ≤ 2 n ≤ 1 L > 2 n
+    = 0 Φ ≤ 0.1 Ignore 0.1 < Φ ≤ 0.25 n ≤ 1 0.25 < Φ n = 0 Φ ≤ 0.5  Ignore if no
+    Influence on Display 0.5 < Φ n = 0 Not Allowable
+- - '* Protective film should not be tear off when cosmetic check. ** Definition of
+    W & L & Φ (Unit: mm): Φ = (a + b) / 2 Lb: Minor AxisW a: Major Axis'
+  - ''
+  - ''
+records:
+- check_item: Any Dirt & Scratch on Polarizer’s Protective Film Scratches, Fiber,
+    Line-Shape Defect (On Polarizer) Dirt, Black Spot, Foreign Material, (On Polarizer)
+    Dent, Bubbles, White spot (Any Transparent Spot on Polarizer) Fingerprint, Flow
+    Mark (On Polarizer)
+  classification: Acceptable Minor Minor Minor Minor
+  criteria: Ignore for not Affect the Polarizer W ≤ 0.1 Ignore W > 0.1 L ≤ 2 n ≤ 1
+    L > 2 n = 0 Φ ≤ 0.1 Ignore 0.1 < Φ ≤ 0.25 n ≤ 1 0.25 < Φ n = 0 Φ ≤ 0.5  Ignore
+    if no Influence on Display 0.5 < Φ n = 0 Not Allowable
+- check_item: '* Protective film should not be tear off when cosmetic check. ** Definition
+    of W & L & Φ (Unit: mm): Φ = (a + b) / 2 Lb: Minor AxisW a: Major Axis'

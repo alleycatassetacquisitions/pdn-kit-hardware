@@ -1,0 +1,119 @@
+source: bq25619.pdf
+page: 43
+title: 'LEGEND: R/W = Read/Write; R = Read only; -n = value after resetTable 7-17.
+  REG0A Field Descriptions'
+header:
+- BitField
+- Field
+- POR
+- Type
+- Reset
+- Description
+rows:
+- - 7VBUS_GD
+  - VBUS_GD
+  - x
+  - R
+  - NA
+  - 0 – VBUS does not pass poor source detection1 – VBUS passes poor source detection
+- - 6VINDPM_STAT
+  - VINDPM_STAT
+  - x
+  - R
+  - NA
+  - 0 – Not in VINDPM1 – In VINDPM
+- - 5IINDPM_STAT
+  - IINDPM_STAT
+  - x
+  - R
+  - NA
+  - 0 – Not in IINDPM1 – In IINDPM
+- - 4BATSNS_STAT
+  - BATSNS_STAT
+  - x
+  - R
+  - NA
+  - 0 – BATSNS pin is in good connection. Regulation battery voltage through BATSNS
+    pin. 1 – BATSNS pin is open/short. Regulate battery voltage through BAT pin.
+- - 3TOPOFF_ACTIVE
+  - TOPOFF_ACTIVE
+  - x
+  - R
+  - NA
+  - 0 – Top off timer not counting. 1 – Top off timer counting
+- - 2ACOV_STAT
+  - ACOV_STAT
+  - x
+  - R
+  - NA
+  - 0 – Not in ACOV1 – In ACOV
+- - 1VINDPM_INT_ MASK
+  - VINDPM_INT_ MASK
+  - '0'
+  - R/W
+  - by REG_RST
+  - Allow or block INT pulse assertion to host during VINDPM. 0 – INT is asserted
+    to host during VINDPM (default). 1 – No INT pulse asserted to host during VINDPM.
+- - 0IINDPM_INT_ MASK
+  - IINDPM_INT_ MASK
+  - '0'
+  - R/W
+  - by REG_RST
+  - Allow or block INT pulse assertion to host during IINDPM0 – INT is asserted to
+    host during IINDPM (default). 1 – No INT pulse asserted to host during IINDPM.
+records:
+- bitfield: 7VBUS_GD
+  field: VBUS_GD
+  por: x
+  type: R
+  reset: NA
+  description: 0 – VBUS does not pass poor source detection1 – VBUS passes poor source
+    detection
+- bitfield: 6VINDPM_STAT
+  field: VINDPM_STAT
+  por: x
+  type: R
+  reset: NA
+  description: 0 – Not in VINDPM1 – In VINDPM
+- bitfield: 5IINDPM_STAT
+  field: IINDPM_STAT
+  por: x
+  type: R
+  reset: NA
+  description: 0 – Not in IINDPM1 – In IINDPM
+- bitfield: 4BATSNS_STAT
+  field: BATSNS_STAT
+  por: x
+  type: R
+  reset: NA
+  description: 0 – BATSNS pin is in good connection. Regulation battery voltage through
+    BATSNS pin. 1 – BATSNS pin is open/short. Regulate battery voltage through BAT
+    pin.
+- bitfield: 3TOPOFF_ACTIVE
+  field: TOPOFF_ACTIVE
+  por: x
+  type: R
+  reset: NA
+  description: 0 – Top off timer not counting. 1 – Top off timer counting
+- bitfield: 2ACOV_STAT
+  field: ACOV_STAT
+  por: x
+  type: R
+  reset: NA
+  description: 0 – Not in ACOV1 – In ACOV
+- bitfield: 1VINDPM_INT_ MASK
+  field: VINDPM_INT_ MASK
+  por: '0'
+  type: R/W
+  reset: by REG_RST
+  description: Allow or block INT pulse assertion to host during VINDPM. 0 – INT is
+    asserted to host during VINDPM (default). 1 – No INT pulse asserted to host during
+    VINDPM.
+- bitfield: 0IINDPM_INT_ MASK
+  field: IINDPM_INT_ MASK
+  por: '0'
+  type: R/W
+  reset: by REG_RST
+  description: Allow or block INT pulse assertion to host during IINDPM0 – INT is
+    asserted to host during IINDPM (default). 1 – No INT pulse asserted to host during
+    IINDPM.

@@ -1,0 +1,54 @@
+source: max17260.pdf
+page: 20
+title: Status register format. Table 7. Status (00h) Format
+header:
+- D15
+- D14
+- D13
+- D12
+- D11
+- D10
+- D9
+- D8
+- D7
+- D6
+- D5
+- D4
+- D3
+- D2
+- D1
+- D0
+rows:
+- - Br
+  - Smx
+  - Tmx
+  - Vmx
+  - Bi
+  - Smn
+  - Tmn
+  - Vmn
+  - dSOCi
+  - Imx
+  - X
+  - X
+  - Bst
+  - Imn
+  - POR
+  - X
+records:
+- d15: Br
+  d14: Smx
+  d13: Tmx
+  d12: Vmx
+  d11: Bi
+  d10: Smn
+  d9: Tmn
+  d8: Vmn
+  d7: dSOCi
+  d6: Imx
+  d5: X
+  d4: X
+  d3: Bst
+  d2: Imn
+  d1: POR
+  d0: X

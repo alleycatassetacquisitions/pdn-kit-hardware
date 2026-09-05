@@ -1,0 +1,277 @@
+source: bq25619.pdf
+page: 11
+title: 6.6 Electrical Characteristics (continued) V < V < V and V > V + V, T = -40°C
+  to +125°C, and T = 25°C for typical values (unless VBUS_UVLOZVBUSVBUS_OVVBUSBATSLEEPJJotherwise
+  noted)
+header:
+- PARAMETER
+- ''
+- TEST CONDITIONS
+- MIN
+- TYP
+- MAX
+- UNIT
+rows:
+- - TREG
+  - Junction temperature regulation accuracy
+  - TREG = 90°C
+  - '90'
+  - ''
+  - ''
+  - °C
+- - ''
+  - ''
+  - TREG = 110°C
+  - '110'
+  - ''
+  - ''
+  - °C
+- - TSHUT
+  - Thermal Shutdown Rising threshold
+  - Temperature Increasing
+  - '150'
+  - ''
+  - ''
+  - °C
+- - ''
+  - Thermal Shutdown Falling threshold
+  - Temperature Decreasing
+  - '130'
+  - ''
+  - ''
+  - °C
+- - CHARGE MODE THERMISTOR COMPARATOR (JEITA 616J or HOT/COLD 616)
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+- - VT1_RISE%
+  - TS pin voltage rising threshold, Charge suspended above this voltage.
+  - As Percentage to REGN (0°C w/ 103AT)
+  - 72.473.374.2
+  - ''
+  - ''
+  - '%'
+- - VT1_FALL%
+  - TS pin voltage falling threshold. Charge re-enabled to 20% of ICHG and VREG below
+    thisvoltage.
+  - As Percentage to REGN
+  - 71.57272.5
+  - ''
+  - ''
+  - '%'
+- - VT2_RISE%
+  - TS pin voltage rising threshold, Charge back to 20% of ICHG and VREG above this
+    voltage.
+  - As Percentage to REGN, JEITA_T2=5°C w/ 103AT
+  - 70.2570.7571.25
+  - ''
+  - ''
+  - '%'
+- - ''
+  - ''
+  - As Percentage to REGN, JEITA_T2=10°C w/ 103AT
+  - 67.7568.2568.75
+  - ''
+  - ''
+  - '%'
+- - ''
+  - ''
+  - As Percentage to REGN, JEITA_T2=15°C w/ 103AT
+  - 64.7565.2565.75
+  - ''
+  - ''
+  - '%'
+- - ''
+  - ''
+  - As Percentage to REGN, JEITA_T2=20°C w/ 103AT
+  - 61.7562.2562.75
+  - ''
+  - ''
+  - '%'
+- - VT2_FALL%
+  - TS pin voltage falling threshold. Charge back to ICHG and VREG below this voltage.
+  - As Percentage to REGN, JEITA_T2=5°C w/ 103AT
+  - 68.769.269.7
+  - ''
+  - ''
+  - '%'
+- - ''
+  - ''
+  - As Percentage to REGN, JEITA_T2=10°C w/ 103AT
+  - 66.4566.9567.45
+  - ''
+  - ''
+  - '%'
+- - ''
+  - ''
+  - As Percentage to REGN, JEITA_T2=15°C w/ 103AT
+  - 63.764.264.7
+  - ''
+  - ''
+  - '%'
+- - ''
+  - ''
+  - As Percentage to REGN, JEITA_T2=20°C w/ 103AT
+  - 60.761.261.7
+  - ''
+  - ''
+  - '%'
+- - VT3_FALL%
+  - TS pin voltage falling threshold. Charge to ICHG and 4.1V below this voltage.
+  - As Percentage to REGN, JEITA_T3=40°C w/ 103AT
+  - 47.7548.2548.75
+  - ''
+  - ''
+  - '%'
+- - ''
+  - ''
+  - As Percentage to REGN, JEITA_T3=45°C w/ 103AT
+  - 44.2544.7545.25
+  - ''
+  - ''
+  - '%'
+- - ''
+  - ''
+  - As Percentage to REGN, JEITA_T3=50°C w/ 103AT
+  - 40.240.741.2
+  - ''
+  - ''
+  - '%'
+- - ''
+  - ''
+  - As Percentage to REGN, JEITA_T3=55°C w/ 103AT
+  - 37.237.738.2
+  - ''
+  - ''
+  - '%'
+- - VT3_RISE%
+  - TS pin voltage rising threshold. Charge back to ICHG and VREG above this voltage.
+  - As Percentage to REGN, JEITA_T3=40°C w/ 103AT
+  - 48.849.349.8
+  - ''
+  - ''
+  - '%'
+- - ''
+  - ''
+  - As Percentage to REGN, JEITA_T3=45°C w/ 103AT
+  - 45.345.846.3
+  - ''
+  - ''
+  - '%'
+- - ''
+  - ''
+  - As Percentage to REGN, JEITA_T3=50°C w/ 103AT
+  - 41.341.842.3
+  - ''
+  - ''
+  - '%'
+- - ''
+  - ''
+  - As Percentage to REGN, JEITA_T3=55°C w/ 103AT
+  - 38.53939.5
+  - ''
+  - ''
+  - '%'
+- - VT5_FALL%
+  - TS pin voltage falling threshold, charge suspended below this voltage.
+  - As Percentage to REGN (60°C w/ 103AT)
+  - 33.734.235.1
+  - ''
+  - ''
+  - '%'
+- - VT5_RISE%
+  - TS pin voltage rising threshold. Charge back to ICHG and 4.1V above this voltage.
+  - As Percentage to REGN
+  - '3535.536'
+  - ''
+  - ''
+  - '%'
+- - BOOST MODE THERMISTOR COMPARATOR (HOT/COLD)
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+records:
+- parameter: TREG
+  col_1: Junction temperature regulation accuracy
+  test_conditions: TREG = 90°C; TREG = 110°C
+  min: '90'
+  unit: °C
+  min_2: '110'
+  unit_2: °C
+- parameter: TSHUT
+  col_1: Thermal Shutdown Rising threshold
+  test_conditions: Temperature Increasing; Temperature Decreasing
+  min: '150'
+  unit: °C
+  col_1_2: Thermal Shutdown Falling threshold
+  min_2: '130'
+  unit_2: °C
+- parameter: CHARGE MODE THERMISTOR COMPARATOR (JEITA 616J or HOT/COLD 616)
+- parameter: VT1_RISE%
+  col_1: TS pin voltage rising threshold, Charge suspended above this voltage.
+  test_conditions: As Percentage to REGN (0°C w/ 103AT)
+  min: 72.473.374.2
+  unit: '%'
+- parameter: VT1_FALL%
+  col_1: TS pin voltage falling threshold. Charge re-enabled to 20% of ICHG and VREG
+    below thisvoltage.
+  test_conditions: As Percentage to REGN
+  min: 71.57272.5
+  unit: '%'
+- parameter: VT2_RISE%
+  col_1: TS pin voltage rising threshold, Charge back to 20% of ICHG and VREG above
+    this voltage.
+  test_conditions: As Percentage to REGN, JEITA_T2=5°C w/ 103AT; As Percentage to
+    REGN, JEITA_T2=10°C w/ 103AT; As Percentage to REGN, JEITA_T2=15°C w/ 103AT; As
+    Percentage to REGN, JEITA_T2=20°C w/ 103AT
+  min: 70.2570.7571.25
+  unit: '%'
+  min_2: 61.7562.2562.75
+  unit_2: '%'
+- parameter: VT2_FALL%
+  col_1: TS pin voltage falling threshold. Charge back to ICHG and VREG below this
+    voltage.
+  test_conditions: As Percentage to REGN, JEITA_T2=5°C w/ 103AT; As Percentage to
+    REGN, JEITA_T2=10°C w/ 103AT; As Percentage to REGN, JEITA_T2=15°C w/ 103AT; As
+    Percentage to REGN, JEITA_T2=20°C w/ 103AT
+  min: 68.769.269.7
+  unit: '%'
+  min_2: 60.761.261.7
+  unit_2: '%'
+- parameter: VT3_FALL%
+  col_1: TS pin voltage falling threshold. Charge to ICHG and 4.1V below this voltage.
+  test_conditions: As Percentage to REGN, JEITA_T3=40°C w/ 103AT; As Percentage to
+    REGN, JEITA_T3=45°C w/ 103AT; As Percentage to REGN, JEITA_T3=50°C w/ 103AT; As
+    Percentage to REGN, JEITA_T3=55°C w/ 103AT
+  min: 47.7548.2548.75
+  unit: '%'
+  min_2: 37.237.738.2
+  unit_2: '%'
+- parameter: VT3_RISE%
+  col_1: TS pin voltage rising threshold. Charge back to ICHG and VREG above this
+    voltage.
+  test_conditions: As Percentage to REGN, JEITA_T3=40°C w/ 103AT; As Percentage to
+    REGN, JEITA_T3=45°C w/ 103AT; As Percentage to REGN, JEITA_T3=50°C w/ 103AT; As
+    Percentage to REGN, JEITA_T3=55°C w/ 103AT
+  min: 48.849.349.8
+  unit: '%'
+  min_2: 38.53939.5
+  unit_2: '%'
+- parameter: VT5_FALL%
+  col_1: TS pin voltage falling threshold, charge suspended below this voltage.
+  test_conditions: As Percentage to REGN (60°C w/ 103AT)
+  min: 33.734.235.1
+  unit: '%'
+- parameter: VT5_RISE%
+  col_1: TS pin voltage rising threshold. Charge back to ICHG and 4.1V above this
+    voltage.
+  test_conditions: As Percentage to REGN
+  min: '3535.536'
+  unit: '%'
+- parameter: BOOST MODE THERMISTOR COMPARATOR (HOT/COLD)

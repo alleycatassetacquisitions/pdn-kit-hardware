@@ -1,0 +1,106 @@
+source: tps63802.pdf
+page: 20
+title: 10.2.3 Application CurvesTable 10-6. Components for Application Characteristic
+  Curves (1)
+header:
+- REFERENCE
+- DESCRIPTION
+- PART NUMBER
+- MANUFACTURERCOMMENT
+- COMMENT
+rows:
+- - ''
+  - TPS63802 2 A Buck-Boost Converter (2 mm x 3 mm QFN)
+  - TPS63802DLA
+  - Texas Instruments
+  - ''
+- - L1
+  - 0.47 µH, 4 mm x 4 mm x 1.5 mm, 5.4 A, 7.6 mΩ
+  - XFL4015-471ME
+  - Coilcraft
+  - ''
+- - C1
+  - 10 µF, 0603, Ceramic Capacitor, ±20%, 6.3 V
+  - GRM188R60J106ME84
+  - Murata
+  - ''
+- - C2
+  - 1x 22 µF, 0603, Ceramic Capacitor, ±20%, 6.3 V
+  - GRM188R60J226MEA0
+  - MurataV
+  - V ≤ 3.6 VO
+- - C2
+  - 2x 22 µF, 0603, Ceramic Capacitor, ±20%, 6.3 V
+  - GRM188R60J226MEA0
+  - MurataV
+  - V > 3.6 VO
+- - R1
+  - 511 kΩ, 0603 Resistor, 1%, 100 mW
+  - Standard
+  - StandardV
+  - V = 3.3 VO
+- - R1
+  - 562 kΩ, 0603 Resistor, 1%, 100 mW
+  - Standard
+  - StandardV
+  - V = 3.6 VO
+- - R1
+  - 806 kΩ, 0603 Resistor, 1%, 100 mW
+  - Standard
+  - StandardV
+  - V = 5 VO
+- - R2
+  - 91 kΩ, 0603 Resistor, 1%, 100 mW
+  - Standard
+  - Standard
+  - ''
+- - R3
+  - 100 kΩ, 0603 Resistor, 1%, 100 mW
+  - Standard
+  - Standard
+  - ''
+records:
+- description: TPS63802 2 A Buck-Boost Converter (2 mm x 3 mm QFN)
+  part_number: TPS63802DLA
+  manufacturercomment: Texas Instruments
+- reference: L1
+  description: 0.47 µH, 4 mm x 4 mm x 1.5 mm, 5.4 A, 7.6 mΩ
+  part_number: XFL4015-471ME
+  manufacturercomment: Coilcraft
+- reference: C1
+  description: 10 µF, 0603, Ceramic Capacitor, ±20%, 6.3 V
+  part_number: GRM188R60J106ME84
+  manufacturercomment: Murata
+- reference: C2
+  description: 1x 22 µF, 0603, Ceramic Capacitor, ±20%, 6.3 V
+  part_number: GRM188R60J226MEA0
+  manufacturercomment: MurataV
+  comment: V ≤ 3.6 VO
+- reference: C2
+  description: 2x 22 µF, 0603, Ceramic Capacitor, ±20%, 6.3 V
+  part_number: GRM188R60J226MEA0
+  manufacturercomment: MurataV
+  comment: V > 3.6 VO
+- reference: R1
+  description: 511 kΩ, 0603 Resistor, 1%, 100 mW
+  part_number: Standard
+  manufacturercomment: StandardV
+  comment: V = 3.3 VO
+- reference: R1
+  description: 562 kΩ, 0603 Resistor, 1%, 100 mW
+  part_number: Standard
+  manufacturercomment: StandardV
+  comment: V = 3.6 VO
+- reference: R1
+  description: 806 kΩ, 0603 Resistor, 1%, 100 mW
+  part_number: Standard
+  manufacturercomment: StandardV
+  comment: V = 5 VO
+- reference: R2
+  description: 91 kΩ, 0603 Resistor, 1%, 100 mW
+  part_number: Standard
+  manufacturercomment: Standard
+- reference: R3
+  description: 100 kΩ, 0603 Resistor, 1%, 100 mW
+  part_number: Standard
+  manufacturercomment: Standard

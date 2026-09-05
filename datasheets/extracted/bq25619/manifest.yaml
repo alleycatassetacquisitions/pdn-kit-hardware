@@ -1,0 +1,466 @@
+source: bq25619.pdf
+sourcePath: C:/Users/Elli Furedy/projects/pdn-kit-hardware/datasheets/bq25619.pdf
+sha256: 48e051e69b54985450b21d75879ad6bab3503160f80cdf946feaec931075892c
+extractedAt: '2026-09-05T16:38:08.331219+00:00'
+pageCount: 68
+imageCount: 60
+tableCount: 52
+pages:
+- page: 1
+  file: pages/page-01.md
+  chars: 3502
+- page: 2
+  file: pages/page-02.md
+  chars: 3028
+- page: 3
+  file: pages/page-03.md
+  chars: 3712
+- page: 4
+  file: pages/page-04.md
+  chars: 835
+- page: 5
+  file: pages/page-05.md
+  chars: 266
+- page: 6
+  file: pages/page-06.md
+  chars: 416
+- page: 7
+  file: pages/page-07.md
+  chars: 1445
+- page: 8
+  file: pages/page-08.md
+  chars: 1011
+- page: 9
+  file: pages/page-09.md
+  chars: 507
+- page: 10
+  file: pages/page-10.md
+  chars: 507
+- page: 11
+  file: pages/page-11.md
+  chars: 507
+- page: 12
+  file: pages/page-12.md
+  chars: 558
+- page: 13
+  file: pages/page-13.md
+  chars: 621
+- page: 14
+  file: pages/page-14.md
+  chars: 1541
+- page: 15
+  file: pages/page-15.md
+  chars: 1274
+- page: 16
+  file: pages/page-16.md
+  chars: 1767
+- page: 17
+  file: pages/page-17.md
+  chars: 3050
+- page: 18
+  file: pages/page-18.md
+  chars: 3643
+- page: 19
+  file: pages/page-19.md
+  chars: 2931
+- page: 20
+  file: pages/page-20.md
+  chars: 2835
+- page: 21
+  file: pages/page-21.md
+  chars: 2681
+- page: 22
+  file: pages/page-22.md
+  chars: 2532
+- page: 23
+  file: pages/page-23.md
+  chars: 2173
+- page: 24
+  file: pages/page-24.md
+  chars: 2408
+- page: 25
+  file: pages/page-25.md
+  chars: 3179
+- page: 26
+  file: pages/page-26.md
+  chars: 1742
+- page: 27
+  file: pages/page-27.md
+  chars: 3921
+- page: 28
+  file: pages/page-28.md
+  chars: 3925
+- page: 29
+  file: pages/page-29.md
+  chars: 2586
+- page: 30
+  file: pages/page-30.md
+  chars: 2140
+- page: 31
+  file: pages/page-31.md
+  chars: 2803
+- page: 32
+  file: pages/page-32.md
+  chars: 682
+- page: 33
+  file: pages/page-33.md
+  chars: 709
+- page: 34
+  file: pages/page-34.md
+  chars: 698
+- page: 35
+  file: pages/page-35.md
+  chars: 704
+- page: 36
+  file: pages/page-36.md
+  chars: 731
+- page: 37
+  file: pages/page-37.md
+  chars: 708
+- page: 38
+  file: pages/page-38.md
+  chars: 707
+- page: 39
+  file: pages/page-39.md
+  chars: 700
+- page: 40
+  file: pages/page-40.md
+  chars: 700
+- page: 41
+  file: pages/page-41.md
+  chars: 633
+- page: 42
+  file: pages/page-42.md
+  chars: 663
+- page: 43
+  file: pages/page-43.md
+  chars: 663
+- page: 44
+  file: pages/page-44.md
+  chars: 663
+- page: 45
+  file: pages/page-45.md
+  chars: 684
+- page: 46
+  file: pages/page-46.md
+  chars: 1589
+- page: 47
+  file: pages/page-47.md
+  chars: 191
+- page: 48
+  file: pages/page-48.md
+  chars: 2834
+- page: 49
+  file: pages/page-49.md
+  chars: 1002
+- page: 50
+  file: pages/page-50.md
+  chars: 704
+- page: 51
+  file: pages/page-51.md
+  chars: 454
+- page: 52
+  file: pages/page-52.md
+  chars: 2785
+- page: 53
+  file: pages/page-53.md
+  chars: 91
+- page: 54
+  file: pages/page-54.md
+  chars: 2787
+- page: 55
+  file: pages/page-55.md
+  chars: 1550
+- page: 56
+  file: pages/page-56.md
+  chars: 383
+- page: 57
+  file: pages/page-57.md
+  chars: 2763
+- page: 58
+  file: pages/page-58.md
+  chars: 186
+- page: 59
+  file: pages/page-59.md
+  chars: 1049
+- page: 60
+  file: pages/page-60.md
+  chars: 340
+- page: 61
+  file: pages/page-61.md
+  chars: 455
+- page: 62
+  file: pages/page-62.md
+  chars: 41
+- page: 63
+  file: pages/page-63.md
+  chars: 121
+- page: 64
+  file: pages/page-64.md
+  chars: 201
+- page: 65
+  file: pages/page-65.md
+  chars: 737
+- page: 66
+  file: pages/page-66.md
+  chars: 784
+- page: 67
+  file: pages/page-67.md
+  chars: 541
+- page: 68
+  file: pages/page-68.md
+  chars: 2023
+tables:
+- page: 1
+  title: space limited design. Package Information
+  file: tables/page-01-space-limited-design-package-information.yaml
+  rowCount: 2
+- page: 5
+  title: www.ti.comSLUSDF8F – JUNE 2019 – REVISED FEBRUARY 2025 Table 5-1. Pin Functions
+  file: tables/page-05-www-ti-comslusdf8f-june-2019-revised-february-2025-table-5-1-pin-functions.yaml
+  rowCount: 24
+- page: 6
+  title: SLUSDF8F – JUNE 2019 – REVISED FEBRUARY 2025www.ti.comTable 5-1. Pin Functions
+    (continued)
+  file: tables/page-06-slusdf8f-june-2019-revised-february-2025www-ti-comtable-5-1-pin-functions-contin.yaml
+  rowCount: 3
+- page: 7
+  title: 6.1 Absolute Maximum Ratingsover operating free-air temperature range (unless
+    otherwise noted)(1)
+  file: tables/page-07-6-1-absolute-maximum-ratingsover-operating-free-air-temperature-range-unless-oth.yaml
+  rowCount: 11
+- page: 7
+  title: reliability. 6.2 ESD Ratings
+  file: tables/page-07-reliability-6-2-esd-ratings.yaml
+  rowCount: 2
+- page: 7
+  title: 6.3 Recommended Operating Conditionsover operating free-air temperature range
+    (unless otherwise noted)
+  file: tables/page-07-6-3-recommended-operating-conditionsover-operating-free-air-temperature-range-un.yaml
+  rowCount: 13
+- page: 8
+  title: 6.4 Thermal Information
+  file: tables/page-08-6-4-thermal-information.yaml
+  rowCount: 8
+- page: 8
+  title: report. 6.5 Thermal Information
+  file: tables/page-08-report-6-5-thermal-information.yaml
+  rowCount: 8
+- page: 8
+  title: 6.6 Electrical CharacteristicsV < V < V and V > V + V, T = -40°C to +125°C,
+    and T = 25°C for typical values (unless VBUS_UVLOZVBUSVBUS_OVVBUSBATSLEEPJJotherwise
+    noted)
+  file: tables/page-08-6-6-electrical-characteristicsv-v-v-and-v-v-v-t-40-c-to-125-c-and-t-25-c-for-typ.yaml
+  rowCount: 12
+- page: 9
+  title: 6.6 Electrical Characteristics (continued) V < V < V and V > V + V, T = -40°C
+    to +125°C, and T = 25°C for typical values (unless VBUS_UVLOZVBUSVBUS_OVVBUSBATSLEEPJJotherwise
+    noted)
+  file: tables/page-09-6-6-electrical-characteristics-continued-v-v-v-and-v-v-v-t-40-c-to-125-c-and-t-2.yaml
+  rowCount: 33
+- page: 10
+  title: 6.6 Electrical Characteristics (continued) V < V < V and V > V + V, T = -40°C
+    to +125°C, and T = 25°C for typical values (unless VBUS_UVLOZVBUSVBUS_OVVBUSBATSLEEPJJotherwise
+    noted)
+  file: tables/page-10-6-6-electrical-characteristics-continued-v-v-v-and-v-v-v-t-40-c-to-125-c-and-t-2.yaml
+  rowCount: 35
+- page: 11
+  title: 6.6 Electrical Characteristics (continued) V < V < V and V > V + V, T = -40°C
+    to +125°C, and T = 25°C for typical values (unless VBUS_UVLOZVBUSVBUS_OVVBUSBATSLEEPJJotherwise
+    noted)
+  file: tables/page-11-6-6-electrical-characteristics-continued-v-v-v-and-v-v-v-t-40-c-to-125-c-and-t-2.yaml
+  rowCount: 26
+- page: 12
+  title: 6.6 Electrical Characteristics (continued) V < V < V and V > V + V, T = -40°C
+    to +125°C, and T = 25°C for typical values (unless VBUS_UVLOZVBUSVBUS_OVVBUSBATSLEEPJJotherwise
+    noted)
+  file: tables/page-12-6-6-electrical-characteristics-continued-v-v-v-and-v-v-v-t-40-c-to-125-c-and-t-2.yaml
+  rowCount: 36
+- page: 13
+  title: 6.6 Electrical Characteristics (continued) V < V < V and V > V + V, T = -40°C
+    to +125°C, and T = 25°C for typical values (unless VBUS_UVLOZVBUSVBUS_OVVBUSBATSLEEPJJotherwise
+    noted)
+  file: tables/page-13-6-6-electrical-characteristics-continued-v-v-v-and-v-v-v-t-40-c-to-125-c-and-t-2.yaml
+  rowCount: 3
+- page: 13
+  title: 6.7 Timing Requirements
+  file: tables/page-13-6-7-timing-requirements.yaml
+  rowCount: 22
+- page: 18
+  title: to update the IINDPM register. When the device is in default mode, the PSEL
+    value updates IINDPM in real time. Table 7-1. Input Current Limit Setting from
+    PSEL
+  file: tables/page-18-to-update-the-iindpm-register-when-the-device-is-in-default-mode-the-psel-value.yaml
+  rowCount: 2
+- page: 20
+  title: Table 7-2. Charging Parameter Default Settings
+  file: tables/page-20-table-7-2-charging-parameter-default-settings.yaml
+  rowCount: 2
+- page: 21
+  title: Table 7-2. Charging Parameter Default Settings (continued)
+  file: tables/page-21-table-7-2-charging-parameter-default-settings-continued.yaml
+  rowCount: 4
+- page: 21
+  title: instead. Table 7-3. Charging Current Setting
+  file: tables/page-21-instead-table-7-3-charging-current-setting.yaml
+  rowCount: 3
+- page: 26
+  title: The device indicates the charging state on the open drain STAT pin. The STAT
+    pin can drive an LED. Table 7-4. STAT Pin State
+  file: tables/page-26-the-device-indicates-the-charging-state-on-the-open-drain-stat-pin-the-stat-pin.yaml
+  rowCount: 4
+- page: 32
+  title: 'Default I2C Slave Address: 0x6A (1101 010B + R/ W) Table 7-5. I2C Registers'
+  file: tables/page-32-default-i2c-slave-address-0x6a-1101-010b-r-w-table-7-5-i2c-registers.yaml
+  rowCount: 13
+- page: 32
+  title: Table 7-6. I2C Access Type Codes
+  file: tables/page-32-table-7-6-i2c-access-type-codes.yaml
+  rowCount: 7
+- page: 33
+  title: 7.5.1 Input Current Limit Register (Address = 00h) [Reset = 17h] Figure 7-16.
+    REG00 Register
+  file: tables/page-33-7-5-1-input-current-limit-register-address-00h-reset-17h-figure-7-16-reg00-regis.yaml
+  rowCount: 2
+- page: 33
+  title: 'LEGEND: R/W = Read/Write; R = Read only; -n = value after resetTable 7-7.
+    REG00 Field Descriptions'
+  file: tables/page-33-legend-r-w-read-write-r-read-only-n-value-after-resettable-7-7-reg00-field-descr.yaml
+  rowCount: 8
+- page: 34
+  title: 7.5.2 Charger Control 0 Register (Address = 01h) [Reset = 1Ah] Figure 7-17.
+    REG01 Register
+  file: tables/page-34-7-5-2-charger-control-0-register-address-01h-reset-1ah-figure-7-17-reg01-registe.yaml
+  rowCount: 2
+- page: 34
+  title: 'LEGEND: R/W = Read/Write; R = Read only; -n = value after resetTable 7-8.
+    REG01 Field Descriptions'
+  file: tables/page-34-legend-r-w-read-write-r-read-only-n-value-after-resettable-7-8-reg01-field-descr.yaml
+  rowCount: 8
+- page: 35
+  title: 7.5.3 Charge Current Limit Register (Address = 02h) [Reset = 91h] Figure
+    7-18. REG02 Register
+  file: tables/page-35-7-5-3-charge-current-limit-register-address-02h-reset-91h-figure-7-18-reg02-regi.yaml
+  rowCount: 2
+- page: 35
+  title: 'LEGEND: R/W = Read/Write; R = Read only; -n = value after resetTable 7-9.
+    REG02 Field Descriptions'
+  file: tables/page-35-legend-r-w-read-write-r-read-only-n-value-after-resettable-7-9-reg02-field-descr.yaml
+  rowCount: 8
+- page: 36
+  title: 7.5.4 Precharge and Termination Current Limit Register (Address = 03h) [Reset
+    = 12h] Figure 7-19. REG03 Register
+  file: tables/page-36-7-5-4-precharge-and-termination-current-limit-register-address-03h-reset-12h-fig.yaml
+  rowCount: 2
+- page: 36
+  title: 'LEGEND: R/W = Read/Write; R = Read only; -n = value after resetTable 7-10.
+    REG03 Field Descriptions'
+  file: tables/page-36-legend-r-w-read-write-r-read-only-n-value-after-resettable-7-10-reg03-field-desc.yaml
+  rowCount: 8
+- page: 37
+  title: 7.5.5 Battery Voltage Limit Register (Address = 04h) [Reset = 40h] Figure
+    7-20. REG04 Register
+  file: tables/page-37-7-5-5-battery-voltage-limit-register-address-04h-reset-40h-figure-7-20-reg04-reg.yaml
+  rowCount: 2
+- page: 37
+  title: 'LEGEND: R/W = Read/Write; R = Read only; -n = value after resetTable 7-11.
+    REG04 Field Descriptions'
+  file: tables/page-37-legend-r-w-read-write-r-read-only-n-value-after-resettable-7-11-reg04-field-desc.yaml
+  rowCount: 8
+- page: 38
+  title: 7.5.6 Charger Control 1 Register (Address = 05h) [Reset = 9Eh] Figure 7-21.
+    REG05 Register
+  file: tables/page-38-7-5-6-charger-control-1-register-address-05h-reset-9eh-figure-7-21-reg05-registe.yaml
+  rowCount: 2
+- page: 38
+  title: 'LEGEND: R/W = Read/Write; R = Read only; -n = value after resetTable 7-12.
+    REG05 Field Descriptions'
+  file: tables/page-38-legend-r-w-read-write-r-read-only-n-value-after-resettable-7-12-reg05-field-desc.yaml
+  rowCount: 8
+- page: 39
+  title: 7.5.7 Charger Control 2 Register (Address = 06h) [Reset = E6h] Figure 7-22.
+    REG06 Register
+  file: tables/page-39-7-5-7-charger-control-2-register-address-06h-reset-e6h-figure-7-22-reg06-registe.yaml
+  rowCount: 2
+- page: 39
+  title: 'LEGEND: R/W = Read/Write; R = Read only; -n = value after resetTable 7-13.
+    REG06 Field Descriptions'
+  file: tables/page-39-legend-r-w-read-write-r-read-only-n-value-after-resettable-7-13-reg06-field-desc.yaml
+  rowCount: 8
+- page: 40
+  title: 7.5.8 Charger Control 3 Register (Address = 07h) [Reset = 4Ch] Figure 7-23.
+    REG07 Register
+  file: tables/page-40-7-5-8-charger-control-3-register-address-07h-reset-4ch-figure-7-23-reg07-registe.yaml
+  rowCount: 2
+- page: 40
+  title: 'LEGEND: R/W = Read/Write; R = Read only; -n = value after resetTable 7-14.
+    REG07 Field Descriptions'
+  file: tables/page-40-legend-r-w-read-write-r-read-only-n-value-after-resettable-7-14-reg07-field-desc.yaml
+  rowCount: 8
+- page: 41
+  title: 7.5.9 Charger Status 0 Register (Address = 08h) Figure 7-24. REG08
+  file: tables/page-41-7-5-9-charger-status-0-register-address-08h-figure-7-24-reg08.yaml
+  rowCount: 2
+- page: 41
+  title: 'LEGEND: R/W = Read/Write; R = Read only; -n = value after resetTable 7-15.
+    REG08 Field Descriptions'
+  file: tables/page-41-legend-r-w-read-write-r-read-only-n-value-after-resettable-7-15-reg08-field-desc.yaml
+  rowCount: 8
+- page: 42
+  title: 7.5.10 Charger Status 1 Register (Address = 09h) Figure 7-25. REG09 Register
+  file: tables/page-42-7-5-10-charger-status-1-register-address-09h-figure-7-25-reg09-register.yaml
+  rowCount: 2
+- page: 42
+  title: 'LEGEND: R/W = Read/Write; R = Read only; -n = value after resetTable 7-16.
+    REG09 Field Descriptions'
+  file: tables/page-42-legend-r-w-read-write-r-read-only-n-value-after-resettable-7-16-reg09-field-desc.yaml
+  rowCount: 8
+- page: 43
+  title: 7.5.11 Charger Status 2 Register (Address = 0Ah) Figure 7-26. REG0A Register
+  file: tables/page-43-7-5-11-charger-status-2-register-address-0ah-figure-7-26-reg0a-register.yaml
+  rowCount: 2
+- page: 43
+  title: 'LEGEND: R/W = Read/Write; R = Read only; -n = value after resetTable 7-17.
+    REG0A Field Descriptions'
+  file: tables/page-43-legend-r-w-read-write-r-read-only-n-value-after-resettable-7-17-reg0a-field-desc.yaml
+  rowCount: 8
+- page: 44
+  title: 7.5.12 Part Information Register (Address = 0Bh) Figure 7-27. REG0B Register
+  file: tables/page-44-7-5-12-part-information-register-address-0bh-figure-7-27-reg0b-register.yaml
+  rowCount: 2
+- page: 44
+  title: 'LEGEND: R/W = Read/Write; R = Read only; -n = value after resetTable 7-18.
+    REG0B Field Descriptions'
+  file: tables/page-44-legend-r-w-read-write-r-read-only-n-value-after-resettable-7-18-reg0b-field-desc.yaml
+  rowCount: 8
+- page: 45
+  title: 7.5.13 Charger Control 4 Register (Address = 0Ch) [Reset = 75h] Figure 7-28.
+    REG0C
+  file: tables/page-45-7-5-13-charger-control-4-register-address-0ch-reset-75h-figure-7-28-reg0c.yaml
+  rowCount: 2
+- page: 45
+  title: 'LEGEND: R/W = Read/Write; R = Read only; -n = value after resetTable 7-19.
+    REG0C Field Descriptions'
+  file: tables/page-45-legend-r-w-read-write-r-read-only-n-value-after-resettable-7-19-reg0c-field-desc.yaml
+  rowCount: 8
+- page: 48
+  title: For this design example, use the parameters shown in the table below. Table
+    8-1. Design Parameters
+  file: tables/page-48-for-this-design-example-use-the-parameters-shown-in-the-table-below-table-8-1-de.yaml
+  rowCount: 5
+- page: 57
+  title: PACKAGING INFORMATION
+  file: tables/page-57-packaging-information.yaml
+  rowCount: 8
+- page: 59
+  title: '*All dimensions are nominal'
+  file: tables/page-59-all-dimensions-are-nominal.yaml
+  rowCount: 4
+- page: 60
+  title: '*All dimensions are nominal'
+  file: tables/page-60-all-dimensions-are-nominal.yaml
+  rowCount: 4
+notes:
+- Tables are stored as YAML with span-aware symbol normalization.
+- Electrical symbols merge typographic subscripts (e.g. Ci/o-GND, ΔCi/o-GND).
+- Prefer tables/*.yaml over markdown pipe tables for specs.

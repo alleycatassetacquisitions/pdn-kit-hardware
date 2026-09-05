@@ -1,0 +1,96 @@
+source: usblc6-2.pdf
+page: 11
+title: Table 1
+header:
+- ''
+- Dlow
+- Dhigh
+- Dzener
+- LI/O750pRI/O110m LGND550pRGND60m
+- LI/O
+- 750p
+rows:
+- - BV
+  - '50'
+  - '50'
+  - '7.3'
+  - ''
+  - RI/O
+  - 110m
+- - CJ0
+  - 0.9p
+  - 2.0p
+  - 40p
+  - ''
+  - LGND
+  - 550p
+- - IBV
+  - 1m
+  - 1m
+  - 1m
+  - ''
+  - RGND
+  - 60m
+- - M
+  - '0.3333'
+  - '0.3333'
+  - '0.3333'
+  - ''
+  - ''
+  - ''
+- - RS
+  - '0.2'
+  - '0.52'
+  - '0.84'
+  - ''
+  - ''
+  - ''
+- - RSVJ
+  - 0.2 0.6
+  - 0.52 0.6
+  - 0.84 0.6
+  - ''
+  - ''
+  - ''
+- - TT
+  - 0.1u
+  - 0.1u
+  - 0.1u
+  - ''
+  - ''
+  - ''
+records:
+- col_0: BV
+  dlow: '50'
+  dhigh: '50'
+  dzener: '7.3'
+  li/o: RI/O
+  750p: 110m
+- col_0: CJ0
+  dlow: 0.9p
+  dhigh: 2.0p
+  dzener: 40p
+  li/o: LGND
+  750p: 550p
+- col_0: IBV
+  dlow: 1m
+  dhigh: 1m
+  dzener: 1m
+  li/o: RGND
+  750p: 60m
+- col_0: M
+  dlow: '0.3333'
+  dhigh: '0.3333'
+  dzener: '0.3333'
+- col_0: RS
+  dlow: '0.2'
+  dhigh: '0.52'
+  dzener: '0.84'
+- col_0: RSVJ
+  dlow: 0.2 0.6
+  dhigh: 0.52 0.6
+  dzener: 0.84 0.6
+- col_0: TT
+  dlow: 0.1u
+  dhigh: 0.1u
+  dzener: 0.1u

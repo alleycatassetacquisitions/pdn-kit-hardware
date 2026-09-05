@@ -1,0 +1,40 @@
+source: bq25619.pdf
+page: 45
+title: 7.5.13 Charger Control 4 Register (Address = 0Ch) [Reset = 75h] Figure 7-28.
+  REG0C
+header:
+- '7'
+- '6'
+- '5'
+- '4'
+- '3'
+- '2'
+- '1'
+- '0'
+rows:
+- - '0'
+  - '1'
+  - '1'
+  - '1'
+  - '0'
+  - '1'
+  - '0'
+  - '1'
+- - R/WR/WR/WR/WR/WR/WR/WR/W
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+records:
+- '7': '0'
+  '6': '1'
+  '5': '1'
+  '4': '1'
+  '3': '0'
+  '2': '1'
+  '1': '0'
+  '0': '1'
+- '7': R/WR/WR/WR/WR/WR/WR/WR/W

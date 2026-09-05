@@ -1,0 +1,211 @@
+source: IS31FL3236A.pdf
+page: 4
+title: ELECTRICAL CHARACTERISTICS Typical values are T= 25°C, V= 3.6V. A CC
+header:
+- Symbol
+- Parameter
+- Condition
+- Min.
+- Typ.
+- Max.
+- Unit
+rows:
+- - V CC
+  - Supply voltage
+  - ''
+  - '2.7'
+  - ''
+  - '5.5'
+  - V
+- - I MAX
+  - Maximum global output current
+  - V= 4.2V, V= 0.8V CCOUTR= 2kΩ, SL= “00” (Note 1) EXT
+  - ''
+  - '38'
+  - ''
+  - mA
+- - I OUT
+  - Output current
+  - V= 0.6V, R= 3.3kΩ, OUTEXTSL= “00”
+  - ''
+  - '23'
+  - ''
+  - mA
+- - V HR
+  - Headroom voltage
+  - R= 3.3kΩ, I= 20mA EXTOUT
+  - ''
+  - '0.4'
+  - '0.6'
+  - V
+- - I CC
+  - Quiescent power supply current
+  - R= 3.3kΩ EXT
+  - ''
+  - '9'
+  - ''
+  - mA
+- - I SD
+  - Shutdown current
+  - V= 0V or software shutdown SDBT= 25°C, V= 3.6V ACC
+  - ''
+  - '3'
+  - '5'
+  - μA
+- - f OUT
+  - PWM frequency of output
+  - 0x4B= 0x00
+  - ''
+  - '2.9'
+  - ''
+  - kHz
+- - ''
+  - ''
+  - 0x4B= 0x01
+  - ''
+  - '21.6'
+  - ''
+  - kHz
+- - I OZ
+  - Output leakage current
+  - V= 0V or software shutdown, SDBV= 5.5V OUT
+  - ''
+  - ''
+  - '0.2'
+  - μA
+- - T SHDN
+  - Thermal shutdown
+  - (Note 2)
+  - ''
+  - '160'
+  - ''
+  - °C
+- - T Hysteresis SHDNHYST
+  - Hysteresis
+  - (Note 2)
+  - ''
+  - '20'
+  - ''
+  - °C
+- - V EXT
+  - Output voltage of R-EXT pin
+  - ''
+  - ''
+  - '1.3'
+  - ''
+  - V
+- - Logic Electrical Characteristics (SDA, SCL, SDB)
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+- - V IL
+  - Logic “0” input voltage
+  - V= 2.7V CC
+  - ''
+  - ''
+  - '0.4'
+  - V
+- - V IH
+  - Logic “1” input voltage
+  - V= 5.5V CC
+  - '1.4'
+  - ''
+  - ''
+  - V
+- - I IL
+  - Logic “0” input current
+  - V= 0V (Note 2) INPUT
+  - ''
+  - '5'
+  - ''
+  - nA
+- - I IH
+  - Logic “1” input current
+  - V= V(Note 2) INPUTCC
+  - ''
+  - '5'
+  - ''
+  - nA
+records:
+- symbol: V CC
+  parameter: Supply voltage
+  min: '2.7'
+  max: '5.5'
+  unit: V
+- symbol: I MAX
+  parameter: Maximum global output current
+  condition: V= 4.2V, V= 0.8V CCOUTR= 2kΩ, SL= “00” (Note 1) EXT
+  typ: '38'
+  unit: mA
+- symbol: I OUT
+  parameter: Output current
+  condition: V= 0.6V, R= 3.3kΩ, OUTEXTSL= “00”
+  typ: '23'
+  unit: mA
+- symbol: V HR
+  parameter: Headroom voltage
+  condition: R= 3.3kΩ, I= 20mA EXTOUT
+  typ: '0.4'
+  max: '0.6'
+  unit: V
+- symbol: I CC
+  parameter: Quiescent power supply current
+  condition: R= 3.3kΩ EXT
+  typ: '9'
+  unit: mA
+- symbol: I SD
+  parameter: Shutdown current
+  condition: V= 0V or software shutdown SDBT= 25°C, V= 3.6V ACC
+  typ: '3'
+  max: '5'
+  unit: μA
+- symbol: f OUT
+  parameter: PWM frequency of output
+  condition: 0x4B= 0x00; 0x4B= 0x01
+  typ: '2.9'
+  unit: kHz
+  typ_2: '21.6'
+  unit_2: kHz
+- symbol: I OZ
+  parameter: Output leakage current
+  condition: V= 0V or software shutdown, SDBV= 5.5V OUT
+  max: '0.2'
+  unit: μA
+- symbol: T SHDN
+  parameter: Thermal shutdown
+  condition: (Note 2)
+  typ: '160'
+  unit: °C
+- symbol: T Hysteresis SHDNHYST
+  parameter: Hysteresis
+  condition: (Note 2)
+  typ: '20'
+  unit: °C
+- symbol: V EXT
+  parameter: Output voltage of R-EXT pin
+  typ: '1.3'
+  unit: V
+- symbol: Logic Electrical Characteristics (SDA, SCL, SDB)
+- symbol: V IL
+  parameter: Logic “0” input voltage
+  condition: V= 2.7V CC
+  max: '0.4'
+  unit: V
+- symbol: V IH
+  parameter: Logic “1” input voltage
+  condition: V= 5.5V CC
+  min: '1.4'
+  unit: V
+- symbol: I IL
+  parameter: Logic “0” input current
+  condition: V= 0V (Note 2) INPUT
+  typ: '5'
+  unit: nA
+- symbol: I IH
+  parameter: Logic “1” input current
+  condition: V= V(Note 2) INPUTCC
+  typ: '5'
+  unit: nA

@@ -1,0 +1,45 @@
+source: tps63802.pdf
+page: 5
+title: 8.1 Absolute Maximum Ratingsover junction temperature range (unless otherwise
+  noted)(1)
+header:
+- ''
+- ''
+- MIN
+- MAX
+- UNIT
+rows:
+- - Voltage(2)
+  - VIN, L1, L2, EN, MODE, VOUT, FB, PG
+  - –0.36
+  - ''
+  - V
+- - ''
+  - L1, L2 (AC, less than 10 ns)
+  - –39
+  - ''
+  - V
+- - Operating junction temperature, TJ
+  - ''
+  - –40150
+  - ''
+  - °C
+- - Storage temperature, Tstg
+  - ''
+  - –65150
+  - ''
+  - °C
+records:
+- col_0: Voltage(2)
+  col_1: VIN, L1, L2, EN, MODE, VOUT, FB, PG
+  min: –0.36
+  unit: V
+- col_1: L1, L2 (AC, less than 10 ns)
+  min: –39
+  unit: V
+- col_0: Operating junction temperature, TJ
+  min: –40150
+  unit: °C
+- col_0: Storage temperature, Tstg
+  min: –65150
+  unit: °C

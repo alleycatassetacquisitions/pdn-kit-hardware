@@ -1,0 +1,85 @@
+source: tps63802.pdf
+page: 19
+title: There is no upper limit for the output capacitance value. Table 10-3. List
+  of Recommended Capacitors (1)
+header:
+- CAPACITOR [µF]
+- VOLTAGE RATING [V]
+- ESR [mΩ]
+- PART NUMBER
+- MANUFACTURER
+- SIZE (METRIC)
+rows:
+- - '22'
+  - '6.3'
+  - '10'
+  - GRM188R60J226MEA0
+  - Murata
+  - 0603 (1608)
+- - '22'
+  - '6.3'
+  - '10'
+  - GRM187R61A226ME15
+  - Murata
+  - 0603 (1608)
+- - '22'
+  - '10'
+  - '40'
+  - GRM188R61A226ME15
+  - Murata
+  - 0603 (1608)
+- - '22'
+  - '10'
+  - '10'
+  - GRM187R60J226ME15
+  - Murata
+  - 0603 (1608)
+- - '47'
+  - '6.3'
+  - '43'
+  - GRM188R60J476ME15
+  - Murata
+  - 0603 (1608)
+- - '47'
+  - '6.3'
+  - '43'
+  - GRM219R60J476ME44
+  - Murata
+  - 0805 (2012)
+records:
+- capacitor_[µf]: '22'
+  voltage_rating_[v]: '6.3'
+  esr_[mω]: '10'
+  part_number: GRM188R60J226MEA0
+  manufacturer: Murata
+  size_(metric): 0603 (1608)
+- capacitor_[µf]: '22'
+  voltage_rating_[v]: '6.3'
+  esr_[mω]: '10'
+  part_number: GRM187R61A226ME15
+  manufacturer: Murata
+  size_(metric): 0603 (1608)
+- capacitor_[µf]: '22'
+  voltage_rating_[v]: '10'
+  esr_[mω]: '40'
+  part_number: GRM188R61A226ME15
+  manufacturer: Murata
+  size_(metric): 0603 (1608)
+- capacitor_[µf]: '22'
+  voltage_rating_[v]: '10'
+  esr_[mω]: '10'
+  part_number: GRM187R60J226ME15
+  manufacturer: Murata
+  size_(metric): 0603 (1608)
+- capacitor_[µf]: '47'
+  voltage_rating_[v]: '6.3'
+  esr_[mω]: '43'
+  part_number: GRM188R60J476ME15
+  manufacturer: Murata
+  size_(metric): 0603 (1608)
+- capacitor_[µf]: '47'
+  voltage_rating_[v]: '6.3'
+  esr_[mω]: '43'
+  part_number: GRM219R60J476ME44
+  manufacturer: Murata
+  size_(metric): 0805 (2012)

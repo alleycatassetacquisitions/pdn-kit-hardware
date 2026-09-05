@@ -1,0 +1,57 @@
+source: usblc6-2.pdf
+page: 19
+title: Table 7. Document revision history
+header:
+- Date
+- Version
+- Changes
+rows:
+- - 14-Mar-2005
+  - '1'
+  - Initial release.
+- - 07-Jun-2005
+  - '2'
+  - Format change to figure 3; no content changed.
+- - 20-Mar-2008
+  - '3'
+  - Added marking illustrations - Figures 21 and 23. Added ECOPACK statement. Updated
+    operating junction temperature range in absolute ratings, page 2. Technical information
+    section updated. Reformatted to current standards.
+- - 27-Jun-2011
+  - '4'
+  - Updated leakage current for VRM = 5.25 V as specified in USB standard. Updated
+    marking illustrations Figure 21 and Figure 23.
+- - 24-Oct-2011
+  - '5'
+  - Updated legal statement.
+- - 16-Oct-2020
+  - '6'
+  - Minor text changes.
+- - 24-Dec-2021
+  - '7'
+  - Updated Section ■ DisclaimerUpdated Section 1 Characteristics
+records:
+- date: 14-Mar-2005
+  version: '1'
+  changes: Initial release.
+- date: 07-Jun-2005
+  version: '2'
+  changes: Format change to figure 3; no content changed.
+- date: 20-Mar-2008
+  version: '3'
+  changes: Added marking illustrations - Figures 21 and 23. Added ECOPACK statement.
+    Updated operating junction temperature range in absolute ratings, page 2. Technical
+    information section updated. Reformatted to current standards.
+- date: 27-Jun-2011
+  version: '4'
+  changes: Updated leakage current for VRM = 5.25 V as specified in USB standard.
+    Updated marking illustrations Figure 21 and Figure 23.
+- date: 24-Oct-2011
+  version: '5'
+  changes: Updated legal statement.
+- date: 16-Oct-2020
+  version: '6'
+  changes: Minor text changes.
+- date: 24-Dec-2021
+  version: '7'
+  changes: Updated Section ■ DisclaimerUpdated Section 1 Characteristics

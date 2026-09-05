@@ -1,0 +1,218 @@
+source: tps63802.pdf
+page: 21
+title: www.ti.comSLVSEU9D – NOVEMBER 2018 – REVISED JANUARY 2021 Table 10-7. Typical
+  Characteristics Curves
+header:
+- PARAMETER
+- CONDITIONS
+- FIGURE
+rows:
+- - Output Current Capability
+  - ''
+  - ''
+- - Typical Output Current Capability versus Input Voltage
+  - V = 3.3 VO
+  - Figure 10-2
+- - Switching Frequency
+  - ''
+  - ''
+- - Typical Inductor Switching Frequency versus InputVoltage
+  - I = 0 A, MODE = HighO
+  - Figure 10-3
+- - Typical Inductor Burst Frequency versus Output Current
+  - V = 3.3 VO
+  - Figure 10-4
+- - Efficiency
+  - ''
+  - ''
+- - Efficiency versus Output Current (PFM/PWM)
+  - V = 2.5 V to 4.2 V, V = 3.3 V, MODE = LowIO
+  - Figure 10-5
+- - Efficiency versus Output Current (PWM only)
+  - V = 2.5 V to 4.2 V, V = 3.3 V, MODE = HighIO
+  - Figure 10-6
+- - Efficiency versus Output Current (PFM/PWM)
+  - V = 1.8 V to 5 V, V = 3.3 V, MODE = LowIO
+  - Figure 10-7
+- - Efficiency versus Output Current (PWM only)
+  - V = 1.8 V to 5 V, V = 3.3 V, MODE = HighIO
+  - Figure 10-8
+- - Efficiency versus. Input Voltage (PFM/PWM)
+  - V = 3.3 V, MODE = LowO
+  - Figure 10-9
+- - Efficiency versus Input Voltage (PWM only)
+  - I = 1 A, MODE = HighO
+  - Figure 10-10
+- - Regulation Accuracy
+  - ''
+  - ''
+- - Load Regulation, PWM Operation
+  - V = 3.3 V, MODE = HighO
+  - Figure 10-11
+- - Load Regulation, PFM/PWM Operation
+  - V = 3.3 V, MODE = LowO
+  - Figure 10-12
+- - Line Regulation, PWM Operation
+  - I = 1 A, MODE = HighO
+  - Figure 10-13
+- - Line Regulation, PFM/PWM Operation
+  - I = 1 A, MODE = LowO
+  - Figure 10-14
+- - Switching Waveforms
+  - ''
+  - ''
+- - Switching Waveforms, PFM Boost Operation
+  - V = 2.3 V, V = 3.3 V, MODE = LowIO
+  - Figure 10-15
+- - Switching Waveforms, PFM Buck-Boost Operation
+  - V = 3.3 V, V = 3.3 V, MODE = LowIO
+  - Figure 10-16
+- - Switching Waveforms, PFM Buck Operation
+  - V = 4.3 V, V = 3.3 V, MODE = LowIO
+  - Figure 10-17
+- - Switching Waveforms, PWM Boost Operation
+  - V = 2.3 V, V = 3.3 V, MODE = HighIO
+  - Figure 10-18
+- - Switching Waveforms, PWM Buck-Boost Operation
+  - V = 3.3 V, V = 3.3 V, MODE = HighIO
+  - Figure 10-19
+- - Switching Waveforms, PWM Buck Operation
+  - V = 4.3 V, V = 3.3 V, MODE = HighIO
+  - Figure 10-20
+- - Transient Performance
+  - ''
+  - ''
+- - Load Transient, PFM/PWM Boost Operation
+  - V = 2.5 V, V = 3.3 V, Load = 100 mA to 1A, MODE = IOLow
+  - Figure 10-21
+- - Load Transient, PFM/PWM Buck-Boost Operation
+  - V = 3.3 V, V = 3.3 V, Load = 100 mA to 1A, MODE = IOLow
+  - Figure 10-22
+- - Load Transient, PFM/PWM Buck Operation
+  - V = 4.2 V, V = 3.3V, Load = 100 mA to 1A, MODE = IOLow
+  - Figure 10-23
+- - Load Transient, PWM Boost Operation
+  - V = 2.5 V, V = 3.3 V, Load = 100 mA to 1A, MODE = IOHigh
+  - Figure 10-24
+- - Load Transient, PWM Buck-Boost Operation
+  - V = 3.3 V, V = 3.3 V, Load = 100 mA to 1A, MODE = IOHigh
+  - Figure 10-25
+- - Load Transient, PWM Buck Operation
+  - V = 4.2 V, V = 3.3 V, Load = 100 mA to 1A, MODE = IOHigh
+  - Figure 10-26
+- - Line Transient, PWM Operation
+  - V = 2.3 V to 4.3 V, V = 3.3 V, Load = 0.5 A , MODE = IOLow
+  - Figure 10-27
+- - Line Transient, PWM Operation
+  - V = 2.3 V to 4.3 V, V = 3.3 V, Load = 1 A , MODE = IOLow
+  - Figure 10-28
+- - Line Transient, PWM Operation
+  - V = 3 V to 3.6 V, V = 3.3 V, Load = 0.5 A , MODE = IOLow
+  - Figure 10-29
+- - Start-up
+  - ''
+  - ''
+- - Start-up Behavior from Rising Enable, PFM Operation
+  - V = 2.2 V, V = 3.3 V, Load = 10 mA, MODE = LowIO
+  - Figure 10-30
+- - Start-up Behavior from Rising Enable, PWM Operation
+  - V = 2.2 V, V = 3.3 V, Load = 10 mA, MODE = HighIO
+  - Figure 10-31
+records:
+- parameter: Output Current Capability
+- parameter: Typical Output Current Capability versus Input Voltage
+  conditions: V = 3.3 VO
+  figure: Figure 10-2
+- parameter: Switching Frequency
+- parameter: Typical Inductor Switching Frequency versus InputVoltage
+  conditions: I = 0 A, MODE = HighO
+  figure: Figure 10-3
+- parameter: Typical Inductor Burst Frequency versus Output Current
+  conditions: V = 3.3 VO
+  figure: Figure 10-4
+- parameter: Efficiency
+- parameter: Efficiency versus Output Current (PFM/PWM)
+  conditions: V = 2.5 V to 4.2 V, V = 3.3 V, MODE = LowIO
+  figure: Figure 10-5
+- parameter: Efficiency versus Output Current (PWM only)
+  conditions: V = 2.5 V to 4.2 V, V = 3.3 V, MODE = HighIO
+  figure: Figure 10-6
+- parameter: Efficiency versus Output Current (PFM/PWM)
+  conditions: V = 1.8 V to 5 V, V = 3.3 V, MODE = LowIO
+  figure: Figure 10-7
+- parameter: Efficiency versus Output Current (PWM only)
+  conditions: V = 1.8 V to 5 V, V = 3.3 V, MODE = HighIO
+  figure: Figure 10-8
+- parameter: Efficiency versus. Input Voltage (PFM/PWM)
+  conditions: V = 3.3 V, MODE = LowO
+  figure: Figure 10-9
+- parameter: Efficiency versus Input Voltage (PWM only)
+  conditions: I = 1 A, MODE = HighO
+  figure: Figure 10-10
+- parameter: Regulation Accuracy
+- parameter: Load Regulation, PWM Operation
+  conditions: V = 3.3 V, MODE = HighO
+  figure: Figure 10-11
+- parameter: Load Regulation, PFM/PWM Operation
+  conditions: V = 3.3 V, MODE = LowO
+  figure: Figure 10-12
+- parameter: Line Regulation, PWM Operation
+  conditions: I = 1 A, MODE = HighO
+  figure: Figure 10-13
+- parameter: Line Regulation, PFM/PWM Operation
+  conditions: I = 1 A, MODE = LowO
+  figure: Figure 10-14
+- parameter: Switching Waveforms
+- parameter: Switching Waveforms, PFM Boost Operation
+  conditions: V = 2.3 V, V = 3.3 V, MODE = LowIO
+  figure: Figure 10-15
+- parameter: Switching Waveforms, PFM Buck-Boost Operation
+  conditions: V = 3.3 V, V = 3.3 V, MODE = LowIO
+  figure: Figure 10-16
+- parameter: Switching Waveforms, PFM Buck Operation
+  conditions: V = 4.3 V, V = 3.3 V, MODE = LowIO
+  figure: Figure 10-17
+- parameter: Switching Waveforms, PWM Boost Operation
+  conditions: V = 2.3 V, V = 3.3 V, MODE = HighIO
+  figure: Figure 10-18
+- parameter: Switching Waveforms, PWM Buck-Boost Operation
+  conditions: V = 3.3 V, V = 3.3 V, MODE = HighIO
+  figure: Figure 10-19
+- parameter: Switching Waveforms, PWM Buck Operation
+  conditions: V = 4.3 V, V = 3.3 V, MODE = HighIO
+  figure: Figure 10-20
+- parameter: Transient Performance
+- parameter: Load Transient, PFM/PWM Boost Operation
+  conditions: V = 2.5 V, V = 3.3 V, Load = 100 mA to 1A, MODE = IOLow
+  figure: Figure 10-21
+- parameter: Load Transient, PFM/PWM Buck-Boost Operation
+  conditions: V = 3.3 V, V = 3.3 V, Load = 100 mA to 1A, MODE = IOLow
+  figure: Figure 10-22
+- parameter: Load Transient, PFM/PWM Buck Operation
+  conditions: V = 4.2 V, V = 3.3V, Load = 100 mA to 1A, MODE = IOLow
+  figure: Figure 10-23
+- parameter: Load Transient, PWM Boost Operation
+  conditions: V = 2.5 V, V = 3.3 V, Load = 100 mA to 1A, MODE = IOHigh
+  figure: Figure 10-24
+- parameter: Load Transient, PWM Buck-Boost Operation
+  conditions: V = 3.3 V, V = 3.3 V, Load = 100 mA to 1A, MODE = IOHigh
+  figure: Figure 10-25
+- parameter: Load Transient, PWM Buck Operation
+  conditions: V = 4.2 V, V = 3.3 V, Load = 100 mA to 1A, MODE = IOHigh
+  figure: Figure 10-26
+- parameter: Line Transient, PWM Operation
+  conditions: V = 2.3 V to 4.3 V, V = 3.3 V, Load = 0.5 A , MODE = IOLow
+  figure: Figure 10-27
+- parameter: Line Transient, PWM Operation
+  conditions: V = 2.3 V to 4.3 V, V = 3.3 V, Load = 1 A , MODE = IOLow
+  figure: Figure 10-28
+- parameter: Line Transient, PWM Operation
+  conditions: V = 3 V to 3.6 V, V = 3.3 V, Load = 0.5 A , MODE = IOLow
+  figure: Figure 10-29
+- parameter: Start-up
+- parameter: Start-up Behavior from Rising Enable, PFM Operation
+  conditions: V = 2.2 V, V = 3.3 V, Load = 10 mA, MODE = LowIO
+  figure: Figure 10-30
+- parameter: Start-up Behavior from Rising Enable, PWM Operation
+  conditions: V = 2.2 V, V = 3.3 V, Load = 10 mA, MODE = HighIO
+  figure: Figure 10-31

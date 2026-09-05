@@ -1,0 +1,39 @@
+source: bq25619.pdf
+page: 43
+title: 7.5.11 Charger Status 2 Register (Address = 0Ah) Figure 7-26. REG0A Register
+header:
+- '7'
+- '6'
+- '5'
+- '4'
+- '3'
+- '2'
+- '1'
+- '0'
+rows:
+- - x
+  - x
+  - x
+  - x
+  - x
+  - x
+  - '0'
+  - '0'
+- - RRRRRRR/WR/W
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+records:
+- '7': x
+  '6': x
+  '5': x
+  '4': x
+  '3': x
+  '2': x
+  '1': '0'
+  '0': '0'
+- '7': RRRRRRR/WR/W

@@ -1,0 +1,48 @@
+source: IS31FL3236A.pdf
+page: 4
+title: IS31FL3236A ABSOLUTE MAXIMUM RATINGS Supply voltage, V -0.3V ~ +6.0V
+header:
+- ABSOLUTE MAXIMUM RATINGS Supply voltage, V CCVoltage at SCL, SDA, SDB, OUT1 to OUT36
+- -0.3V ~ +6.0V -0.3V ~ V+0.3V
+rows:
+- - Supply voltage, V CCVoltage at SCL, SDA, SDB, OUT1 to OUT36 Maximum junction temperature,
+    T
+  - -0.3V ~ +6.0V -0.3V ~ V+0.3V CC160°C
+- - Voltage at SCL, SDA, SDB, OUT1 to OUT36 Maximum junction temperature, T JMAXStorage
+    temperature range, T
+  - -0.3V ~ V+0.3V CC160°C -65°C ~ +150°C
+- - Maximum junction temperature, T JMAXStorage temperature range, T STGOperating
+    temperature range, T=T
+  - 160°C -65°C ~ +150°C -40°C ~ +85°C
+- - Storage temperature range, T STGOperating temperature range, T=T AJPackage thermal
+    resistance (Mounted on JEDEC standard 4
+  - -65°C ~ +150°C -40°C ~ +85°C
+- - Operating temperature range, T=T AJPackage thermal resistance (Mounted on JEDEC
+    standard 4 layer(2s2p) PCB test board), θ JAESD (HBM)
+  - -40°C ~ +85°C32.65°C/W ±8kV
+- - layer(2s2p) PCB test board), θ JAESD (HBM) ESD (CDM)
+  - ±8kV ±1kV
+records:
+- absolute_maximum_ratings_supply_voltage,_v_ccvoltage_at_scl,_sda,_sdb,_out1_to_out36: Supply
+    voltage, V CCVoltage at SCL, SDA, SDB, OUT1 to OUT36 Maximum junction temperature,
+    T
+  -03v_~_+60v_-03v_~_v+03v: -0.3V ~ +6.0V -0.3V ~ V+0.3V CC160°C
+- absolute_maximum_ratings_supply_voltage,_v_ccvoltage_at_scl,_sda,_sdb,_out1_to_out36: Voltage
+    at SCL, SDA, SDB, OUT1 to OUT36 Maximum junction temperature, T JMAXStorage temperature
+    range, T
+  -03v_~_+60v_-03v_~_v+03v: -0.3V ~ V+0.3V CC160°C -65°C ~ +150°C
+- absolute_maximum_ratings_supply_voltage,_v_ccvoltage_at_scl,_sda,_sdb,_out1_to_out36: Maximum
+    junction temperature, T JMAXStorage temperature range, T STGOperating temperature
+    range, T=T
+  -03v_~_+60v_-03v_~_v+03v: 160°C -65°C ~ +150°C -40°C ~ +85°C
+- absolute_maximum_ratings_supply_voltage,_v_ccvoltage_at_scl,_sda,_sdb,_out1_to_out36: Storage
+    temperature range, T STGOperating temperature range, T=T AJPackage thermal resistance
+    (Mounted on JEDEC standard 4
+  -03v_~_+60v_-03v_~_v+03v: -65°C ~ +150°C -40°C ~ +85°C
+- absolute_maximum_ratings_supply_voltage,_v_ccvoltage_at_scl,_sda,_sdb,_out1_to_out36: Operating
+    temperature range, T=T AJPackage thermal resistance (Mounted on JEDEC standard
+    4 layer(2s2p) PCB test board), θ JAESD (HBM)
+  -03v_~_+60v_-03v_~_v+03v: -40°C ~ +85°C32.65°C/W ±8kV
+- absolute_maximum_ratings_supply_voltage,_v_ccvoltage_at_scl,_sda,_sdb,_out1_to_out36: layer(2s2p)
+    PCB test board), θ JAESD (HBM) ESD (CDM)
+  -03v_~_+60v_-03v_~_v+03v: ±8kV ±1kV

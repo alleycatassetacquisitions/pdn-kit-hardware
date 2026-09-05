@@ -1,0 +1,43 @@
+source: bq25619.pdf
+page: 32
+title: Table 7-6. I2C Access Type Codes
+header:
+- Access Type
+- Code
+- Description
+rows:
+- - Read Type
+  - ''
+  - ''
+- - R
+  - R
+  - Read
+- - Write Type
+  - ''
+  - ''
+- - W
+  - W
+  - Write
+- - Reset Value
+  - ''
+  - ''
+- - -n
+  - ''
+  - Value after reset
+- - -X
+  - ''
+  - Undefined value
+records:
+- access_type: Read Type
+- access_type: R
+  code: R
+  description: Read
+- access_type: Write Type
+- access_type: W
+  code: W
+  description: Write
+- access_type: Reset Value
+- access_type: -n
+  description: Value after reset
+- access_type: -X
+  description: Undefined value

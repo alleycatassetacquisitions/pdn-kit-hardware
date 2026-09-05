@@ -1,0 +1,33 @@
+source: ssd1315.pdf
+page: 10
+title: '3.3 AC Characteristics 3.3.1.1 68XX-Series MPU Parallel Interface Timing Characteristics:'
+header:
+- Symbol
+- Description
+- Min
+- Max
+- Unit
+rows:
+- - t cyclet ASt AHt DSWt DHW t DHRt OHt ACCPW CSLPW CSHt Rt F
+  - Clock Cycle Time Address Setup Time Address Hold Time Write Data Setup Time Write
+    Data Hold Time Read Data Hold Time Output Disable Time Access Time Chip Select
+    Low Pulse Width (Read) Chip Select Low Pulse width (Write) Chip Select High Pulse
+    Width (Read) Chip Select High Pulse Width (Write) Rise Time Fall Time
+  - 300 5 0 40 7 20 - - 120 60 60 60 - -
+  - '- - - - - - 70 140 - - 40 40'
+  - ns ns ns ns ns ns ns ns ns ns ns ns
+- - '* (V - V = 1.65V to 3.3V, T = 25°C) DDSSa'
+  - ''
+  - ''
+  - ''
+  - ''
+records:
+- symbol: t cyclet ASt AHt DSWt DHW t DHRt OHt ACCPW CSLPW CSHt Rt F
+  description: Clock Cycle Time Address Setup Time Address Hold Time Write Data Setup
+    Time Write Data Hold Time Read Data Hold Time Output Disable Time Access Time
+    Chip Select Low Pulse Width (Read) Chip Select Low Pulse width (Write) Chip Select
+    High Pulse Width (Read) Chip Select High Pulse Width (Write) Rise Time Fall Time
+  min: 300 5 0 40 7 20 - - 120 60 60 60 - -
+  max: '- - - - - - 70 140 - - 40 40'
+  unit: ns ns ns ns ns ns ns ns ns ns ns ns
+- symbol: '* (V - V = 1.65V to 3.3V, T = 25°C) DDSSa'

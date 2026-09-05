@@ -1,0 +1,113 @@
+source: bq25619.pdf
+page: 37
+title: 'LEGEND: R/W = Read/Write; R = Read only; -n = value after resetTable 7-11.
+  REG04 Field Descriptions'
+header:
+- BitField
+- Field
+- POR
+- Type
+- Reset
+- Description
+rows:
+- - 7VBATREG[4]
+  - VBATREG[4]
+  - '0'
+  - R/W
+  - by REG_RSTby Watchdog
+  - 'Battery voltage setting, also called V. REGDefault: 4.200 V (01000) 00000 – 3.504
+    V00001 – 3.600 V00010 – 3.696 V00011 – 3.800 V00100 – 3.904 V00101 – 4.000 V00110
+    – 4.100 V00111 – 4.150 V01000 – 4.200 V01001 - 11111 – 4.300 V - 4.520 V, 10 mV/step01110
+    4.350 V, 10011 4.400 V, 11000 4.450 V, 11101 4.500 V'
+- - 6VBATREG[3]
+  - VBATREG[3]
+  - '1'
+  - R/W
+  - by REG_RSTby Watchdog
+  - ''
+- - 5VBATREG[2]
+  - VBATREG[2]
+  - '0'
+  - R/W
+  - by REG_RSTby Watchdog
+  - ''
+- - 4VBATREG[1]
+  - VBATREG[1]
+  - '0'
+  - R/W
+  - by REG_RSTby Watchdog
+  - ''
+- - 3VBATREG[0]
+  - VBATREG[0]
+  - '0'
+  - R/W
+  - by REG_RSTby Watchdog
+  - ''
+- - 2TOPOFF_TIMER[1]
+  - TOPOFF_TIMER[1]
+  - '0'
+  - R/W
+  - by REG_RSTby Watchdog
+  - Top-off timer setting. 00 – Disabled (default) 01 – 15 minutes10 – 30 minutes11
+    – 45 minutes
+- - 1TOPOFF_TIMER[0]
+  - TOPOFF_TIMER[0]
+  - '0'
+  - R/W
+  - by REG_RSTby Watchdog
+  - ''
+- - 0VRECHG
+  - VRECHG
+  - '0'
+  - R/W
+  - by REG_RSTby Watchdog
+  - Battery recharge threshold setting. 0 – 120 mV (default) 1 – 210 mV
+records:
+- bitfield: 7VBATREG[4]
+  field: VBATREG[4]
+  por: '0'
+  type: R/W
+  reset: by REG_RSTby Watchdog
+  description: 'Battery voltage setting, also called V. REGDefault: 4.200 V (01000)
+    00000 – 3.504 V00001 – 3.600 V00010 – 3.696 V00011 – 3.800 V00100 – 3.904 V00101
+    – 4.000 V00110 – 4.100 V00111 – 4.150 V01000 – 4.200 V01001 - 11111 – 4.300 V
+    - 4.520 V, 10 mV/step01110 4.350 V, 10011 4.400 V, 11000 4.450 V, 11101 4.500
+    V'
+- bitfield: 6VBATREG[3]
+  field: VBATREG[3]
+  por: '1'
+  type: R/W
+  reset: by REG_RSTby Watchdog
+- bitfield: 5VBATREG[2]
+  field: VBATREG[2]
+  por: '0'
+  type: R/W
+  reset: by REG_RSTby Watchdog
+- bitfield: 4VBATREG[1]
+  field: VBATREG[1]
+  por: '0'
+  type: R/W
+  reset: by REG_RSTby Watchdog
+- bitfield: 3VBATREG[0]
+  field: VBATREG[0]
+  por: '0'
+  type: R/W
+  reset: by REG_RSTby Watchdog
+- bitfield: 2TOPOFF_TIMER[1]
+  field: TOPOFF_TIMER[1]
+  por: '0'
+  type: R/W
+  reset: by REG_RSTby Watchdog
+  description: Top-off timer setting. 00 – Disabled (default) 01 – 15 minutes10 –
+    30 minutes11 – 45 minutes
+- bitfield: 1TOPOFF_TIMER[0]
+  field: TOPOFF_TIMER[0]
+  por: '0'
+  type: R/W
+  reset: by REG_RSTby Watchdog
+- bitfield: 0VRECHG
+  field: VRECHG
+  por: '0'
+  type: R/W
+  reset: by REG_RSTby Watchdog
+  description: Battery recharge threshold setting. 0 – 120 mV (default) 1 – 210 mV

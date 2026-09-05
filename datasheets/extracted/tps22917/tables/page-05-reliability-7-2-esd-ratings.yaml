@@ -1,0 +1,24 @@
+source: tps22917.pdf
+page: 5
+title: reliability. 7.2 ESD Ratings
+header:
+- ''
+- ''
+- VALUE
+- UNIT
+rows:
+- - VElectrostatic discharge (ESD)
+  - Human-body model (HBM), per ANSI/ESDA/JEDEC JS-001(1)
+  - ±2000
+  - V
+- - ''
+  - Charged-device model (CDM), per JEDEC specification JESD22- C101(2)
+  - ±500
+  - ''
+records:
+- col_0: VElectrostatic discharge (ESD)
+  col_1: Human-body model (HBM), per ANSI/ESDA/JEDEC JS-001(1)
+  value: ±2000
+  unit: V
+- col_1: Charged-device model (CDM), per JEDEC specification JESD22- C101(2)
+  value: ±500

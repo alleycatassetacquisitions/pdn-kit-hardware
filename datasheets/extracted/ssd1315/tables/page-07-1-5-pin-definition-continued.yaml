@@ -1,0 +1,68 @@
+source: ssd1315.pdf
+page: 7
+title: 1.5 Pin Definition (Continued)
+header:
+- Pin Number
+- Symbol
+- I/O
+- Function
+rows:
+- - Interface (Continued)
+  - ''
+  - ''
+  - ''
+- - 16 18~25
+  - R/W# D0~D7
+  - I I/O
+  - Read/Write Select or Write This pin is MCU interface input. When interfacing to
+    a 68XX-series microprocessor, this pin will be used as Read/Write (R/W#) selection
+    input. Pull this pin to “High” for read mode and pull it to “Low” for write mode.
+    When 80XX interface mode is selected, this pin will be the Write (WR#) input.
+    Data write operation is initiated when this pin is pulled low and the CS# is pulled
+    low. When serial or I2C mode is selected, this pin must be connected to V. SSHost
+    Data Input/Output Bus These pins are 8-bit bi-directional data bus to be connected
+    to the microprocessor’s data bus. When serial mode is selected, D1 will be the
+    serial data input SDIN and D0 will be the serial clock input SCLK. When I2C mode
+    is selected, D2 & D1 should be tired together and serve as SDA & SDA in outinapplication
+    and D0 is the serial clock input SCL. Unused pins must be connected to V except
+    for D2 in serial mode. SS
+- - Reserve
+  - ''
+  - ''
+  - ''
+- - 7 1, 30
+  - N.C. N.C. (GND)
+  - '- -'
+  - Reserved Pin The N.C. pin between function pins are reserved for compatible and
+    flexible design. Reserved Pin (Supporting Pin) The supporting pins can reduce
+    the influences from stresses on the function pins. These pins must be connected
+    to external ground as the ESD protection circuit.
+- - ''
+  - ''
+  - ''
+  - ''
+records:
+- pin_number: Interface (Continued)
+- pin_number: 16 18~25
+  symbol: R/W# D0~D7
+  i/o: I I/O
+  function: Read/Write Select or Write This pin is MCU interface input. When interfacing
+    to a 68XX-series microprocessor, this pin will be used as Read/Write (R/W#) selection
+    input. Pull this pin to “High” for read mode and pull it to “Low” for write mode.
+    When 80XX interface mode is selected, this pin will be the Write (WR#) input.
+    Data write operation is initiated when this pin is pulled low and the CS# is pulled
+    low. When serial or I2C mode is selected, this pin must be connected to V. SSHost
+    Data Input/Output Bus These pins are 8-bit bi-directional data bus to be connected
+    to the microprocessor’s data bus. When serial mode is selected, D1 will be the
+    serial data input SDIN and D0 will be the serial clock input SCLK. When I2C mode
+    is selected, D2 & D1 should be tired together and serve as SDA & SDA in outinapplication
+    and D0 is the serial clock input SCL. Unused pins must be connected to V except
+    for D2 in serial mode. SS
+- pin_number: Reserve
+- pin_number: 7 1, 30
+  symbol: N.C. N.C. (GND)
+  i/o: '- -'
+  function: Reserved Pin The N.C. pin between function pins are reserved for compatible
+    and flexible design. Reserved Pin (Supporting Pin) The supporting pins can reduce
+    the influences from stresses on the function pins. These pins must be connected
+    to external ground as the ESD protection circuit.

@@ -1,0 +1,216 @@
+source: tps22917.pdf
+page: 22
+title: PACKAGING INFORMATION
+header:
+- Orderable part number
+- Status (1)
+- Material type (2)
+- Package | Pins
+- Package qty | Carrier
+- RoHS (3)
+- Lead finish/ Ball material (4)
+- MSL rating/ Peak reflow (5)
+- Op temp (°C)
+- Part marking (6)
+rows:
+- - TPS22917DBVR
+  - Active
+  - Production
+  - SOT-23 (DBV) | 6
+  - 3000 | LARGE T&R
+  - 'Yes'
+  - NIPDAU | SN
+  - Level-1-260C-UNLIM
+  - -40 to 125
+  - 1IAF
+- - TPS22917DBVR.A
+  - Active
+  - Production
+  - SOT-23 (DBV) | 6
+  - 3000 | LARGE T&R
+  - 'Yes'
+  - NIPDAU
+  - Level-1-260C-UNLIM
+  - -45 to 125
+  - 1IAF
+- - TPS22917DBVRG4
+  - Active
+  - Production
+  - SOT-23 (DBV) | 6
+  - 3000 | LARGE T&R
+  - 'Yes'
+  - NIPDAU
+  - Level-1-260C-UNLIM
+  - -45 to 125
+  - 1IAF
+- - TPS22917DBVRG4.A
+  - Active
+  - Production
+  - SOT-23 (DBV) | 6
+  - 3000 | LARGE T&R
+  - 'Yes'
+  - NIPDAU
+  - Level-1-260C-UNLIM
+  - -45 to 125
+  - 1IAF
+- - TPS22917DBVT
+  - Active
+  - Production
+  - SOT-23 (DBV) | 6
+  - 250 | SMALL T&R
+  - 'Yes'
+  - NIPDAU
+  - Level-1-260C-UNLIM
+  - -40 to 125
+  - 1IAF
+- - TPS22917DBVT.A
+  - Active
+  - Production
+  - SOT-23 (DBV) | 6
+  - 250 | SMALL T&R
+  - 'Yes'
+  - NIPDAU
+  - Level-1-260C-UNLIM
+  - -45 to 125
+  - 1IAF
+- - TPS22917LDBVR
+  - Active
+  - Production
+  - SOT-23 (DBV) | 6
+  - 3000 | LARGE T&R
+  - 'Yes'
+  - NIPDAU | SN
+  - Level-1-260C-UNLIM
+  - -45 to 125
+  - 2K7F
+- - TPS22917LDBVR.A
+  - Active
+  - Production
+  - SOT-23 (DBV) | 6
+  - 3000 | LARGE T&R
+  - 'Yes'
+  - NIPDAU
+  - Level-1-260C-UNLIM
+  - -45 to 125
+  - 2K7F
+- - TPS22917LDBVRG4
+  - Active
+  - Production
+  - SOT-23 (DBV) | 6
+  - 3000 | LARGE T&R
+  - 'Yes'
+  - NIPDAU
+  - Level-1-260C-UNLIM
+  - -45 to 125
+  - 2K7F
+- - TPS22917LDBVRG4.A
+  - Active
+  - Production
+  - SOT-23 (DBV) | 6
+  - 3000 | LARGE T&R
+  - 'Yes'
+  - NIPDAU
+  - Level-1-260C-UNLIM
+  - -45 to 125
+  - 2K7F
+records:
+- orderable_part_number: TPS22917DBVR
+  status_(1): Active
+  material_type_(2): Production
+  package_|_pins: SOT-23 (DBV) | 6
+  package_qty_|_carrier: 3000 | LARGE T&R
+  rohs_(3): 'Yes'
+  lead_finish/_ball_material_(4): NIPDAU | SN
+  msl_rating/_peak_reflow_(5): Level-1-260C-UNLIM
+  op_temp_(°c): -40 to 125
+  part_marking_(6): 1IAF
+- orderable_part_number: TPS22917DBVR.A
+  status_(1): Active
+  material_type_(2): Production
+  package_|_pins: SOT-23 (DBV) | 6
+  package_qty_|_carrier: 3000 | LARGE T&R
+  rohs_(3): 'Yes'
+  lead_finish/_ball_material_(4): NIPDAU
+  msl_rating/_peak_reflow_(5): Level-1-260C-UNLIM
+  op_temp_(°c): -45 to 125
+  part_marking_(6): 1IAF
+- orderable_part_number: TPS22917DBVRG4
+  status_(1): Active
+  material_type_(2): Production
+  package_|_pins: SOT-23 (DBV) | 6
+  package_qty_|_carrier: 3000 | LARGE T&R
+  rohs_(3): 'Yes'
+  lead_finish/_ball_material_(4): NIPDAU
+  msl_rating/_peak_reflow_(5): Level-1-260C-UNLIM
+  op_temp_(°c): -45 to 125
+  part_marking_(6): 1IAF
+- orderable_part_number: TPS22917DBVRG4.A
+  status_(1): Active
+  material_type_(2): Production
+  package_|_pins: SOT-23 (DBV) | 6
+  package_qty_|_carrier: 3000 | LARGE T&R
+  rohs_(3): 'Yes'
+  lead_finish/_ball_material_(4): NIPDAU
+  msl_rating/_peak_reflow_(5): Level-1-260C-UNLIM
+  op_temp_(°c): -45 to 125
+  part_marking_(6): 1IAF
+- orderable_part_number: TPS22917DBVT
+  status_(1): Active
+  material_type_(2): Production
+  package_|_pins: SOT-23 (DBV) | 6
+  package_qty_|_carrier: 250 | SMALL T&R
+  rohs_(3): 'Yes'
+  lead_finish/_ball_material_(4): NIPDAU
+  msl_rating/_peak_reflow_(5): Level-1-260C-UNLIM
+  op_temp_(°c): -40 to 125
+  part_marking_(6): 1IAF
+- orderable_part_number: TPS22917DBVT.A
+  status_(1): Active
+  material_type_(2): Production
+  package_|_pins: SOT-23 (DBV) | 6
+  package_qty_|_carrier: 250 | SMALL T&R
+  rohs_(3): 'Yes'
+  lead_finish/_ball_material_(4): NIPDAU
+  msl_rating/_peak_reflow_(5): Level-1-260C-UNLIM
+  op_temp_(°c): -45 to 125
+  part_marking_(6): 1IAF
+- orderable_part_number: TPS22917LDBVR
+  status_(1): Active
+  material_type_(2): Production
+  package_|_pins: SOT-23 (DBV) | 6
+  package_qty_|_carrier: 3000 | LARGE T&R
+  rohs_(3): 'Yes'
+  lead_finish/_ball_material_(4): NIPDAU | SN
+  msl_rating/_peak_reflow_(5): Level-1-260C-UNLIM
+  op_temp_(°c): -45 to 125
+  part_marking_(6): 2K7F
+- orderable_part_number: TPS22917LDBVR.A
+  status_(1): Active
+  material_type_(2): Production
+  package_|_pins: SOT-23 (DBV) | 6
+  package_qty_|_carrier: 3000 | LARGE T&R
+  rohs_(3): 'Yes'
+  lead_finish/_ball_material_(4): NIPDAU
+  msl_rating/_peak_reflow_(5): Level-1-260C-UNLIM
+  op_temp_(°c): -45 to 125
+  part_marking_(6): 2K7F
+- orderable_part_number: TPS22917LDBVRG4
+  status_(1): Active
+  material_type_(2): Production
+  package_|_pins: SOT-23 (DBV) | 6
+  package_qty_|_carrier: 3000 | LARGE T&R
+  rohs_(3): 'Yes'
+  lead_finish/_ball_material_(4): NIPDAU
+  msl_rating/_peak_reflow_(5): Level-1-260C-UNLIM
+  op_temp_(°c): -45 to 125
+  part_marking_(6): 2K7F
+- orderable_part_number: TPS22917LDBVRG4.A
+  status_(1): Active
+  material_type_(2): Production
+  package_|_pins: SOT-23 (DBV) | 6
+  package_qty_|_carrier: 3000 | LARGE T&R
+  rohs_(3): 'Yes'
+  lead_finish/_ball_material_(4): NIPDAU
+  msl_rating/_peak_reflow_(5): Level-1-260C-UNLIM
+  op_temp_(°c): -45 to 125
+  part_marking_(6): 2K7F

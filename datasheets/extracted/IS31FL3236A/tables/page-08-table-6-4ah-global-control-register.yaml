@@ -1,0 +1,63 @@
+source: IS31FL3236A.pdf
+page: 8
+title: Table 6 4Ah Global Control Register
+header:
+- Table 6 4Ah Global Control Register Bit
+- ''
+- ''
+- Table 6 4Ah Global Control Register D7:D1
+- ''
+- ''
+- Table 6 4Ah Global Control Register D0
+- ''
+- ''
+rows:
+- - ''
+  - Bit
+  - ''
+  - ''
+  - D7:D1
+  - ''
+  - ''
+  - D0
+  - ''
+- - Bit
+  - ''
+  - ''
+  - D7:D1
+  - ''
+  - ''
+  - D0
+  - ''
+  - ''
+- - Name
+  - ''
+  - ''
+  - '-'
+  - ''
+  - ''
+  - G_EN
+  - ''
+  - ''
+- - Default
+  - ''
+  - ''
+  - '0000000'
+  - ''
+  - ''
+  - '0'
+  - ''
+  - ''
+records:
+- col_1: Bit
+  col_4: D7:D1
+  col_7: D0
+- table_6_4ah_global_control_register_bit: Bit
+  table_6_4ah_global_control_register_d7:d1: D7:D1
+  table_6_4ah_global_control_register_d0: D0
+- table_6_4ah_global_control_register_bit: Name
+  table_6_4ah_global_control_register_d7:d1: '-'
+  table_6_4ah_global_control_register_d0: G_EN
+- table_6_4ah_global_control_register_bit: Default
+  table_6_4ah_global_control_register_d7:d1: '0000000'
+  table_6_4ah_global_control_register_d0: '0'

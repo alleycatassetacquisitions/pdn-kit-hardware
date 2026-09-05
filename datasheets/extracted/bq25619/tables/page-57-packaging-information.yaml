@@ -1,0 +1,176 @@
+source: bq25619.pdf
+page: 57
+title: PACKAGING INFORMATION
+header:
+- Orderable part number
+- Status (1)
+- Material type (2)
+- Package | Pins
+- Package qty | Carrier
+- RoHS (3)
+- Lead finish/ Ball material (4)
+- MSL rating/ Peak reflow (5)
+- Op temp (°C)
+- Part marking (6)
+rows:
+- - BQ25618YFFR
+  - Active
+  - Production
+  - DSBGA (YFF) | 30
+  - 3000 | LARGE T&R
+  - 'Yes'
+  - SNAGCU
+  - Level-1-260C-UNLIM
+  - -40 to 85
+  - BQ25618
+- - BQ25618YFFR.A
+  - Active
+  - Production
+  - DSBGA (YFF) | 30
+  - 3000 | LARGE T&R
+  - 'Yes'
+  - SNAGCU
+  - Level-1-260C-UNLIM
+  - -40 to 85
+  - BQ25618
+- - BQ25618YFFT
+  - Active
+  - Production
+  - DSBGA (YFF) | 30
+  - 250 | SMALL T&R
+  - 'Yes'
+  - SNAGCU
+  - Level-1-260C-UNLIM
+  - -40 to 85
+  - BQ25618
+- - BQ25618YFFT.A
+  - Active
+  - Production
+  - DSBGA (YFF) | 30
+  - 250 | SMALL T&R
+  - 'Yes'
+  - SNAGCU
+  - Level-1-260C-UNLIM
+  - -40 to 85
+  - BQ25618
+- - BQ25619RTWR
+  - Active
+  - Production
+  - WQFN (RTW) | 24
+  - 3000 | LARGE T&R
+  - 'Yes'
+  - NIPDAU
+  - Level-1-260C-UNLIM
+  - -40 to 85
+  - BQ25619
+- - BQ25619RTWR.A
+  - Active
+  - Production
+  - WQFN (RTW) | 24
+  - 3000 | LARGE T&R
+  - 'Yes'
+  - NIPDAU
+  - Level-1-260C-UNLIM
+  - -40 to 85
+  - BQ25619
+- - BQ25619RTWT
+  - Active
+  - Production
+  - WQFN (RTW) | 24
+  - 250 | SMALL T&R
+  - 'Yes'
+  - NIPDAU
+  - Level-1-260C-UNLIM
+  - -40 to 85
+  - BQ25619
+- - BQ25619RTWT.A
+  - Active
+  - Production
+  - WQFN (RTW) | 24
+  - 250 | SMALL T&R
+  - 'Yes'
+  - NIPDAU
+  - Level-1-260C-UNLIM
+  - -40 to 85
+  - BQ25619
+records:
+- orderable_part_number: BQ25618YFFR
+  status_(1): Active
+  material_type_(2): Production
+  package_|_pins: DSBGA (YFF) | 30
+  package_qty_|_carrier: 3000 | LARGE T&R
+  rohs_(3): 'Yes'
+  lead_finish/_ball_material_(4): SNAGCU
+  msl_rating/_peak_reflow_(5): Level-1-260C-UNLIM
+  op_temp_(°c): -40 to 85
+  part_marking_(6): BQ25618
+- orderable_part_number: BQ25618YFFR.A
+  status_(1): Active
+  material_type_(2): Production
+  package_|_pins: DSBGA (YFF) | 30
+  package_qty_|_carrier: 3000 | LARGE T&R
+  rohs_(3): 'Yes'
+  lead_finish/_ball_material_(4): SNAGCU
+  msl_rating/_peak_reflow_(5): Level-1-260C-UNLIM
+  op_temp_(°c): -40 to 85
+  part_marking_(6): BQ25618
+- orderable_part_number: BQ25618YFFT
+  status_(1): Active
+  material_type_(2): Production
+  package_|_pins: DSBGA (YFF) | 30
+  package_qty_|_carrier: 250 | SMALL T&R
+  rohs_(3): 'Yes'
+  lead_finish/_ball_material_(4): SNAGCU
+  msl_rating/_peak_reflow_(5): Level-1-260C-UNLIM
+  op_temp_(°c): -40 to 85
+  part_marking_(6): BQ25618
+- orderable_part_number: BQ25618YFFT.A
+  status_(1): Active
+  material_type_(2): Production
+  package_|_pins: DSBGA (YFF) | 30
+  package_qty_|_carrier: 250 | SMALL T&R
+  rohs_(3): 'Yes'
+  lead_finish/_ball_material_(4): SNAGCU
+  msl_rating/_peak_reflow_(5): Level-1-260C-UNLIM
+  op_temp_(°c): -40 to 85
+  part_marking_(6): BQ25618
+- orderable_part_number: BQ25619RTWR
+  status_(1): Active
+  material_type_(2): Production
+  package_|_pins: WQFN (RTW) | 24
+  package_qty_|_carrier: 3000 | LARGE T&R
+  rohs_(3): 'Yes'
+  lead_finish/_ball_material_(4): NIPDAU
+  msl_rating/_peak_reflow_(5): Level-1-260C-UNLIM
+  op_temp_(°c): -40 to 85
+  part_marking_(6): BQ25619
+- orderable_part_number: BQ25619RTWR.A
+  status_(1): Active
+  material_type_(2): Production
+  package_|_pins: WQFN (RTW) | 24
+  package_qty_|_carrier: 3000 | LARGE T&R
+  rohs_(3): 'Yes'
+  lead_finish/_ball_material_(4): NIPDAU
+  msl_rating/_peak_reflow_(5): Level-1-260C-UNLIM
+  op_temp_(°c): -40 to 85
+  part_marking_(6): BQ25619
+- orderable_part_number: BQ25619RTWT
+  status_(1): Active
+  material_type_(2): Production
+  package_|_pins: WQFN (RTW) | 24
+  package_qty_|_carrier: 250 | SMALL T&R
+  rohs_(3): 'Yes'
+  lead_finish/_ball_material_(4): NIPDAU
+  msl_rating/_peak_reflow_(5): Level-1-260C-UNLIM
+  op_temp_(°c): -40 to 85
+  part_marking_(6): BQ25619
+- orderable_part_number: BQ25619RTWT.A
+  status_(1): Active
+  material_type_(2): Production
+  package_|_pins: WQFN (RTW) | 24
+  package_qty_|_carrier: 250 | SMALL T&R
+  rohs_(3): 'Yes'
+  lead_finish/_ball_material_(4): NIPDAU
+  msl_rating/_peak_reflow_(5): Level-1-260C-UNLIM
+  op_temp_(°c): -40 to 85
+  part_marking_(6): BQ25619

@@ -1,0 +1,52 @@
+source: max17260.pdf
+page: 22
+title: Table 9. Current Measurement Range and Resolution vs. Sense Resistor Value
+  (continued)
+header:
+- BATTERY FULL CAPACITY (mAh)
+- SENSE RESISTOR (mΩ)
+- CURRENT REGISTER RESOLUTION (μA)
+- CURRENT REGISTER RANGE (A)
+- CAPACITY RESOLUTION (mAh)
+rows:
+- - '> 800'
+  - '5'
+  - '312.5'
+  - ± 10.24
+  - '1'
+- - '> 400'
+  - '10'
+  - '156.25'
+  - ± 5.12
+  - '0.5'
+- - '> 200'
+  - '20'
+  - '78.125'
+  - ± 2.56
+  - '0.25'
+- - '> 80'
+  - '50'
+  - '31.25'
+  - ± 1.024
+  - '0.1'
+records:
+- battery_full_capacity_(mah): '> 800'
+  sense_resistor_(mω): '5'
+  current_register_resolution_(μa): '312.5'
+  current_register_range_(a): ± 10.24
+  capacity_resolution_(mah): '1'
+- battery_full_capacity_(mah): '> 400'
+  sense_resistor_(mω): '10'
+  current_register_resolution_(μa): '156.25'
+  current_register_range_(a): ± 5.12
+  capacity_resolution_(mah): '0.5'
+- battery_full_capacity_(mah): '> 200'
+  sense_resistor_(mω): '20'
+  current_register_resolution_(μa): '78.125'
+  current_register_range_(a): ± 2.56
+  capacity_resolution_(mah): '0.25'
+- battery_full_capacity_(mah): '> 80'
+  sense_resistor_(mω): '50'
+  current_register_resolution_(μa): '31.25'
+  current_register_range_(a): ± 1.024
+  capacity_resolution_(mah): '0.1'

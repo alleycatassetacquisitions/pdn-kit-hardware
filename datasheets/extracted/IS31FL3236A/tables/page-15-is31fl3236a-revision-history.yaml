@@ -1,0 +1,21 @@
+source: IS31FL3236A.pdf
+page: 15
+title: IS31FL3236A REVISION HISTORY
+header:
+- REVISION HISTORY Revision
+- REVISION HISTORY Detail Information
+- Date
+rows:
+- - 0A
+  - Initial release
+  - 2016.09.06
+- - A
+  - Release to mass product
+  - 2016.11.15
+records:
+- revision_history_revision: 0A
+  revision_history_detail_information: Initial release
+  date: 2016.09.06
+- revision_history_revision: A
+  revision_history_detail_information: Release to mass product
+  date: 2016.11.15

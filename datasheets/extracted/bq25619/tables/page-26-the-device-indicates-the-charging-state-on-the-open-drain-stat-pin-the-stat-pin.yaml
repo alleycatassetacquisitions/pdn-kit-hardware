@@ -1,0 +1,26 @@
+source: bq25619.pdf
+page: 26
+title: The device indicates the charging state on the open drain STAT pin. The STAT
+  pin can drive an LED. Table 7-4. STAT Pin State
+header:
+- CHARGING STATE
+- STAT INDICATOR
+rows:
+- - Charging in progress (including recharge)
+  - LOW
+- - Charging termination (top off timer may be running)
+  - HIGH
+- - Sleep mode, charge disable, Boost mode
+  - HIGH
+- - Charge suspend (input overvoltage, TS fault, safety timer fault, or system overvoltage)
+  - Blinking at 1 Hz
+records:
+- charging_state: Charging in progress (including recharge)
+  stat_indicator: LOW
+- charging_state: Charging termination (top off timer may be running)
+  stat_indicator: HIGH
+- charging_state: Sleep mode, charge disable, Boost mode
+  stat_indicator: HIGH
+- charging_state: Charge suspend (input overvoltage, TS fault, safety timer fault,
+    or system overvoltage)
+  stat_indicator: Blinking at 1 Hz

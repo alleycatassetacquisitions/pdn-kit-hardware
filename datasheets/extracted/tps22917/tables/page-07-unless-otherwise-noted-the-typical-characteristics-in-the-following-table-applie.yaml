@@ -1,0 +1,385 @@
+source: tps22917.pdf
+page: 7
+title: Unless otherwise noted, the typical characteristics in the following table
+  applies over the entire recommended power supply voltage range of 1 V to 5.5 V at
+  25°C with a load of C = 1 µF, R = 10 Ω LL
+header:
+- PARAMETER
+- LLTEST CONDITIONS
+- ''
+- MIN
+- TYP
+- MAX
+- UNIT
+rows:
+- - tTurn ON TimeON
+  - V = 5.0 VIN
+  - C = OpenT
+  - '100'
+  - ''
+  - ''
+  - µs
+- - ''
+  - ''
+  - C ≥ 100 pFT
+  - '4'
+  - ''
+  - ''
+  - µs/pF
+- - ''
+  - V = 3.6 VIN
+  - C = OpenT
+  - '120'
+  - ''
+  - ''
+  - µs
+- - ''
+  - ''
+  - C ≥ 100 pFT
+  - '3.8'
+  - ''
+  - ''
+  - µs/pF
+- - ''
+  - V = 1.8 VIN
+  - C = OpenT
+  - '200'
+  - ''
+  - ''
+  - µs
+- - ''
+  - ''
+  - C ≥ 100 pFT
+  - '3.6'
+  - ''
+  - ''
+  - µs/pF
+- - ''
+  - V = 1.2 VIN
+  - C = OpenT
+  - '300'
+  - ''
+  - ''
+  - µs
+- - ''
+  - ''
+  - C ≥ 200 pFT
+  - '3.4'
+  - ''
+  - ''
+  - µs/pF
+- - ''
+  - V = 1.0 VIN
+  - C = OpenT
+  - '400'
+  - ''
+  - ''
+  - µs
+- - ''
+  - ''
+  - C ≥ 400 pFT
+  - '3'
+  - ''
+  - ''
+  - µs/pF
+- - tOutput Rise TimeR
+  - V = 5.0 VIN
+  - C = OpenT
+  - '55'
+  - ''
+  - ''
+  - µs
+- - ''
+  - ''
+  - C ≥ 100 pFT
+  - '1.8'
+  - ''
+  - ''
+  - µs/pF
+- - ''
+  - V = 3.6 VIN
+  - C = OpenT
+  - '65'
+  - ''
+  - ''
+  - µs
+- - ''
+  - ''
+  - C ≥ 100 pFT
+  - '1.6'
+  - ''
+  - ''
+  - µs/pF
+- - ''
+  - V = 1.8 VIN
+  - C = OpenT
+  - '100'
+  - ''
+  - ''
+  - µs
+- - ''
+  - ''
+  - C ≥ 100 pFT
+  - '1.2'
+  - ''
+  - ''
+  - µs/pF
+- - ''
+  - V = 1.2 VIN
+  - C = OpenT
+  - '150'
+  - ''
+  - ''
+  - µs
+- - ''
+  - ''
+  - C ≥ 200 pFT
+  - '0.95'
+  - ''
+  - ''
+  - µs/pF
+- - ''
+  - V = 1.0 VIN
+  - C = OpenT
+  - '200'
+  - ''
+  - ''
+  - µs
+- - ''
+  - ''
+  - C ≥ 400 pFT
+  - '0.6'
+  - ''
+  - ''
+  - µs/pF
+- - SRTurn ON Slew Rate(1) ON
+  - V = 5.0 VIN
+  - C = OpenT
+  - '72'
+  - ''
+  - ''
+  - mV/µs
+- - ''
+  - ''
+  - C ≥ 100 pFT
+  - '2300'
+  - ''
+  - ''
+  - (mV/µs)*pF
+- - ''
+  - V = 3.6 VIN
+  - C = OpenT
+  - '44'
+  - ''
+  - ''
+  - mV/µs
+- - ''
+  - ''
+  - C ≥ 100 pFT
+  - '1900'
+  - ''
+  - ''
+  - (mV/µs)*pF
+- - ''
+  - V = 1.8 VIN
+  - C = OpenT
+  - '14'
+  - ''
+  - ''
+  - mV/µs
+- - ''
+  - ''
+  - C ≥ 100 pFT
+  - '1100'
+  - ''
+  - ''
+  - (mV/µs)*pF
+- - ''
+  - V = 1.2 VIN
+  - C = OpenT
+  - '6.2'
+  - ''
+  - ''
+  - mV/µs
+- - ''
+  - ''
+  - C ≥ 200 pFT
+  - '1000'
+  - ''
+  - ''
+  - (mV/µs)*pF
+- - ''
+  - V = 1.0 VIN
+  - C = OpenT
+  - '3.9'
+  - ''
+  - ''
+  - mV/µs
+- - ''
+  - ''
+  - C ≥ 400 pFT
+  - '1100'
+  - ''
+  - ''
+  - (mV/µs)*pF
+- - tTurn OFF TimeOFF
+  - ''
+  - ''
+  - '10'
+  - ''
+  - ''
+  - µs
+- - tOutput Fall Time(2) FALL
+  - R = 10 Ω L
+  - C = 1uF, R = ShortLQOD
+  - '22'
+  - ''
+  - ''
+  - µs
+- - ''
+  - R = OpenL
+  - C = 10uF, R = ShortLQOD
+  - '3.8'
+  - ''
+  - ''
+  - ms
+- - ''
+  - ''
+  - C = 10uF, R = 100 Ω LQOD
+  - '5.9'
+  - ''
+  - ''
+  - ms
+- - ''
+  - ''
+  - C = 220uF, R = ShortLQOD
+  - '72'
+  - ''
+  - ''
+  - ms
+records:
+- parameter: tTurn ON TimeON
+  lltest_conditions: V = 5.0 VIN
+  col_2: C = OpenT
+  min: '100'
+  unit: µs
+- col_2: C ≥ 100 pFT
+  min: '4'
+  unit: µs/pF
+  lltest_conditions: V = 3.6 VIN
+  col_2_2: C = OpenT
+  min_2: '120'
+  unit_2: µs
+- col_2: C ≥ 100 pFT
+  min: '3.8'
+  unit: µs/pF
+  lltest_conditions: V = 1.8 VIN
+  col_2_2: C = OpenT
+  min_2: '200'
+  unit_2: µs
+- col_2: C ≥ 100 pFT
+  min: '3.6'
+  unit: µs/pF
+  lltest_conditions: V = 1.2 VIN
+  col_2_2: C = OpenT
+  min_2: '300'
+  unit_2: µs
+- col_2: C ≥ 200 pFT
+  min: '3.4'
+  unit: µs/pF
+  lltest_conditions: V = 1.0 VIN
+  col_2_2: C = OpenT
+  min_2: '400'
+  unit_2: µs
+- col_2: C ≥ 400 pFT
+  min: '3'
+  unit: µs/pF
+- parameter: tOutput Rise TimeR
+  lltest_conditions: V = 5.0 VIN
+  col_2: C = OpenT
+  min: '55'
+  unit: µs
+- col_2: C ≥ 100 pFT
+  min: '1.8'
+  unit: µs/pF
+  lltest_conditions: V = 3.6 VIN
+  col_2_2: C = OpenT
+  min_2: '65'
+  unit_2: µs
+- col_2: C ≥ 100 pFT
+  min: '1.6'
+  unit: µs/pF
+  lltest_conditions: V = 1.8 VIN
+  col_2_2: C = OpenT
+  min_2: '100'
+  unit_2: µs
+- col_2: C ≥ 100 pFT
+  min: '1.2'
+  unit: µs/pF
+  lltest_conditions: V = 1.2 VIN
+  col_2_2: C = OpenT
+  min_2: '150'
+  unit_2: µs
+- col_2: C ≥ 200 pFT
+  min: '0.95'
+  unit: µs/pF
+  lltest_conditions: V = 1.0 VIN
+  col_2_2: C = OpenT
+  min_2: '200'
+  unit_2: µs
+- col_2: C ≥ 400 pFT
+  min: '0.6'
+  unit: µs/pF
+- parameter: SRTurn ON Slew Rate(1) ON
+  lltest_conditions: V = 5.0 VIN
+  col_2: C = OpenT
+  min: '72'
+  unit: mV/µs
+- col_2: C ≥ 100 pFT
+  min: '2300'
+  unit: (mV/µs)*pF
+  lltest_conditions: V = 3.6 VIN
+  col_2_2: C = OpenT
+  min_2: '44'
+  unit_2: mV/µs
+- col_2: C ≥ 100 pFT
+  min: '1900'
+  unit: (mV/µs)*pF
+  lltest_conditions: V = 1.8 VIN
+  col_2_2: C = OpenT
+  min_2: '14'
+  unit_2: mV/µs
+- col_2: C ≥ 100 pFT
+  min: '1100'
+  unit: (mV/µs)*pF
+  lltest_conditions: V = 1.2 VIN
+  col_2_2: C = OpenT
+  min_2: '6.2'
+  unit_2: mV/µs
+- col_2: C ≥ 200 pFT
+  min: '1000'
+  unit: (mV/µs)*pF
+  lltest_conditions: V = 1.0 VIN
+  col_2_2: C = OpenT
+  min_2: '3.9'
+  unit_2: mV/µs
+- col_2: C ≥ 400 pFT
+  min: '1100'
+  unit: (mV/µs)*pF
+- parameter: tTurn OFF TimeOFF
+  min: '10'
+  unit: µs
+- parameter: tOutput Fall Time(2) FALL
+  lltest_conditions: R = 10 Ω L; R = OpenL
+  col_2: C = 1uF, R = ShortLQOD
+  min: '22'
+  unit: µs
+  col_2_2: C = 10uF, R = ShortLQOD
+  min_2: '3.8'
+  unit_2: ms
+- col_2: C = 10uF, R = 100 Ω LQOD
+  min: '5.9'
+  unit: ms
+- col_2: C = 220uF, R = ShortLQOD
+  min: '72'
+  unit: ms

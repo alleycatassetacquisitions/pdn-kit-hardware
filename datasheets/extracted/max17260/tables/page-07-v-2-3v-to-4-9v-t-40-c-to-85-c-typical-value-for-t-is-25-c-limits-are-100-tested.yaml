@@ -1,0 +1,235 @@
+source: max17260.pdf
+page: 7
+title: (V = 2.3V to 4.9V, T = -40ºC to +85ºC, typical value for T is +25ºC. Limits
+  are 100% tested at T = +25°C. The operating BATTAAAtemperature range and relevant
+  supply voltage range are guaranteed by design and characterization. Specifications
+  marked "GBD" are guaranteed by design and not production tested.)
+header:
+- PARAMETER
+- SYMBOL
+- CONDITIONS
+- MIN TYP MAX
+- UNITS
+rows:
+- - POWER SUPPLY
+  - ''
+  - ''
+  - ''
+  - ''
+- - Supply Voltage
+  - VBATT
+  - (Note 1)
+  - 2.3 4.9
+  - V
+- - Shutdown Supply Current
+  - BATT IDD0
+  - T≤ +50ºC A
+  - 0.5 0.9
+  - μA
+- - Hibernate Supply Current
+  - IDD1
+  - T≤ +50ºC, average current A
+  - 5.1 12
+  - μA
+- - Active Supply Current
+  - IDD2
+  - T≤ +50ºC, average current not including A thermistor measurement current
+  - 15 30
+  - μA
+- - Regulation Voltage
+  - VREG
+  - ''
+  - '1.8'
+  - V
+- - Startup Voltage
+  - VBATTSU
+  - ''
+  - '3'
+  - V
+- - ANALOG-TO-DIGITAL CONVERSION
+  - ''
+  - ''
+  - ''
+  - ''
+- - BATT Measurement Error
+  - VGERR
+  - T= +25ºC A
+  - -7.5 +7.5
+  - mV
+- - ''
+  - ''
+  - -40ºC ≤ T≤ +85ºC A
+  - -20 +20
+  - ''
+- - BATT Measurement Resolution
+  - VLSB
+  - ''
+  - '78.125'
+  - μV
+- - BATT Measurement Range
+  - VFS
+  - ''
+  - 2.3 4.9
+  - V
+- - Current Measurement Offset Error
+  - IOERR
+  - Long-term average without load current
+  - ±1.5
+  - μV
+- - Current Measurement Error
+  - IGERR
+  - ''
+  - -1 +1
+  - '% of Reading'
+- - Current Measurement Resolution
+  - ILSB
+  - ''
+  - '1.5625'
+  - μV
+- - Current Measurement Range
+  - IFS
+  - ''
+  - ±51.2
+  - mV
+- - Internal Temperature Measurement Error
+  - TIGERR
+  - -40ºC ≤ T≤ +85ºC A
+  - ±1
+  - ºC
+- - Internal Temperature Measurement Resolution
+  - TILSB
+  - ''
+  - '0.00391'
+  - ºC
+- - INPUT/OUTPUT
+  - ''
+  - ''
+  - ''
+  - ''
+- - External Thermistance Resistance
+  - REXT10
+  - Config.R100 = 0
+  - '10'
+  - kΩ
+- - ''
+  - REXT100
+  - Config.R100 = 1
+  - '100'
+  - ''
+- - Output Drive Low, ALRT, SDA
+  - VOL
+  - I= 4mA, V= 2.3V OL BATT
+  - '0.4'
+  - V
+- - Input Logic High, ALRT, SCL, SDA
+  - VIH
+  - ''
+  - '1.5'
+  - V
+- - Input Logic Low, ALRT, SCL, SDA
+  - VIL
+  - ''
+  - '0.5'
+  - V
+- - Battery-Detach Detection Threshold
+  - VDET
+  - Measured as a fraction of V on TH BATTrising
+  - 91 96.2 99
+  - '%'
+records:
+- parameter: POWER SUPPLY
+- parameter: Supply Voltage
+  symbol: VBATT
+  conditions: (Note 1)
+  min_typ_max: 2.3 4.9
+  units: V
+- parameter: Shutdown Supply Current
+  symbol: BATT IDD0
+  conditions: T≤ +50ºC A
+  min_typ_max: 0.5 0.9
+  units: μA
+- parameter: Hibernate Supply Current
+  symbol: IDD1
+  conditions: T≤ +50ºC, average current A
+  min_typ_max: 5.1 12
+  units: μA
+- parameter: Active Supply Current
+  symbol: IDD2
+  conditions: T≤ +50ºC, average current not including A thermistor measurement current
+  min_typ_max: 15 30
+  units: μA
+- parameter: Regulation Voltage
+  symbol: VREG
+  min_typ_max: '1.8'
+  units: V
+- parameter: Startup Voltage
+  symbol: VBATTSU
+  min_typ_max: '3'
+  units: V
+- parameter: ANALOG-TO-DIGITAL CONVERSION
+- parameter: BATT Measurement Error
+  symbol: VGERR
+  conditions: T= +25ºC A; -40ºC ≤ T≤ +85ºC A
+  min_typ_max: -7.5 +7.5
+  units: mV
+  min_typ_max_2: -20 +20
+- parameter: BATT Measurement Resolution
+  symbol: VLSB
+  min_typ_max: '78.125'
+  units: μV
+- parameter: BATT Measurement Range
+  symbol: VFS
+  min_typ_max: 2.3 4.9
+  units: V
+- parameter: Current Measurement Offset Error
+  symbol: IOERR
+  conditions: Long-term average without load current
+  min_typ_max: ±1.5
+  units: μV
+- parameter: Current Measurement Error
+  symbol: IGERR
+  min_typ_max: -1 +1
+  units: '% of Reading'
+- parameter: Current Measurement Resolution
+  symbol: ILSB
+  min_typ_max: '1.5625'
+  units: μV
+- parameter: Current Measurement Range
+  symbol: IFS
+  min_typ_max: ±51.2
+  units: mV
+- parameter: Internal Temperature Measurement Error
+  symbol: TIGERR
+  conditions: -40ºC ≤ T≤ +85ºC A
+  min_typ_max: ±1
+  units: ºC
+- parameter: Internal Temperature Measurement Resolution
+  symbol: TILSB
+  min_typ_max: '0.00391'
+  units: ºC
+- parameter: INPUT/OUTPUT
+- parameter: External Thermistance Resistance
+  symbol: REXT10
+  conditions: Config.R100 = 0; Config.R100 = 1
+  min_typ_max: '10'
+  units: kΩ
+  symbol_2: REXT100
+  min_typ_max_2: '100'
+- parameter: Output Drive Low, ALRT, SDA
+  symbol: VOL
+  conditions: I= 4mA, V= 2.3V OL BATT
+  min_typ_max: '0.4'
+  units: V
+- parameter: Input Logic High, ALRT, SCL, SDA
+  symbol: VIH
+  min_typ_max: '1.5'
+  units: V
+- parameter: Input Logic Low, ALRT, SCL, SDA
+  symbol: VIL
+  min_typ_max: '0.5'
+  units: V
+- parameter: Battery-Detach Detection Threshold
+  symbol: VDET
+  conditions: Measured as a fraction of V on TH BATTrising
+  min_typ_max: 91 96.2 99
+  units: '%'

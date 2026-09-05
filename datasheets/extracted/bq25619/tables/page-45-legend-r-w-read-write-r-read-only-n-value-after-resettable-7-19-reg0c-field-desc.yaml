@@ -1,0 +1,117 @@
+source: bq25619.pdf
+page: 45
+title: 'LEGEND: R/W = Read/Write; R = Read only; -n = value after resetTable 7-19.
+  REG0C Field Descriptions'
+header:
+- BitField
+- Field
+- POR
+- Type
+- Reset
+- Description
+rows:
+- - 7JEITA_COOL_ISET [1]
+  - JEITA_COOL_ISET [1]
+  - '0'
+  - R/W
+  - by REG_RSTby Watchdog
+  - Fast charge current setting during cool temperature range (T1 - T2), as percentage
+    of I in REG02[5:0]. CHG00 – No Charge01 – 20% of I (default) CHG10 – 50% of ICHG
+    11 – 100% of I (safety timer does not become 2X) CHG
+- - 6JEITA_COOL_ISET [0]
+  - JEITA_COOL_ISET [0]
+  - '1'
+  - R/W
+  - by REG_RSTby Watchdog
+  - ''
+- - 5JEITA_WARM_ISET [1]
+  - JEITA_WARM_ISET [1]
+  - '1'
+  - R/W
+  - by REG_RSTby Watchdog
+  - Fast charge current setting during warm temperature range (T3 - T5), as percentage
+    of I in REG02[5:0]. CHG00 – No Charge01 – 20% of ICHG 10 – 50% of ICHG 11 – 100%
+    of I (safety timer does not become 2X) (default) CHG
+- - 4JEITA_WARM_ISET [0]
+  - JEITA_WARM_ISET [0]
+  - '1'
+  - R/W
+  - by REG_RSTby Watchdog
+  - ''
+- - 3JEITA_VT2 [1]
+  - JEITA_VT2 [1]
+  - '0'
+  - R/W
+  - by REG_RSTby Watchdog
+  - 00 – VT2% = 70.75% (5.5°C) 01 – VT2% = 68.25% (10°C) (default) 10 – VT2% = 65.25%
+    (15°C) 11 – VT2% = 62.25% (20°C)
+- - 2JEITA_VT2 [0]
+  - JEITA_VT2 [0]
+  - '1'
+  - R/W
+  - by REG_RSTby Watchdog
+  - ''
+- - 1JEITA_VT3 [1]
+  - JEITA_VT3 [1]
+  - '0'
+  - R/W
+  - by REG_RSTby Watchdog
+  - 00 – VT3% = 48.25% (40°C) 01 – VT3% = 44.75% (44.5°C) (default) 10 – VT3% = 40.75%
+    (50.5°C) 11 – VT3% = 37.75% (54.5°C)
+- - 0JEITA_VT3 [0]
+  - JEITA_VT3 [0]
+  - '1'
+  - R/W
+  - by REG_RSTby Watchdog
+  - ''
+records:
+- bitfield: 7JEITA_COOL_ISET [1]
+  field: JEITA_COOL_ISET [1]
+  por: '0'
+  type: R/W
+  reset: by REG_RSTby Watchdog
+  description: Fast charge current setting during cool temperature range (T1 - T2),
+    as percentage of I in REG02[5:0]. CHG00 – No Charge01 – 20% of I (default) CHG10
+    – 50% of ICHG 11 – 100% of I (safety timer does not become 2X) CHG
+- bitfield: 6JEITA_COOL_ISET [0]
+  field: JEITA_COOL_ISET [0]
+  por: '1'
+  type: R/W
+  reset: by REG_RSTby Watchdog
+- bitfield: 5JEITA_WARM_ISET [1]
+  field: JEITA_WARM_ISET [1]
+  por: '1'
+  type: R/W
+  reset: by REG_RSTby Watchdog
+  description: Fast charge current setting during warm temperature range (T3 - T5),
+    as percentage of I in REG02[5:0]. CHG00 – No Charge01 – 20% of ICHG 10 – 50% of
+    ICHG 11 – 100% of I (safety timer does not become 2X) (default) CHG
+- bitfield: 4JEITA_WARM_ISET [0]
+  field: JEITA_WARM_ISET [0]
+  por: '1'
+  type: R/W
+  reset: by REG_RSTby Watchdog
+- bitfield: 3JEITA_VT2 [1]
+  field: JEITA_VT2 [1]
+  por: '0'
+  type: R/W
+  reset: by REG_RSTby Watchdog
+  description: 00 – VT2% = 70.75% (5.5°C) 01 – VT2% = 68.25% (10°C) (default) 10 –
+    VT2% = 65.25% (15°C) 11 – VT2% = 62.25% (20°C)
+- bitfield: 2JEITA_VT2 [0]
+  field: JEITA_VT2 [0]
+  por: '1'
+  type: R/W
+  reset: by REG_RSTby Watchdog
+- bitfield: 1JEITA_VT3 [1]
+  field: JEITA_VT3 [1]
+  por: '0'
+  type: R/W
+  reset: by REG_RSTby Watchdog
+  description: 00 – VT3% = 48.25% (40°C) 01 – VT3% = 44.75% (44.5°C) (default) 10
+    – VT3% = 40.75% (50.5°C) 11 – VT3% = 37.75% (54.5°C)
+- bitfield: 0JEITA_VT3 [0]
+  field: JEITA_VT3 [0]
+  por: '1'
+  type: R/W
+  reset: by REG_RSTby Watchdog

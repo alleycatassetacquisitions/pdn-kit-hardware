@@ -1,0 +1,27 @@
+source: IS31FL3236A.pdf
+page: 8
+title: 1 Shutdown all LEDs Table 7 4Bh Output Frequency Setting Register
+header:
+- Table 7 4Bh Output Frequency Setting Register Bit
+- Table 7 4Bh Output Frequency Setting Register D7:D1
+- Table 7 4Bh Output Frequency Setting Register D0
+rows:
+- - Bit
+  - D7:D1
+  - D0
+- - Name
+  - '-'
+  - OFS
+- - Default
+  - '0000000'
+  - '0'
+records:
+- table_7_4bh_output_frequency_setting_register_bit: Bit
+  table_7_4bh_output_frequency_setting_register_d7:d1: D7:D1
+  table_7_4bh_output_frequency_setting_register_d0: D0
+- table_7_4bh_output_frequency_setting_register_bit: Name
+  table_7_4bh_output_frequency_setting_register_d7:d1: '-'
+  table_7_4bh_output_frequency_setting_register_d0: OFS
+- table_7_4bh_output_frequency_setting_register_bit: Default
+  table_7_4bh_output_frequency_setting_register_d7:d1: '0000000'
+  table_7_4bh_output_frequency_setting_register_d0: '0'

@@ -1,0 +1,47 @@
+source: bq25619.pdf
+page: 13
+title: 6.6 Electrical Characteristics (continued) V < V < V and V > V + V, T = -40°C
+  to +125°C, and T = 25°C for typical values (unless VBUS_UVLOZVBUSVBUS_OVVBUSBATSLEEPJJotherwise
+  noted)
+header:
+- PARAMETER
+- ''
+- TEST CONDITIONS
+- MIN
+- TYP
+- MAX
+- UNIT
+rows:
+- - LOGIC OUTPUT PIN
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+- - VOL
+  - Output low threshold level (/INT, STAT, PMID_GOOD)
+  - Sink current = 5mA
+  - '0.4'
+  - ''
+  - ''
+  - V
+- - IOUT_BIAS
+  - High-level leakage current (/INT, STAT, PMID_GOOD)
+  - Pull up rail 1.8V
+  - '1'
+  - ''
+  - ''
+  - µA
+records:
+- parameter: LOGIC OUTPUT PIN
+- parameter: VOL
+  col_1: Output low threshold level (/INT, STAT, PMID_GOOD)
+  test_conditions: Sink current = 5mA
+  min: '0.4'
+  unit: V
+- parameter: IOUT_BIAS
+  col_1: High-level leakage current (/INT, STAT, PMID_GOOD)
+  test_conditions: Pull up rail 1.8V
+  min: '1'
+  unit: µA

@@ -1,0 +1,124 @@
+source: bq25619.pdf
+page: 36
+title: 'LEGEND: R/W = Read/Write; R = Read only; -n = value after resetTable 7-10.
+  REG03 Field Descriptions'
+header:
+- Bit
+- Field
+- POR
+- Type
+- Reset
+- Description
+- ''
+rows:
+- - '7'
+  - IPRECHG[3]
+  - '0'
+  - R/W
+  - by REG_RSTby Watchdog
+  - 160 mA
+  - 'Precharge current settingDefault: 40 mA (0001) Range: 20 mA (0000) – 260 mA (1100)
+    Offset: 20 mANote: I > 260 mA is PRECHGclamped to 260 mA (1100)'
+- - '6'
+  - IPRECHG[2]
+  - '0'
+  - R/W
+  - by REG_RSTby Watchdog
+  - 80 mA
+  - ''
+- - '5'
+  - IPRECHG[1]
+  - '0'
+  - R/W
+  - by REG_RSTby Watchdog
+  - 40 mA
+  - ''
+- - '4'
+  - IPRECHG[0]
+  - '1'
+  - R/W
+  - by REG_RSTby Watchdog
+  - 20 mA
+  - ''
+- - '3'
+  - ITERM[3]
+  - '0'
+  - R/W
+  - by REG_RSTby Watchdog
+  - 160 mA
+  - 'Termination current settingDefault: 60 mA (0010) Range: 20 mA – 260 mA (1100)
+    Offset: 20 mANote: I > 260 mA is clamped TERMto 260 mA (1100)'
+- - '2'
+  - ITERM[2]
+  - '0'
+  - R/W
+  - by REG_RSTby Watchdog
+  - 80 mA
+  - ''
+- - '1'
+  - ITERM[1]
+  - '1'
+  - R/W
+  - by REG_RSTby Watchdog
+  - 40 mA
+  - ''
+- - '0'
+  - ITERM[0]
+  - '0'
+  - R/W
+  - by REG_RSTby Watchdog
+  - 20 mA
+  - ''
+records:
+- bit: '7'
+  field: IPRECHG[3]
+  por: '0'
+  type: R/W
+  reset: by REG_RSTby Watchdog
+  description: 160 mA
+  col_6: 'Precharge current settingDefault: 40 mA (0001) Range: 20 mA (0000) – 260
+    mA (1100) Offset: 20 mANote: I > 260 mA is PRECHGclamped to 260 mA (1100)'
+- bit: '6'
+  field: IPRECHG[2]
+  por: '0'
+  type: R/W
+  reset: by REG_RSTby Watchdog
+  description: 80 mA
+- bit: '5'
+  field: IPRECHG[1]
+  por: '0'
+  type: R/W
+  reset: by REG_RSTby Watchdog
+  description: 40 mA
+- bit: '4'
+  field: IPRECHG[0]
+  por: '1'
+  type: R/W
+  reset: by REG_RSTby Watchdog
+  description: 20 mA
+- bit: '3'
+  field: ITERM[3]
+  por: '0'
+  type: R/W
+  reset: by REG_RSTby Watchdog
+  description: 160 mA
+  col_6: 'Termination current settingDefault: 60 mA (0010) Range: 20 mA – 260 mA (1100)
+    Offset: 20 mANote: I > 260 mA is clamped TERMto 260 mA (1100)'
+- bit: '2'
+  field: ITERM[2]
+  por: '0'
+  type: R/W
+  reset: by REG_RSTby Watchdog
+  description: 80 mA
+- bit: '1'
+  field: ITERM[1]
+  por: '1'
+  type: R/W
+  reset: by REG_RSTby Watchdog
+  description: 40 mA
+- bit: '0'
+  field: ITERM[0]
+  por: '0'
+  type: R/W
+  reset: by REG_RSTby Watchdog
+  description: 20 mA

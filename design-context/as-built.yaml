@@ -2,10 +2,9 @@ manifest:
   kind: design-context-dump
   status: as-built
   epistemicStatus: observation_not_requirement
-  generatedAt: '2026-08-23T14:46:17Z'
-  rootSchematic: C:\Users\Elli Furedy\projects\pdn-hardware\pdn-v2.5\PDN V2.5\PDN
-    V2.5.kicad_sch
-  projectDir: C:\Users\Elli Furedy\projects\pdn-hardware\pdn-v2.5\PDN V2.5
+  generatedAt: '2026-08-30T19:50:50Z'
+  rootSchematic: C:\Users\Elli Furedy\projects\pdn-kit-hardware\pdn-kit-hardware.kicad_sch
+  projectDir: C:\Users\Elli Furedy\projects\pdn-kit-hardware
   sourceTool: dump_design_context.py
   connectivitySource: kicad-cli sch export netlist (kicadxml)
   files:
@@ -111,7 +110,7 @@ hierarchy:
 sheets:
 - number: '1'
   name: /
-  source: PDN V2.5.kicad_sch
+  source: pdn-kit-hardware.kicad_sch
 - number: '2'
   name: /power/
   source: power.kicad_sch
@@ -131,7 +130,7 @@ majorIcs:
   sheet: /power/
 - reference: MOT1
   value: Vibration Motor
-  lcsc: C2759984
+  lcsc: —
   sheet: /ui/
 - reference: TV2
   value: SRV05-4-P-T7
@@ -185,7 +184,7 @@ components:
   lcsc: ''
   datasheet: ''
   sheet: /
-  sheetFile: PDN V2.5.kicad_sch
+  sheetFile: pdn-kit-hardware.kicad_sch
   isGeneric: true
   isMajorIc: false
 - reference: H2
@@ -195,7 +194,7 @@ components:
   lcsc: ''
   datasheet: ''
   sheet: /
-  sheetFile: PDN V2.5.kicad_sch
+  sheetFile: pdn-kit-hardware.kicad_sch
   isGeneric: true
   isMajorIc: false
 - reference: B+/-1
@@ -728,6 +727,176 @@ components:
   sheetFile: power.kicad_sch
   isGeneric: true
   isMajorIc: false
+- reference: TP1
+  value: TP_GND
+  libId: Connector:TestPoint
+  footprint: ''
+  lcsc: ''
+  datasheet: ''
+  sheet: /power/
+  sheetFile: power.kicad_sch
+  isGeneric: true
+  isMajorIc: false
+- reference: TP2
+  value: TP_BATT
+  libId: Connector:TestPoint
+  footprint: ''
+  lcsc: ''
+  datasheet: ''
+  sheet: /power/
+  sheetFile: power.kicad_sch
+  isGeneric: true
+  isMajorIc: false
+- reference: TP3
+  value: TP_VCC
+  libId: Connector:TestPoint
+  footprint: ''
+  lcsc: ''
+  datasheet: ''
+  sheet: /power/
+  sheetFile: power.kicad_sch
+  isGeneric: true
+  isMajorIc: false
+- reference: TP4
+  value: TP_3V3
+  libId: Connector:TestPoint
+  footprint: ''
+  lcsc: ''
+  datasheet: ''
+  sheet: /power/
+  sheetFile: power.kicad_sch
+  isGeneric: true
+  isMajorIc: false
+- reference: TP5
+  value: TP_VBUS
+  libId: Connector:TestPoint
+  footprint: ''
+  lcsc: ''
+  datasheet: ''
+  sheet: /power/
+  sheetFile: power.kicad_sch
+  isGeneric: true
+  isMajorIc: false
+- reference: TP6
+  value: TP_VSYS
+  libId: Connector:TestPoint
+  footprint: ''
+  lcsc: ''
+  datasheet: ''
+  sheet: /power/
+  sheetFile: power.kicad_sch
+  isGeneric: true
+  isMajorIc: false
+- reference: TP7
+  value: TP_INT
+  libId: Connector:TestPoint
+  footprint: ''
+  lcsc: ''
+  datasheet: ''
+  sheet: /power/
+  sheetFile: power.kicad_sch
+  isGeneric: true
+  isMajorIc: false
+- reference: TP10
+  value: TP_HOLD
+  libId: Connector:TestPoint
+  footprint: ''
+  lcsc: ''
+  datasheet: ''
+  sheet: /power/
+  sheetFile: power.kicad_sch
+  isGeneric: true
+  isMajorIc: false
+- reference: TP15
+  value: TP_PMID
+  libId: Connector:TestPoint
+  footprint: ''
+  lcsc: ''
+  datasheet: ''
+  sheet: /power/
+  sheetFile: power.kicad_sch
+  isGeneric: true
+  isMajorIc: false
+- reference: TP17
+  value: TP_REGN
+  libId: Connector:TestPoint
+  footprint: ''
+  lcsc: ''
+  datasheet: ''
+  sheet: /power/
+  sheetFile: power.kicad_sch
+  isGeneric: true
+  isMajorIc: false
+- reference: TP19
+  value: TP_TS
+  libId: Connector:TestPoint
+  footprint: ''
+  lcsc: ''
+  datasheet: ''
+  sheet: /power/
+  sheetFile: power.kicad_sch
+  isGeneric: true
+  isMajorIc: false
+- reference: TP20
+  value: TP_BQ_BATT
+  libId: Connector:TestPoint
+  footprint: ''
+  lcsc: ''
+  datasheet: ''
+  sheet: /power/
+  sheetFile: power.kicad_sch
+  isGeneric: true
+  isMajorIc: false
+- reference: TP22
+  value: TP_STAT
+  libId: Connector:TestPoint
+  footprint: ''
+  lcsc: ''
+  datasheet: ''
+  sheet: /power/
+  sheetFile: power.kicad_sch
+  isGeneric: true
+  isMajorIc: false
+- reference: TP23
+  value: TP_PG
+  libId: Connector:TestPoint
+  footprint: ''
+  lcsc: ''
+  datasheet: ''
+  sheet: /power/
+  sheetFile: power.kicad_sch
+  isGeneric: true
+  isMajorIc: false
+- reference: TP24
+  value: TP_ALRT
+  libId: Connector:TestPoint
+  footprint: ''
+  lcsc: ''
+  datasheet: ''
+  sheet: /power/
+  sheetFile: power.kicad_sch
+  isGeneric: true
+  isMajorIc: false
+- reference: TP25
+  value: TP_OFF
+  libId: Connector:TestPoint
+  footprint: ''
+  lcsc: ''
+  datasheet: ''
+  sheet: /power/
+  sheetFile: power.kicad_sch
+  isGeneric: true
+  isMajorIc: false
+- reference: TP26
+  value: TP_CE
+  libId: Connector:TestPoint
+  footprint: ''
+  lcsc: ''
+  datasheet: ''
+  sheet: /power/
+  sheetFile: power.kicad_sch
+  isGeneric: true
+  isMajorIc: false
 - reference: U1
   value: BQ25619RTWR
   libId: global:BQ25619RTWR
@@ -779,7 +948,7 @@ components:
   isGeneric: false
   isMajorIc: true
 - reference: C17
-  value: 1uF
+  value: 1 uF
   libId: Device:C
   footprint: ''
   lcsc: ''
@@ -799,7 +968,7 @@ components:
   isGeneric: false
   isMajorIc: false
 - reference: C25
-  value: 10uF
+  value: 10 uF
   libId: Device:C
   footprint: ''
   lcsc: ''
@@ -881,6 +1050,46 @@ components:
 - reference: SW4
   value: BOOT
   libId: Switch:SW_SPST
+  footprint: ''
+  lcsc: ''
+  datasheet: ''
+  sheet: /brain/
+  sheetFile: brain.kicad_sch
+  isGeneric: true
+  isMajorIc: false
+- reference: TP8
+  value: TP_SCL
+  libId: Connector:TestPoint
+  footprint: ''
+  lcsc: ''
+  datasheet: ''
+  sheet: /brain/
+  sheetFile: brain.kicad_sch
+  isGeneric: true
+  isMajorIc: false
+- reference: TP9
+  value: TP_SDA
+  libId: Connector:TestPoint
+  footprint: ''
+  lcsc: ''
+  datasheet: ''
+  sheet: /brain/
+  sheetFile: brain.kicad_sch
+  isGeneric: true
+  isMajorIc: false
+- reference: TP11
+  value: TP_EN
+  libId: Connector:TestPoint
+  footprint: ''
+  lcsc: ''
+  datasheet: ''
+  sheet: /brain/
+  sheetFile: brain.kicad_sch
+  isGeneric: true
+  isMajorIc: false
+- reference: TP18
+  value: TP_IO0
+  libId: Connector:TestPoint
   footprint: ''
   lcsc: ''
   datasheet: ''
@@ -1178,6 +1387,16 @@ components:
   sheetFile: leds.kicad_sch
   isGeneric: false
   isMajorIc: false
+- reference: TP21
+  value: TP_LED_OFF
+  libId: Connector:TestPoint
+  footprint: ''
+  lcsc: ''
+  datasheet: ''
+  sheet: /LEDs/
+  sheetFile: leds.kicad_sch
+  isGeneric: true
+  isMajorIc: false
 - reference: U5
   value: IS31FL3236A-QFLS2-TR
   libId: global:IS31FL3236A-QFLS2-TR
@@ -1199,7 +1418,7 @@ components:
   isGeneric: false
   isMajorIc: true
 - reference: C1P1
-  value: 1uF
+  value: 1 uF
   libId: Device:C
   footprint: ''
   lcsc: ''
@@ -1209,7 +1428,7 @@ components:
   isGeneric: false
   isMajorIc: false
 - reference: C2P2
-  value: 1uF
+  value: 1 uF
   libId: Device:C
   footprint: ''
   lcsc: ''
@@ -1229,7 +1448,7 @@ components:
   isGeneric: false
   isMajorIc: false
 - reference: C_Motor1
-  value: 100nF
+  value: 100 nF
   libId: Device:C
   footprint: ''
   lcsc: ''
@@ -1239,7 +1458,7 @@ components:
   isGeneric: false
   isMajorIc: false
 - reference: C_VCC1
-  value: 100nF
+  value: 100 nF
   libId: Device:C
   footprint: ''
   lcsc: ''
@@ -1249,7 +1468,7 @@ components:
   isGeneric: false
   isMajorIc: false
 - reference: C_VCC2
-  value: 4.7uF
+  value: 4.7 uF
   libId: Device:C
   footprint: ''
   lcsc: ''
@@ -1269,7 +1488,7 @@ components:
   isGeneric: false
   isMajorIc: false
 - reference: C_VDD1
-  value: 100nF
+  value: 100 nF
   libId: Device:C
   footprint: ''
   lcsc: ''
@@ -1279,7 +1498,7 @@ components:
   isGeneric: false
   isMajorIc: false
 - reference: C_VDD2
-  value: 4.7uF
+  value: 4.7 uF
   libId: Device:C
   footprint: ''
   lcsc: ''
@@ -1301,8 +1520,8 @@ components:
 - reference: MOT1
   value: Vibration Motor
   libId: global:LCM1027A2445F
-  footprint: global:VIBRATING-MOTOR-SMD_WELDING
-  lcsc: C2759984
+  footprint: ''
+  lcsc: ''
   datasheet: ''
   sheet: /ui/
   sheetFile: ui.kicad_sch
@@ -1401,6 +1620,26 @@ components:
 - reference: SW3
   value: Secondary Button
   libId: Switch:SW_SPST
+  footprint: ''
+  lcsc: ''
+  datasheet: ''
+  sheet: /ui/
+  sheetFile: ui.kicad_sch
+  isGeneric: true
+  isMajorIc: false
+- reference: TP14
+  value: TP_CS
+  libId: Connector:TestPoint
+  footprint: ''
+  lcsc: ''
+  datasheet: ''
+  sheet: /ui/
+  sheetFile: ui.kicad_sch
+  isGeneric: true
+  isMajorIc: false
+- reference: TP16
+  value: TP_MOTOR
+  libId: Connector:TestPoint
   footprint: ''
   lcsc: ''
   datasheet: ''
@@ -1514,6 +1753,10 @@ nets:
     pin: '2'
     pinFunction: ''
     pinType: passive
+  - reference: TP4
+    pin: '1'
+    pinFunction: '1_1'
+    pinType: passive
   - reference: TV2
     pin: '5'
     pinFunction: '5_5'
@@ -1561,6 +1804,10 @@ nets:
     pin: '2'
     pinFunction: ''
     pinType: passive
+  - reference: TP2
+    pin: '1'
+    pinFunction: '1_1'
+    pinType: passive
   - reference: U1
     pin: '10'
     pinFunction: BATSNS_10
@@ -1603,6 +1850,10 @@ nets:
     pin: '1'
     pinFunction: ''
     pinType: passive
+  - reference: TP8
+    pin: '1'
+    pinFunction: '1_1'
+    pinType: passive
   - reference: U1
     pin: '5'
     pinFunction: SCL_5
@@ -1614,7 +1865,7 @@ nets:
   - reference: U5
     pin: '42'
     pinFunction: SCL_42
-    pinType: unspecified
+    pinType: bidirectional
   - reference: U6
     pin: '38'
     pinFunction: IO2_38
@@ -1622,7 +1873,7 @@ nets:
   - reference: U7
     pin: '42'
     pinFunction: SCL_42
-    pinType: unspecified
+    pinType: bidirectional
 - name: /LEDs/I2C_SDA
   code: '5'
   nodes:
@@ -1633,6 +1884,10 @@ nets:
   - reference: R7
     pin: '1'
     pinFunction: ''
+    pinType: passive
+  - reference: TP9
+    pin: '1'
+    pinFunction: '1_1'
     pinType: passive
   - reference: U1
     pin: '6'
@@ -1645,7 +1900,7 @@ nets:
   - reference: U5
     pin: '41'
     pinFunction: SDA_41
-    pinType: unspecified
+    pinType: bidirectional
   - reference: U6
     pin: '39'
     pinFunction: IO1_39
@@ -1653,7 +1908,7 @@ nets:
   - reference: U7
     pin: '41'
     pinFunction: SDA_41
-    pinType: unspecified
+    pinType: bidirectional
 - name: /LEDs/LED_OFF
   code: '6'
   nodes:
@@ -1661,10 +1916,14 @@ nets:
     pin: '2'
     pinFunction: ''
     pinType: passive
+  - reference: TP21
+    pin: '1'
+    pinFunction: '1_1'
+    pinType: passive
   - reference: U5
     pin: '36'
     pinFunction: SDB_36
-    pinType: unspecified
+    pinType: input
   - reference: U6
     pin: '21'
     pinFunction: IO13_21
@@ -1672,7 +1931,7 @@ nets:
   - reference: U7
     pin: '36'
     pinFunction: SDB_36
-    pinType: unspecified
+    pinType: input
 - name: /brain/J1R1
   code: '7'
   nodes:
@@ -1804,6 +2063,10 @@ nets:
     pin: '1'
     pinFunction: ''
     pinType: passive
+  - reference: TP20
+    pin: '1'
+    pinFunction: '1_1'
+    pinType: passive
   - reference: U1
     pin: '13'
     pinFunction: BAT_13
@@ -1822,6 +2085,10 @@ nets:
   - reference: R11
     pin: '2'
     pinFunction: ''
+    pinType: passive
+  - reference: TP26
+    pin: '1'
+    pinFunction: '1_1'
     pinType: passive
   - reference: U1
     pin: '9'
@@ -1860,6 +2127,10 @@ nets:
     pin: '1'
     pinFunction: ''
     pinType: passive
+  - reference: TP7
+    pin: '1'
+    pinFunction: '1_1'
+    pinType: passive
   - reference: U1
     pin: '7'
     pinFunction: ~{INT}_7
@@ -1875,6 +2146,10 @@ nets:
     pin: '1'
     pinFunction: ''
     pinType: passive
+  - reference: TP24
+    pin: '1'
+    pinFunction: '1_1'
+    pinType: passive
   - reference: U4
     pin: B2
     pinFunction: ALRT_B2
@@ -1887,8 +2162,12 @@ nets:
   code: '21'
   nodes:
   - reference: R16
-    pin: '2'
+    pin: '1'
     pinFunction: ''
+    pinType: passive
+  - reference: TP10
+    pin: '1'
+    pinFunction: '1_1'
     pinType: passive
   - reference: U6
     pin: '4'
@@ -1909,6 +2188,10 @@ nets:
     pin: '3'
     pinFunction: '3_3'
     pinType: passive
+  - reference: TP25
+    pin: '1'
+    pinFunction: '1_1'
+    pinType: passive
   - reference: U6
     pin: '5'
     pinFunction: IO5_5
@@ -1927,6 +2210,10 @@ nets:
   - reference: R4
     pin: '1'
     pinFunction: ''
+    pinType: passive
+  - reference: TP17
+    pin: '1'
+    pinFunction: '1_1'
     pinType: passive
   - reference: U1
     pin: '22'
@@ -1990,6 +2277,10 @@ nets:
   - reference: R33
     pin: '1'
     pinFunction: ''
+    pinType: passive
+  - reference: TP14
+    pin: '1'
+    pinFunction: '1_1'
     pinType: passive
   - reference: U6
     pin: '18'
@@ -2057,6 +2348,10 @@ nets:
   - reference: R31
     pin: '1'
     pinFunction: ''
+    pinType: passive
+  - reference: TP16
+    pin: '1'
+    pinFunction: '1_1'
     pinType: passive
   - reference: U6
     pin: '10'
@@ -2333,6 +2628,10 @@ nets:
     pin: '2'
     pinFunction: B_2
     pinType: passive
+  - reference: TP1
+    pin: '1'
+    pinFunction: '1_1'
+    pinType: passive
   - reference: TV2
     pin: '2'
     pinFunction: '2_2'
@@ -2380,19 +2679,19 @@ nets:
   - reference: U5
     pin: '17'
     pinFunction: GND_17
-    pinType: unspecified
+    pinType: power_in
   - reference: U5
     pin: '37'
     pinFunction: AD_37
-    pinType: unspecified
+    pinType: input
   - reference: U5
     pin: '39'
     pinFunction: GND_39
-    pinType: unspecified
+    pinType: power_in
   - reference: U5
     pin: '45'
     pinFunction: EPAD_45
-    pinType: unspecified
+    pinType: power_in
   - reference: U6
     pin: '1'
     pinFunction: GND_1
@@ -2408,15 +2707,15 @@ nets:
   - reference: U7
     pin: '17'
     pinFunction: GND_17
-    pinType: unspecified
+    pinType: power_in
   - reference: U7
     pin: '39'
     pinFunction: GND_39
-    pinType: unspecified
+    pinType: power_in
   - reference: U7
     pin: '45'
     pinFunction: EPAD_45
-    pinType: unspecified
+    pinType: power_in
   - reference: U9
     pin: '1'
     pinFunction: NC(GND)_1
@@ -2512,7 +2811,7 @@ nets:
     pinFunction: A_2
     pinType: passive
   - reference: R16
-    pin: '1'
+    pin: '2'
     pinFunction: ''
     pinType: passive
 - name: Net-(D2-K)
@@ -2592,7 +2891,7 @@ nets:
   - reference: U5
     pin: '1'
     pinFunction: OUT3_1
-    pinType: unspecified
+    pinType: output
 - name: Net-(LED1-GK)
   code: '43'
   nodes:
@@ -2603,7 +2902,7 @@ nets:
   - reference: U5
     pin: '44'
     pinFunction: OUT2_44
-    pinType: unspecified
+    pinType: output
 - name: Net-(LED1-RK)
   code: '44'
   nodes:
@@ -2614,7 +2913,7 @@ nets:
   - reference: U5
     pin: '43'
     pinFunction: OUT1_43
-    pinType: unspecified
+    pinType: output
 - name: Net-(LED2-BK)
   code: '45'
   nodes:
@@ -2625,7 +2924,7 @@ nets:
   - reference: U5
     pin: '4'
     pinFunction: OUT6_4
-    pinType: unspecified
+    pinType: output
 - name: Net-(LED2-GK)
   code: '46'
   nodes:
@@ -2636,7 +2935,7 @@ nets:
   - reference: U5
     pin: '3'
     pinFunction: OUT5_3
-    pinType: unspecified
+    pinType: output
 - name: Net-(LED2-RK)
   code: '47'
   nodes:
@@ -2647,7 +2946,7 @@ nets:
   - reference: U5
     pin: '2'
     pinFunction: OUT4_2
-    pinType: unspecified
+    pinType: output
 - name: Net-(LED3-BK)
   code: '48'
   nodes:
@@ -2658,7 +2957,7 @@ nets:
   - reference: U5
     pin: '7'
     pinFunction: OUT9_7
-    pinType: unspecified
+    pinType: output
 - name: Net-(LED3-GK)
   code: '49'
   nodes:
@@ -2669,7 +2968,7 @@ nets:
   - reference: U5
     pin: '6'
     pinFunction: OUT8_6
-    pinType: unspecified
+    pinType: output
 - name: Net-(LED3-RK)
   code: '50'
   nodes:
@@ -2680,7 +2979,7 @@ nets:
   - reference: U5
     pin: '5'
     pinFunction: OUT7_5
-    pinType: unspecified
+    pinType: output
 - name: Net-(LED4-BK)
   code: '51'
   nodes:
@@ -2691,7 +2990,7 @@ nets:
   - reference: U5
     pin: '10'
     pinFunction: OUT12_10
-    pinType: unspecified
+    pinType: output
 - name: Net-(LED4-GK)
   code: '52'
   nodes:
@@ -2702,7 +3001,7 @@ nets:
   - reference: U5
     pin: '9'
     pinFunction: OUT11_9
-    pinType: unspecified
+    pinType: output
 - name: Net-(LED4-RK)
   code: '53'
   nodes:
@@ -2713,7 +3012,7 @@ nets:
   - reference: U5
     pin: '8'
     pinFunction: OUT10_8
-    pinType: unspecified
+    pinType: output
 - name: Net-(LED5-BK)
   code: '54'
   nodes:
@@ -2724,7 +3023,7 @@ nets:
   - reference: U5
     pin: '13'
     pinFunction: OUT15_13
-    pinType: unspecified
+    pinType: output
 - name: Net-(LED5-GK)
   code: '55'
   nodes:
@@ -2735,7 +3034,7 @@ nets:
   - reference: U5
     pin: '12'
     pinFunction: OUT14_12
-    pinType: unspecified
+    pinType: output
 - name: Net-(LED5-RK)
   code: '56'
   nodes:
@@ -2746,7 +3045,7 @@ nets:
   - reference: U5
     pin: '11'
     pinFunction: OUT13_11
-    pinType: unspecified
+    pinType: output
 - name: Net-(LED6-BK)
   code: '57'
   nodes:
@@ -2757,7 +3056,7 @@ nets:
   - reference: U5
     pin: '16'
     pinFunction: OUT18_16
-    pinType: unspecified
+    pinType: output
 - name: Net-(LED6-GK)
   code: '58'
   nodes:
@@ -2768,7 +3067,7 @@ nets:
   - reference: U5
     pin: '15'
     pinFunction: OUT17_15
-    pinType: unspecified
+    pinType: output
 - name: Net-(LED6-RK)
   code: '59'
   nodes:
@@ -2779,7 +3078,7 @@ nets:
   - reference: U5
     pin: '14'
     pinFunction: OUT16_14
-    pinType: unspecified
+    pinType: output
 - name: Net-(LED7-BK)
   code: '60'
   nodes:
@@ -2790,7 +3089,7 @@ nets:
   - reference: U5
     pin: '20'
     pinFunction: OUT21_20
-    pinType: unspecified
+    pinType: output
 - name: Net-(LED7-GK)
   code: '61'
   nodes:
@@ -2801,7 +3100,7 @@ nets:
   - reference: U5
     pin: '19'
     pinFunction: OUT20_19
-    pinType: unspecified
+    pinType: output
 - name: Net-(LED7-RK)
   code: '62'
   nodes:
@@ -2812,7 +3111,7 @@ nets:
   - reference: U5
     pin: '18'
     pinFunction: OUT19_18
-    pinType: unspecified
+    pinType: output
 - name: Net-(LED8-BK)
   code: '63'
   nodes:
@@ -2823,7 +3122,7 @@ nets:
   - reference: U5
     pin: '23'
     pinFunction: OUT24_23
-    pinType: unspecified
+    pinType: output
 - name: Net-(LED8-GK)
   code: '64'
   nodes:
@@ -2834,7 +3133,7 @@ nets:
   - reference: U5
     pin: '22'
     pinFunction: OUT23_22
-    pinType: unspecified
+    pinType: output
 - name: Net-(LED8-RK)
   code: '65'
   nodes:
@@ -2845,7 +3144,7 @@ nets:
   - reference: U5
     pin: '21'
     pinFunction: OUT22_21
-    pinType: unspecified
+    pinType: output
 - name: Net-(LED9-BK)
   code: '66'
   nodes:
@@ -2856,7 +3155,7 @@ nets:
   - reference: U5
     pin: '26'
     pinFunction: OUT27_26
-    pinType: unspecified
+    pinType: output
 - name: Net-(LED9-GK)
   code: '67'
   nodes:
@@ -2867,7 +3166,7 @@ nets:
   - reference: U5
     pin: '25'
     pinFunction: OUT26_25
-    pinType: unspecified
+    pinType: output
 - name: Net-(LED9-RK)
   code: '68'
   nodes:
@@ -2878,7 +3177,7 @@ nets:
   - reference: U5
     pin: '24'
     pinFunction: OUT25_24
-    pinType: unspecified
+    pinType: output
 - name: Net-(LED10-BK)
   code: '69'
   nodes:
@@ -2889,7 +3188,7 @@ nets:
   - reference: U5
     pin: '29'
     pinFunction: OUT30_29
-    pinType: unspecified
+    pinType: output
 - name: Net-(LED10-GK)
   code: '70'
   nodes:
@@ -2900,7 +3199,7 @@ nets:
   - reference: U5
     pin: '28'
     pinFunction: OUT29_28
-    pinType: unspecified
+    pinType: output
 - name: Net-(LED10-RK)
   code: '71'
   nodes:
@@ -2911,7 +3210,7 @@ nets:
   - reference: U5
     pin: '27'
     pinFunction: OUT28_27
-    pinType: unspecified
+    pinType: output
 - name: Net-(LED11-BK)
   code: '72'
   nodes:
@@ -2922,7 +3221,7 @@ nets:
   - reference: U5
     pin: '32'
     pinFunction: OUT33_32
-    pinType: unspecified
+    pinType: output
 - name: Net-(LED11-GK)
   code: '73'
   nodes:
@@ -2933,7 +3232,7 @@ nets:
   - reference: U5
     pin: '31'
     pinFunction: OUT32_31
-    pinType: unspecified
+    pinType: output
 - name: Net-(LED11-RK)
   code: '74'
   nodes:
@@ -2944,7 +3243,7 @@ nets:
   - reference: U5
     pin: '30'
     pinFunction: OUT31_30
-    pinType: unspecified
+    pinType: output
 - name: Net-(LED12-BK)
   code: '75'
   nodes:
@@ -2955,7 +3254,7 @@ nets:
   - reference: U5
     pin: '35'
     pinFunction: OUT36_35
-    pinType: unspecified
+    pinType: output
 - name: Net-(LED12-GK)
   code: '76'
   nodes:
@@ -2966,7 +3265,7 @@ nets:
   - reference: U5
     pin: '34'
     pinFunction: OUT35_34
-    pinType: unspecified
+    pinType: output
 - name: Net-(LED12-RK)
   code: '77'
   nodes:
@@ -2977,7 +3276,7 @@ nets:
   - reference: U5
     pin: '33'
     pinFunction: OUT34_33
-    pinType: unspecified
+    pinType: output
 - name: Net-(LED13-BK)
   code: '78'
   nodes:
@@ -2988,7 +3287,7 @@ nets:
   - reference: U7
     pin: '1'
     pinFunction: OUT3_1
-    pinType: unspecified
+    pinType: output
 - name: Net-(LED13-GK)
   code: '79'
   nodes:
@@ -2999,7 +3298,7 @@ nets:
   - reference: U7
     pin: '44'
     pinFunction: OUT2_44
-    pinType: unspecified
+    pinType: output
 - name: Net-(LED13-RK)
   code: '80'
   nodes:
@@ -3010,7 +3309,7 @@ nets:
   - reference: U7
     pin: '43'
     pinFunction: OUT1_43
-    pinType: unspecified
+    pinType: output
 - name: Net-(LED14-BK)
   code: '81'
   nodes:
@@ -3021,7 +3320,7 @@ nets:
   - reference: U7
     pin: '4'
     pinFunction: OUT6_4
-    pinType: unspecified
+    pinType: output
 - name: Net-(LED14-GK)
   code: '82'
   nodes:
@@ -3032,7 +3331,7 @@ nets:
   - reference: U7
     pin: '3'
     pinFunction: OUT5_3
-    pinType: unspecified
+    pinType: output
 - name: Net-(LED14-RK)
   code: '83'
   nodes:
@@ -3043,7 +3342,7 @@ nets:
   - reference: U7
     pin: '2'
     pinFunction: OUT4_2
-    pinType: unspecified
+    pinType: output
 - name: Net-(LED15-BK)
   code: '84'
   nodes:
@@ -3054,7 +3353,7 @@ nets:
   - reference: U7
     pin: '7'
     pinFunction: OUT9_7
-    pinType: unspecified
+    pinType: output
 - name: Net-(LED15-GK)
   code: '85'
   nodes:
@@ -3065,7 +3364,7 @@ nets:
   - reference: U7
     pin: '6'
     pinFunction: OUT8_6
-    pinType: unspecified
+    pinType: output
 - name: Net-(LED15-RK)
   code: '86'
   nodes:
@@ -3076,7 +3375,7 @@ nets:
   - reference: U7
     pin: '5'
     pinFunction: OUT7_5
-    pinType: unspecified
+    pinType: output
 - name: Net-(LED16-BK)
   code: '87'
   nodes:
@@ -3087,7 +3386,7 @@ nets:
   - reference: U7
     pin: '10'
     pinFunction: OUT12_10
-    pinType: unspecified
+    pinType: output
 - name: Net-(LED16-GK)
   code: '88'
   nodes:
@@ -3098,7 +3397,7 @@ nets:
   - reference: U7
     pin: '9'
     pinFunction: OUT11_9
-    pinType: unspecified
+    pinType: output
 - name: Net-(LED16-RK)
   code: '89'
   nodes:
@@ -3109,7 +3408,7 @@ nets:
   - reference: U7
     pin: '8'
     pinFunction: OUT10_8
-    pinType: unspecified
+    pinType: output
 - name: Net-(LED17-BK)
   code: '90'
   nodes:
@@ -3120,7 +3419,7 @@ nets:
   - reference: U7
     pin: '13'
     pinFunction: OUT15_13
-    pinType: unspecified
+    pinType: output
 - name: Net-(LED17-GK)
   code: '91'
   nodes:
@@ -3131,7 +3430,7 @@ nets:
   - reference: U7
     pin: '12'
     pinFunction: OUT14_12
-    pinType: unspecified
+    pinType: output
 - name: Net-(LED17-RK)
   code: '92'
   nodes:
@@ -3142,7 +3441,7 @@ nets:
   - reference: U7
     pin: '11'
     pinFunction: OUT13_11
-    pinType: unspecified
+    pinType: output
 - name: Net-(LED18-BK)
   code: '93'
   nodes:
@@ -3153,7 +3452,7 @@ nets:
   - reference: U7
     pin: '16'
     pinFunction: OUT18_16
-    pinType: unspecified
+    pinType: output
 - name: Net-(LED18-GK)
   code: '94'
   nodes:
@@ -3164,7 +3463,7 @@ nets:
   - reference: U7
     pin: '15'
     pinFunction: OUT17_15
-    pinType: unspecified
+    pinType: output
 - name: Net-(LED18-RK)
   code: '95'
   nodes:
@@ -3175,7 +3474,7 @@ nets:
   - reference: U7
     pin: '14'
     pinFunction: OUT16_14
-    pinType: unspecified
+    pinType: output
 - name: Net-(LED19-BK)
   code: '96'
   nodes:
@@ -3186,7 +3485,7 @@ nets:
   - reference: U7
     pin: '20'
     pinFunction: OUT21_20
-    pinType: unspecified
+    pinType: output
 - name: Net-(LED19-GK)
   code: '97'
   nodes:
@@ -3197,7 +3496,7 @@ nets:
   - reference: U7
     pin: '19'
     pinFunction: OUT20_19
-    pinType: unspecified
+    pinType: output
 - name: Net-(LED19-RK)
   code: '98'
   nodes:
@@ -3208,7 +3507,7 @@ nets:
   - reference: U7
     pin: '18'
     pinFunction: OUT19_18
-    pinType: unspecified
+    pinType: output
 - name: Net-(NTC1-Pad1)
   code: '99'
   nodes:
@@ -3312,6 +3611,10 @@ nets:
     pin: '1'
     pinFunction: ''
     pinType: passive
+  - reference: TP15
+    pin: '1'
+    pinFunction: '1_1'
+    pinType: passive
   - reference: U1
     pin: '23'
     pinFunction: PMID_23
@@ -3334,6 +3637,10 @@ nets:
     pin: '2'
     pinFunction: ''
     pinType: passive
+  - reference: TP22
+    pin: '1'
+    pinFunction: '1_1'
+    pinType: passive
   - reference: U1
     pin: '4'
     pinFunction: STAT_4
@@ -3348,6 +3655,10 @@ nets:
   - reference: R10
     pin: '2'
     pinFunction: ''
+    pinType: passive
+  - reference: TP19
+    pin: '1'
+    pinFunction: '1_1'
     pinType: passive
   - reference: U1
     pin: '11'
@@ -3419,6 +3730,10 @@ nets:
     pin: '2'
     pinFunction: ''
     pinType: passive
+  - reference: TP23
+    pin: '1'
+    pinFunction: '1_1'
+    pinType: passive
   - reference: U3
     pin: '5'
     pinFunction: PG_5
@@ -3444,7 +3759,7 @@ nets:
   - reference: U5
     pin: '40'
     pinFunction: R-EXT_40
-    pinType: unspecified
+    pinType: passive
 - name: Net-(U6-EN)
   code: '119'
   nodes:
@@ -3455,6 +3770,10 @@ nets:
   - reference: R22
     pin: '2'
     pinFunction: ''
+    pinType: passive
+  - reference: TP11
+    pin: '1'
+    pinFunction: '1_1'
     pinType: passive
   - reference: U6
     pin: '3'
@@ -3471,6 +3790,10 @@ nets:
     pin: '2'
     pinFunction: ''
     pinType: passive
+  - reference: TP18
+    pin: '1'
+    pinFunction: '1_1'
+    pinType: passive
   - reference: U6
     pin: '27'
     pinFunction: IO0_27
@@ -3485,7 +3808,7 @@ nets:
   - reference: U7
     pin: '40'
     pinFunction: R-EXT_40
-    pinType: unspecified
+    pinType: passive
 - name: Net-(U9-C1N)
   code: '122'
   nodes:
@@ -3620,6 +3943,10 @@ nets:
     pin: '4'
     pinFunction: '4_4'
     pinType: power_in
+  - reference: TP5
+    pin: '1'
+    pinFunction: '1_1'
+    pinType: passive
   - reference: U1
     pin: '1'
     pinFunction: VAC_1
@@ -3679,6 +4006,10 @@ nets:
     pin: '1'
     pinFunction: ''
     pinType: passive
+  - reference: TP3
+    pin: '1'
+    pinFunction: '1_1'
+    pinType: passive
   - reference: U2
     pin: '5'
     pinFunction: QOD_5
@@ -3698,15 +4029,15 @@ nets:
   - reference: U5
     pin: '38'
     pinFunction: VCC_38
-    pinType: unspecified
+    pinType: power_in
   - reference: U7
     pin: '37'
     pinFunction: AD_37
-    pinType: unspecified
+    pinType: input
   - reference: U7
     pin: '38'
     pinFunction: VCC_38
-    pinType: unspecified
+    pinType: power_in
   - reference: U9
     pin: '6'
     pinFunction: VBAT_6
@@ -3735,6 +4066,10 @@ nets:
     pinFunction: '2_2'
     pinType: passive
   - reference: SW2
+    pin: '1'
+    pinFunction: '1_1'
+    pinType: passive
+  - reference: TP6
     pin: '1'
     pinFunction: '1_1'
     pinType: passive
@@ -3826,105 +4161,105 @@ nets:
   - reference: U7
     pin: '21'
     pinFunction: OUT22_21
-    pinType: unspecified+no_connect
+    pinType: output+no_connect
 - name: unconnected-(U7-OUT23-Pad22)
   code: '145'
   nodes:
   - reference: U7
     pin: '22'
     pinFunction: OUT23_22
-    pinType: unspecified+no_connect
+    pinType: output+no_connect
 - name: unconnected-(U7-OUT24-Pad23)
   code: '146'
   nodes:
   - reference: U7
     pin: '23'
     pinFunction: OUT24_23
-    pinType: unspecified+no_connect
+    pinType: output+no_connect
 - name: unconnected-(U7-OUT25-Pad24)
   code: '147'
   nodes:
   - reference: U7
     pin: '24'
     pinFunction: OUT25_24
-    pinType: unspecified+no_connect
+    pinType: output+no_connect
 - name: unconnected-(U7-OUT26-Pad25)
   code: '148'
   nodes:
   - reference: U7
     pin: '25'
     pinFunction: OUT26_25
-    pinType: unspecified+no_connect
+    pinType: output+no_connect
 - name: unconnected-(U7-OUT27-Pad26)
   code: '149'
   nodes:
   - reference: U7
     pin: '26'
     pinFunction: OUT27_26
-    pinType: unspecified+no_connect
+    pinType: output+no_connect
 - name: unconnected-(U7-OUT28-Pad27)
   code: '150'
   nodes:
   - reference: U7
     pin: '27'
     pinFunction: OUT28_27
-    pinType: unspecified+no_connect
+    pinType: output+no_connect
 - name: unconnected-(U7-OUT29-Pad28)
   code: '151'
   nodes:
   - reference: U7
     pin: '28'
     pinFunction: OUT29_28
-    pinType: unspecified+no_connect
+    pinType: output+no_connect
 - name: unconnected-(U7-OUT30-Pad29)
   code: '152'
   nodes:
   - reference: U7
     pin: '29'
     pinFunction: OUT30_29
-    pinType: unspecified+no_connect
+    pinType: output+no_connect
 - name: unconnected-(U7-OUT31-Pad30)
   code: '153'
   nodes:
   - reference: U7
     pin: '30'
     pinFunction: OUT31_30
-    pinType: unspecified+no_connect
+    pinType: output+no_connect
 - name: unconnected-(U7-OUT32-Pad31)
   code: '154'
   nodes:
   - reference: U7
     pin: '31'
     pinFunction: OUT32_31
-    pinType: unspecified+no_connect
+    pinType: output+no_connect
 - name: unconnected-(U7-OUT33-Pad32)
   code: '155'
   nodes:
   - reference: U7
     pin: '32'
     pinFunction: OUT33_32
-    pinType: unspecified+no_connect
+    pinType: output+no_connect
 - name: unconnected-(U7-OUT34-Pad33)
   code: '156'
   nodes:
   - reference: U7
     pin: '33'
     pinFunction: OUT34_33
-    pinType: unspecified+no_connect
+    pinType: output+no_connect
 - name: unconnected-(U7-OUT35-Pad34)
   code: '157'
   nodes:
   - reference: U7
     pin: '34'
     pinFunction: OUT35_34
-    pinType: unspecified+no_connect
+    pinType: output+no_connect
 - name: unconnected-(U7-OUT36-Pad35)
   code: '158'
   nodes:
   - reference: U7
     pin: '35'
     pinFunction: OUT36_35
-    pinType: unspecified+no_connect
+    pinType: output+no_connect
 - name: unconnected-(U9-D2-Pad20)
   code: '159'
   nodes:
@@ -4154,13 +4489,13 @@ crossSheetSignals:
   - ui
 powerRails:
 - net: +3V3
-  nodeCount: 28
+  nodeCount: 29
   icConnections:
   - U3.VOUT_6
   - U6.3V3_2
   - U9.VDD_9
 - net: +BATT
-  nodeCount: 10
+  nodeCount: 11
   icConnections:
   - U1.BATSNS_10
   - U4.TH_A1
@@ -4170,17 +4505,17 @@ powerRails:
   nodeCount: 3
   icConnections: []
 - net: /power/BATT_BQ
-  nodeCount: 5
+  nodeCount: 6
   icConnections:
   - U1.BAT_13
   - U1.BAT_14
   - U4.CSPH_C2
 - net: /power/REGN
-  nodeCount: 4
+  nodeCount: 5
   icConnections:
   - U1.REGN_22
 - net: GND
-  nodeCount: 105
+  nodeCount: 106
   icConnections:
   - U1.PGND_17
   - U1.PGND_18
@@ -4199,14 +4534,14 @@ powerRails:
   icConnections:
   - U9.VCC_28
 - net: VBUS
-  nodeCount: 9
+  nodeCount: 10
   icConnections:
   - U1.VAC_1
   - U1.VBUS_24
   - USB1.VBUS_A4B9
   - USB1.VBUS_B4A9
 - net: VCC
-  nodeCount: 18
+  nodeCount: 19
   icConnections:
   - U2.QOD_5
   - U2.VOUT_6
@@ -4217,7 +4552,7 @@ powerRails:
   - U7.VCC_38
   - U9.VBAT_6
 - net: VSYS
-  nodeCount: 9
+  nodeCount: 10
   icConnections:
   - U1.SYS_15
   - U1.SYS_16

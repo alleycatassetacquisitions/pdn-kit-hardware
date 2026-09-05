@@ -1,0 +1,15 @@
+source: tps22917.pdf
+page: 1
+title: 125°C. Device Information(1)
+header:
+- PART NUMBER
+- PACKAGE
+- BODY SIZE (NOM)
+rows:
+- - TPS22917x
+  - SOT-23 (6)
+  - 2.90 mm × 1.60 mm
+records:
+- part_number: TPS22917x
+  package: SOT-23 (6)
+  body_size_(nom): 2.90 mm × 1.60 mm

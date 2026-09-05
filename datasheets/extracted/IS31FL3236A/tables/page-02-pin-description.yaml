@@ -1,0 +1,88 @@
+source: IS31FL3236A.pdf
+page: 2
+title: PIN DESCRIPTION
+header:
+- PIN DESCRIPTION No.
+- PIN DESCRIPTION Pin
+- Description
+rows:
+- - 1~3
+  - OUT3 ~ OUT5
+  - Output channel 3~5 for LEDs.
+- - 4~16
+  - OUT6 ~ OUT18
+  - Output channel 6~18 for LEDs.
+- - 17,39
+  - GND
+  - Ground.
+- - 18~30
+  - OUT19 ~ OUT31
+  - Output channel 19~31 for LEDs.
+- - 31~35
+  - OUT32 ~ OUT36
+  - Output channel 32~36 for LEDs.
+- - '36'
+  - SDB
+  - Shutdown the chip when pulled low.
+- - '37'
+  - AD
+  - I2C address setting.
+- - '38'
+  - VCC
+  - Power supply.
+- - '40'
+  - R_EXT
+  - Input terminal used to connect an external resistor. This regulates the global
+    output current.
+- - '41'
+  - SDA
+  - I2C serial data.
+- - '42'
+  - SCL
+  - I2C serial clock.
+- - 43,44
+  - OUT1, OUT2
+  - Output channel 1, 2 for LEDs.
+- - ''
+  - Thermal Pad
+  - Connect to GND.
+records:
+- pin_description_no: 1~3
+  pin_description_pin: OUT3 ~ OUT5
+  description: Output channel 3~5 for LEDs.
+- pin_description_no: 4~16
+  pin_description_pin: OUT6 ~ OUT18
+  description: Output channel 6~18 for LEDs.
+- pin_description_no: 17,39
+  pin_description_pin: GND
+  description: Ground.
+- pin_description_no: 18~30
+  pin_description_pin: OUT19 ~ OUT31
+  description: Output channel 19~31 for LEDs.
+- pin_description_no: 31~35
+  pin_description_pin: OUT32 ~ OUT36
+  description: Output channel 32~36 for LEDs.
+- pin_description_no: '36'
+  pin_description_pin: SDB
+  description: Shutdown the chip when pulled low.
+- pin_description_no: '37'
+  pin_description_pin: AD
+  description: I2C address setting.
+- pin_description_no: '38'
+  pin_description_pin: VCC
+  description: Power supply.
+- pin_description_no: '40'
+  pin_description_pin: R_EXT
+  description: Input terminal used to connect an external resistor. This regulates
+    the global output current.
+- pin_description_no: '41'
+  pin_description_pin: SDA
+  description: I2C serial data.
+- pin_description_no: '42'
+  pin_description_pin: SCL
+  description: I2C serial clock.
+- pin_description_no: 43,44
+  pin_description_pin: OUT1, OUT2
+  description: Output channel 1, 2 for LEDs.
+- pin_description_pin: Thermal Pad
+  description: Connect to GND.

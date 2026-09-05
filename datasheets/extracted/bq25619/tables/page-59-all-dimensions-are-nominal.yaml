@@ -1,0 +1,123 @@
+source: bq25619.pdf
+page: 59
+title: '*All dimensions are nominal'
+header:
+- Device
+- PackageType
+- PackageDrawing
+- Pins
+- SPQ
+- ReelDiameter (mm)W1 (mm)
+- ReelWidth W1 (mm)
+- A0 (mm)
+- B0 (mm)
+- K0 (mm)
+- P1 (mm)
+- W (mm)
+- Pin1 Quadrant
+rows:
+- - BQ25618YFFR
+  - DSBGA
+  - YFF
+  - '30'
+  - '3000'
+  - '180.0'
+  - '8.4'
+  - '2.09'
+  - '2.59'
+  - '0.78'
+  - '4.0'
+  - '8.0'
+  - Q1
+- - BQ25618YFFT
+  - DSBGA
+  - YFF
+  - '30'
+  - '250'
+  - '180.0'
+  - '8.4'
+  - '2.09'
+  - '2.59'
+  - '0.78'
+  - '4.0'
+  - '8.0'
+  - Q1
+- - BQ25619RTWR
+  - WQFN
+  - RTW
+  - '24'
+  - '3000'
+  - '330.0'
+  - '12.4'
+  - '4.25'
+  - '4.25'
+  - '1.15'
+  - '8.0'
+  - '12.0'
+  - Q2
+- - BQ25619RTWT
+  - WQFN
+  - RTW
+  - '24'
+  - '250'
+  - '180.0'
+  - '12.4'
+  - '4.25'
+  - '4.25'
+  - '1.15'
+  - '8.0'
+  - '12.0'
+  - Q2
+records:
+- device: BQ25618YFFR
+  packagetype: DSBGA
+  packagedrawing: YFF
+  pins: '30'
+  spq: '3000'
+  reeldiameter_(mm)w1_(mm): '180.0'
+  reelwidth_w1_(mm): '8.4'
+  a0_(mm): '2.09'
+  b0_(mm): '2.59'
+  k0_(mm): '0.78'
+  p1_(mm): '4.0'
+  w_(mm): '8.0'
+  pin1_quadrant: Q1
+- device: BQ25618YFFT
+  packagetype: DSBGA
+  packagedrawing: YFF
+  pins: '30'
+  spq: '250'
+  reeldiameter_(mm)w1_(mm): '180.0'
+  reelwidth_w1_(mm): '8.4'
+  a0_(mm): '2.09'
+  b0_(mm): '2.59'
+  k0_(mm): '0.78'
+  p1_(mm): '4.0'
+  w_(mm): '8.0'
+  pin1_quadrant: Q1
+- device: BQ25619RTWR
+  packagetype: WQFN
+  packagedrawing: RTW
+  pins: '24'
+  spq: '3000'
+  reeldiameter_(mm)w1_(mm): '330.0'
+  reelwidth_w1_(mm): '12.4'
+  a0_(mm): '4.25'
+  b0_(mm): '4.25'
+  k0_(mm): '1.15'
+  p1_(mm): '8.0'
+  w_(mm): '12.0'
+  pin1_quadrant: Q2
+- device: BQ25619RTWT
+  packagetype: WQFN
+  packagedrawing: RTW
+  pins: '24'
+  spq: '250'
+  reeldiameter_(mm)w1_(mm): '180.0'
+  reelwidth_w1_(mm): '12.4'
+  a0_(mm): '4.25'
+  b0_(mm): '4.25'
+  k0_(mm): '1.15'
+  p1_(mm): '8.0'
+  w_(mm): '12.0'
+  pin1_quadrant: Q2

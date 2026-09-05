@@ -1,0 +1,26 @@
+source: IS31FL3236A.pdf
+page: 8
+title: Table 5 26h~49h LED Control Register (OUT1~OUT36)
+header:
+- Bit
+- D7:D3
+- D2:D1
+- D0
+rows:
+- - Name
+  - '-'
+  - SL
+  - OUT
+- - Name Default
+  - '- 00000'
+  - SL 00
+  - OUT 0
+records:
+- bit: Name
+  d7:d3: '-'
+  d2:d1: SL
+  d0: OUT
+- bit: Name Default
+  d7:d3: '- 00000'
+  d2:d1: SL 00
+  d0: OUT 0

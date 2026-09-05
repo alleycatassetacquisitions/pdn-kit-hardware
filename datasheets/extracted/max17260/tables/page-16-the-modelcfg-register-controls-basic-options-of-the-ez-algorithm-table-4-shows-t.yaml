@@ -1,0 +1,52 @@
+source: max17260.pdf
+page: 16
+title: The ModelCFG register controls basic options of the EZ algorithm. Table 4 shows
+  the register format. Table 4. ModelCFG (DBh) Format
+header:
+- D15
+- D14
+- D13
+- D12
+- D11
+- D10
+- D9
+- D8
+- D7
+- D6
+- D5
+- D4
+- D3
+- D2
+- D1
+- D0
+rows:
+- - Refresh
+  - '0'
+  - R100
+  - '0'
+  - '0'
+  - VChg
+  - '0'
+  - '0'
+  - ModelID
+  - ''
+  - ''
+  - ''
+  - '0'
+  - CSEL
+  - '0'
+  - '0'
+records:
+- d15: Refresh
+  d14: '0'
+  d13: R100
+  d12: '0'
+  d11: '0'
+  d10: VChg
+  d9: '0'
+  d8: '0'
+  d7: ModelID
+  d3: '0'
+  d2: CSEL
+  d1: '0'
+  d0: '0'

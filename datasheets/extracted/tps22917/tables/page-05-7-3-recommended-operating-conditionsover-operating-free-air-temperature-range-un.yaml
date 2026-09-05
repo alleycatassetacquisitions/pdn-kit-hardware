@@ -1,0 +1,53 @@
+source: tps22917.pdf
+page: 5
+title: 7.3 Recommended Operating ConditionsOver operating free-air temperature range
+  (unless otherwise noted)
+header:
+- ''
+- MIN
+- MAX
+- UNIT
+rows:
+- - VInput voltageIN
+  - '15.5'
+  - ''
+  - V
+- - VOutput voltageOUT
+  - '05.5'
+  - ''
+  - V
+- - VHigh-level input voltage, ONIH
+  - '15.5'
+  - ''
+  - V
+- - VLow-level input voltage, ONIL
+  - '00.35'
+  - ''
+  - V
+- - VQOD Pin VoltageQOD
+  - '05.5'
+  - ''
+  - V
+- - VTiming Capacitor Voltage RatingCT
+  - '7'
+  - ''
+  - V
+records:
+- col_0: VInput voltageIN
+  min: '15.5'
+  unit: V
+- col_0: VOutput voltageOUT
+  min: '05.5'
+  unit: V
+- col_0: VHigh-level input voltage, ONIH
+  min: '15.5'
+  unit: V
+- col_0: VLow-level input voltage, ONIL
+  min: '00.35'
+  unit: V
+- col_0: VQOD Pin VoltageQOD
+  min: '05.5'
+  unit: V
+- col_0: VTiming Capacitor Voltage RatingCT
+  min: '7'
+  unit: V

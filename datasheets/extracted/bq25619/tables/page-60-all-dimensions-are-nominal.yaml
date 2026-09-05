@@ -1,0 +1,78 @@
+source: bq25619.pdf
+page: 60
+title: '*All dimensions are nominal'
+header:
+- Device
+- Package Type
+- Package Drawing
+- Pins
+- SPQ
+- Length (mm)
+- Width (mm)
+- Height (mm)
+rows:
+- - BQ25618YFFR
+  - DSBGA
+  - YFF
+  - '30'
+  - '3000'
+  - '182.0'
+  - '182.0'
+  - '20.0'
+- - BQ25618YFFT
+  - DSBGA
+  - YFF
+  - '30'
+  - '250'
+  - '182.0'
+  - '182.0'
+  - '20.0'
+- - BQ25619RTWR
+  - WQFN
+  - RTW
+  - '24'
+  - '3000'
+  - '367.0'
+  - '367.0'
+  - '35.0'
+- - BQ25619RTWT
+  - WQFN
+  - RTW
+  - '24'
+  - '250'
+  - '210.0'
+  - '185.0'
+  - '35.0'
+records:
+- device: BQ25618YFFR
+  package_type: DSBGA
+  package_drawing: YFF
+  pins: '30'
+  spq: '3000'
+  length_(mm): '182.0'
+  width_(mm): '182.0'
+  height_(mm): '20.0'
+- device: BQ25618YFFT
+  package_type: DSBGA
+  package_drawing: YFF
+  pins: '30'
+  spq: '250'
+  length_(mm): '182.0'
+  width_(mm): '182.0'
+  height_(mm): '20.0'
+- device: BQ25619RTWR
+  package_type: WQFN
+  package_drawing: RTW
+  pins: '24'
+  spq: '3000'
+  length_(mm): '367.0'
+  width_(mm): '367.0'
+  height_(mm): '35.0'
+- device: BQ25619RTWT
+  package_type: WQFN
+  package_drawing: RTW
+  pins: '24'
+  spq: '250'
+  length_(mm): '210.0'
+  width_(mm): '185.0'
+  height_(mm): '35.0'

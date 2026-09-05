@@ -1,0 +1,39 @@
+source: bq25619.pdf
+page: 41
+title: 7.5.9 Charger Status 0 Register (Address = 08h) Figure 7-24. REG08
+header:
+- '7'
+- '6'
+- '5'
+- '4'
+- '3'
+- '2'
+- '1'
+- '0'
+rows:
+- - x
+  - x
+  - x
+  - x
+  - x
+  - x
+  - x
+  - x
+- - RRRRRRRR
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+records:
+- '7': x
+  '6': x
+  '5': x
+  '4': x
+  '3': x
+  '2': x
+  '1': x
+  '0': x
+- '7': RRRRRRRR

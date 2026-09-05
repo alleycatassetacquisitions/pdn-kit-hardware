@@ -1,0 +1,50 @@
+source: usblc6-2.pdf
+page: 2
+title: Table 1. Absolute ratings (T = 25 °C) amb
+header:
+- Symbol
+- Parameter
+- ''
+- Value
+- Unit
+rows:
+- - VPP
+  - Peak pulse voltage
+  - 'IEC 61000-4-2 level 4 standard: Air dischargeContact dischargeMIL STD883G-Method
+    3015-7'
+  - 15 15 25
+  - kV
+- - Tstg
+  - Storage temperature range
+  - ''
+  - -55 to +150
+  - °C
+- - Tj
+  - Operating junction temperature range
+  - ''
+  - -40 to +150
+  - °C
+- - TL
+  - Maximum lead temperature for soldering during 10 s at 5 mm
+  - ''
+  - '260'
+  - °C
+records:
+- symbol: VPP
+  parameter: Peak pulse voltage
+  col_2: 'IEC 61000-4-2 level 4 standard: Air dischargeContact dischargeMIL STD883G-Method
+    3015-7'
+  value: 15 15 25
+  unit: kV
+- symbol: Tstg
+  parameter: Storage temperature range
+  value: -55 to +150
+  unit: °C
+- symbol: Tj
+  parameter: Operating junction temperature range
+  value: -40 to +150
+  unit: °C
+- symbol: TL
+  parameter: Maximum lead temperature for soldering during 10 s at 5 mm
+  value: '260'
+  unit: °C

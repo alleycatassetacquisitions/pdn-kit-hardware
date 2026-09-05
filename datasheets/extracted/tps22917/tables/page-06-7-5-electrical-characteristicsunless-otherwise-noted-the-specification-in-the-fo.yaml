@@ -1,0 +1,492 @@
+source: tps22917.pdf
+page: 6
+title: 7.5 Electrical CharacteristicsUnless otherwise noted, the specification in
+  the following table applies for all variants over the entire recommended power supply
+  voltage range of 1 V to 5.5 V. Typical Values are at 25°C.
+header:
+- PARAMETER
+- ''
+- TEST CONDITIONS
+- ''
+- TJ
+- MIN
+- TYP
+- MAX
+- UNIT
+rows:
+- - INPUT SUPPLY(VIN)
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+- - IQ,VIN
+  - V Quiescent currentIN
+  - Enabled, V = OpenOUT
+  - ''
+  - –40°C to +85°C
+  - 0.51.0
+  - ''
+  - ''
+  - µA
+- - ''
+  - ''
+  - ''
+  - ''
+  - –40°C to +125°C
+  - '1.2'
+  - ''
+  - ''
+  - µA
+- - ISD,VIN
+  - V Shutdown currentIN
+  - Disabled, V = GND (TPS22917) OUT
+  - ''
+  - –40°C to +85°C
+  - '10100'
+  - ''
+  - ''
+  - nA
+- - ''
+  - ''
+  - ''
+  - ''
+  - –40°C to +105°C
+  - '250'
+  - ''
+  - ''
+  - nA
+- - ''
+  - ''
+  - Disabled, V = GND (TPS22917L) OUT
+  - ''
+  - –40°C to +85°C
+  - '175300'
+  - ''
+  - ''
+  - nA
+- - ''
+  - ''
+  - ''
+  - ''
+  - –40°C to +105°C
+  - '400'
+  - ''
+  - ''
+  - nA
+- - ON-RESISTANCE(R) ON
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+- - RON
+  - ON-Resistance
+  - I = 200 mAOUT
+  - V = 5 VIN
+  - 25°C
+  - '80100'
+  - ''
+  - ''
+  - mΩ
+- - ''
+  - ''
+  - ''
+  - ''
+  - –40°C to +85°C
+  - '120'
+  - ''
+  - ''
+  - ''
+- - ''
+  - ''
+  - ''
+  - ''
+  - –40°C to +105°C
+  - '130'
+  - ''
+  - ''
+  - ''
+- - ''
+  - ''
+  - ''
+  - ''
+  - –40°C to +125°C
+  - '140'
+  - ''
+  - ''
+  - ''
+- - ''
+  - ''
+  - ''
+  - V = 3.6 VIN
+  - 25°C
+  - '90110'
+  - ''
+  - ''
+  - ''
+- - ''
+  - ''
+  - ''
+  - ''
+  - –40°C to +85°C
+  - '140'
+  - ''
+  - ''
+  - ''
+- - ''
+  - ''
+  - ''
+  - ''
+  - –40°C to +105°C
+  - '150'
+  - ''
+  - ''
+  - ''
+- - ''
+  - ''
+  - ''
+  - ''
+  - –40°C to +125°C
+  - '160'
+  - ''
+  - ''
+  - ''
+- - ''
+  - ''
+  - ''
+  - V = 1.8 VIN
+  - 25°C
+  - '120150'
+  - ''
+  - ''
+  - ''
+- - ''
+  - ''
+  - ''
+  - ''
+  - –40°C to +85°C
+  - '175'
+  - ''
+  - ''
+  - ''
+- - ''
+  - ''
+  - ''
+  - ''
+  - –40°C to +105°C
+  - '185'
+  - ''
+  - ''
+  - ''
+- - ''
+  - ''
+  - ''
+  - ''
+  - –40°C to +125°C
+  - '200'
+  - ''
+  - ''
+  - ''
+- - ''
+  - ''
+  - ''
+  - V = 1.2 VIN
+  - 25°C
+  - '170220'
+  - ''
+  - ''
+  - ''
+- - ''
+  - ''
+  - ''
+  - ''
+  - –40°C to +85°C
+  - '265'
+  - ''
+  - ''
+  - ''
+- - ''
+  - ''
+  - ''
+  - ''
+  - –40°C to +105°C
+  - '280'
+  - ''
+  - ''
+  - ''
+- - ''
+  - ''
+  - ''
+  - ''
+  - –40°C to +125°C
+  - '300'
+  - ''
+  - ''
+  - ''
+- - ''
+  - ''
+  - ''
+  - VIN = 1.0 V
+  - 25°C
+  - '220300'
+  - ''
+  - ''
+  - ''
+- - ''
+  - ''
+  - ''
+  - ''
+  - –40°C to +85°C
+  - '350'
+  - ''
+  - ''
+  - ''
+- - ''
+  - ''
+  - ''
+  - ''
+  - –40°C to +105°C
+  - '370'
+  - ''
+  - ''
+  - ''
+- - ''
+  - ''
+  - ''
+  - ''
+  - –40°C to +125°C
+  - '390'
+  - ''
+  - ''
+  - ''
+- - ENABLE PIN(ON)
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+- - ION
+  - ON Pin leakage
+  - Enabled (TPS22917)
+  - ''
+  - –40°C to +125°C
+  - –1010
+  - ''
+  - ''
+  - nA
+- - ''
+  - ''
+  - Enabled (TPS22917L)
+  - ''
+  - –40°C to +125°C
+  - –2020
+  - ''
+  - ''
+  - nA
+- - RPD
+  - Smart Pull Down Resistance
+  - V ≤ VONIL
+  - ''
+  - –40°C to +105°C
+  - '750'
+  - ''
+  - ''
+  - kΩ
+- - REVERSE CURRENT BLOCKING(RCB)
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+- - IRCB
+  - RCB Activation Current
+  - Enabled, V > VOUTIN
+  - ''
+  - –40°C to +125°C
+  - -0.5-1
+  - ''
+  - ''
+  - A
+- - tRCB
+  - RCB Activation time
+  - Enabled, V > V + 200mVOUTIN
+  - ''
+  - –40°C to +125°C
+  - '10'
+  - ''
+  - ''
+  - µs
+- - VRCB
+  - RCB Release Voltage
+  - Enabled, V > VOUTIN
+  - ''
+  - –40°C to +125°C
+  - '25'
+  - ''
+  - ''
+  - mV
+- - IIN,RCB
+  - VIN Reverse Leakage Current
+  - 0 V ≤ V + V≤ V ≤ 5.5 VINRCB OUT
+  - ''
+  - –40°C to +105°C
+  - –1
+  - ''
+  - ''
+  - µA
+- - QUICK OUTPUT DISCHARGE(QOD)
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+- - QOD
+  - Output discharge resistance
+  - Disabled
+  - ''
+  - –40°C to +105°C
+  - '150'
+  - ''
+  - ''
+  - Ω
+records:
+- parameter: INPUT SUPPLY(VIN)
+- parameter: IQ,VIN
+  col_1: V Quiescent currentIN
+  test_conditions: Enabled, V = OpenOUT
+  tj: –40°C to +85°C
+  min: 0.51.0
+  unit: µA
+- tj: –40°C to +125°C
+  min: '1.2'
+  unit: µA
+- parameter: ISD,VIN
+  col_1: V Shutdown currentIN
+  test_conditions: Disabled, V = GND (TPS22917) OUT
+  tj: –40°C to +85°C
+  min: '10100'
+  unit: nA
+- tj: –40°C to +105°C
+  min: '250'
+  unit: nA
+  test_conditions: Disabled, V = GND (TPS22917L) OUT
+  tj_2: –40°C to +85°C
+  min_2: '175300'
+  unit_2: nA
+- tj: –40°C to +105°C
+  min: '400'
+  unit: nA
+- parameter: ON-RESISTANCE(R) ON
+- parameter: RON
+  col_1: ON-Resistance
+  test_conditions: I = 200 mAOUT
+  col_3: V = 5 VIN
+  tj: 25°C
+  min: '80100'
+  unit: mΩ
+- tj: –40°C to +85°C
+  min: '120'
+- tj: –40°C to +105°C
+  min: '130'
+- tj: –40°C to +125°C
+  min: '140'
+- col_3: V = 3.6 VIN
+  tj: 25°C
+  min: '90110'
+- tj: –40°C to +85°C
+  min: '140'
+- tj: –40°C to +105°C
+  min: '150'
+- tj: –40°C to +125°C
+  min: '160'
+- col_3: V = 1.8 VIN
+  tj: 25°C
+  min: '120150'
+- tj: –40°C to +85°C
+  min: '175'
+- tj: –40°C to +105°C
+  min: '185'
+- tj: –40°C to +125°C
+  min: '200'
+- col_3: V = 1.2 VIN
+  tj: 25°C
+  min: '170220'
+- tj: –40°C to +85°C
+  min: '265'
+- tj: –40°C to +105°C
+  min: '280'
+- tj: –40°C to +125°C
+  min: '300'
+- col_3: VIN = 1.0 V
+  tj: 25°C
+  min: '220300'
+- tj: –40°C to +85°C
+  min: '350'
+- tj: –40°C to +105°C
+  min: '370'
+- tj: –40°C to +125°C
+  min: '390'
+- parameter: ENABLE PIN(ON)
+- parameter: ION
+  col_1: ON Pin leakage
+  test_conditions: Enabled (TPS22917); Enabled (TPS22917L)
+  tj: –40°C to +125°C
+  min: –1010
+  unit: nA
+  tj_2: –40°C to +125°C
+  min_2: –2020
+  unit_2: nA
+- parameter: RPD
+  col_1: Smart Pull Down Resistance
+  test_conditions: V ≤ VONIL
+  tj: –40°C to +105°C
+  min: '750'
+  unit: kΩ
+- parameter: REVERSE CURRENT BLOCKING(RCB)
+- parameter: IRCB
+  col_1: RCB Activation Current
+  test_conditions: Enabled, V > VOUTIN
+  tj: –40°C to +125°C
+  min: -0.5-1
+  unit: A
+- parameter: tRCB
+  col_1: RCB Activation time
+  test_conditions: Enabled, V > V + 200mVOUTIN
+  tj: –40°C to +125°C
+  min: '10'
+  unit: µs
+- parameter: VRCB
+  col_1: RCB Release Voltage
+  test_conditions: Enabled, V > VOUTIN
+  tj: –40°C to +125°C
+  min: '25'
+  unit: mV
+- parameter: IIN,RCB
+  col_1: VIN Reverse Leakage Current
+  test_conditions: 0 V ≤ V + V≤ V ≤ 5.5 VINRCB OUT
+  tj: –40°C to +105°C
+  min: –1
+  unit: µA
+- parameter: QUICK OUTPUT DISCHARGE(QOD)
+- parameter: QOD
+  col_1: Output discharge resistance
+  test_conditions: Disabled
+  tj: –40°C to +105°C
+  min: '150'
+  unit: Ω

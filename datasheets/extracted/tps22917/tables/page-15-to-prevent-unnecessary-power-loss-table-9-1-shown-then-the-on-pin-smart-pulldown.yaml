@@ -1,0 +1,17 @@
+source: tps22917.pdf
+page: 15
+title: to prevent unnecessary power loss. Table 9-1 shown then the ON Pin Smart Pulldown
+  is active. Table 9-1. Smart-ON Pulldown
+header:
+- VON
+- Pulldown
+rows:
+- - ≤ VIL
+  - Connected
+- - ≥ VIH
+  - Disconnected
+records:
+- von: ≤ VIL
+  pulldown: Connected
+- von: ≥ VIH
+  pulldown: Disconnected

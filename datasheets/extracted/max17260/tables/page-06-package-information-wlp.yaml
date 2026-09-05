@@ -1,0 +1,27 @@
+source: max17260.pdf
+page: 6
+title: Package Information WLP
+header:
+- Package Code
+- W91G1+2
+rows:
+- - Outline Number
+  - 21-100168
+- - Land Pattern Number
+  - Refer to Application Note 1891
+- - 'Thermal Resistance, Four-Layer Board:'
+  - ''
+- - Junction to Ambient (θ) JA
+  - 83.98ºC/W
+- - Junction to Case (θ) JC
+  - NA
+records:
+- package_code: Outline Number
+  w91g1+2: 21-100168
+- package_code: Land Pattern Number
+  w91g1+2: Refer to Application Note 1891
+- package_code: 'Thermal Resistance, Four-Layer Board:'
+- package_code: Junction to Ambient (θ) JA
+  w91g1+2: 83.98ºC/W
+- package_code: Junction to Case (θ) JC
+  w91g1+2: NA

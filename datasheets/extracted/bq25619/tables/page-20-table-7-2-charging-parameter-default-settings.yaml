@@ -1,0 +1,16 @@
+source: bq25619.pdf
+page: 20
+title: Table 7-2. Charging Parameter Default Settings
+header:
+- DEFAULT MODE
+- BQ25619/618
+rows:
+- - Charging voltage
+  - 4.20 V
+- - Charging current
+  - 340 mA
+records:
+- default_mode: Charging voltage
+  bq25619/618: 4.20 V
+- default_mode: Charging current
+  bq25619/618: 340 mA

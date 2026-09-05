@@ -1,0 +1,223 @@
+source: max17260.pdf
+page: 8
+title: (V = 2.3V to 4.9V, T = -40ºC to +85ºC, typical value for T is +25ºC. Limits
+  are 100% tested at T = +25°C. The operating BATTAAAtemperature range and relevant
+  supply voltage range are guaranteed by design and characterization. Specifications
+  marked "GBD" are guaranteed by design and not production tested.)
+header:
+- PARAMETER
+- SYMBOL
+- CONDITIONS
+- MIN TYP MAX
+- UNITS
+rows:
+- - Battery-Detach Detection Threshold Hysteresis
+  - VDET-HYS
+  - Measured as a fraction of V on TH BATTfalling
+  - '1'
+  - '%'
+- - Battery-Detach Comparator Delay
+  - tTOFF
+  - TH step from 70% to 100% of VBATT (Alrtp = 0, EnAIN = 1, FTHRM = 1)
+  - '100'
+  - μs
+- - LEAKAGE
+  - ''
+  - ''
+  - ''
+  - ''
+- - Leakage Current, CSN, ALRT
+  - ILEAK
+  - V < 15V ALRT
+  - -1 +1
+  - μA
+- - Input Pulldown Current
+  - IPD
+  - V= 0.4V, V= 0.4V SDA SCL
+  - 0.05 0.2 0.4
+  - μA
+- - 2-WIRE INTERFACE
+  - ''
+  - ''
+  - ''
+  - ''
+- - SCL Clock Frequency
+  - fSCL
+  - (Note 2)
+  - 0 400
+  - kHz
+- - Bus Free Time Between a STOP and START Condition
+  - SCL tBUF
+  - ''
+  - '1.3'
+  - μs
+- - Hold Time (Repeated) START Condition
+  - tHD:STA
+  - (Note 3)
+  - '0.6'
+  - μs
+- - Low Period of SCL Clock
+  - tLOW
+  - ''
+  - '1.3'
+  - μs
+- - High Period of SCL Clock
+  - tHIGH
+  - ''
+  - '0.6'
+  - μs
+- - Setup Time for a Repeated START Condition
+  - tSU:STA
+  - ''
+  - '0.6'
+  - μs
+- - Data Hold Time
+  - tHD:DAT
+  - (Note 4, Note 5)
+  - 0 0.9
+  - μs
+- - Data Setup Time
+  - HD:DAT tSU:DAT
+  - (Note 4)
+  - '100'
+  - ns
+- - Rise Time of Both SDA and SCL Signals
+  - SU:DAT tR
+  - ''
+  - 5 300
+  - ns
+- - Fall Time of Both SDA and SCL Signals
+  - tF
+  - ''
+  - 5 300
+  - ns
+- - Setup Time for STOP Condition
+  - tSU:STO
+  - ''
+  - '0.6'
+  - μs
+- - Spike Pulse Width Suppressed by Input Filter
+  - tSP
+  - (Note 6)
+  - '50'
+  - ns
+- - Capacitive Load for Each Bus Line
+  - CB
+  - (Note 7)
+  - '400'
+  - pF
+- - SCL, SDA Input Capacitance
+  - CBIN
+  - ''
+  - '6'
+  - pF
+- - TIMING
+  - ''
+  - ''
+  - ''
+  - ''
+- - Time-Base Accuracy
+  - tERR
+  - T= +25°C A
+  - -1 +1
+  - '%'
+- - TH Precharge Time
+  - tPRE
+  - ''
+  - '8.48'
+  - ms
+records:
+- parameter: Battery-Detach Detection Threshold Hysteresis
+  symbol: VDET-HYS
+  conditions: Measured as a fraction of V on TH BATTfalling
+  min_typ_max: '1'
+  units: '%'
+- parameter: Battery-Detach Comparator Delay
+  symbol: tTOFF
+  conditions: TH step from 70% to 100% of VBATT (Alrtp = 0, EnAIN = 1, FTHRM = 1)
+  min_typ_max: '100'
+  units: μs
+- parameter: LEAKAGE
+- parameter: Leakage Current, CSN, ALRT
+  symbol: ILEAK
+  conditions: V < 15V ALRT
+  min_typ_max: -1 +1
+  units: μA
+- parameter: Input Pulldown Current
+  symbol: IPD
+  conditions: V= 0.4V, V= 0.4V SDA SCL
+  min_typ_max: 0.05 0.2 0.4
+  units: μA
+- parameter: 2-WIRE INTERFACE
+- parameter: SCL Clock Frequency
+  symbol: fSCL
+  conditions: (Note 2)
+  min_typ_max: 0 400
+  units: kHz
+- parameter: Bus Free Time Between a STOP and START Condition
+  symbol: SCL tBUF
+  min_typ_max: '1.3'
+  units: μs
+- parameter: Hold Time (Repeated) START Condition
+  symbol: tHD:STA
+  conditions: (Note 3)
+  min_typ_max: '0.6'
+  units: μs
+- parameter: Low Period of SCL Clock
+  symbol: tLOW
+  min_typ_max: '1.3'
+  units: μs
+- parameter: High Period of SCL Clock
+  symbol: tHIGH
+  min_typ_max: '0.6'
+  units: μs
+- parameter: Setup Time for a Repeated START Condition
+  symbol: tSU:STA
+  min_typ_max: '0.6'
+  units: μs
+- parameter: Data Hold Time
+  symbol: tHD:DAT
+  conditions: (Note 4, Note 5)
+  min_typ_max: 0 0.9
+  units: μs
+- parameter: Data Setup Time
+  symbol: HD:DAT tSU:DAT
+  conditions: (Note 4)
+  min_typ_max: '100'
+  units: ns
+- parameter: Rise Time of Both SDA and SCL Signals
+  symbol: SU:DAT tR
+  min_typ_max: 5 300
+  units: ns
+- parameter: Fall Time of Both SDA and SCL Signals
+  symbol: tF
+  min_typ_max: 5 300
+  units: ns
+- parameter: Setup Time for STOP Condition
+  symbol: tSU:STO
+  min_typ_max: '0.6'
+  units: μs
+- parameter: Spike Pulse Width Suppressed by Input Filter
+  symbol: tSP
+  conditions: (Note 6)
+  min_typ_max: '50'
+  units: ns
+- parameter: Capacitive Load for Each Bus Line
+  symbol: CB
+  conditions: (Note 7)
+  min_typ_max: '400'
+  units: pF
+- parameter: SCL, SDA Input Capacitance
+  symbol: CBIN
+  min_typ_max: '6'
+  units: pF
+- parameter: TIMING
+- parameter: Time-Base Accuracy
+  symbol: tERR
+  conditions: T= +25°C A
+  min_typ_max: -1 +1
+  units: '%'
+- parameter: TH Precharge Time
+  symbol: tPRE
+  min_typ_max: '8.48'
+  units: ms

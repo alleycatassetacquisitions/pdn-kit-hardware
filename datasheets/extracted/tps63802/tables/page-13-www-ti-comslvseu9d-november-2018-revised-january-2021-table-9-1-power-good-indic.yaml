@@ -1,0 +1,97 @@
+source: tps63802.pdf
+page: 13
+title: www.ti.comSLVSEU9D – NOVEMBER 2018 – REVISED JANUARY 2021 Table 9-1. Power-Good
+  Indicator Truth Table
+header:
+- LOGIC SIGNALS
+- ''
+- ''
+- ''
+- ''
+- PG LOGIC STATUS
+rows:
+- - EN
+  - VO
+  - VI
+  - OVP
+  - IVP
+  - PG LOGIC STATUS
+- - X
+  - < 1.8 V
+  - < UVLO_R
+  - X
+  - X
+  - Undefined
+- - LOW
+  - X
+  - '> UVLO_F'
+  - X
+  - X
+  - LOW
+- - HIGH
+  - V < 0.9 × target-VOO
+  - '> 1.3V'
+  - X
+  - X
+  - LOW
+- - HIGH
+  - X
+  - '> UVLO_F'
+  - HIGH
+  - X
+  - LOW
+- - HIGH
+  - X
+  - '> UVLO_F'
+  - X
+  - HIGH
+  - LOW
+- - HIGH
+  - V > 0.95 × target-VOO
+  - '> UVLO_F'
+  - LOW
+  - LOW
+  - HIGH Z
+records:
+- logic_signals: EN
+  col_1: VO
+  col_2: VI
+  col_3: OVP
+  col_4: IVP
+  pg_logic_status: PG LOGIC STATUS
+- logic_signals: X
+  col_1: < 1.8 V
+  col_2: < UVLO_R
+  col_3: X
+  col_4: X
+  pg_logic_status: Undefined
+- logic_signals: LOW
+  col_1: X
+  col_2: '> UVLO_F'
+  col_3: X
+  col_4: X
+  pg_logic_status: LOW
+- logic_signals: HIGH
+  col_1: V < 0.9 × target-VOO
+  col_2: '> 1.3V'
+  col_3: X
+  col_4: X
+  pg_logic_status: LOW
+- logic_signals: HIGH
+  col_1: X
+  col_2: '> UVLO_F'
+  col_3: HIGH
+  col_4: X
+  pg_logic_status: LOW
+- logic_signals: HIGH
+  col_1: X
+  col_2: '> UVLO_F'
+  col_3: X
+  col_4: HIGH
+  pg_logic_status: LOW
+- logic_signals: HIGH
+  col_1: V > 0.95 × target-VOO
+  col_2: '> UVLO_F'
+  col_3: LOW
+  col_4: LOW
+  pg_logic_status: HIGH Z

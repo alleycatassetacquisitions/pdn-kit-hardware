@@ -1,0 +1,54 @@
+source: bq25619.pdf
+page: 6
+title: SLUSDF8F – JUNE 2019 – REVISED FEBRUARY 2025www.ti.comTable 5-1. Pin Functions
+  (continued)
+header:
+- PIN
+- ''
+- ''
+- TYPE(1)
+- DESCRIPTION
+rows:
+- - NAME
+  - BQ25618 NO.
+  - BQ25619 NO.
+  - TYPE(1)
+  - DESCRIPTION
+- - VBUS
+  - A4, B4
+  - '24'
+  - P
+  - Charger input voltage. The internal n-channel reverse block MOSFET (RBFET) is
+    connected between VBUS and PMID with VBUS on source. Place a 1-uF ceramic capacitor
+    from VBUS to GND and place it as close as possible to IC.
+- - Thermal Pad
+  - —
+  - —
+  - P
+  - Ground reference for the device that is also the thermal pad used to conduct heat
+    from the device. This connection serves two purposes. The first purpose is to
+    provide an electrical ground connection for the device. The second purpose is
+    to provide a low thermal-impedance path from the device die to the PCB. This pad
+    should be tied externally to a ground plane.
+records:
+- pin: NAME
+  col_1: BQ25618 NO.
+  col_2: BQ25619 NO.
+  type(1): TYPE(1)
+  description: DESCRIPTION
+- pin: VBUS
+  col_1: A4, B4
+  col_2: '24'
+  type(1): P
+  description: Charger input voltage. The internal n-channel reverse block MOSFET
+    (RBFET) is connected between VBUS and PMID with VBUS on source. Place a 1-uF ceramic
+    capacitor from VBUS to GND and place it as close as possible to IC.
+- pin: Thermal Pad
+  col_1: —
+  col_2: —
+  type(1): P
+  description: Ground reference for the device that is also the thermal pad used to
+    conduct heat from the device. This connection serves two purposes. The first purpose
+    is to provide an electrical ground connection for the device. The second purpose
+    is to provide a low thermal-impedance path from the device die to the PCB. This
+    pad should be tied externally to a ground plane.

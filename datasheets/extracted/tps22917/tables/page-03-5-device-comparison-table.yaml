@@ -1,0 +1,16 @@
+source: tps22917.pdf
+page: 3
+title: 5 Device Comparison Table
+header:
+- Device
+- ON Pin Logic
+rows:
+- - TPS22917
+  - Active High
+- - TPS22917L
+  - Active Low
+records:
+- device: TPS22917
+  on_pin_logic: Active High
+- device: TPS22917L
+  on_pin_logic: Active Low

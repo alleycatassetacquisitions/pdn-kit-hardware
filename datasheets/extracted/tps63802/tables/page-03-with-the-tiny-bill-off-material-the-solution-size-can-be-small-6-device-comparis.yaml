@@ -1,0 +1,56 @@
+source: tps63802.pdf
+page: 3
+title: With the tiny bill-off material, the solution size can be small. 6 Device Comparison
+  Table
+header:
+- PARTNUMBER
+- OUTPUT VOLTAGE
+- I (TYP.) (Q;VIN)
+- C (MIN.) (O,EFF)
+- SWITCH CURRENT LIMIT BOOST (MIN.)
+- PACKAGE
+rows:
+- - TPS63802
+  - Adjustable
+  - 11 µA
+  - 7 µF
+  - 4 A
+  - VSON
+- - SIMILAR TI PARTS
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+- - TPS63805
+  - Adjustable
+  - 11 µA
+  - 7 µF
+  - 4 A
+  - WCSP
+- - TPS63810 TPS63811or I
+  - 'fixed: 3.3 V/3.45 Vor I2C programmable'
+  - 15 µA
+  - 16 µF
+  - 5.2 A
+  - WCSP
+records:
+- partnumber: TPS63802
+  output_voltage: Adjustable
+  i_(typ)_(q;vin): 11 µA
+  c_(min)_(o,eff): 7 µF
+  switch_current_limit_boost_(min): 4 A
+  package: VSON
+- partnumber: SIMILAR TI PARTS
+- partnumber: TPS63805
+  output_voltage: Adjustable
+  i_(typ)_(q;vin): 11 µA
+  c_(min)_(o,eff): 7 µF
+  switch_current_limit_boost_(min): 4 A
+  package: WCSP
+- partnumber: TPS63810 TPS63811or I
+  output_voltage: 'fixed: 3.3 V/3.45 Vor I2C programmable'
+  i_(typ)_(q;vin): 15 µA
+  c_(min)_(o,eff): 16 µF
+  switch_current_limit_boost_(min): 5.2 A
+  package: WCSP

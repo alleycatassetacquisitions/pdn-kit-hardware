@@ -1,0 +1,7 @@
+**www.ti.com** 
+
+![](../images/tps63802.pdf-0023-02.png)
+
+<!-- Start of picture text -->
+100 100<br>90<br>80 90<br>70<br>60 80<br>50<br>40 70<br>30 IO = 100 PA<br>IO = 10 mA<br>2010 VVVI I I = 1.8 V = 3.3 V = 5.0 V 60 I II O OO  = 100 mA  = 1 A = 1.5 A<br>0 50<br>1m 10m 100m 1 2 2.5 2.9 3.3 3.7 4.1<br>Output Current (A) D022 Input Voltage (V) D023<br>VO = 3.3 V MODE = High VO = 3.3 V MODE = Low<br>Figure 10-8. Efficiency versus Input Voltage (PWM Figure 10-9. Efficiency versus Input Voltage (PFM/<br>Only) PWM)<br>100 0.2<br>0.1<br>90<br>0.0<br>80<br>-0.1<br>70<br>VO = 1.8 V -0.2 VI = 2.5 V<br>VO = 3.3 V VI = 3.6 V<br>VO = 5.2 V VI = 4.2 V<br>60 -0.3<br>1.8 2.3 2.8 3.3 3.8 4.3 4.8 5.3 0 0.5 1.0 1.5 2.0<br>Input Voltage (V) D024 Output Current (A) D026<br>IO = 1 A MODE = Low VO = 3.3 V MODE = High<br>Figure 10-10. Efficiency versus Input Voltage (PWM Figure 10-11. Load Regulation (PWM Only)<br>Only)<br>1.5 0.3<br>1.0 0.2<br>0.5 0.1<br>0.0 0.0<br>-0.5 -0.1<br>-1.0 VVII = 2.5 V = 3.6 V -0.2 VVOO = 1.8 V = 3.3 V<br>VI = 4.2 V VO = 5.2 V<br>-1.5 -0.3<br>0.5 1.0 1.5 2.0 2.5 2.7 2.9 3.1 3.3 3.5 3.7 3.9 4.1 4.3<br>Output Current (A) D027 Input Voltage (V) D028<br>VO = 3.3 V MODE = Low IO = 1 A MODE = Low<br>Figure 10-12. Load Regulation (PFM/PWM) Figure 10-13. Line Regulation (PWM Only)<br>Efficiency (%) Efficiency (%)<br>Efficiency (%)<br>Output Voltage Regulation (%)<br>Output Voltage Regulation (%) Output Voltage Regulation (%)<br><!-- End of picture text -->
+

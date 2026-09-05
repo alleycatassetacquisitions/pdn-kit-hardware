@@ -1,0 +1,45 @@
+source: tps63802.pdf
+page: 33
+title: '*All dimensions are nominal'
+header:
+- Device
+- PackageType
+- PackagePackageDrawing
+- Pins
+- SPQ
+- ReelDiameter (mm)W1 (mm)
+- ReelWidth W1 (mm)
+- A0 (mm)
+- B0 (mm)
+- K0 (mm)
+- P1 (mm)
+- W (mm)
+- Pin1 Quadrant
+rows:
+- - TPS63802DLAT
+  - VSON- HR
+  - DLA
+  - '10'
+  - '250'
+  - '180.0'
+  - '8.4'
+  - '2.25'
+  - '3.25'
+  - '1.05'
+  - '4.0'
+  - '8.0'
+  - Q1
+records:
+- device: TPS63802DLAT
+  packagetype: VSON- HR
+  packagepackagedrawing: DLA
+  pins: '10'
+  spq: '250'
+  reeldiameter_(mm)w1_(mm): '180.0'
+  reelwidth_w1_(mm): '8.4'
+  a0_(mm): '2.25'
+  b0_(mm): '3.25'
+  k0_(mm): '1.05'
+  p1_(mm): '4.0'
+  w_(mm): '8.0'
+  pin1_quadrant: Q1

@@ -1,0 +1,308 @@
+source: bq25619.pdf
+page: 5
+title: www.ti.comSLUSDF8F – JUNE 2019 – REVISED FEBRUARY 2025 Table 5-1. Pin Functions
+header:
+- PIN
+- ''
+- ''
+- TYPE(1)
+- DESCRIPTION
+rows:
+- - NAME
+  - BQ25618 NO.
+  - BQ25619 NO.
+  - TYPE(1)
+  - DESCRIPTION
+- - BAT
+  - C1, D1, E1, F1
+  - '13'
+  - P
+  - Battery connection point to the positive terminal of the battery pack. The internal
+    current sensing resistor is connected between SYS and BAT. Connect a 10 µF closely
+    to the BAT pin.
+- - ''
+  - ''
+  - '14'
+  - ''
+  - ''
+- - BATSNS
+  - F3
+  - '10'
+  - AIO
+  - Battery voltage sensing pin for charge voltage regulation. In order to minimize
+    the parasitic trace resistance during charging, BATSNS pin is connected to the
+    positive terminal of battery pack as close as possible. If BATSNS pin is open
+    or short to ground, BATSNS_STAT bit is set to 1 and charger regulates the battery
+    voltage through BAT pin.
+- - BTST
+  - C3
+  - '21'
+  - P
+  - PWM high-side driver positive supply. Internally, the BTST is connected to the
+    cathode of the boot-strap diode. Connect the 0.047-μF bootstrap capacitor from
+    SW to BTST.
+- - CE
+  - E3
+  - '9'
+  - DI
+  - Charge enable pin. When this pin is driven LOW, battery charging is enabled.
+- - GND
+  - A1, B1
+  - '17'
+  - P
+  - Ground
+- - ''
+  - ''
+  - '18'
+  - ''
+  - ''
+- - INT
+  - F4
+  - '7'
+  - DO
+  - Open-drain interrupt output. Connect the INT to a logic rail through a 10-kΩ resistor.
+    The INT pin sends an active low, 256-µs pulse to the host to report charger device
+    status and fault.
+- - NC
+  - B5
+  - '8'
+  - ''
+  - Not connected
+- - PMID
+  - A3, B3
+  - '23'
+  - DO
+  - Boost mode output. Connected to the drain of the reverse blocking MOSFET (RBFET)
+    and the drain of HSFET. Consider the total input capacitance, put 1 μF on VBUS
+    to GND, and the rest capacitance on PMID to GND (typical 2x4.7 μF plus 1 nF).
+- - PMID_GOOD
+  - D5
+  - '3'
+  - DO
+  - Open drain active high PMID good indicator. Connect to the pullup rail REGN through
+    10-kΩ resistor. HIGH indicates PMID voltage is below 5.2 V and the current through
+    Q1 is below 110% of input current limit. This signal can be used to drive external
+    PMOS FET to disconnect the PMID under charging load when Boost mode output voltage
+    is too high or output current is too high.
+- - PSEL
+  - C5
+  - '2'
+  - DI
+  - Power source selection input. HIGH indicates 500-mA input current limit. LOW indicates
+    2.4-A input current limit. Once the device gets into Host mode, the host can program
+    a different input current limit to the IINDPM register.
+- - QON
+  - D4
+  - '12'
+  - DI
+  - BATFET enable/reset control input. When the BATFET is in Ship mode, a logic LOW
+    of t duration turns on BATFET to exit Ship mode. When the SHIPMODEBATFET is not
+    in Ship mode, a logic LOW of t (minimum 8 s) duration QON_RSTresets SYS (system
+    power) by turning BATFET off for t (minimum 250 BATFET_RSTms) and then re-enables
+    BATFET to provide full system power reset. The host chooses the BATFET reset function
+    with VBUS unplug or not through I2C bit BATFET_RST_WVBUS. The pin is pulled up
+    to V through 200 kΩ to maintain BATdefault HIGH logic during Ship mode. It has
+    an internal clamp to 6.5 V.
+- - REGN
+  - C4
+  - '22'
+  - P
+  - PWM low-side driver positive supply output. Internally, REGN is connected to the
+    anode of the bootstrap diode. Connect a 4.7-μF (10-V rating) ceramic capacitor
+    from REGN to analog GND. The capacitor should be placed close to the IC.
+- - SCL
+  - F5
+  - '5'
+  - DI
+  - I2C interface clock. Connect SCL to the logic rail through a 10-kΩ resistor.
+- - SDA
+  - E4
+  - '6'
+  - DIO
+  - I2C interface data. Connect SDA to the logic rail through a 10-kΩ resistor.
+- - STAT
+  - E5
+  - '4'
+  - DO
+  - 'Open-drain interrupt output. Connect the STAT pin to a logic rail via 10-kΩ resistor.
+    The STAT pin indicates charger status. Charge in progress: LOWCharge complete
+    or charger in Sleep mode: HIGHCharge suspend (fault response): Blink at 1 Hz'
+- - SW
+  - A2, B2
+  - '19'
+  - P
+  - Switching node connecting to output inductor. Internally SW is connected to the
+    source of the n-channel HSFET and the drain of the n-channel LSFET. Connect the
+    0.047-μF bootstrap capacitor from SW to BTST.
+- - ''
+  - ''
+  - '20'
+  - ''
+  - ''
+- - SYS
+  - C2, D2, E2, F2
+  - '15'
+  - P
+  - Converter output connection point. The internal current sensing resistor is connected
+    between SYS and BAT. Connect a 10 µF (min) closely to the SYS pin.
+- - ''
+  - ''
+  - '16'
+  - ''
+  - ''
+- - TS
+  - D3
+  - '11'
+  - AI
+  - Battery temperature qualification voltage input. Connect a negative temperature
+    coefficient thermistor (NTC). Program temperature window with a resistor divider
+    from REGN to TS to GND. Charge and Boost mode suspend when TS pin voltage is out
+    of range. When TS pin is not used, connect a 10-kΩ resistor from REGN to TS and
+    a 10-kΩ resistor from TS to GND or set TS_IGNORE to HIGH to ignore TS pin. It
+    is recommended to use a 103AT-2 thermistor.
+- - VAC
+  - A5
+  - '1'
+  - AI
+  - Input voltage sensing. This pin must be tied to VBUS.
+records:
+- pin: NAME
+  col_1: BQ25618 NO.
+  col_2: BQ25619 NO.
+  type(1): TYPE(1)
+  description: DESCRIPTION
+- pin: BAT
+  col_1: C1, D1, E1, F1
+  col_2: 13; 14
+  type(1): P
+  description: Battery connection point to the positive terminal of the battery pack.
+    The internal current sensing resistor is connected between SYS and BAT. Connect
+    a 10 µF closely to the BAT pin.
+- pin: BATSNS
+  col_1: F3
+  col_2: '10'
+  type(1): AIO
+  description: Battery voltage sensing pin for charge voltage regulation. In order
+    to minimize the parasitic trace resistance during charging, BATSNS pin is connected
+    to the positive terminal of battery pack as close as possible. If BATSNS pin is
+    open or short to ground, BATSNS_STAT bit is set to 1 and charger regulates the
+    battery voltage through BAT pin.
+- pin: BTST
+  col_1: C3
+  col_2: '21'
+  type(1): P
+  description: PWM high-side driver positive supply. Internally, the BTST is connected
+    to the cathode of the boot-strap diode. Connect the 0.047-μF bootstrap capacitor
+    from SW to BTST.
+- pin: CE
+  col_1: E3
+  col_2: '9'
+  type(1): DI
+  description: Charge enable pin. When this pin is driven LOW, battery charging is
+    enabled.
+- pin: GND
+  col_1: A1, B1
+  col_2: 17; 18
+  type(1): P
+  description: Ground
+- pin: INT
+  col_1: F4
+  col_2: '7'
+  type(1): DO
+  description: Open-drain interrupt output. Connect the INT to a logic rail through
+    a 10-kΩ resistor. The INT pin sends an active low, 256-µs pulse to the host to
+    report charger device status and fault.
+- pin: NC
+  col_1: B5
+  col_2: '8'
+  description: Not connected
+- pin: PMID
+  col_1: A3, B3
+  col_2: '23'
+  type(1): DO
+  description: Boost mode output. Connected to the drain of the reverse blocking MOSFET
+    (RBFET) and the drain of HSFET. Consider the total input capacitance, put 1 μF
+    on VBUS to GND, and the rest capacitance on PMID to GND (typical 2x4.7 μF plus
+    1 nF).
+- pin: PMID_GOOD
+  col_1: D5
+  col_2: '3'
+  type(1): DO
+  description: Open drain active high PMID good indicator. Connect to the pullup rail
+    REGN through 10-kΩ resistor. HIGH indicates PMID voltage is below 5.2 V and the
+    current through Q1 is below 110% of input current limit. This signal can be used
+    to drive external PMOS FET to disconnect the PMID under charging load when Boost
+    mode output voltage is too high or output current is too high.
+- pin: PSEL
+  col_1: C5
+  col_2: '2'
+  type(1): DI
+  description: Power source selection input. HIGH indicates 500-mA input current limit.
+    LOW indicates 2.4-A input current limit. Once the device gets into Host mode,
+    the host can program a different input current limit to the IINDPM register.
+- pin: QON
+  col_1: D4
+  col_2: '12'
+  type(1): DI
+  description: BATFET enable/reset control input. When the BATFET is in Ship mode,
+    a logic LOW of t duration turns on BATFET to exit Ship mode. When the SHIPMODEBATFET
+    is not in Ship mode, a logic LOW of t (minimum 8 s) duration QON_RSTresets SYS
+    (system power) by turning BATFET off for t (minimum 250 BATFET_RSTms) and then
+    re-enables BATFET to provide full system power reset. The host chooses the BATFET
+    reset function with VBUS unplug or not through I2C bit BATFET_RST_WVBUS. The pin
+    is pulled up to V through 200 kΩ to maintain BATdefault HIGH logic during Ship
+    mode. It has an internal clamp to 6.5 V.
+- pin: REGN
+  col_1: C4
+  col_2: '22'
+  type(1): P
+  description: PWM low-side driver positive supply output. Internally, REGN is connected
+    to the anode of the bootstrap diode. Connect a 4.7-μF (10-V rating) ceramic capacitor
+    from REGN to analog GND. The capacitor should be placed close to the IC.
+- pin: SCL
+  col_1: F5
+  col_2: '5'
+  type(1): DI
+  description: I2C interface clock. Connect SCL to the logic rail through a 10-kΩ
+    resistor.
+- pin: SDA
+  col_1: E4
+  col_2: '6'
+  type(1): DIO
+  description: I2C interface data. Connect SDA to the logic rail through a 10-kΩ resistor.
+- pin: STAT
+  col_1: E5
+  col_2: '4'
+  type(1): DO
+  description: 'Open-drain interrupt output. Connect the STAT pin to a logic rail
+    via 10-kΩ resistor. The STAT pin indicates charger status. Charge in progress:
+    LOWCharge complete or charger in Sleep mode: HIGHCharge suspend (fault response):
+    Blink at 1 Hz'
+- pin: SW
+  col_1: A2, B2
+  col_2: 19; 20
+  type(1): P
+  description: Switching node connecting to output inductor. Internally SW is connected
+    to the source of the n-channel HSFET and the drain of the n-channel LSFET. Connect
+    the 0.047-μF bootstrap capacitor from SW to BTST.
+- pin: SYS
+  col_1: C2, D2, E2, F2
+  col_2: 15; 16
+  type(1): P
+  description: Converter output connection point. The internal current sensing resistor
+    is connected between SYS and BAT. Connect a 10 µF (min) closely to the SYS pin.
+- pin: TS
+  col_1: D3
+  col_2: '11'
+  type(1): AI
+  description: Battery temperature qualification voltage input. Connect a negative
+    temperature coefficient thermistor (NTC). Program temperature window with a resistor
+    divider from REGN to TS to GND. Charge and Boost mode suspend when TS pin voltage
+    is out of range. When TS pin is not used, connect a 10-kΩ resistor from REGN to
+    TS and a 10-kΩ resistor from TS to GND or set TS_IGNORE to HIGH to ignore TS pin.
+    It is recommended to use a 103AT-2 thermistor.
+- pin: VAC
+  col_1: A5
+  col_2: '1'
+  type(1): AI
+  description: Input voltage sensing. This pin must be tied to VBUS.

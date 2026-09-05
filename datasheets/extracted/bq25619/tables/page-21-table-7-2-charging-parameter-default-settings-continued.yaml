@@ -1,0 +1,24 @@
+source: bq25619.pdf
+page: 21
+title: Table 7-2. Charging Parameter Default Settings (continued)
+header:
+- DEFAULT MODE
+- BQ25619/618
+rows:
+- - Pre-charge current
+  - 40 mA
+- - Termination current
+  - 60 mA
+- - Temperature profile
+  - JEITA
+- - Safety timer
+  - 10 hours
+records:
+- default_mode: Pre-charge current
+  bq25619/618: 40 mA
+- default_mode: Termination current
+  bq25619/618: 60 mA
+- default_mode: Temperature profile
+  bq25619/618: JEITA
+- default_mode: Safety timer
+  bq25619/618: 10 hours

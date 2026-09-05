@@ -1,0 +1,79 @@
+source: tps63802.pdf
+page: 4
+title: Figure 7-1. 10-Pin DLA Package (Top View) Table 7-1. Pin Functions
+header:
+- PIN
+- ''
+- DESCRIPTION
+rows:
+- - NAME
+  - NO.
+  - DESCRIPTION
+- - EN
+  - '1'
+  - Device Enable input. Set HIGH to enable and LOW to disable. It must not be left
+    floating.
+- - MODE
+  - '2'
+  - PFM/PWM mode selection. Set LOW for power save mode, set HIGH for forced PWM mode.
+    It must not beleft floating.
+- - AGND
+  - '3'
+  - Analog ground
+- - FB
+  - '4'
+  - Voltage feedback sensing pin
+- - PG
+  - '5'
+  - Power good indicator, open-drain output
+- - VOUT
+  - '6'
+  - Power stage output
+- - L2
+  - '7'
+  - Connection for inductor
+- - GND
+  - '8'
+  - Power ground
+- - L1
+  - '9'
+  - Connection for inductor
+- - VIN
+  - '10'
+  - Supply voltage input
+records:
+- pin: NAME
+  col_1: NO.
+  description: DESCRIPTION
+- pin: EN
+  col_1: '1'
+  description: Device Enable input. Set HIGH to enable and LOW to disable. It must
+    not be left floating.
+- pin: MODE
+  col_1: '2'
+  description: PFM/PWM mode selection. Set LOW for power save mode, set HIGH for forced
+    PWM mode. It must not beleft floating.
+- pin: AGND
+  col_1: '3'
+  description: Analog ground
+- pin: FB
+  col_1: '4'
+  description: Voltage feedback sensing pin
+- pin: PG
+  col_1: '5'
+  description: Power good indicator, open-drain output
+- pin: VOUT
+  col_1: '6'
+  description: Power stage output
+- pin: L2
+  col_1: '7'
+  description: Connection for inductor
+- pin: GND
+  col_1: '8'
+  description: Power ground
+- pin: L1
+  col_1: '9'
+  description: Connection for inductor
+- pin: VIN
+  col_1: '10'
+  description: Supply voltage input

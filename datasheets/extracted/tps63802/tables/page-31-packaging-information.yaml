@@ -1,0 +1,136 @@
+source: tps63802.pdf
+page: 31
+title: PACKAGING INFORMATION
+header:
+- Orderable part number
+- Status (1)
+- Material type (2)
+- Package | Pins
+- Package qty | Carrier
+- RoHS (3)
+- Lead finish/ Ball material (4)
+- MSL rating/ Peak reflow (5)
+- Op temp (°C)
+- Part marking (6)
+rows:
+- - TPS63802DLAR
+  - Active
+  - Production
+  - VSON-HR (DLA) | 10
+  - 3000 | LARGE T&R
+  - 'Yes'
+  - Call TI | Sn
+  - Level-1-260C-UNLIM
+  - -40 to 125
+  - '63802'
+- - TPS63802DLAR.A
+  - Active
+  - Production
+  - VSON-HR (DLA) | 10
+  - 3000 | LARGE T&R
+  - 'Yes'
+  - SN
+  - Level-1-260C-UNLIM
+  - -40 to 125
+  - '63802'
+- - TPS63802DLARG4
+  - Active
+  - Production
+  - VSON-HR (DLA) | 10
+  - 3000 | LARGE T&R
+  - 'Yes'
+  - NIPDAU
+  - Level-1-260C-UNLIM
+  - -40 to 125
+  - '63802'
+- - TPS63802DLARG4.A
+  - Active
+  - Production
+  - VSON-HR (DLA) | 10
+  - 3000 | LARGE T&R
+  - 'Yes'
+  - NIPDAU
+  - Level-1-260C-UNLIM
+  - -40 to 125
+  - '63802'
+- - TPS63802DLAT
+  - Active
+  - Production
+  - VSON-HR (DLA) | 10
+  - 250 | SMALL T&R
+  - 'Yes'
+  - Call TI | Sn
+  - Level-1-260C-UNLIM
+  - -40 to 125
+  - '63802'
+- - TPS63802DLAT.A
+  - Active
+  - Production
+  - VSON-HR (DLA) | 10
+  - 250 | SMALL T&R
+  - 'Yes'
+  - SN
+  - Level-1-260C-UNLIM
+  - -40 to 125
+  - '63802'
+records:
+- orderable_part_number: TPS63802DLAR
+  status_(1): Active
+  material_type_(2): Production
+  package_|_pins: VSON-HR (DLA) | 10
+  package_qty_|_carrier: 3000 | LARGE T&R
+  rohs_(3): 'Yes'
+  lead_finish/_ball_material_(4): Call TI | Sn
+  msl_rating/_peak_reflow_(5): Level-1-260C-UNLIM
+  op_temp_(°c): -40 to 125
+  part_marking_(6): '63802'
+- orderable_part_number: TPS63802DLAR.A
+  status_(1): Active
+  material_type_(2): Production
+  package_|_pins: VSON-HR (DLA) | 10
+  package_qty_|_carrier: 3000 | LARGE T&R
+  rohs_(3): 'Yes'
+  lead_finish/_ball_material_(4): SN
+  msl_rating/_peak_reflow_(5): Level-1-260C-UNLIM
+  op_temp_(°c): -40 to 125
+  part_marking_(6): '63802'
+- orderable_part_number: TPS63802DLARG4
+  status_(1): Active
+  material_type_(2): Production
+  package_|_pins: VSON-HR (DLA) | 10
+  package_qty_|_carrier: 3000 | LARGE T&R
+  rohs_(3): 'Yes'
+  lead_finish/_ball_material_(4): NIPDAU
+  msl_rating/_peak_reflow_(5): Level-1-260C-UNLIM
+  op_temp_(°c): -40 to 125
+  part_marking_(6): '63802'
+- orderable_part_number: TPS63802DLARG4.A
+  status_(1): Active
+  material_type_(2): Production
+  package_|_pins: VSON-HR (DLA) | 10
+  package_qty_|_carrier: 3000 | LARGE T&R
+  rohs_(3): 'Yes'
+  lead_finish/_ball_material_(4): NIPDAU
+  msl_rating/_peak_reflow_(5): Level-1-260C-UNLIM
+  op_temp_(°c): -40 to 125
+  part_marking_(6): '63802'
+- orderable_part_number: TPS63802DLAT
+  status_(1): Active
+  material_type_(2): Production
+  package_|_pins: VSON-HR (DLA) | 10
+  package_qty_|_carrier: 250 | SMALL T&R
+  rohs_(3): 'Yes'
+  lead_finish/_ball_material_(4): Call TI | Sn
+  msl_rating/_peak_reflow_(5): Level-1-260C-UNLIM
+  op_temp_(°c): -40 to 125
+  part_marking_(6): '63802'
+- orderable_part_number: TPS63802DLAT.A
+  status_(1): Active
+  material_type_(2): Production
+  package_|_pins: VSON-HR (DLA) | 10
+  package_qty_|_carrier: 250 | SMALL T&R
+  rohs_(3): 'Yes'
+  lead_finish/_ball_material_(4): SN
+  msl_rating/_peak_reflow_(5): Level-1-260C-UNLIM
+  op_temp_(°c): -40 to 125
+  part_marking_(6): '63802'

@@ -1,0 +1,37 @@
+source: tps63802.pdf
+page: 17
+title: Table 10-1 shows the list of components for the application characteristic
+  curves. Table 10-1. Matrix of Output Capacitor and Inductor Combinations
+header:
+- NOMINALINDUCTOR VALUE
+- NOMINAL OUTPUT CAPACITOR VALUE [µF](2)
+- ''
+- ''
+- ''
+- ''
+rows:
+- - INDUCTOR VALUE [µH](1)
+  - '10'
+  - '22'
+  - '47'
+  - '66'
+  - '100'
+- - '0.47'
+  - '-'
+  - + (3)
+  - +
+  - +
+  - +
+records:
+- nominalinductor_value: INDUCTOR VALUE [µH](1)
+  nominal_output_capacitor_value_[µf](2): '10'
+  col_2: '22'
+  col_3: '47'
+  col_4: '66'
+  col_5: '100'
+- nominalinductor_value: '0.47'
+  nominal_output_capacitor_value_[µf](2): '-'
+  col_2: + (3)
+  col_3: +
+  col_4: +
+  col_5: +

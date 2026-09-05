@@ -1,0 +1,74 @@
+source: tps22917.pdf
+page: 5
+title: 7.1 Absolute Maximum RatingsOver operating free-air temperature range (unless
+  otherwise noted)(1)
+header:
+- ''
+- MIN
+- MAX
+- UNIT
+rows:
+- - VInput voltageIN
+  - –0.36
+  - ''
+  - V
+- - VOutput voltageOUT
+  - –0.36
+  - ''
+  - V
+- - VEnable voltageON
+  - –0.36
+  - ''
+  - V
+- - VQOD pin voltageQOD
+  - –0.36
+  - ''
+  - V
+- - IMaximum continuous switch currentMAX
+  - '2'
+  - ''
+  - A
+- - IMaximum pulsed switch current, pulse < 300-µs, 2% duty cyclePLS
+  - '2.5'
+  - ''
+  - A
+- - TMaximum junction temperatureJ,MAX
+  - '125'
+  - ''
+  - °C
+- - TStorage temperatureSTG
+  - –65150
+  - ''
+  - °C
+- - TMaximum Lead temperature (10-s soldering time) LEAD
+  - '300'
+  - ''
+  - °C
+records:
+- col_0: VInput voltageIN
+  min: –0.36
+  unit: V
+- col_0: VOutput voltageOUT
+  min: –0.36
+  unit: V
+- col_0: VEnable voltageON
+  min: –0.36
+  unit: V
+- col_0: VQOD pin voltageQOD
+  min: –0.36
+  unit: V
+- col_0: IMaximum continuous switch currentMAX
+  min: '2'
+  unit: A
+- col_0: IMaximum pulsed switch current, pulse < 300-µs, 2% duty cyclePLS
+  min: '2.5'
+  unit: A
+- col_0: TMaximum junction temperatureJ,MAX
+  min: '125'
+  unit: °C
+- col_0: TStorage temperatureSTG
+  min: –65150
+  unit: °C
+- col_0: TMaximum Lead temperature (10-s soldering time) LEAD
+  min: '300'
+  unit: °C

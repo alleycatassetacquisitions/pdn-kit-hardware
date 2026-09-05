@@ -1,0 +1,129 @@
+source: bq25619.pdf
+page: 35
+title: 'LEGEND: R/W = Read/Write; R = Read only; -n = value after resetTable 7-9.
+  REG02 Field Descriptions'
+header:
+- Bit
+- Field
+- POR
+- Type
+- Reset
+- Description
+- ''
+rows:
+- - '7'
+  - Reserved
+  - '1'
+  - R/W
+  - ''
+  - ''
+  - ''
+- - '6'
+  - Q1_FULLON
+  - '0'
+  - R/W
+  - by REG_RST
+  - In buck mode, charger will fully turn on Q1 RBFET according to this bit setting
+    when IINDPM is below 700 mA. When IINDPM is over 700 mA, Q1 is always fully on.
+    0 – Partially turn on Q1 for better regulation accuracy when IINDPM is below 700
+    mA. (default) 1 – Fully turn on Q1 for better efficiency when IINDPM is below
+    700 mA.
+  - ''
+- - '5'
+  - ICHG[5]
+  - '0'
+  - R/W
+  - by REG_RSTby Watchdog
+  - 640 mA
+  - 'Fast charge current settingDefault: 340 mA (010001) Range: 0 mA (0000001) – 1180
+    mA (111011), 20 mA/ step111100: 1290 mA111101: 1360 mA111110: 1430 mA111111: 1500
+    mAI 0 mA disables charge. CHG'
+- - '4'
+  - ICHG[4]
+  - '1'
+  - R/W
+  - by REG_RSTby Watchdog
+  - 320 mA
+  - ''
+- - '3'
+  - ICHG[3]
+  - '0'
+  - R/W
+  - by REG_RSTby Watchdog
+  - 160 mA
+  - ''
+- - '2'
+  - ICHG[2]
+  - '0'
+  - R/W
+  - by REG_RSTby Watchdog
+  - 80 mA
+  - ''
+- - '1'
+  - ICHG[1]
+  - '0'
+  - R/W
+  - by REG_RSTby Watchdog
+  - 40 mA
+  - ''
+- - '0'
+  - ICHG[0]
+  - '1'
+  - R/W
+  - by REG_RSTby Watchdog
+  - 20 mA
+  - ''
+records:
+- bit: '7'
+  field: Reserved
+  por: '1'
+  type: R/W
+- bit: '6'
+  field: Q1_FULLON
+  por: '0'
+  type: R/W
+  reset: by REG_RST
+  description: In buck mode, charger will fully turn on Q1 RBFET according to this
+    bit setting when IINDPM is below 700 mA. When IINDPM is over 700 mA, Q1 is always
+    fully on. 0 – Partially turn on Q1 for better regulation accuracy when IINDPM
+    is below 700 mA. (default) 1 – Fully turn on Q1 for better efficiency when IINDPM
+    is below 700 mA.
+- bit: '5'
+  field: ICHG[5]
+  por: '0'
+  type: R/W
+  reset: by REG_RSTby Watchdog
+  description: 640 mA
+  col_6: 'Fast charge current settingDefault: 340 mA (010001) Range: 0 mA (0000001)
+    – 1180 mA (111011), 20 mA/ step111100: 1290 mA111101: 1360 mA111110: 1430 mA111111:
+    1500 mAI 0 mA disables charge. CHG'
+- bit: '4'
+  field: ICHG[4]
+  por: '1'
+  type: R/W
+  reset: by REG_RSTby Watchdog
+  description: 320 mA
+- bit: '3'
+  field: ICHG[3]
+  por: '0'
+  type: R/W
+  reset: by REG_RSTby Watchdog
+  description: 160 mA
+- bit: '2'
+  field: ICHG[2]
+  por: '0'
+  type: R/W
+  reset: by REG_RSTby Watchdog
+  description: 80 mA
+- bit: '1'
+  field: ICHG[1]
+  por: '0'
+  type: R/W
+  reset: by REG_RSTby Watchdog
+  description: 40 mA
+- bit: '0'
+  field: ICHG[0]
+  por: '1'
+  type: R/W
+  reset: by REG_RSTby Watchdog
+  description: 20 mA

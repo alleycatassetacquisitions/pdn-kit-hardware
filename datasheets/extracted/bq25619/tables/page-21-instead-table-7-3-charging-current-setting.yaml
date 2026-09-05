@@ -1,0 +1,34 @@
+source: bq25619.pdf
+page: 21
+title: instead. Table 7-3. Charging Current Setting
+header:
+- VBAT
+- CHARGING CURRENT
+- DEFAULT SETTING
+- CHRG_STAT
+rows:
+- - < 2.2 V
+  - IBAT_SHORT
+  - 25 mA
+  - '01'
+- - 2.2 V to 3 V
+  - IPRECHG
+  - 40 mA
+  - '01'
+- - '> 3 V'
+  - ICHG
+  - 340 mA
+  - '10'
+records:
+- vbat: < 2.2 V
+  charging_current: IBAT_SHORT
+  default_setting: 25 mA
+  chrg_stat: '01'
+- vbat: 2.2 V to 3 V
+  charging_current: IPRECHG
+  default_setting: 40 mA
+  chrg_stat: '01'
+- vbat: '> 3 V'
+  charging_current: ICHG
+  default_setting: 340 mA
+  chrg_stat: '10'

@@ -1,0 +1,168 @@
+source: tps22917.pdf
+sourcePath: C:/Users/Elli Furedy/projects/pdn-kit-hardware/datasheets/tps22917.pdf
+sha256: 9e428109074d48937f40f0d93237440cfaef04f8fa2d7852ae61d8fa7728ddf3
+extractedAt: '2026-09-05T16:41:45.819685+00:00'
+pageCount: 29
+imageCount: 33
+tableCount: 15
+pages:
+- page: 1
+  file: pages/page-01.md
+  chars: 2932
+- page: 2
+  file: pages/page-02.md
+  chars: 3694
+- page: 3
+  file: pages/page-03.md
+  chars: 138
+- page: 4
+  file: pages/page-04.md
+  chars: 463
+- page: 5
+  file: pages/page-05.md
+  chars: 1989
+- page: 6
+  file: pages/page-06.md
+  chars: 585
+- page: 7
+  file: pages/page-07.md
+  chars: 713
+- page: 8
+  file: pages/page-08.md
+  chars: 1385
+- page: 9
+  file: pages/page-09.md
+  chars: 1027
+- page: 10
+  file: pages/page-10.md
+  chars: 902
+- page: 11
+  file: pages/page-11.md
+  chars: 1395
+- page: 12
+  file: pages/page-12.md
+  chars: 1108
+- page: 13
+  file: pages/page-13.md
+  chars: 835
+- page: 14
+  file: pages/page-14.md
+  chars: 1147
+- page: 15
+  file: pages/page-15.md
+  chars: 2914
+- page: 16
+  file: pages/page-16.md
+  chars: 1974
+- page: 17
+  file: pages/page-17.md
+  chars: 1502
+- page: 18
+  file: pages/page-18.md
+  chars: 1929
+- page: 19
+  file: pages/page-19.md
+  chars: 808
+- page: 20
+  file: pages/page-20.md
+  chars: 1134
+- page: 21
+  file: pages/page-21.md
+  chars: 2060
+- page: 22
+  file: pages/page-22.md
+  chars: 2466
+- page: 23
+  file: pages/page-23.md
+  chars: 471
+- page: 24
+  file: pages/page-24.md
+  chars: 949
+- page: 25
+  file: pages/page-25.md
+  chars: 354
+- page: 26
+  file: pages/page-26.md
+  chars: 966
+- page: 27
+  file: pages/page-27.md
+  chars: 876
+- page: 28
+  file: pages/page-28.md
+  chars: 621
+- page: 29
+  file: pages/page-29.md
+  chars: 2022
+tables:
+- page: 1
+  title: 125°C. Device Information(1)
+  file: tables/page-01-125-c-device-information-1.yaml
+  rowCount: 1
+- page: 3
+  title: 5 Device Comparison Table
+  file: tables/page-03-5-device-comparison-table.yaml
+  rowCount: 2
+- page: 4
+  title: Figure 6-1. DBV Package 6-Pin SOT-23 Top View Table 6-1. Pin Functions
+  file: tables/page-04-figure-6-1-dbv-package-6-pin-sot-23-top-view-table-6-1-pin-functions.yaml
+  rowCount: 7
+- page: 5
+  title: 7.1 Absolute Maximum RatingsOver operating free-air temperature range (unless
+    otherwise noted)(1)
+  file: tables/page-05-7-1-absolute-maximum-ratingsover-operating-free-air-temperature-range-unless-oth.yaml
+  rowCount: 9
+- page: 5
+  title: reliability. 7.2 ESD Ratings
+  file: tables/page-05-reliability-7-2-esd-ratings.yaml
+  rowCount: 2
+- page: 5
+  title: 7.3 Recommended Operating ConditionsOver operating free-air temperature range
+    (unless otherwise noted)
+  file: tables/page-05-7-3-recommended-operating-conditionsover-operating-free-air-temperature-range-un.yaml
+  rowCount: 6
+- page: 5
+  title: 7.4 Thermal Information
+  file: tables/page-05-7-4-thermal-information.yaml
+  rowCount: 7
+- page: 6
+  title: 7.5 Electrical CharacteristicsUnless otherwise noted, the specification in
+    the following table applies for all variants over the entire recommended power
+    supply voltage range of 1 V to 5.5 V. Typical Values are at 25°C.
+  file: tables/page-06-7-5-electrical-characteristicsunless-otherwise-noted-the-specification-in-the-fo.yaml
+  rowCount: 39
+- page: 7
+  title: Unless otherwise noted, the typical characteristics in the following table
+    applies over the entire recommended power supply voltage range of 1 V to 5.5 V
+    at 25°C with a load of C = 1 µF, R = 10 Ω LL
+  file: tables/page-07-unless-otherwise-noted-the-typical-characteristics-in-the-following-table-applie.yaml
+  rowCount: 35
+- page: 15
+  title: to prevent unnecessary power loss. Table 9-1 shown then the ON Pin Smart
+    Pulldown is active. Table 9-1. Smart-ON Pulldown
+  file: tables/page-15-to-prevent-unnecessary-power-loss-table-9-1-shown-then-the-on-pin-smart-pulldown.yaml
+  rowCount: 2
+- page: 16
+  title: QOD pin configurations. Table 9-2. VOUT Connection
+  file: tables/page-16-qod-pin-configurations-table-9-2-vout-connection.yaml
+  rowCount: 6
+- page: 17
+  title: 'For this design example, use the values listed in Table 10-1 as the design
+    parameters: Table 10-1. Design Parameters'
+  file: tables/page-17-for-this-design-example-use-the-values-listed-in-table-10-1-as-the-design-parame.yaml
+  rowCount: 5
+- page: 22
+  title: PACKAGING INFORMATION
+  file: tables/page-22-packaging-information.yaml
+  rowCount: 10
+- page: 24
+  title: '*All dimensions are nominal'
+  file: tables/page-24-all-dimensions-are-nominal.yaml
+  rowCount: 6
+- page: 25
+  title: '*All dimensions are nominal'
+  file: tables/page-25-all-dimensions-are-nominal.yaml
+  rowCount: 6
+notes:
+- Tables are stored as YAML with span-aware symbol normalization.
+- Electrical symbols merge typographic subscripts (e.g. Ci/o-GND, ΔCi/o-GND).
+- Prefer tables/*.yaml over markdown pipe tables for specs.

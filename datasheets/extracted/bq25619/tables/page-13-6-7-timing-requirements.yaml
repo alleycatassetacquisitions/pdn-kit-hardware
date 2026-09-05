@@ -1,0 +1,217 @@
+source: bq25619.pdf
+page: 13
+title: 6.7 Timing Requirements
+header:
+- ''
+- ''
+- MIN
+- NOM
+- MAX
+- UNIT
+rows:
+- - VBUS / VBAT POWER UP
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+- - tVBUS_OV
+  - VBUS OVP Reaction-time
+  - '130'
+  - ''
+  - ''
+  - ns
+- - tPOORSRC
+  - Bad adapter detection duration
+  - '30'
+  - ''
+  - ''
+  - ms
+- - tPOORSRC_RETRY
+  - Bad adapter detection retry wait time
+  - '2'
+  - ''
+  - ''
+  - s
+- - BATTERY CHARGER
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+- - tTERM_DGL
+  - Deglitch time for charge termination
+  - '30'
+  - ''
+  - ''
+  - ms
+- - tRECHG_DGL
+  - Deglitch time for recharge threshold
+  - '30'
+  - ''
+  - ''
+  - ms
+- - tTOP_OFF
+  - Typical top-off timer accuracy TOP_OFF_TIMER[1:0]=10
+  - '243036'
+  - ''
+  - ''
+  - min
+- - tSAFETY
+  - Charge safety timer accuracy, CHG_TIMER = 20hr
+  - '172024'
+  - ''
+  - ''
+  - hr
+- - tSAFETY
+  - Charge safety timer accuracy, CHG_TIMER = 10hr
+  - '81012'
+  - ''
+  - ''
+  - hr
+- - QON Timing ℃
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+- - tSHIPMODE
+  - QON low time to turn on BATFET and exit shipmode (–10℃ ≤ TJ ≤ 60℃)
+  - 0.91.3
+  - ''
+  - ''
+  - s
+- - tQON_RST
+  - QON low time before BATFET full system reset (–10℃ ≤ TJ ≤ 60℃)
+  - '812'
+  - ''
+  - ''
+  - s
+- - tBATFET_RST
+  - BATFET off time during full system reset (–10℃ ≤ TJ ≤ 60℃)
+  - '250400'
+  - ''
+  - ''
+  - ms
+- - tBATFET_DLY
+  - Delay time before BATFET turn off in ship mode (–10℃ ≤ TJ ≤ 60℃)
+  - '1015'
+  - ''
+  - ''
+  - s
+- - I2C INTERFACE
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+- - fSCL
+  - SCL clock frequency
+  - '400'
+  - ''
+  - ''
+  - kHz
+- - DIGITAL CLOCK AND WATCHDOG
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+- - fLPDIG
+  - Digital low-power clock (REGN LDO is disabled)
+  - '30'
+  - ''
+  - ''
+  - kHz
+- - fDIG
+  - Digital power clock
+  - '500'
+  - ''
+  - ''
+  - kHz
+- - tLP_WDT
+  - Watchdog Reset time
+  - '160'
+  - ''
+  - ''
+  - s
+- - tWDT
+  - Watchdog Reset time (WATCHDOG REG05[5:4] = 160s)
+  - '160'
+  - ''
+  - ''
+  - s
+records:
+- col_0: VBUS / VBAT POWER UP
+- col_0: tVBUS_OV
+  col_1: VBUS OVP Reaction-time
+  min: '130'
+  unit: ns
+- col_0: tPOORSRC
+  col_1: Bad adapter detection duration
+  min: '30'
+  unit: ms
+- col_0: tPOORSRC_RETRY
+  col_1: Bad adapter detection retry wait time
+  min: '2'
+  unit: s
+- col_0: BATTERY CHARGER
+- col_0: tTERM_DGL
+  col_1: Deglitch time for charge termination
+  min: '30'
+  unit: ms
+- col_0: tRECHG_DGL
+  col_1: Deglitch time for recharge threshold
+  min: '30'
+  unit: ms
+- col_0: tTOP_OFF
+  col_1: Typical top-off timer accuracy TOP_OFF_TIMER[1:0]=10
+  min: '243036'
+  unit: min
+- col_0: tSAFETY
+  col_1: Charge safety timer accuracy, CHG_TIMER = 20hr
+  min: '172024'
+  unit: hr
+- col_0: tSAFETY
+  col_1: Charge safety timer accuracy, CHG_TIMER = 10hr
+  min: '81012'
+  unit: hr
+- col_0: QON Timing ℃
+- col_0: tSHIPMODE
+  col_1: QON low time to turn on BATFET and exit shipmode (–10℃ ≤ TJ ≤ 60℃)
+  min: 0.91.3
+  unit: s
+- col_0: tQON_RST
+  col_1: QON low time before BATFET full system reset (–10℃ ≤ TJ ≤ 60℃)
+  min: '812'
+  unit: s
+- col_0: tBATFET_RST
+  col_1: BATFET off time during full system reset (–10℃ ≤ TJ ≤ 60℃)
+  min: '250400'
+  unit: ms
+- col_0: tBATFET_DLY
+  col_1: Delay time before BATFET turn off in ship mode (–10℃ ≤ TJ ≤ 60℃)
+  min: '1015'
+  unit: s
+- col_0: I2C INTERFACE
+- col_0: fSCL
+  col_1: SCL clock frequency
+  min: '400'
+  unit: kHz
+- col_0: DIGITAL CLOCK AND WATCHDOG
+- col_0: fLPDIG
+  col_1: Digital low-power clock (REGN LDO is disabled)
+  min: '30'
+  unit: kHz
+- col_0: fDIG
+  col_1: Digital power clock
+  min: '500'
+  unit: kHz
+- col_0: tLP_WDT
+  col_1: Watchdog Reset time
+  min: '160'
+  unit: s
+- col_0: tWDT
+  col_1: Watchdog Reset time (WATCHDOG REG05[5:4] = 160s)
+  min: '160'
+  unit: s

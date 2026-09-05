@@ -1,0 +1,36 @@
+source: usblc6-2.pdf
+page: 18
+title: Table 6. Ordering information
+header:
+- Order code
+- Marking
+- Package
+- Weight
+- Base qty.
+- Delivery mode
+rows:
+- - USBLC6-2SC6 (1)
+  - UL26
+  - SOT23-6L
+  - 16.7 mg
+  - '3000'
+  - Tape and reel
+- - USBLC6-2P6(1)
+  - F
+  - SOT-666
+  - 2.9 mg
+  - '3000'
+  - Tape and reel
+records:
+- order_code: USBLC6-2SC6 (1)
+  marking: UL26
+  package: SOT23-6L
+  weight: 16.7 mg
+  base_qty: '3000'
+  delivery_mode: Tape and reel
+- order_code: USBLC6-2P6(1)
+  marking: F
+  package: SOT-666
+  weight: 2.9 mg
+  base_qty: '3000'
+  delivery_mode: Tape and reel

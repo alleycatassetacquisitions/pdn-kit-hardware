@@ -1,0 +1,14 @@
+source: ssd1315.pdf
+page: 36
+title: Table 1
+header:
+- Item
+- Quantity
+rows:
+- - Module Holding Trays (A) Total Trays (B) Primary Box (C)
+  - 810 per Primary Box 15 per Primary Box 16 per Primary Box (Including 1 Empty Tray)
+    1~4 per Carton (4 as Major / Maximum)
+records:
+- item: Module Holding Trays (A) Total Trays (B) Primary Box (C)
+  quantity: 810 per Primary Box 15 per Primary Box 16 per Primary Box (Including 1
+    Empty Tray) 1~4 per Carton (4 as Major / Maximum)

@@ -1,0 +1,416 @@
+source: bq25619.pdf
+page: 12
+title: 6.6 Electrical Characteristics (continued) V < V < V and V > V + V, T = -40°C
+  to +125°C, and T = 25°C for typical values (unless VBUS_UVLOZVBUSVBUS_OVVBUSBATSLEEPJJotherwise
+  noted)
+header:
+- PARAMETER
+- ''
+- TEST CONDITIONS
+- MIN
+- TYP
+- MAX
+- UNIT
+rows:
+- - VBCOLD_RISE%
+  - TS pin voltage rising threshold, boost mode is suspended above this voltage.
+  - As Percentage to REGN (–19.5°C w/ 103AT)
+  - 79.58080.5
+  - ''
+  - ''
+  - '%'
+- - VBCOLD_FALL%
+  - TS pin voltage falling threshold
+  - As Percentage to REGN (0°C w/ 103AT)
+  - '72'
+  - ''
+  - ''
+  - '%'
+- - VBHOT_FALL%
+  - TS pin voltage threshold. boost mode is suspended below this voltage.
+  - As Percentage to REGN, (64°C w/ 103AT)
+  - 30.231.232.2
+  - ''
+  - ''
+  - '%'
+- - VBHOT_RISE%
+  - TS pin voltage rising threshold
+  - As Percentage to REGN, (55°C w/ 103AT), REG0C[1:0]=11
+  - '39'
+  - ''
+  - ''
+  - '%'
+- - SWITCHING CONVERTER
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+- - FSW
+  - PWM switching frequency
+  - Oscillator frequency
+  - 1.321.51.68
+  - ''
+  - ''
+  - MHz
+- - DMAX
+  - Maximum PWM Duty Cycle
+  - ''
+  - '97'
+  - ''
+  - ''
+  - '%'
+- - BOOST MODE CONVERTER
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+- - VBATLOWV_OTG
+  - Battery voltage exiting boost mode
+  - V fallingVBAT
+  - 2.62.82.9
+  - ''
+  - ''
+  - V
+- - ''
+  - Battery voltage entering boost mode
+  - V risingVBAT
+  - 2.93.03.15
+  - ''
+  - ''
+  - V
+- - VBST_BAT
+  - Battery voltage exiting boost mode
+  - BAT fallingVVBAT
+  - 2.42.52.6
+  - ''
+  - ''
+  - V
+- - VBST_RANGE
+  - Typical boost mode voltage regulation range
+  - ''
+  - 4.65.15
+  - ''
+  - ''
+  - V
+- - VBST_ACC
+  - Boost mode voltage regulation accuracy
+  - IVBUS = 0A, BOOST_V = 5V
+  - 4.8555.15
+  - ''
+  - ''
+  - V
+- - ISYS_OCP_Q4
+  - Boost mode battery discharge current clamp on BATFET Q4
+  - ''
+  - '56'
+  - ''
+  - ''
+  - A
+- - VBST_OVP
+  - Boost mode overvoltage threshold on PMID
+  - ''
+  - 5.555.86.15
+  - ''
+  - ''
+  - V
+- - REGN LDO
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+- - VREGN
+  - REGN LDO output voltage
+  - V = 5V, I = 20mAVBUSREGN
+  - 4.584.74.8
+  - ''
+  - ''
+  - V
+- - ''
+  - ''
+  - V = 9V, I = 20mAVBUSREGN
+  - 5.666.5
+  - ''
+  - ''
+  - V
+- - IREGN
+  - REGN LDO current limit
+  - V = 5V, V = 3.8VVBUSREGN
+  - '50'
+  - ''
+  - ''
+  - mA
+- - I2C INTERFACE (SCL, SDA)
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+- - VIH
+  - Input high threshold level, SDA and SCL
+  - Pull up rail 1.8V
+  - '1.3'
+  - ''
+  - ''
+  - V
+- - VIL
+  - Input low threshold level
+  - Pull up rail 1.8V
+  - '0.4'
+  - ''
+  - ''
+  - V
+- - VOL
+  - Output low threshold level
+  - Sink current = 5mA
+  - '0.4'
+  - ''
+  - ''
+  - V
+- - IBIAS
+  - High-level leakage current
+  - Pull up rail 1.8V
+  - '1'
+  - ''
+  - ''
+  - µA
+- - VIH_SDA
+  - Input high threshold level, SDA
+  - Pull up rail 1.8V
+  - '1.3'
+  - ''
+  - ''
+  - V
+- - VIL_SDA
+  - Input low threshold level
+  - Pull up rail 1.8V
+  - '0.4'
+  - ''
+  - ''
+  - V
+- - VOL_SDA
+  - Output low threshold level
+  - Sink current = 5mA
+  - '0.4'
+  - ''
+  - ''
+  - V
+- - IBIAS_SDA
+  - High-level leakage current
+  - Pull up rail 1.8V
+  - '1'
+  - ''
+  - ''
+  - µA
+- - VIH_SCL
+  - Input high threshold level, SDA
+  - Pull up rail 1.8V
+  - '1.3'
+  - ''
+  - ''
+  - V
+- - VIL_SCL
+  - Input low threshold level
+  - Pull up rail 1.8V
+  - '0.4'
+  - ''
+  - ''
+  - V
+- - VOL_SCL
+  - Output low threshold level
+  - Sink current = 5mA
+  - '0.4'
+  - ''
+  - ''
+  - V
+- - IBIAS_SCL
+  - High-level leakage current
+  - Pull up rail 1.8V
+  - '1'
+  - ''
+  - ''
+  - µA
+- - LOGIC INPUT PIN
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+- - VIH
+  - Input high threshold level (/CE, PSEL)
+  - ''
+  - '1.3'
+  - ''
+  - ''
+  - V
+- - VIL
+  - Input low threshold level (/CE, PSEL)
+  - ''
+  - '0.4'
+  - ''
+  - ''
+  - V
+- - IIN_BIAS
+  - High-level leakage current (/CE, PSEL)
+  - Pull up rail 1.8V
+  - '1'
+  - ''
+  - ''
+  - µA
+records:
+- parameter: VBCOLD_RISE%
+  col_1: TS pin voltage rising threshold, boost mode is suspended above this voltage.
+  test_conditions: As Percentage to REGN (–19.5°C w/ 103AT)
+  min: 79.58080.5
+  unit: '%'
+- parameter: VBCOLD_FALL%
+  col_1: TS pin voltage falling threshold
+  test_conditions: As Percentage to REGN (0°C w/ 103AT)
+  min: '72'
+  unit: '%'
+- parameter: VBHOT_FALL%
+  col_1: TS pin voltage threshold. boost mode is suspended below this voltage.
+  test_conditions: As Percentage to REGN, (64°C w/ 103AT)
+  min: 30.231.232.2
+  unit: '%'
+- parameter: VBHOT_RISE%
+  col_1: TS pin voltage rising threshold
+  test_conditions: As Percentage to REGN, (55°C w/ 103AT), REG0C[1:0]=11
+  min: '39'
+  unit: '%'
+- parameter: SWITCHING CONVERTER
+- parameter: FSW
+  col_1: PWM switching frequency
+  test_conditions: Oscillator frequency
+  min: 1.321.51.68
+  unit: MHz
+- parameter: DMAX
+  col_1: Maximum PWM Duty Cycle
+  min: '97'
+  unit: '%'
+- parameter: BOOST MODE CONVERTER
+- parameter: VBATLOWV_OTG
+  col_1: Battery voltage exiting boost mode
+  test_conditions: V fallingVBAT; V risingVBAT
+  min: 2.62.82.9
+  unit: V
+  col_1_2: Battery voltage entering boost mode
+  min_2: 2.93.03.15
+  unit_2: V
+- parameter: VBST_BAT
+  col_1: Battery voltage exiting boost mode
+  test_conditions: BAT fallingVVBAT
+  min: 2.42.52.6
+  unit: V
+- parameter: VBST_RANGE
+  col_1: Typical boost mode voltage regulation range
+  min: 4.65.15
+  unit: V
+- parameter: VBST_ACC
+  col_1: Boost mode voltage regulation accuracy
+  test_conditions: IVBUS = 0A, BOOST_V = 5V
+  min: 4.8555.15
+  unit: V
+- parameter: ISYS_OCP_Q4
+  col_1: Boost mode battery discharge current clamp on BATFET Q4
+  min: '56'
+  unit: A
+- parameter: VBST_OVP
+  col_1: Boost mode overvoltage threshold on PMID
+  min: 5.555.86.15
+  unit: V
+- parameter: REGN LDO
+- parameter: VREGN
+  col_1: REGN LDO output voltage
+  test_conditions: V = 5V, I = 20mAVBUSREGN; V = 9V, I = 20mAVBUSREGN
+  min: 4.584.74.8
+  unit: V
+  min_2: 5.666.5
+  unit_2: V
+- parameter: IREGN
+  col_1: REGN LDO current limit
+  test_conditions: V = 5V, V = 3.8VVBUSREGN
+  min: '50'
+  unit: mA
+- parameter: I2C INTERFACE (SCL, SDA)
+- parameter: VIH
+  col_1: Input high threshold level, SDA and SCL
+  test_conditions: Pull up rail 1.8V
+  min: '1.3'
+  unit: V
+- parameter: VIL
+  col_1: Input low threshold level
+  test_conditions: Pull up rail 1.8V
+  min: '0.4'
+  unit: V
+- parameter: VOL
+  col_1: Output low threshold level
+  test_conditions: Sink current = 5mA
+  min: '0.4'
+  unit: V
+- parameter: IBIAS
+  col_1: High-level leakage current
+  test_conditions: Pull up rail 1.8V
+  min: '1'
+  unit: µA
+- parameter: VIH_SDA
+  col_1: Input high threshold level, SDA
+  test_conditions: Pull up rail 1.8V
+  min: '1.3'
+  unit: V
+- parameter: VIL_SDA
+  col_1: Input low threshold level
+  test_conditions: Pull up rail 1.8V
+  min: '0.4'
+  unit: V
+- parameter: VOL_SDA
+  col_1: Output low threshold level
+  test_conditions: Sink current = 5mA
+  min: '0.4'
+  unit: V
+- parameter: IBIAS_SDA
+  col_1: High-level leakage current
+  test_conditions: Pull up rail 1.8V
+  min: '1'
+  unit: µA
+- parameter: VIH_SCL
+  col_1: Input high threshold level, SDA
+  test_conditions: Pull up rail 1.8V
+  min: '1.3'
+  unit: V
+- parameter: VIL_SCL
+  col_1: Input low threshold level
+  test_conditions: Pull up rail 1.8V
+  min: '0.4'
+  unit: V
+- parameter: VOL_SCL
+  col_1: Output low threshold level
+  test_conditions: Sink current = 5mA
+  min: '0.4'
+  unit: V
+- parameter: IBIAS_SCL
+  col_1: High-level leakage current
+  test_conditions: Pull up rail 1.8V
+  min: '1'
+  unit: µA
+- parameter: LOGIC INPUT PIN
+- parameter: VIH
+  col_1: Input high threshold level (/CE, PSEL)
+  min: '1.3'
+  unit: V
+- parameter: VIL
+  col_1: Input low threshold level (/CE, PSEL)
+  min: '0.4'
+  unit: V
+- parameter: IIN_BIAS
+  col_1: High-level leakage current (/CE, PSEL)
+  test_conditions: Pull up rail 1.8V
+  min: '1'
+  unit: µA

@@ -1,0 +1,15 @@
+source: tps63802.pdf
+page: 1
+title: little to no-load conditions. Device Information
+header:
+- PART NUMBER
+- PACKAGE(1)
+- BODY SIZE (NOM)
+rows:
+- - TPS63802
+  - 10-Pin VSON-HR3.0 mm × 2.0 mm (0.5 mm pitch)
+  - 3.0 mm × 2.0 mm
+records:
+- part_number: TPS63802
+  package(1): 10-Pin VSON-HR3.0 mm × 2.0 mm (0.5 mm pitch)
+  body_size_(nom): 3.0 mm × 2.0 mm

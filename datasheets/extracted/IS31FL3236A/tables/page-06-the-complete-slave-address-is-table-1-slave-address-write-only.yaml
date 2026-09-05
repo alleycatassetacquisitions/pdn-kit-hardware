@@ -1,0 +1,66 @@
+source: IS31FL3236A.pdf
+page: 6
+title: 'The complete slave address is: Table 1 Slave Address (Write only):'
+header:
+- 'Table 1 Slave Address (Write only): Bit'
+- ''
+- ''
+- 'Table 1 Slave Address (Write only): A7:A3'
+- ''
+- ''
+- 'Table 1 Slave Address (Write only): A2:A1'
+- ''
+- ''
+- A0
+- ''
+- ''
+rows:
+- - ''
+  - Bit
+  - ''
+  - ''
+  - A7:A3
+  - ''
+  - ''
+  - A2:A1
+  - ''
+  - ''
+  - A0
+  - ''
+- - Bit
+  - ''
+  - ''
+  - A7:A3
+  - ''
+  - ''
+  - A2:A1
+  - ''
+  - ''
+  - A0
+  - ''
+  - ''
+- - Value
+  - ''
+  - ''
+  - '01111'
+  - ''
+  - ''
+  - AD
+  - ''
+  - ''
+  - '0'
+  - ''
+  - ''
+records:
+- col_1: Bit
+  col_4: A7:A3
+  col_7: A2:A1
+  col_10: A0
+- table_1_slave_address_(write_only):_bit: Bit
+  table_1_slave_address_(write_only):_a7:a3: A7:A3
+  table_1_slave_address_(write_only):_a2:a1: A2:A1
+  a0: A0
+- table_1_slave_address_(write_only):_bit: Value
+  table_1_slave_address_(write_only):_a7:a3: '01111'
+  table_1_slave_address_(write_only):_a2:a1: AD
+  a0: '0'

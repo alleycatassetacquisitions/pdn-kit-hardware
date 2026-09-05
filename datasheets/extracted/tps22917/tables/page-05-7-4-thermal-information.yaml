@@ -1,0 +1,49 @@
+source: tps22917.pdf
+page: 5
+title: 7.4 Thermal Information
+header:
+- ''
+- TPS22917
+- ''
+rows:
+- - Thermal Parameters(1)
+  - DBV (SOT-23)
+  - UNIT
+- - ''
+  - 6 PINS
+  - ''
+- - θJunction-to-ambient thermal resistanceJA
+  - '183'
+  - °C/W
+- - θJunction-to-case (top) thermal resistanceJCtop
+  - '152'
+  - °C/W
+- - θJunction-to-board thermal resistanceJB
+  - '34'
+  - °C/W
+- - ψJunction-to-top characterization parameterJT
+  - '37'
+  - °C/W
+- - ψJunction-to-board characterization parameterJB
+  - '33'
+  - °C/W
+records:
+- col_0: Thermal Parameters(1)
+  tps22917: DBV (SOT-23)
+  col_2: UNIT
+- tps22917: 6 PINS
+- col_0: θJunction-to-ambient thermal resistanceJA
+  tps22917: '183'
+  col_2: °C/W
+- col_0: θJunction-to-case (top) thermal resistanceJCtop
+  tps22917: '152'
+  col_2: °C/W
+- col_0: θJunction-to-board thermal resistanceJB
+  tps22917: '34'
+  col_2: °C/W
+- col_0: ψJunction-to-top characterization parameterJT
+  tps22917: '37'
+  col_2: °C/W
+- col_0: ψJunction-to-board characterization parameterJB
+  tps22917: '33'
+  col_2: °C/W

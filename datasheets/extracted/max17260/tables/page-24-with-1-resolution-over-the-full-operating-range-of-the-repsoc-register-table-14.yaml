@@ -1,0 +1,41 @@
+source: max17260.pdf
+page: 24
+title: with 1% resolution over the full operating range of the RepSOC register. Table
+  14. SAlrtTh (03h) Format
+header:
+- D15
+- D14
+- D13
+- D12
+- D11
+- D10
+- D9
+- D8
+- D7
+- D6
+- D5
+- D4
+- D3
+- D2
+- D1
+- D0
+rows:
+- - SMAX
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - SMIN
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+records:
+- d15: SMAX
+  d7: SMIN

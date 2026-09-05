@@ -1,0 +1,48 @@
+source: tps63802.pdf
+page: 19
+title: choice. Table 10-4. List of Recommended Capacitors (1)
+header:
+- CAPACITOR [µF]
+- VOLTAGE RATING [V]
+- ESR [mΩ]
+- PART NUMBER
+- MANUFACTURER
+- SIZE (METRIC)
+rows:
+- - '10'
+  - '6.3'
+  - '10'
+  - GRM188R60J106ME84
+  - Murata
+  - 0603 (1608)
+- - '10'
+  - '10'
+  - '40'
+  - GRM188R61A106ME69
+  - Murata
+  - 0603 (1608)
+- - '22'
+  - '6.3'
+  - '10'
+  - GRM188R60J226MEA0
+  - Murata
+  - 0603 (1608)
+records:
+- capacitor_[µf]: '10'
+  voltage_rating_[v]: '6.3'
+  esr_[mω]: '10'
+  part_number: GRM188R60J106ME84
+  manufacturer: Murata
+  size_(metric): 0603 (1608)
+- capacitor_[µf]: '10'
+  voltage_rating_[v]: '10'
+  esr_[mω]: '40'
+  part_number: GRM188R61A106ME69
+  manufacturer: Murata
+  size_(metric): 0603 (1608)
+- capacitor_[µf]: '22'
+  voltage_rating_[v]: '6.3'
+  esr_[mω]: '10'
+  part_number: GRM188R60J226MEA0
+  manufacturer: Murata
+  size_(metric): 0603 (1608)

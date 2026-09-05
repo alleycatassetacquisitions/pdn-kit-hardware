@@ -1,0 +1,126 @@
+source: bq25619.pdf
+page: 34
+title: 'LEGEND: R/W = Read/Write; R = Read only; -n = value after resetTable 7-8.
+  REG01 Field Descriptions'
+header:
+- Bit
+- Field
+- POR
+- Type
+- Reset
+- Description
+rows:
+- - '7'
+  - PFM_DIS
+  - '0'
+  - R/W
+  - by REG_RST
+  - PFM disable in both buck and boost mode. 0 – PFM enable (default) 1 – PFM disable
+- - '6'
+  - WD_RST
+  - '0'
+  - R/W
+  - by REG_RSTby Watchdog
+  - I2C Watchdog timer reset. Back to 0 after watchdog timer reset0 – Normal (default)
+    1 – Reset
+- - '5'
+  - BST_CONFIG
+  - '0'
+  - R/W
+  - by REG_RSTby Watchdog
+  - Boost mode enable. In charging case application, based on adapter plug-in or removal,
+    the charger will automatically transit between charging mode and boost mode by
+    setting BST_CONFIG bit and CHG_CONFIG bit both to 1. 0 – Boost mode disable (default)
+    1 – Boost mode enable
+- - '4'
+  - CHG_CONFIG
+  - '1'
+  - R/W
+  - by REG_RSTby Watchdog
+  - Battery charging buck mode enable. Charging is enabled when CE pin is pulled low,
+    CHG_CONFIG bit is 1 and charge current is not zero. 0 – Charge Disable1 – Charge
+    Enable (default)
+- - '3'
+  - SYS_MIN[2]
+  - '1'
+  - R/W
+  - by REG_RST
+  - System minimum voltage setting. 000 – 2.6 V001 – 2.8 V010 – 3 V011 – 3.2 V100
+    – 3.4 V101 – 3.5 V (default) 110 – 3.6 V111 – 3.7 V
+- - '2'
+  - SYS_MIN[1]
+  - '0'
+  - R/W
+  - by REG_RST
+  - ''
+- - '1'
+  - SYS_MIN[0]
+  - '1'
+  - R/W
+  - by REG_RST
+  - ''
+- - '0'
+  - MIN_VBAT_SEL
+  - '0'
+  - R/W
+  - by REG_RST
+  - Minimum battery voltage when exiting boost mode. The rising threshold allows the
+    device to start boost mode if other conditions are valid. 0 – 2.8 V V falling,
+    3 V rising (default) BAT1 – 2.5 V V falling, 2.8 V risingBAT
+records:
+- bit: '7'
+  field: PFM_DIS
+  por: '0'
+  type: R/W
+  reset: by REG_RST
+  description: PFM disable in both buck and boost mode. 0 – PFM enable (default) 1
+    – PFM disable
+- bit: '6'
+  field: WD_RST
+  por: '0'
+  type: R/W
+  reset: by REG_RSTby Watchdog
+  description: I2C Watchdog timer reset. Back to 0 after watchdog timer reset0 – Normal
+    (default) 1 – Reset
+- bit: '5'
+  field: BST_CONFIG
+  por: '0'
+  type: R/W
+  reset: by REG_RSTby Watchdog
+  description: Boost mode enable. In charging case application, based on adapter plug-in
+    or removal, the charger will automatically transit between charging mode and boost
+    mode by setting BST_CONFIG bit and CHG_CONFIG bit both to 1. 0 – Boost mode disable
+    (default) 1 – Boost mode enable
+- bit: '4'
+  field: CHG_CONFIG
+  por: '1'
+  type: R/W
+  reset: by REG_RSTby Watchdog
+  description: Battery charging buck mode enable. Charging is enabled when CE pin
+    is pulled low, CHG_CONFIG bit is 1 and charge current is not zero. 0 – Charge
+    Disable1 – Charge Enable (default)
+- bit: '3'
+  field: SYS_MIN[2]
+  por: '1'
+  type: R/W
+  reset: by REG_RST
+  description: System minimum voltage setting. 000 – 2.6 V001 – 2.8 V010 – 3 V011
+    – 3.2 V100 – 3.4 V101 – 3.5 V (default) 110 – 3.6 V111 – 3.7 V
+- bit: '2'
+  field: SYS_MIN[1]
+  por: '0'
+  type: R/W
+  reset: by REG_RST
+- bit: '1'
+  field: SYS_MIN[0]
+  por: '1'
+  type: R/W
+  reset: by REG_RST
+- bit: '0'
+  field: MIN_VBAT_SEL
+  por: '0'
+  type: R/W
+  reset: by REG_RST
+  description: Minimum battery voltage when exiting boost mode. The rising threshold
+    allows the device to start boost mode if other conditions are valid. 0 – 2.8 V
+    V falling, 3 V rising (default) BAT1 – 2.5 V V falling, 2.8 V risingBAT

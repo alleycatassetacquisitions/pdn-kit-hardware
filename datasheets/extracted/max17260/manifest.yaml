@@ -1,0 +1,180 @@
+source: max17260.pdf
+sourcePath: C:/Users/Elli Furedy/projects/pdn-kit-hardware/datasheets/max17260.pdf
+sha256: bb3f45316b8545078b2f7971fa22db9c688fc8cdc72098f3b0319b039a9ccb03
+extractedAt: '2026-09-05T16:39:48.611283+00:00'
+pageCount: 30
+imageCount: 17
+tableCount: 16
+pages:
+- page: 1
+  file: pages/page-01.md
+  chars: 3584
+- page: 2
+  file: pages/page-02.md
+  chars: 6756
+- page: 3
+  file: pages/page-03.md
+  chars: 3808
+- page: 4
+  file: pages/page-04.md
+  chars: 1029
+- page: 5
+  file: pages/page-05.md
+  chars: 2944
+- page: 6
+  file: pages/page-06.md
+  chars: 1292
+- page: 7
+  file: pages/page-07.md
+  chars: 883
+- page: 8
+  file: pages/page-08.md
+  chars: 946
+- page: 9
+  file: pages/page-09.md
+  chars: 981
+- page: 10
+  file: pages/page-10.md
+  chars: 238
+- page: 11
+  file: pages/page-11.md
+  chars: 667
+- page: 12
+  file: pages/page-12.md
+  chars: 211
+- page: 13
+  file: pages/page-13.md
+  chars: 2527
+- page: 14
+  file: pages/page-14.md
+  chars: 2102
+- page: 15
+  file: pages/page-15.md
+  chars: 2097
+- page: 16
+  file: pages/page-16.md
+  chars: 3201
+- page: 17
+  file: pages/page-17.md
+  chars: 4472
+- page: 18
+  file: pages/page-18.md
+  chars: 3894
+- page: 19
+  file: pages/page-19.md
+  chars: 2412
+- page: 20
+  file: pages/page-20.md
+  chars: 4285
+- page: 21
+  file: pages/page-21.md
+  chars: 2926
+- page: 22
+  file: pages/page-22.md
+  chars: 2800
+- page: 23
+  file: pages/page-23.md
+  chars: 3210
+- page: 24
+  file: pages/page-24.md
+  chars: 3071
+- page: 25
+  file: pages/page-25.md
+  chars: 1561
+- page: 26
+  file: pages/page-26.md
+  chars: 1756
+- page: 27
+  file: pages/page-27.md
+  chars: 559
+- page: 28
+  file: pages/page-28.md
+  chars: 1935
+- page: 29
+  file: pages/page-29.md
+  chars: 323
+- page: 30
+  file: pages/page-30.md
+  chars: 741
+tables:
+- page: 6
+  title: Package Information WLP
+  file: tables/page-06-package-information-wlp.yaml
+  rowCount: 5
+- page: 7
+  title: (V = 2.3V to 4.9V, T = -40ºC to +85ºC, typical value for T is +25ºC. Limits
+    are 100% tested at T = +25°C. The operating BATTAAAtemperature range and relevant
+    supply voltage range are guaranteed by design and characterization. Specifications
+    marked "GBD" are guaranteed by design and not production tested.)
+  file: tables/page-07-v-2-3v-to-4-9v-t-40-c-to-85-c-typical-value-for-t-is-25-c-limits-are-100-tested.yaml
+  rowCount: 25
+- page: 8
+  title: (V = 2.3V to 4.9V, T = -40ºC to +85ºC, typical value for T is +25ºC. Limits
+    are 100% tested at T = +25°C. The operating BATTAAAtemperature range and relevant
+    supply voltage range are guaranteed by design and characterization. Specifications
+    marked "GBD" are guaranteed by design and not production tested.)
+  file: tables/page-08-v-2-3v-to-4-9v-t-40-c-to-85-c-typical-value-for-t-is-25-c-limits-are-100-tested.yaml
+  rowCount: 23
+- page: 12
+  title: Pin Descriptions
+  file: tables/page-12-pin-descriptions.yaml
+  rowCount: 13
+- page: 14
+  title: characterization. Table 1. ModelGauge m5 EZ Performance
+  file: tables/page-14-characterization-table-1-modelgauge-m5-ez-performance.yaml
+  rowCount: 3
+- page: 15
+  title: capacity values are displayed as a voltage and must be divided by the sense
+    resistor to determine Amps or Amp-hours. Table 2. ModelGauge m5 Register Standard
+    Resolutions
+  file: tables/page-15-capacity-values-are-displayed-as-a-voltage-and-must-be-divided-by-the-sense-resi.yaml
+  rowCount: 8
+- page: 16
+  title: The ModelCFG register controls basic options of the EZ algorithm. Table 4
+    shows the register format. Table 4. ModelCFG (DBh) Format
+  file: tables/page-16-the-modelcfg-register-controls-basic-options-of-the-ez-algorithm-table-4-shows-t.yaml
+  rowCount: 1
+- page: 20
+  title: Status register format. Table 7. Status (00h) Format
+  file: tables/page-20-status-register-format-table-7-status-00h-format.yaml
+  rowCount: 1
+- page: 21
+  title: should generally use higher sense resistor value. Table 9. Current Measurement
+    Range and Resolution vs. Sense Resistor Value
+  file: tables/page-21-should-generally-use-higher-sense-resistor-value-table-9-current-measurement-ran.yaml
+  rowCount: 2
+- page: 22
+  title: Table 9. Current Measurement Range and Resolution vs. Sense Resistor Value
+    (continued)
+  file: tables/page-22-table-9-current-measurement-range-and-resolution-vs-sense-resistor-value-continu.yaml
+  rowCount: 4
+- page: 22
+  title: format. Table 10. MaxMinCurr (1Ch) Format
+  file: tables/page-22-format-table-10-maxmincurr-1ch-format.yaml
+  rowCount: 1
+- page: 24
+  title: with 1% resolution over the full operating range of the RepSOC register.
+    Table 14. SAlrtTh (03h) Format
+  file: tables/page-24-with-1-resolution-over-the-full-operating-range-of-the-repsoc-register-table-14.yaml
+  rowCount: 1
+- page: 25
+  title: Config2.DPEn to 1. Table 16. Serial Number Format
+  file: tables/page-25-config2-dpen-to-1-table-16-serial-number-format.yaml
+  rowCount: 8
+- page: 25
+  title: locations marked reserved should not be written to. Table 17. ModelGauge
+    m5 Register Memory Map
+  file: tables/page-25-locations-marked-reserved-should-not-be-written-to-table-17-modelgauge-m5-regist.yaml
+  rowCount: 16
+- page: 29
+  title: Ordering Information
+  file: tables/page-29-ordering-information.yaml
+  rowCount: 6
+- page: 30
+  title: Revision History
+  file: tables/page-30-revision-history.yaml
+  rowCount: 3
+notes:
+- Tables are stored as YAML with span-aware symbol normalization.
+- Electrical symbols merge typographic subscripts (e.g. Ci/o-GND, ΔCi/o-GND).
+- Prefer tables/*.yaml over markdown pipe tables for specs.

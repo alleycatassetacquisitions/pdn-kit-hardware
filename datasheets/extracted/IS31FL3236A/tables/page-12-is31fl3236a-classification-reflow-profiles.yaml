@@ -1,0 +1,40 @@
+source: IS31FL3236A.pdf
+page: 12
+title: IS31FL3236A CLASSIFICATION REFLOW PROFILES
+header:
+- CLASSIFICATION REFLOW PROFILESProfile Feature
+- Pb-Free Assembly
+rows:
+- - Preheat & Soak Temperature min (Tsmin) Temperature max (Tsmax) Time (Tsmin to
+    Tsmax) (ts)
+  - 150°C 200°C 60-120 seconds
+- - Average ramp-up rate (Tsmax to Tp)
+  - 3°C/second max.
+- - Liquidous temperature (TL) Time at liquidous (tL)
+  - 217°C 60-150 seconds
+- - Peak package body temperature (Tp)*
+  - Max 260°C
+- - Time (tp)** within 5°C of the specified classification temperature (Tc)
+  - Max 30 seconds
+- - Average ramp-down rate (Tp to Tsmax)
+  - 6°C/second max.
+- - Time 25°C to peak temperature
+  - 8 minutes max.
+records:
+- classification_reflow_profilesprofile_feature: Preheat & Soak Temperature min (Tsmin)
+    Temperature max (Tsmax) Time (Tsmin to Tsmax) (ts)
+  pb-free_assembly: 150°C 200°C 60-120 seconds
+- classification_reflow_profilesprofile_feature: Average ramp-up rate (Tsmax to Tp)
+  pb-free_assembly: 3°C/second max.
+- classification_reflow_profilesprofile_feature: Liquidous temperature (TL) Time at
+    liquidous (tL)
+  pb-free_assembly: 217°C 60-150 seconds
+- classification_reflow_profilesprofile_feature: Peak package body temperature (Tp)*
+  pb-free_assembly: Max 260°C
+- classification_reflow_profilesprofile_feature: Time (tp)** within 5°C of the specified
+    classification temperature (Tc)
+  pb-free_assembly: Max 30 seconds
+- classification_reflow_profilesprofile_feature: Average ramp-down rate (Tp to Tsmax)
+  pb-free_assembly: 6°C/second max.
+- classification_reflow_profilesprofile_feature: Time 25°C to peak temperature
+  pb-free_assembly: 8 minutes max.

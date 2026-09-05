@@ -1,0 +1,115 @@
+source: usblc6-2.pdf
+page: 2
+title: Table 2. Electrical characteristics (T = 25 °C) amb
+header:
+- Symbol
+- Parameter
+- Test conditions
+- Value
+- Typ.
+- Max.
+- Unit
+rows:
+- - IRM
+  - Leakage current
+  - VRM = 5.25 V
+  - ''
+  - '10'
+  - '150'
+  - nA
+- - VBR
+  - Breakdown voltage between VBUS and GND
+  - IR = 1 mA
+  - '6'
+  - ''
+  - ''
+  - V
+- - VF
+  - Forward voltage
+  - IF = 10 mA
+  - ''
+  - ''
+  - '1.1'
+  - V
+- - VCL
+  - Clamping voltage
+  - IPP = 1 A, 8/20 μs Any I/O pin to GND
+  - ''
+  - ''
+  - '12'
+  - V
+- - ''
+  - ''
+  - IPP = 5 A, 8/20 μs Any I/O pin to GND
+  - ''
+  - ''
+  - '17'
+  - ''
+- - Ci/o-GND
+  - Capacitance between I/O and GND
+  - VR = 1.65 V
+  - ''
+  - '2.5'
+  - '3.5'
+  - pF
+- - ΔCi/o-GND
+  - ''
+  - ''
+  - ''
+  - '0.015'
+  - ''
+  - ''
+- - Ci/o-i/o
+  - Capacitance between I/O
+  - VR = 1.65 V
+  - ''
+  - '1.2'
+  - '1.7'
+  - pF
+- - ΔCi/o-i/o
+  - ''
+  - ''
+  - ''
+  - '0.04'
+  - ''
+  - ''
+records:
+- symbol: IRM
+  parameter: Leakage current
+  test_conditions: VRM = 5.25 V
+  typ: '10'
+  max: '150'
+  unit: nA
+- symbol: VBR
+  parameter: Breakdown voltage between VBUS and GND
+  test_conditions: IR = 1 mA
+  value: '6'
+  unit: V
+- symbol: VF
+  parameter: Forward voltage
+  test_conditions: IF = 10 mA
+  max: '1.1'
+  unit: V
+- symbol: VCL
+  parameter: Clamping voltage
+  test_conditions: IPP = 1 A, 8/20 μs Any I/O pin to GND; IPP = 5 A, 8/20 μs Any I/O
+    pin to GND
+  max: '12'
+  unit: V
+  max_2: '17'
+- symbol: Ci/o-GND
+  parameter: Capacitance between I/O and GND
+  test_conditions: VR = 1.65 V
+  typ: '2.5'
+  max: '3.5'
+  unit: pF
+- symbol: ΔCi/o-GND
+  typ: '0.015'
+- symbol: Ci/o-i/o
+  parameter: Capacitance between I/O
+  test_conditions: VR = 1.65 V
+  typ: '1.2'
+  max: '1.7'
+  unit: pF
+- symbol: ΔCi/o-i/o
+  typ: '0.04'

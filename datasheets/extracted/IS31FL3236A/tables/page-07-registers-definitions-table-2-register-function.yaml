@@ -1,0 +1,189 @@
+source: IS31FL3236A.pdf
+page: 7
+title: REGISTERS DEFINITIONS Table 2 Register Function
+header:
+- Table 2 Register Function Address
+- ''
+- Table 2 Register Function Name
+- ''
+- ''
+- Function
+- ''
+- ''
+- Table
+- ''
+- ''
+- Default
+- ''
+- ''
+rows:
+- - Address
+  - ''
+  - ''
+  - Name
+  - ''
+  - ''
+  - Function
+  - ''
+  - ''
+  - Table
+  - ''
+  - ''
+  - Default
+  - ''
+- - Address
+  - ''
+  - Name
+  - ''
+  - ''
+  - Function
+  - ''
+  - ''
+  - Table
+  - ''
+  - ''
+  - Default
+  - ''
+  - ''
+- - 00h
+  - ''
+  - Shutdown Register
+  - ''
+  - ''
+  - Set software shutdown mode
+  - ''
+  - ''
+  - '3'
+  - ''
+  - ''
+  - 0000 0000
+  - ''
+  - ''
+- - 01h~24h
+  - ''
+  - PWM Register
+  - ''
+  - ''
+  - 36 channels PWM duty cycle data register
+  - ''
+  - ''
+  - '4'
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+- - 25h
+  - ''
+  - PWM Update Register
+  - ''
+  - ''
+  - Load PWM Register and LED Control Register’s data
+  - ''
+  - ''
+  - '-'
+  - ''
+  - ''
+  - xxxx xxxx
+  - ''
+  - ''
+- - 26h~49h
+  - ''
+  - LED Control Register
+  - ''
+  - ''
+  - Channel 1 to 36 enable bit and current setting
+  - ''
+  - ''
+  - '5'
+  - ''
+  - ''
+  - 0000 0000
+  - ''
+  - ''
+- - 4Ah
+  - ''
+  - Global Control Register
+  - ''
+  - ''
+  - Set all channels enable
+  - ''
+  - ''
+  - '6'
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+- - 4Bh
+  - ''
+  - Output Frequency Setting Register
+  - ''
+  - ''
+  - Set all channels operating frequency
+  - ''
+  - ''
+  - '7'
+  - ''
+  - ''
+  - 0000 0000
+  - ''
+  - ''
+- - 4Fh
+  - ''
+  - Reset Register
+  - ''
+  - ''
+  - Reset all registers into default value
+  - ''
+  - ''
+  - '-'
+  - ''
+  - ''
+  - xxxx xxxx
+  - ''
+  - ''
+records:
+- table_2_register_function_address: Address
+  col_3: Name
+  col_6: Function
+  col_9: Table
+  col_12: Default
+- table_2_register_function_address: Address
+  table_2_register_function_name: Name
+  function: Function
+  table: Table
+  default: Default
+- table_2_register_function_address: 00h
+  table_2_register_function_name: Shutdown Register
+  function: Set software shutdown mode
+  table: '3'
+  default: 0000 0000
+- table_2_register_function_address: 01h~24h
+  table_2_register_function_name: PWM Register
+  function: 36 channels PWM duty cycle data register
+  table: '4'
+- table_2_register_function_address: 25h
+  table_2_register_function_name: PWM Update Register
+  function: Load PWM Register and LED Control Register’s data
+  table: '-'
+  default: xxxx xxxx
+- table_2_register_function_address: 26h~49h
+  table_2_register_function_name: LED Control Register
+  function: Channel 1 to 36 enable bit and current setting
+  table: '5'
+  default: 0000 0000
+- table_2_register_function_address: 4Ah
+  table_2_register_function_name: Global Control Register
+  function: Set all channels enable
+  table: '6'
+- table_2_register_function_address: 4Bh
+  table_2_register_function_name: Output Frequency Setting Register
+  function: Set all channels operating frequency
+  table: '7'
+  default: 0000 0000
+- table_2_register_function_address: 4Fh
+  table_2_register_function_name: Reset Register
+  function: Reset all registers into default value
+  table: '-'
+  default: xxxx xxxx

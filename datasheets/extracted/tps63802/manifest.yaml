@@ -1,0 +1,218 @@
+source: tps63802.pdf
+sourcePath: C:/Users/Elli Furedy/projects/pdn-kit-hardware/datasheets/tps63802.pdf
+sha256: be07deca1231c5493957bc64c2dc1cad5543bff330e49ae41caf3286fd80dca6
+extractedAt: '2026-09-05T16:42:53.339518+00:00'
+pageCount: 38
+imageCount: 58
+tableCount: 20
+pages:
+- page: 1
+  file: pages/page-01.md
+  chars: 3026
+- page: 2
+  file: pages/page-02.md
+  chars: 4727
+- page: 3
+  file: pages/page-03.md
+  chars: 460
+- page: 4
+  file: pages/page-04.md
+  chars: 494
+- page: 5
+  file: pages/page-05.md
+  chars: 1891
+- page: 6
+  file: pages/page-06.md
+  chars: 477
+- page: 7
+  file: pages/page-07.md
+  chars: 459
+- page: 8
+  file: pages/page-08.md
+  chars: 620
+- page: 9
+  file: pages/page-09.md
+  chars: 1687
+- page: 10
+  file: pages/page-10.md
+  chars: 2181
+- page: 11
+  file: pages/page-11.md
+  chars: 2080
+- page: 12
+  file: pages/page-12.md
+  chars: 2732
+- page: 13
+  file: pages/page-13.md
+  chars: 1550
+- page: 14
+  file: pages/page-14.md
+  chars: 1443
+- page: 15
+  file: pages/page-15.md
+  chars: 1698
+- page: 16
+  file: pages/page-16.md
+  chars: 894
+- page: 17
+  file: pages/page-17.md
+  chars: 2415
+- page: 18
+  file: pages/page-18.md
+  chars: 2781
+- page: 19
+  file: pages/page-19.md
+  chars: 2734
+- page: 20
+  file: pages/page-20.md
+  chars: 628
+- page: 21
+  file: pages/page-21.md
+  chars: 286
+- page: 22
+  file: pages/page-22.md
+  chars: 1724
+- page: 23
+  file: pages/page-23.md
+  chars: 1479
+- page: 24
+  file: pages/page-24.md
+  chars: 1155
+- page: 25
+  file: pages/page-25.md
+  chars: 1069
+- page: 26
+  file: pages/page-26.md
+  chars: 1390
+- page: 27
+  file: pages/page-27.md
+  chars: 268
+- page: 28
+  file: pages/page-28.md
+  chars: 987
+- page: 29
+  file: pages/page-29.md
+  chars: 3091
+- page: 30
+  file: pages/page-30.md
+  chars: 1715
+- page: 31
+  file: pages/page-31.md
+  chars: 2980
+- page: 32
+  file: pages/page-32.md
+  chars: 33
+- page: 33
+  file: pages/page-33.md
+  chars: 1010
+- page: 34
+  file: pages/page-34.md
+  chars: 350
+- page: 35
+  file: pages/page-35.md
+  chars: 646
+- page: 36
+  file: pages/page-36.md
+  chars: 879
+- page: 37
+  file: pages/page-37.md
+  chars: 883
+- page: 38
+  file: pages/page-38.md
+  chars: 2021
+tables:
+- page: 1
+  title: little to no-load conditions. Device Information
+  file: tables/page-01-little-to-no-load-conditions-device-information.yaml
+  rowCount: 1
+- page: 3
+  title: With the tiny bill-off material, the solution size can be small. 6 Device
+    Comparison Table
+  file: tables/page-03-with-the-tiny-bill-off-material-the-solution-size-can-be-small-6-device-comparis.yaml
+  rowCount: 4
+- page: 4
+  title: Figure 7-1. 10-Pin DLA Package (Top View) Table 7-1. Pin Functions
+  file: tables/page-04-figure-7-1-10-pin-dla-package-top-view-table-7-1-pin-functions.yaml
+  rowCount: 11
+- page: 5
+  title: 8.1 Absolute Maximum Ratingsover junction temperature range (unless otherwise
+    noted)(1)
+  file: tables/page-05-8-1-absolute-maximum-ratingsover-junction-temperature-range-unless-otherwise-not.yaml
+  rowCount: 4
+- page: 5
+  title: 8.2 ESD Ratings
+  file: tables/page-05-8-2-esd-ratings.yaml
+  rowCount: 2
+- page: 5
+  title: 8.3 Recommended Operating Conditions
+  file: tables/page-05-8-3-recommended-operating-conditions.yaml
+  rowCount: 7
+- page: 5
+  title: 8.4 Thermal Informationover operating free-air temperature range (unless
+    otherwise noted)(1)
+  file: tables/page-05-8-4-thermal-informationover-operating-free-air-temperature-range-unless-otherwis.yaml
+  rowCount: 8
+- page: 6
+  title: V= 1.8 V to 5.5 V, V = 1.8 V to 5.2 V , T= –40°C to +125°C, typical values
+    are at V= 3.6 V, V = 3.3 V and T= INOUTJINOUTJ25°C (unless otherwise noted)
+  file: tables/page-06-v-1-8-v-to-5-5-v-v-1-8-v-to-5-2-v-t-40-c-to-125-c-typical-values-are-at-v-3-6-v.yaml
+  rowCount: 37
+- page: 7
+  title: V= 1.8 V to 5.5 V, V = 1.8 V to 5.2 V , T= –40°C to +125°C, typical values
+    are at V= 3.6 V, V = 3.3 V and T= INOUTJINOUTJ25°C (unless otherwise noted)
+  file: tables/page-07-v-1-8-v-to-5-5-v-v-1-8-v-to-5-2-v-t-40-c-to-125-c-typical-values-are-at-v-3-6-v.yaml
+  rowCount: 5
+- page: 13
+  title: www.ti.comSLVSEU9D – NOVEMBER 2018 – REVISED JANUARY 2021 Table 9-1. Power-Good
+    Indicator Truth Table
+  file: tables/page-13-www-ti-comslvseu9d-november-2018-revised-january-2021-table-9-1-power-good-indic.yaml
+  rowCount: 7
+- page: 17
+  title: Table 10-1 shows the list of components for the application characteristic
+    curves. Table 10-1. Matrix of Output Capacitor and Inductor Combinations
+  file: tables/page-17-table-10-1-shows-the-list-of-components-for-the-application-characteristic-curve.yaml
+  rowCount: 2
+- page: 19
+  title: www.ti.comSLVSEU9D – NOVEMBER 2018 – REVISED JANUARY 2021 Table 10-2. List
+    of Recommended Inductors
+  file: tables/page-19-www-ti-comslvseu9d-november-2018-revised-january-2021-table-10-2-list-of-recomme.yaml
+  rowCount: 2
+- page: 19
+  title: There is no upper limit for the output capacitance value. Table 10-3. List
+    of Recommended Capacitors (1)
+  file: tables/page-19-there-is-no-upper-limit-for-the-output-capacitance-value-table-10-3-list-of-reco.yaml
+  rowCount: 6
+- page: 19
+  title: choice. Table 10-4. List of Recommended Capacitors (1)
+  file: tables/page-19-choice-table-10-4-list-of-recommended-capacitors-1.yaml
+  rowCount: 3
+- page: 20
+  title: •V = 500 mVFB Table 10-5. Resistor Selection for Typ. Voltages
+  file: tables/page-20-v-500-mvfb-table-10-5-resistor-selection-for-typ-voltages.yaml
+  rowCount: 4
+- page: 20
+  title: 10.2.3 Application CurvesTable 10-6. Components for Application Characteristic
+    Curves (1)
+  file: tables/page-20-10-2-3-application-curvestable-10-6-components-for-application-characteristic-cu.yaml
+  rowCount: 10
+- page: 21
+  title: www.ti.comSLVSEU9D – NOVEMBER 2018 – REVISED JANUARY 2021 Table 10-7. Typical
+    Characteristics Curves
+  file: tables/page-21-www-ti-comslvseu9d-november-2018-revised-january-2021-table-10-7-typical-charact.yaml
+  rowCount: 37
+- page: 31
+  title: PACKAGING INFORMATION
+  file: tables/page-31-packaging-information.yaml
+  rowCount: 6
+- page: 33
+  title: '*All dimensions are nominal'
+  file: tables/page-33-all-dimensions-are-nominal.yaml
+  rowCount: 1
+- page: 34
+  title: '*All dimensions are nominal'
+  file: tables/page-34-all-dimensions-are-nominal.yaml
+  rowCount: 1
+notes:
+- Tables are stored as YAML with span-aware symbol normalization.
+- Electrical symbols merge typographic subscripts (e.g. Ci/o-GND, ΔCi/o-GND).
+- Prefer tables/*.yaml over markdown pipe tables for specs.

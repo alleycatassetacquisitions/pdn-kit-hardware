@@ -1,0 +1,71 @@
+source: tps63802.pdf
+page: 5
+title: 8.4 Thermal Informationover operating free-air temperature range (unless otherwise
+  noted)(1)
+header:
+- ''
+- ''
+- TPS63802
+- ''
+rows:
+- - THERMAL METRIC
+  - ''
+  - VSON
+  - UNIT
+- - ''
+  - ''
+  - 10 PINS
+  - ''
+- - R ΘJA
+  - Junction-to-ambient thermal resistance
+  - '81.0'
+  - °C/W
+- - R ΘJC(top)
+  - Junction-to-case (top) thermal resistance
+  - '36.4'
+  - °C/W
+- - R ΘJB
+  - Junction-to-board thermal resistance
+  - '23.4'
+  - °C/W
+- - Ψ JT
+  - Junction-to-top characterization parameter
+  - '0.9'
+  - °C/W
+- - Ψ JB
+  - Junction-to-board characterization parameter
+  - '23.5'
+  - °C/W
+- - R ΘJC(bot)
+  - Junction-to-case (bottom) thermal resistance
+  - n/a
+  - °C/W
+records:
+- col_0: THERMAL METRIC
+  tps63802: VSON
+  col_3: UNIT
+- tps63802: 10 PINS
+- col_0: R ΘJA
+  col_1: Junction-to-ambient thermal resistance
+  tps63802: '81.0'
+  col_3: °C/W
+- col_0: R ΘJC(top)
+  col_1: Junction-to-case (top) thermal resistance
+  tps63802: '36.4'
+  col_3: °C/W
+- col_0: R ΘJB
+  col_1: Junction-to-board thermal resistance
+  tps63802: '23.4'
+  col_3: °C/W
+- col_0: Ψ JT
+  col_1: Junction-to-top characterization parameter
+  tps63802: '0.9'
+  col_3: °C/W
+- col_0: Ψ JB
+  col_1: Junction-to-board characterization parameter
+  tps63802: '23.5'
+  col_3: °C/W
+- col_0: R ΘJC(bot)
+  col_1: Junction-to-case (bottom) thermal resistance
+  tps63802: n/a
+  col_3: °C/W

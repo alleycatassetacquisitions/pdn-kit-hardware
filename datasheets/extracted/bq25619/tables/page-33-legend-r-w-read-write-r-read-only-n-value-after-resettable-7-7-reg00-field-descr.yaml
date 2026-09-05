@@ -1,0 +1,139 @@
+source: bq25619.pdf
+page: 33
+title: 'LEGEND: R/W = Read/Write; R = Read only; -n = value after resetTable 7-7.
+  REG00 Field Descriptions'
+header:
+- BitField
+- Field
+- POR
+- Type
+- Reset
+- Description
+- ''
+rows:
+- - 7EN_HIZ
+  - EN_HIZ
+  - '0'
+  - R/W
+  - by REG_RSTby Watchdog
+  - HIZ mode enable in buck mode. 0 – Disable (default) 1 – Enable
+  - ''
+- - 6TS_IGNORE
+  - TS_IGNORE
+  - '0'
+  - R/W
+  - by REG_RST
+  - When charger does not monitor the NTC, host sets this bit to 1 to ignore the TS
+    pin condition during charging and boost mode. 0 – Include TS pin into charge and
+    boost mode enable conditions. (default) 1 – Ignore TS pin. Always consider TS
+    is good to allow charging and boost mode. NTC_FAULT bits are 000 to report normal
+    status.
+  - ''
+- - 5BATSNS_DIS
+  - BATSNS_DIS
+  - '0'
+  - R/W
+  - by REG_RST
+  - Select either BATSNS pin or BAT pin to regulate battery voltage. 0 – Enable BATSNS
+    in battery CV regulation. If the device fails BATSNS open/short detection (BATSNS_STAT
+    = 1). Battery voltage is regulated through BAT pin. (default) 1 – Disable BATSNS.
+    Use BAT pin in battery CV regulation.
+  - ''
+- - 4IINDPM[4]
+  - IINDPM[4]
+  - '1'
+  - R/W
+  - by REG_RST
+  - 1600 mA
+  - 'Input current limit setting (maximum limit, not typical) Offset: 100 mARange:
+    100 mA (000000) – 3.2 A (11111) Default: 2400 mA (10111) IINDPM bits are changed
+    automatically after Section 7.3.3.3 is completedPSEL HIGH = 500 mAPSEL LOW = 2.4
+    AHost can reprogram IINDPM register bits after input source detection is completed.'
+- - 3IINDPM[3]
+  - IINDPM[3]
+  - '0'
+  - R/W
+  - by REG_RST
+  - 800 mA
+  - ''
+- - 2IINDPM[2]
+  - IINDPM[2]
+  - '1'
+  - R/W
+  - by REG_RST
+  - 400 mA
+  - ''
+- - 1IINDPM[1]
+  - IINDPM[1]
+  - '1'
+  - R/W
+  - by REG_RST
+  - 200 mA
+  - ''
+- - 0IINDPM[0]
+  - IINDPM[0]
+  - '1'
+  - R/W
+  - by REG_RST
+  - 100 mA
+  - ''
+records:
+- bitfield: 7EN_HIZ
+  field: EN_HIZ
+  por: '0'
+  type: R/W
+  reset: by REG_RSTby Watchdog
+  description: HIZ mode enable in buck mode. 0 – Disable (default) 1 – Enable
+- bitfield: 6TS_IGNORE
+  field: TS_IGNORE
+  por: '0'
+  type: R/W
+  reset: by REG_RST
+  description: When charger does not monitor the NTC, host sets this bit to 1 to ignore
+    the TS pin condition during charging and boost mode. 0 – Include TS pin into charge
+    and boost mode enable conditions. (default) 1 – Ignore TS pin. Always consider
+    TS is good to allow charging and boost mode. NTC_FAULT bits are 000 to report
+    normal status.
+- bitfield: 5BATSNS_DIS
+  field: BATSNS_DIS
+  por: '0'
+  type: R/W
+  reset: by REG_RST
+  description: Select either BATSNS pin or BAT pin to regulate battery voltage. 0
+    – Enable BATSNS in battery CV regulation. If the device fails BATSNS open/short
+    detection (BATSNS_STAT = 1). Battery voltage is regulated through BAT pin. (default)
+    1 – Disable BATSNS. Use BAT pin in battery CV regulation.
+- bitfield: 4IINDPM[4]
+  field: IINDPM[4]
+  por: '1'
+  type: R/W
+  reset: by REG_RST
+  description: 1600 mA
+  col_6: 'Input current limit setting (maximum limit, not typical) Offset: 100 mARange:
+    100 mA (000000) – 3.2 A (11111) Default: 2400 mA (10111) IINDPM bits are changed
+    automatically after Section 7.3.3.3 is completedPSEL HIGH = 500 mAPSEL LOW = 2.4
+    AHost can reprogram IINDPM register bits after input source detection is completed.'
+- bitfield: 3IINDPM[3]
+  field: IINDPM[3]
+  por: '0'
+  type: R/W
+  reset: by REG_RST
+  description: 800 mA
+- bitfield: 2IINDPM[2]
+  field: IINDPM[2]
+  por: '1'
+  type: R/W
+  reset: by REG_RST
+  description: 400 mA
+- bitfield: 1IINDPM[1]
+  field: IINDPM[1]
+  por: '1'
+  type: R/W
+  reset: by REG_RST
+  description: 200 mA
+- bitfield: 0IINDPM[0]
+  field: IINDPM[0]
+  por: '1'
+  type: R/W
+  reset: by REG_RST
+  description: 100 mA

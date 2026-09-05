@@ -1,0 +1,123 @@
+source: bq25619.pdf
+page: 39
+title: 'LEGEND: R/W = Read/Write; R = Read only; -n = value after resetTable 7-13.
+  REG06 Field Descriptions'
+header:
+- BitField
+- Field
+- POR
+- Type
+- Reset
+- Description
+- ''
+rows:
+- - 7OVP[1]
+  - OVP[1]
+  - '1'
+  - R/W
+  - by REG_RST
+  - V threshold during buck mode and boost mode. ACOV00 – 5.85 V01 – 6.4 V (5-V input)
+    10 – 11 V (9-V input) 11 – 14.2 V (12-V input) (default)
+  - ''
+- - 6OVP[0]
+  - OVP[0]
+  - '1'
+  - R/W
+  - by REG_RST
+  - ''
+  - ''
+- - 5BOOSTV[1]
+  - BOOSTV[1]
+  - '1'
+  - R/W
+  - by REG_RST
+  - Boost regulation voltage setting00 – 4.6 V01 – 4.75 V10 – 5.0 V (default) 11 –
+    5.15 V
+  - ''
+- - 4BOOSTV[0]
+  - BOOSTV[0]
+  - '0'
+  - R/W
+  - by REG_RST
+  - ''
+  - ''
+- - 3VINDPM[3]
+  - VINDPM[3]
+  - '0'
+  - R/W
+  - by REG_RST
+  - 800 mV
+  - 'VINDPM threshold settingDefault: 4.5 V (0110) Range: 3.9 V (0000) – 5.4 V (1111)
+    Offset: 3.9 V'
+- - 2VINDPM[2]
+  - VINDPM[2]
+  - '1'
+  - R/W
+  - by REG_RST
+  - 400 mV
+  - ''
+- - 1VINDPM[1]
+  - VINDPM[1]
+  - '1'
+  - R/W
+  - by REG_RST
+  - 200 mV
+  - ''
+- - 0VINDPM[0]
+  - VINDPM[0]
+  - '0'
+  - R/W
+  - by REG_RST
+  - 100 mV
+  - ''
+records:
+- bitfield: 7OVP[1]
+  field: OVP[1]
+  por: '1'
+  type: R/W
+  reset: by REG_RST
+  description: V threshold during buck mode and boost mode. ACOV00 – 5.85 V01 – 6.4
+    V (5-V input) 10 – 11 V (9-V input) 11 – 14.2 V (12-V input) (default)
+- bitfield: 6OVP[0]
+  field: OVP[0]
+  por: '1'
+  type: R/W
+  reset: by REG_RST
+- bitfield: 5BOOSTV[1]
+  field: BOOSTV[1]
+  por: '1'
+  type: R/W
+  reset: by REG_RST
+  description: Boost regulation voltage setting00 – 4.6 V01 – 4.75 V10 – 5.0 V (default)
+    11 – 5.15 V
+- bitfield: 4BOOSTV[0]
+  field: BOOSTV[0]
+  por: '0'
+  type: R/W
+  reset: by REG_RST
+- bitfield: 3VINDPM[3]
+  field: VINDPM[3]
+  por: '0'
+  type: R/W
+  reset: by REG_RST
+  description: 800 mV
+  col_6: 'VINDPM threshold settingDefault: 4.5 V (0110) Range: 3.9 V (0000) – 5.4
+    V (1111) Offset: 3.9 V'
+- bitfield: 2VINDPM[2]
+  field: VINDPM[2]
+  por: '1'
+  type: R/W
+  reset: by REG_RST
+  description: 400 mV
+- bitfield: 1VINDPM[1]
+  field: VINDPM[1]
+  por: '1'
+  type: R/W
+  reset: by REG_RST
+  description: 200 mV
+- bitfield: 0VINDPM[0]
+  field: VINDPM[0]
+  por: '0'
+  type: R/W
+  reset: by REG_RST
+  description: 100 mV

@@ -1,0 +1,37 @@
+source: tps63802.pdf
+page: 19
+title: www.ti.comSLVSEU9D – NOVEMBER 2018 – REVISED JANUARY 2021 Table 10-2. List
+  of Recommended Inductors
+header:
+- INDUCTORVALUE [µH]
+- SATURATION CURRENT [A]
+- DCR [mΩ]
+- PART NUMBER
+- (1) MANUFACTURER
+- SIZE (LxWxH mm)
+rows:
+- - '0.47'
+  - '5.4'
+  - '7.6'
+  - XFL4015-471ME
+  - Coilcraft
+  - 4 x 4 x 2
+- - '0.47'
+  - '5.5'
+  - '26'
+  - DFE201612E
+  - Toko
+  - 2.0 x 1.6 x 1.2
+records:
+- inductorvalue_[µh]: '0.47'
+  saturation_current_[a]: '5.4'
+  dcr_[mω]: '7.6'
+  part_number: XFL4015-471ME
+  (1)_manufacturer: Coilcraft
+  size_(lxwxh_mm): 4 x 4 x 2
+- inductorvalue_[µh]: '0.47'
+  saturation_current_[a]: '5.5'
+  dcr_[mω]: '26'
+  part_number: DFE201612E
+  (1)_manufacturer: Toko
+  size_(lxwxh_mm): 2.0 x 1.6 x 1.2

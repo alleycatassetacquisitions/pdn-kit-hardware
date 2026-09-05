@@ -1,0 +1,27 @@
+source: bq25619.pdf
+page: 18
+title: to update the IINDPM register. When the device is in default mode, the PSEL
+  value updates IINDPM in real time. Table 7-1. Input Current Limit Setting from PSEL
+header:
+- INPUT DETECTION
+- PSEL PIN
+- INPUT CURRENT LIMIT (ILIM)
+- VBUS_STAT
+rows:
+- - USB SDP
+  - HIGH
+  - 500 mA
+  - '001'
+- - Adapter
+  - LOW
+  - 2.4 A
+  - '011'
+records:
+- input_detection: USB SDP
+  psel_pin: HIGH
+  input_current_limit_(ilim): 500 mA
+  vbus_stat: '001'
+- input_detection: Adapter
+  psel_pin: LOW
+  input_current_limit_(ilim): 2.4 A
+  vbus_stat: '011'

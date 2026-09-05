@@ -1,0 +1,58 @@
+source: tps22917.pdf
+page: 16
+title: QOD pin configurations. Table 9-2. VOUT Connection
+header:
+- 'ON'
+- QOD CONFIGURATION
+- TPS22917 VOUT
+- TPS22917L VOUT
+rows:
+- - L
+  - QOD pin connected to VOUT with RQOD
+  - GND (via QOD + R) QOD
+  - VIN
+- - L
+  - QOD pin tied to VOUT directly
+  - GND (via QOD)
+  - VIN
+- - L
+  - QOD pin left open
+  - Floating
+  - VIN
+- - H
+  - QOD pin connected to VOUT with RQOD
+  - VIN
+  - GND (via QOD + R) QOD
+- - H
+  - QOD pin tied to VOUT directly
+  - VIN
+  - GND (via QOD)
+- - H
+  - QOD pin left open
+  - VIN
+  - Floating
+records:
+- 'on': L
+  qod_configuration: QOD pin connected to VOUT with RQOD
+  tps22917_vout: GND (via QOD + R) QOD
+  tps22917l_vout: VIN
+- 'on': L
+  qod_configuration: QOD pin tied to VOUT directly
+  tps22917_vout: GND (via QOD)
+  tps22917l_vout: VIN
+- 'on': L
+  qod_configuration: QOD pin left open
+  tps22917_vout: Floating
+  tps22917l_vout: VIN
+- 'on': H
+  qod_configuration: QOD pin connected to VOUT with RQOD
+  tps22917_vout: VIN
+  tps22917l_vout: GND (via QOD + R) QOD
+- 'on': H
+  qod_configuration: QOD pin tied to VOUT directly
+  tps22917_vout: VIN
+  tps22917l_vout: GND (via QOD)
+- 'on': H
+  qod_configuration: QOD pin left open
+  tps22917_vout: VIN
+  tps22917l_vout: Floating

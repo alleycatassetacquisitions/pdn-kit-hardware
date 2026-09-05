@@ -1,0 +1,32 @@
+source: max17260.pdf
+page: 21
+title: should generally use higher sense resistor value. Table 9. Current Measurement
+  Range and Resolution vs. Sense Resistor Value
+header:
+- BATTERY FULL CAPACITY (mAh)
+- SENSE RESISTOR (mΩ)
+- CURRENT REGISTER RESOLUTION (μA)
+- CURRENT REGISTER RANGE (A)
+- CAPACITY RESOLUTION (mAh)
+rows:
+- - '> 4000'
+  - '1'
+  - '1562.5'
+  - ± 51.2
+  - '5'
+- - '> 2000'
+  - '2'
+  - '781.25'
+  - ± 25.6
+  - '2.5'
+records:
+- battery_full_capacity_(mah): '> 4000'
+  sense_resistor_(mω): '1'
+  current_register_resolution_(μa): '1562.5'
+  current_register_range_(a): ± 51.2
+  capacity_resolution_(mah): '5'
+- battery_full_capacity_(mah): '> 2000'
+  sense_resistor_(mω): '2'
+  current_register_resolution_(μa): '781.25'
+  current_register_range_(a): ± 25.6
+  capacity_resolution_(mah): '2.5'

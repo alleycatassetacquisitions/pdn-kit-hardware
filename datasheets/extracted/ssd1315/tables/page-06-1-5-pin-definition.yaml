@@ -1,0 +1,132 @@
+source: ssd1315.pdf
+page: 6
+title: 1.5 Pin Definition
+header:
+- Pin Number
+- Symbol
+- I/O
+- Function
+rows:
+- - Power Supply
+  - ''
+  - ''
+  - ''
+- - 9 8 28 29
+  - VDD VSS VCC VLSS
+  - P P P P
+  - Power Supply for Logic This is a voltage supply pin. It must be connected to external
+    source. Ground of Logic Circuit This is a ground pin. It acts as a reference for
+    the logic pins. It must be connected to external ground. Power Supply for OEL
+    Panel This is the most positive voltage supply pin of the chip. A stabilization
+    capacitor should be connected between this pin and V when the converter is used.
+    It SSmust be connected to external source when the converter is not used. Ground
+    of Analog Circuit This is an analog ground pin. It should be connected to V externally.
+    SS
+- - Driver
+  - ''
+  - ''
+  - ''
+- - 26 27
+  - IREF VCOMH
+  - I O
+  - Current Reference for Brightness Adjustment This pin is segment current reference
+    pin. A resistor should be connected between this pin and V. Set the current at
+    12.5μA maximum. SSVoltage Output High Level for COM SignalThis pin is the input
+    pin for the voltage output high level for COM signals. A capacitor should be connected
+    between this pin and V. SS
+- - DC/DC Converter
+  - ''
+  - ''
+  - ''
+- - 6 4 / 5 2 / 3
+  - VBAT C1P / C1NC2P / C2N
+  - P I
+  - Power Supply for DC/DC Converter Circuit This is the power supply pin for the
+    internal buffer of the DC/DC voltage converter. It must be connected to external
+    source when the converter is used. It should beconnected to V when the converter
+    is not used. DDPositive Terminal of the Flying Inverting Capacitor Negative Terminal
+    of the Flying Boost Capacitor The charge-pump capacitors are required between
+    the terminals. They must be floated when the converter is not used.
+- - Interface
+  - ''
+  - ''
+  - ''
+- - 10 11 12 14 13 15 17
+  - BS0 BS1 BS2 RES# CS# D/C# E/RD#
+  - I I I I I
+  - 'Communicating Protocol Select These pins are MCU interface selection input. See
+    the following table: BS0BS1BS2 I2C010 3-wire SPI100 4-wire SPI000 8-bit 68XX Parallel001
+    8-bit 80XX Parallel011 Power Reset for Controller and Driver This pin is reset
+    signal input. When the pin is low, initialization of the chip is executed. Keep
+    this pin pull high during normal operation. Chip Select This pin is the chip select
+    input. The chip is enabled for MCU communication only when CS# is pulled low.
+    Data/Command Control This pin is Data/Command control pin. When the pin is pulled
+    high, the input at D7~D0 is treated as display data. When the pin is pulled low,
+    the input at D7~D0 will be transferred to the command register. When the pin is
+    pulled high and serial interface mode is selected, the data at SDIN will be interpreted
+    as data. When it is pulled low, the data at SDIN will be transferred to the command
+    register. In I2C mode, this pin acts as SA0 for slave address selection. For detail
+    relationship to MCU interface signals, please refer to the Timing Characteristics
+    Diagrams. Read/Write Enable or Read This pin is MCU interface input. When interfacing
+    to a 68XX-series microprocessor, this pin will be used as the Enable (E) signal.
+    Read/write operation is initiated when this pin is pulled high and the CS# is
+    pulled low. When connecting to an 80XX-microprocessor, this pin receives the Read
+    (RD#) signal. Data read operation is initiated when this pin is pulled low and
+    CS# is pulled low. When serial or I2C mode is selected, this pin must be connected
+    to V. SS'
+records:
+- pin_number: Power Supply
+- pin_number: 9 8 28 29
+  symbol: VDD VSS VCC VLSS
+  i/o: P P P P
+  function: Power Supply for Logic This is a voltage supply pin. It must be connected
+    to external source. Ground of Logic Circuit This is a ground pin. It acts as a
+    reference for the logic pins. It must be connected to external ground. Power Supply
+    for OEL Panel This is the most positive voltage supply pin of the chip. A stabilization
+    capacitor should be connected between this pin and V when the converter is used.
+    It SSmust be connected to external source when the converter is not used. Ground
+    of Analog Circuit This is an analog ground pin. It should be connected to V externally.
+    SS
+- pin_number: Driver
+- pin_number: 26 27
+  symbol: IREF VCOMH
+  i/o: I O
+  function: Current Reference for Brightness Adjustment This pin is segment current
+    reference pin. A resistor should be connected between this pin and V. Set the
+    current at 12.5μA maximum. SSVoltage Output High Level for COM SignalThis pin
+    is the input pin for the voltage output high level for COM signals. A capacitor
+    should be connected between this pin and V. SS
+- pin_number: DC/DC Converter
+- pin_number: 6 4 / 5 2 / 3
+  symbol: VBAT C1P / C1NC2P / C2N
+  i/o: P I
+  function: Power Supply for DC/DC Converter Circuit This is the power supply pin
+    for the internal buffer of the DC/DC voltage converter. It must be connected to
+    external source when the converter is used. It should beconnected to V when the
+    converter is not used. DDPositive Terminal of the Flying Inverting Capacitor Negative
+    Terminal of the Flying Boost Capacitor The charge-pump capacitors are required
+    between the terminals. They must be floated when the converter is not used.
+- pin_number: Interface
+- pin_number: 10 11 12 14 13 15 17
+  symbol: BS0 BS1 BS2 RES# CS# D/C# E/RD#
+  i/o: I I I I I
+  function: 'Communicating Protocol Select These pins are MCU interface selection
+    input. See the following table: BS0BS1BS2 I2C010 3-wire SPI100 4-wire SPI000 8-bit
+    68XX Parallel001 8-bit 80XX Parallel011 Power Reset for Controller and Driver
+    This pin is reset signal input. When the pin is low, initialization of the chip
+    is executed. Keep this pin pull high during normal operation. Chip Select This
+    pin is the chip select input. The chip is enabled for MCU communication only when
+    CS# is pulled low. Data/Command Control This pin is Data/Command control pin.
+    When the pin is pulled high, the input at D7~D0 is treated as display data. When
+    the pin is pulled low, the input at D7~D0 will be transferred to the command register.
+    When the pin is pulled high and serial interface mode is selected, the data at
+    SDIN will be interpreted as data. When it is pulled low, the data at SDIN will
+    be transferred to the command register. In I2C mode, this pin acts as SA0 for
+    slave address selection. For detail relationship to MCU interface signals, please
+    refer to the Timing Characteristics Diagrams. Read/Write Enable or Read This pin
+    is MCU interface input. When interfacing to a 68XX-series microprocessor, this
+    pin will be used as the Enable (E) signal. Read/write operation is initiated when
+    this pin is pulled high and the CS# is pulled low. When connecting to an 80XX-microprocessor,
+    this pin receives the Read (RD#) signal. Data read operation is initiated when
+    this pin is pulled low and CS# is pulled low. When serial or I2C mode is selected,
+    this pin must be connected to V. SS'

@@ -1,0 +1,60 @@
+source: tps63802.pdf
+page: 7
+title: V= 1.8 V to 5.5 V, V = 1.8 V to 5.2 V , T= –40°C to +125°C, typical values
+  are at V= 3.6 V, V = 3.3 V and T= INOUTJINOUTJ25°C (unless otherwise noted)
+header:
+- PARAMETER
+- ''
+- TEST CONDITIONS
+- MIN
+- TYP
+- MAX
+- UNIT
+rows:
+- - fSW
+  - Inductor Switching Frequency, Boost Mode
+  - V = 2.3V, V = 3.3V, no Load, MODE = HIGH, T = 25°CINOUTJ
+  - '2.1'
+  - ''
+  - ''
+  - MHz
+- - ''
+  - Inductor Switching Frequency, Buck-Boost Mode
+  - V = 3.3V, V = 3.3V, no Load, MODE = HIGH, T = 25°CINOUTJ
+  - '1.4'
+  - ''
+  - ''
+  - MHz
+- - ''
+  - Inductor Switching Frequency, Buck Mode
+  - V = 4.3, V = 3.3V, no Load, MODE = HIGH, T = 25°CINOUTJ
+  - '1.6'
+  - ''
+  - ''
+  - MHz
+- - ''
+  - Line regulation
+  - V = 2.4 V to 5.5 V, V = 3.3V, I = 2 AINOUTOUT
+  - '0.3'
+  - ''
+  - ''
+  - '%'
+- - ''
+  - Load regulation
+  - V= 3.6 V, V = 3.3V, I = 0 A to 2 A, forced-PWMINOUTOUT mode
+  - '0.1'
+  - ''
+  - ''
+  - '%'
+records:
+- parameter: fSW
+  col_1: Inductor Switching Frequency, Boost Mode
+  test_conditions: V = 2.3V, V = 3.3V, no Load, MODE = HIGH, T = 25°CINOUTJ; V = 3.3V,
+    V = 3.3V, no Load, MODE = HIGH, T = 25°CINOUTJ; V = 4.3, V = 3.3V, no Load, MODE
+    = HIGH, T = 25°CINOUTJ; V = 2.4 V to 5.5 V, V = 3.3V, I = 2 AINOUTOUT; V= 3.6
+    V, V = 3.3V, I = 0 A to 2 A, forced-PWMINOUTOUT mode
+  min: '2.1'
+  unit: MHz
+  col_1_2: Load regulation
+  min_2: '0.1'
+  unit_2: '%'

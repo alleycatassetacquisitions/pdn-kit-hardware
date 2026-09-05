@@ -1,0 +1,114 @@
+source: bq25619.pdf
+page: 41
+title: 'LEGEND: R/W = Read/Write; R = Read only; -n = value after resetTable 7-15.
+  REG08 Field Descriptions'
+header:
+- BitField
+- Field
+- POR
+- Type
+- Reset
+- Description
+rows:
+- - 7VBUS_STAT[2]
+  - VBUS_STAT[2]
+  - x
+  - R
+  - NA
+  - VBUS Status register000 – No input001 – USB host SDP (500 mA) → PSEL pin HIGH011
+    – Adapter 2.4 A → PSEL pin LOW111 – Boost modeSoftware current limit is reported
+    in IINDPM register
+- - 6VBUS_STAT[1]
+  - VBUS_STAT[1]
+  - x
+  - R
+  - NA
+  - ''
+- - 5VBUS_STAT[0]
+  - VBUS_STAT[0]
+  - x
+  - R
+  - NA
+  - ''
+- - 4CHRG_STAT[1]
+  - CHRG_STAT[1]
+  - x
+  - R
+  - NA
+  - 'Charging status: 00 – Not charging01 – Precharge or trickle charge (< V) BATLOWV10
+    – Fast charging11 – Charge termination'
+- - 3CHRG_STAT[0]
+  - CHRG_STAT[0]
+  - x
+  - R
+  - NA
+  - ''
+- - 2PG_STAT
+  - PG_STAT
+  - x
+  - R
+  - NA
+  - 'Power Good status: 0 – Power Not Good1 – Power Good'
+- - 1THERM_STAT
+  - THERM_STAT
+  - x
+  - R
+  - NA
+  - 0 – Not in thermal regulation1 – In thermal regulation
+- - 0VSYS_STAT
+  - VSYS_STAT
+  - x
+  - R
+  - NA
+  - 0 – Not in SYS_MIN regulation (V > V) BATSYS_MIN1 – In SYS_MIN regulation (V <
+    V) BATSYS_MIN
+records:
+- bitfield: 7VBUS_STAT[2]
+  field: VBUS_STAT[2]
+  por: x
+  type: R
+  reset: NA
+  description: VBUS Status register000 – No input001 – USB host SDP (500 mA) → PSEL
+    pin HIGH011 – Adapter 2.4 A → PSEL pin LOW111 – Boost modeSoftware current limit
+    is reported in IINDPM register
+- bitfield: 6VBUS_STAT[1]
+  field: VBUS_STAT[1]
+  por: x
+  type: R
+  reset: NA
+- bitfield: 5VBUS_STAT[0]
+  field: VBUS_STAT[0]
+  por: x
+  type: R
+  reset: NA
+- bitfield: 4CHRG_STAT[1]
+  field: CHRG_STAT[1]
+  por: x
+  type: R
+  reset: NA
+  description: 'Charging status: 00 – Not charging01 – Precharge or trickle charge
+    (< V) BATLOWV10 – Fast charging11 – Charge termination'
+- bitfield: 3CHRG_STAT[0]
+  field: CHRG_STAT[0]
+  por: x
+  type: R
+  reset: NA
+- bitfield: 2PG_STAT
+  field: PG_STAT
+  por: x
+  type: R
+  reset: NA
+  description: 'Power Good status: 0 – Power Not Good1 – Power Good'
+- bitfield: 1THERM_STAT
+  field: THERM_STAT
+  por: x
+  type: R
+  reset: NA
+  description: 0 – Not in thermal regulation1 – In thermal regulation
+- bitfield: 0VSYS_STAT
+  field: VSYS_STAT
+  por: x
+  type: R
+  reset: NA
+  description: 0 – Not in SYS_MIN regulation (V > V) BATSYS_MIN1 – In SYS_MIN regulation
+    (V < V) BATSYS_MIN

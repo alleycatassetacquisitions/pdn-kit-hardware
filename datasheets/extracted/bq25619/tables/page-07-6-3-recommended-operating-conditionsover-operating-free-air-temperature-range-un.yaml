@@ -1,0 +1,143 @@
+source: bq25619.pdf
+page: 7
+title: 6.3 Recommended Operating Conditionsover operating free-air temperature range
+  (unless otherwise noted)
+header:
+- ''
+- ''
+- MIN
+- NOM
+- MAX
+- UNIT
+rows:
+- - VVBUS
+  - Input voltage
+  - '413.5'
+  - ''
+  - ''
+  - V
+- - VBAT
+  - Battery voltage
+  - '4.52'
+  - ''
+  - ''
+  - V
+- - IVBUS
+  - Input current
+  - '3.2'
+  - ''
+  - ''
+  - A
+- - ISW
+  - Output current (SW)
+  - '1.8'
+  - ''
+  - ''
+  - A
+- - IBAT
+  - Fast charging current
+  - '1.5'
+  - ''
+  - ''
+  - A
+- - IBAT
+  - RMS discharge current
+  - '5'
+  - ''
+  - ''
+  - A
+- - TA
+  - Ambient temperature
+  - –4085
+  - ''
+  - ''
+  - °C
+- - L
+  - Inductance
+  - '12.2'
+  - ''
+  - ''
+  - µH
+- - CVBUS
+  - VBUS capacitance
+  - '1'
+  - ''
+  - ''
+  - µF
+- - CPMID
+  - PMID capacitance
+  - '10'
+  - ''
+  - ''
+  - µF
+- - CSYS
+  - SYS capacitance
+  - '10'
+  - ''
+  - ''
+  - µF
+- - CBAT
+  - BAT capacitance
+  - '10'
+  - ''
+  - ''
+  - µF
+- - CREGN
+  - REGN capacitance
+  - '4.7'
+  - ''
+  - ''
+  - µF
+records:
+- col_0: VVBUS
+  col_1: Input voltage
+  min: '413.5'
+  unit: V
+- col_0: VBAT
+  col_1: Battery voltage
+  min: '4.52'
+  unit: V
+- col_0: IVBUS
+  col_1: Input current
+  min: '3.2'
+  unit: A
+- col_0: ISW
+  col_1: Output current (SW)
+  min: '1.8'
+  unit: A
+- col_0: IBAT
+  col_1: Fast charging current
+  min: '1.5'
+  unit: A
+- col_0: IBAT
+  col_1: RMS discharge current
+  min: '5'
+  unit: A
+- col_0: TA
+  col_1: Ambient temperature
+  min: –4085
+  unit: °C
+- col_0: L
+  col_1: Inductance
+  min: '12.2'
+  unit: µH
+- col_0: CVBUS
+  col_1: VBUS capacitance
+  min: '1'
+  unit: µF
+- col_0: CPMID
+  col_1: PMID capacitance
+  min: '10'
+  unit: µF
+- col_0: CSYS
+  col_1: SYS capacitance
+  min: '10'
+  unit: µF
+- col_0: CBAT
+  col_1: BAT capacitance
+  min: '10'
+  unit: µF
+- col_0: CREGN
+  col_1: REGN capacitance
+  min: '4.7'
+  unit: µF

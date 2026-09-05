@@ -1,0 +1,57 @@
+source: max17260.pdf
+page: 25
+title: Config2.DPEn to 1. Table 16. Serial Number Format
+header:
+- ADDRESS
+- Config2.AtRateEn = 1 || Config2.DPEn = 1
+- Config2.AtRateEn = 0 && Config2.DPEn = 0
+rows:
+- - '0xD4'
+  - MaxPeakPower
+  - Serial Number Word0
+- - '0xD5'
+  - SusPeakPower
+  - Serial Number Word1
+- - '0xD9'
+  - MPPCurrent
+  - Serial Number Word2
+- - '0xDA'
+  - SPPCurrent
+  - Serial Number Word3
+- - '0xDC'
+  - AtQResidual
+  - Serial Number Word4
+- - '0xDD'
+  - AtTTE
+  - Serial Number Word5
+- - '0xDE'
+  - AtAvSoc
+  - Serial Number Word6
+- - '0xDF'
+  - AtAvCap
+  - Serial Number Word7
+records:
+- address: '0xD4'
+  config2atrateen_=_1_||_config2dpen_=_1: MaxPeakPower
+  config2atrateen_=_0_&&_config2dpen_=_0: Serial Number Word0
+- address: '0xD5'
+  config2atrateen_=_1_||_config2dpen_=_1: SusPeakPower
+  config2atrateen_=_0_&&_config2dpen_=_0: Serial Number Word1
+- address: '0xD9'
+  config2atrateen_=_1_||_config2dpen_=_1: MPPCurrent
+  config2atrateen_=_0_&&_config2dpen_=_0: Serial Number Word2
+- address: '0xDA'
+  config2atrateen_=_1_||_config2dpen_=_1: SPPCurrent
+  config2atrateen_=_0_&&_config2dpen_=_0: Serial Number Word3
+- address: '0xDC'
+  config2atrateen_=_1_||_config2dpen_=_1: AtQResidual
+  config2atrateen_=_0_&&_config2dpen_=_0: Serial Number Word4
+- address: '0xDD'
+  config2atrateen_=_1_||_config2dpen_=_1: AtTTE
+  config2atrateen_=_0_&&_config2dpen_=_0: Serial Number Word5
+- address: '0xDE'
+  config2atrateen_=_1_||_config2dpen_=_1: AtAvSoc
+  config2atrateen_=_0_&&_config2dpen_=_0: Serial Number Word6
+- address: '0xDF'
+  config2atrateen_=_1_||_config2dpen_=_1: AtAvCap
+  config2atrateen_=_0_&&_config2dpen_=_0: Serial Number Word7

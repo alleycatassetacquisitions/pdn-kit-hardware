@@ -1,0 +1,27 @@
+source: max17260.pdf
+page: 14
+title: characterization. Table 1. ModelGauge m5 EZ Performance
+header:
+- DESCRIPTION
+- AFTER FIRST CYCLE* (%)
+- AFTER SECOND CYCLE* (%)
+rows:
+- - Tests with less than 3% error
+  - '95'
+  - '97'
+- - Tests with less than 5% error
+  - '98.7'
+  - '99'
+- - Tests with less than 10% error
+  - '100'
+  - '100'
+records:
+- description: Tests with less than 3% error
+  after_first_cycle*_(%): '95'
+  after_second_cycle*_(%): '97'
+- description: Tests with less than 5% error
+  after_first_cycle*_(%): '98.7'
+  after_second_cycle*_(%): '99'
+- description: Tests with less than 10% error
+  after_first_cycle*_(%): '100'
+  after_second_cycle*_(%): '100'

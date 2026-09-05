@@ -1,0 +1,111 @@
+source: bq25619.pdf
+page: 7
+title: 6.1 Absolute Maximum Ratingsover operating free-air temperature range (unless
+  otherwise noted)(1)
+header:
+- ''
+- ''
+- MIN
+- MAX
+- UNIT
+rows:
+- - Voltage
+  - VAC (converter not switching)
+  - –222
+  - ''
+  - V
+- - Voltage
+  - VBUS (converter not switching)
+  - '-222'
+  - ''
+  - V
+- - Voltage
+  - PMID (converter not switching)
+  - –0.322
+  - ''
+  - V
+- - Voltage
+  - SW
+  - –0.316
+  - ''
+  - V
+- - Voltage
+  - BAT, SYS (converter not switching)
+  - –0.37
+  - ''
+  - V
+- - Voltage
+  - BTST
+  - –0.322
+  - ''
+  - V
+- - Voltage
+  - BATSNS (converter not switching)
+  - –0.37
+  - ''
+  - V
+- - Voltage
+  - PSEL, STAT, SCL, SDA, INT, PMID_GOOD, CE, TS, QON
+  - –0.37
+  - ''
+  - V
+- - Output Sink Current
+  - SDA, STAT, INT, PMID_GOOD
+  - '6'
+  - ''
+  - mA
+- - TJ
+  - Junction temperature
+  - –40150
+  - ''
+  - °C
+- - Tstg
+  - Storage temperature
+  - –55150
+  - ''
+  - °C
+records:
+- col_0: Voltage
+  col_1: VAC (converter not switching)
+  min: –222
+  unit: V
+- col_0: Voltage
+  col_1: VBUS (converter not switching)
+  min: '-222'
+  unit: V
+- col_0: Voltage
+  col_1: PMID (converter not switching)
+  min: –0.322
+  unit: V
+- col_0: Voltage
+  col_1: SW
+  min: –0.316
+  unit: V
+- col_0: Voltage
+  col_1: BAT, SYS (converter not switching)
+  min: –0.37
+  unit: V
+- col_0: Voltage
+  col_1: BTST
+  min: –0.322
+  unit: V
+- col_0: Voltage
+  col_1: BATSNS (converter not switching)
+  min: –0.37
+  unit: V
+- col_0: Voltage
+  col_1: PSEL, STAT, SCL, SDA, INT, PMID_GOOD, CE, TS, QON
+  min: –0.37
+  unit: V
+- col_0: Output Sink Current
+  col_1: SDA, STAT, INT, PMID_GOOD
+  min: '6'
+  unit: mA
+- col_0: TJ
+  col_1: Junction temperature
+  min: –40150
+  unit: °C
+- col_0: Tstg
+  col_1: Storage temperature
+  min: –55150
+  unit: °C

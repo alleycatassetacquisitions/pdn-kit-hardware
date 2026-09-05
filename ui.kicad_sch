@@ -3671,7 +3671,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "100 nF"
 			(at 54.61 41.275 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4367,7 +4367,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4.7uF"
+		(property "Value" "4.7 uF"
 			(at 118.364 113.03 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5052,7 +5052,7 @@
 				)
 			)
 		)
-		(property "Value" "1uF"
+		(property "Value" "1 uF"
 			(at 173.99 36.83 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5314,7 +5314,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "100 nF"
 			(at 139.7 113.0299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6075,7 +6075,7 @@
 				)
 			)
 		)
-		(property "Value" "1uF"
+		(property "Value" "1 uF"
 			(at 166.37 41.91 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6337,7 +6337,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "100 nF"
 			(at 139.7 64.7699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6544,7 +6544,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4.7uF"
+		(property "Value" "4.7 uF"
 			(at 118.872 64.77 0)
 			(show_name no)
 			(do_not_autoplace no)

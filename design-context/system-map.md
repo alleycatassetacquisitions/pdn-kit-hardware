@@ -4,9 +4,9 @@
 > It describes what is drawn, not what *should* be. See `open-questions.md` before
 > treating any detail as a requirement.
 
-- **Root schematic:** `C:\Users\Elli Furedy\projects\pdn-hardware\pdn-v2.5\PDN V2.5\PDN V2.5.kicad_sch`
-- **Generated:** 2026-08-23 14:46 UTC
-- **Components:** 124
+- **Root schematic:** `C:\Users\Elli Furedy\projects\pdn-kit-hardware\pdn-kit-hardware.kicad_sch`
+- **Generated:** 2026-08-30 19:50 UTC
+- **Components:** 148
 - **Nets:** 162
 
 ## Hierarchy
@@ -21,7 +21,7 @@
 | Ref | Part | LCSC | Sheet |
 |-----|------|------|-------|
 | B+/-1 | GH-2AW R | C16965 | /power/ |
-| MOT1 | Vibration Motor | C2759984 | /ui/ |
+| MOT1 | Vibration Motor | — | /ui/ |
 | TV2 | SRV05-4-P-T7 | C85364 | /brain/ |
 | TV3 | SRV05-4-P-T7 | C85364 | /brain/ |
 | U1 | BQ25619RTWR | C2864534 | /power/ |
@@ -103,21 +103,21 @@
 
 ## Power rails (selected)
 
-- **+3V3** (28 nodes) — ICs: U3.VOUT_6, U6.3V3_2, U9.VDD_9
-- **+BATT** (10 nodes) — ICs: U1.BATSNS_10, U4.TH_A1, U4.CSN_A3, U4.BATT_B1
+- **+3V3** (29 nodes) — ICs: U3.VOUT_6, U6.3V3_2, U9.VDD_9
+- **+BATT** (11 nodes) — ICs: U1.BATSNS_10, U4.TH_A1, U4.CSN_A3, U4.BATT_B1
 - **-BATT** (3 nodes) — ICs: —
-- **/power/BATT_BQ** (5 nodes) — ICs: U1.BAT_13, U1.BAT_14, U4.CSPH_C2
-- **/power/REGN** (4 nodes) — ICs: U1.REGN_22
-- **GND** (105 nodes) — ICs: U1.PGND_17, U1.PGND_18, U1.PSEL_2, U1.EP_25, U2.GND_2, U3.MODE_2, U3.AGND_3, U3.GND_8, U4.GND/CSPL_C3, U5.GND_17, U5.AD_37, U5.GND_39
+- **/power/BATT_BQ** (6 nodes) — ICs: U1.BAT_13, U1.BAT_14, U4.CSPH_C2
+- **/power/REGN** (5 nodes) — ICs: U1.REGN_22
+- **GND** (106 nodes) — ICs: U1.PGND_17, U1.PGND_18, U1.PSEL_2, U1.EP_25, U2.GND_2, U3.MODE_2, U3.AGND_3, U3.GND_8, U4.GND/CSPL_C3, U5.GND_17, U5.AD_37, U5.GND_39
 - **Net-(U9-VCC)** (3 nodes) — ICs: U9.VCC_28
-- **VBUS** (9 nodes) — ICs: U1.VAC_1, U1.VBUS_24, USB1.VBUS_A4B9, USB1.VBUS_B4A9
-- **VCC** (18 nodes) — ICs: U2.QOD_5, U2.VOUT_6, U3.EN_1, U3.VIN_10, U5.VCC_38, U7.AD_37, U7.VCC_38, U9.VBAT_6
-- **VSYS** (9 nodes) — ICs: U1.SYS_15, U1.SYS_16, U2.VIN_1
+- **VBUS** (10 nodes) — ICs: U1.VAC_1, U1.VBUS_24, USB1.VBUS_A4B9, USB1.VBUS_B4A9
+- **VCC** (19 nodes) — ICs: U2.QOD_5, U2.VOUT_6, U3.EN_1, U3.VIN_10, U5.VCC_38, U7.AD_37, U7.VCC_38, U9.VBAT_6
+- **VSYS** (10 nodes) — ICs: U1.SYS_15, U1.SYS_16, U2.VIN_1
 
 ## Placeholders / generics
 
-11 components still use generic or non-LCSC symbols (connectors, switches, passives without C-numbers, etc.).
+35 components still use generic or non-LCSC symbols (connectors, switches, passives without C-numbers, etc.).
 
 ## Open questions
 
-See `open-questions.md` (14 items, including process reminders).
+See `open-questions.md` (39 items, including process reminders).

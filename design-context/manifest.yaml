@@ -1,9 +1,9 @@
 kind: design-context-dump
 status: as-built
 epistemicStatus: observation_not_requirement
-generatedAt: '2026-08-23T14:46:17Z'
-rootSchematic: C:\Users\Elli Furedy\projects\pdn-hardware\pdn-v2.5\PDN V2.5\PDN V2.5.kicad_sch
-projectDir: C:\Users\Elli Furedy\projects\pdn-hardware\pdn-v2.5\PDN V2.5
+generatedAt: '2026-08-30T19:50:50Z'
+rootSchematic: C:\Users\Elli Furedy\projects\pdn-kit-hardware\pdn-kit-hardware.kicad_sch
+projectDir: C:\Users\Elli Furedy\projects\pdn-kit-hardware
 sourceTool: dump_design_context.py
 connectivitySource: kicad-cli sch export netlist (kicadxml)
 files:

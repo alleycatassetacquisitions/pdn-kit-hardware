@@ -1,0 +1,115 @@
+source: bq25619.pdf
+page: 42
+title: 'LEGEND: R/W = Read/Write; R = Read only; -n = value after resetTable 7-16.
+  REG09 Field Descriptions'
+header:
+- Bit
+- Field
+- POR
+- Type
+- Reset
+- Description
+rows:
+- - '7'
+  - WATCHDOG_FAULT
+  - '1'
+  - R
+  - NA
+  - 0 – Normal, device is in host mode, 1 – Watchdog timer expiration, device is in
+    default mode.
+- - '6'
+  - BOOST_FAULT
+  - x
+  - R
+  - NA
+  - 0 – Normal1 – Fault detected in boost mode (any conditions that are not valid
+    for boost operation), including VBUS overloaded (BST_OVP) or battery is too low
+    (BST_BAT)
+- - '5'
+  - CHRG_FAULT[1]
+  - x
+  - R
+  - NA
+  - 00 – Normal01 – Input fault10 – Thermal shutdown11 – Charge safety timer expiration
+- - '4'
+  - CHRG_FAULT[0]
+  - x
+  - R
+  - NA
+  - ''
+- - '3'
+  - BAT_FAULT
+  - x
+  - R
+  - NA
+  - 0 – Normal, 1 – Battery overvoltage.
+- - '2'
+  - NTC_FAULT[2]
+  - x
+  - R
+  - NA
+  - TS fault in buck mode000 – Normal010 – Warm011 – Cool101 – Cold110 – HotTS fault
+    in boost mode000 – Normal101 – Cold110 – Hot
+- - '1'
+  - NTC_FAULT[1]
+  - x
+  - R
+  - NA
+  - ''
+- - '0'
+  - NTC_FAULT[0]
+  - x
+  - R
+  - NA
+  - ''
+records:
+- bit: '7'
+  field: WATCHDOG_FAULT
+  por: '1'
+  type: R
+  reset: NA
+  description: 0 – Normal, device is in host mode, 1 – Watchdog timer expiration,
+    device is in default mode.
+- bit: '6'
+  field: BOOST_FAULT
+  por: x
+  type: R
+  reset: NA
+  description: 0 – Normal1 – Fault detected in boost mode (any conditions that are
+    not valid for boost operation), including VBUS overloaded (BST_OVP) or battery
+    is too low (BST_BAT)
+- bit: '5'
+  field: CHRG_FAULT[1]
+  por: x
+  type: R
+  reset: NA
+  description: 00 – Normal01 – Input fault10 – Thermal shutdown11 – Charge safety
+    timer expiration
+- bit: '4'
+  field: CHRG_FAULT[0]
+  por: x
+  type: R
+  reset: NA
+- bit: '3'
+  field: BAT_FAULT
+  por: x
+  type: R
+  reset: NA
+  description: 0 – Normal, 1 – Battery overvoltage.
+- bit: '2'
+  field: NTC_FAULT[2]
+  por: x
+  type: R
+  reset: NA
+  description: TS fault in buck mode000 – Normal010 – Warm011 – Cool101 – Cold110
+    – HotTS fault in boost mode000 – Normal101 – Cold110 – Hot
+- bit: '1'
+  field: NTC_FAULT[1]
+  por: x
+  type: R
+  reset: NA
+- bit: '0'
+  field: NTC_FAULT[0]
+  por: x
+  type: R
+  reset: NA

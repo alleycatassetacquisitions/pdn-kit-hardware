@@ -1,0 +1,105 @@
+source: usblc6-2.pdf
+sourcePath: C:/Users/Elli Furedy/projects/pdn-kit-hardware/datasheets/usblc6-2.pdf
+sha256: bc30154f310cd631043214ed52571daefe04270587ec55072d49a23bd18b9068
+extractedAt: '2026-09-05T16:43:22.644445+00:00'
+pageCount: 20
+imageCount: 24
+tableCount: 8
+pages:
+- page: 1
+  file: pages/page-01.md
+  chars: 1891
+- page: 2
+  file: pages/page-02.md
+  chars: 384
+- page: 3
+  file: pages/page-03.md
+  chars: 1020
+- page: 4
+  file: pages/page-04.md
+  chars: 1931
+- page: 5
+  file: pages/page-05.md
+  chars: 613
+- page: 6
+  file: pages/page-06.md
+  chars: 1240
+- page: 7
+  file: pages/page-07.md
+  chars: 1486
+- page: 8
+  file: pages/page-08.md
+  chars: 637
+- page: 9
+  file: pages/page-09.md
+  chars: 1029
+- page: 10
+  file: pages/page-10.md
+  chars: 878
+- page: 11
+  file: pages/page-11.md
+  chars: 335
+- page: 12
+  file: pages/page-12.md
+  chars: 812
+- page: 13
+  file: pages/page-13.md
+  chars: 277
+- page: 14
+  file: pages/page-14.md
+  chars: 490
+- page: 15
+  file: pages/page-15.md
+  chars: 200
+- page: 16
+  file: pages/page-16.md
+  chars: 463
+- page: 17
+  file: pages/page-17.md
+  chars: 251
+- page: 18
+  file: pages/page-18.md
+  chars: 455
+- page: 19
+  file: pages/page-19.md
+  chars: 185
+- page: 20
+  file: pages/page-20.md
+  chars: 1281
+tables:
+- page: 2
+  title: Table 1. Absolute ratings (T = 25 °C) amb
+  file: tables/page-02-table-1-absolute-ratings-t-25-c-amb.yaml
+  rowCount: 4
+- page: 2
+  title: Table 2. Electrical characteristics (T = 25 °C) amb
+  file: tables/page-02-table-2-electrical-characteristics-t-25-c-amb.yaml
+  rowCount: 9
+- page: 11
+  title: Table 1
+  file: tables/page-11-table-1.yaml
+  rowCount: 7
+- page: 12
+  title: Table 3. SOT23-6L package mechanical data
+  file: tables/page-12-table-3-sot23-6l-package-mechanical-data.yaml
+  rowCount: 13
+- page: 14
+  title: Table 4. SOT-666 package mechanical data
+  file: tables/page-14-table-4-sot-666-package-mechanical-data.yaml
+  rowCount: 11
+- page: 17
+  title: Table 5. Tape and reel mechanical data
+  file: tables/page-17-table-5-tape-and-reel-mechanical-data.yaml
+  rowCount: 10
+- page: 18
+  title: Table 6. Ordering information
+  file: tables/page-18-table-6-ordering-information.yaml
+  rowCount: 2
+- page: 19
+  title: Table 7. Document revision history
+  file: tables/page-19-table-7-document-revision-history.yaml
+  rowCount: 7
+notes:
+- Tables are stored as YAML with span-aware symbol normalization.
+- Electrical symbols merge typographic subscripts (e.g. Ci/o-GND, ΔCi/o-GND).
+- Prefer tables/*.yaml over markdown pipe tables for specs.

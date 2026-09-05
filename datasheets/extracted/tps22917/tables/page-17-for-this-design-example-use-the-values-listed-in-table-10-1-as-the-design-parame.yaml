@@ -1,0 +1,29 @@
+source: tps22917.pdf
+page: 17
+title: 'For this design example, use the values listed in Table 10-1 as the design
+  parameters: Table 10-1. Design Parameters'
+header:
+- DESIGN PARAMETER
+- EXAMPLE VALUE
+rows:
+- - Input voltage (V ) IN
+  - 3.6 V
+- - Load current / resistance (R) L
+  - 1 kΩ
+- - Load capacitance (C) L
+  - 47 µF
+- - Minimum fall time (t) F
+  - 40 ms
+- - Maximum inrush current (I) RUSH
+  - 150 mA
+records:
+- design_parameter: Input voltage (V ) IN
+  example_value: 3.6 V
+- design_parameter: Load current / resistance (R) L
+  example_value: 1 kΩ
+- design_parameter: Load capacitance (C) L
+  example_value: 47 µF
+- design_parameter: Minimum fall time (t) F
+  example_value: 40 ms
+- design_parameter: Maximum inrush current (I) RUSH
+  example_value: 150 mA

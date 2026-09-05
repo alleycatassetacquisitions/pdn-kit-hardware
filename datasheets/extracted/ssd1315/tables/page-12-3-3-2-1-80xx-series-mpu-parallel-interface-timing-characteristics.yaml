@@ -1,0 +1,36 @@
+source: ssd1315.pdf
+page: 12
+title: '3.3.2.1 80XX-Series MPU Parallel Interface Timing Characteristics:'
+header:
+- Symbol
+- Description
+- Min
+- Max
+- Unit
+rows:
+- - t cyclet ASt AHt DSWt DHWt DHRt OHt ACCt PWLRt PWLWt PWHRt PWHWt CSt CSHt CSFt
+    Rt F
+  - Clock Cycle Time Address Setup Time Address Hold Time Write Data Setup Time Write
+    Data Hold Time Read Data Hold Time Output Disable Time Access Time Read Low Time
+    Write Low Time Read High Time Write High Time Chip Select Setup Time Chip Select
+    Hold Time to Read Signal Chip Select Hold Time Rise Time Fall Time
+  - 300 10 0 40 7 20 - - 120 60 60 60 0 0 20 - -
+  - '- - - - - - 70 140 - - - - - - - 40 40'
+  - ns ns ns ns ns ns ns ns ns ns ns ns ns ns ns ns ns
+- - '* (V - V = 1.65V to 3.3V, T = 25°C) DDSSa'
+  - ''
+  - ''
+  - ''
+  - ''
+records:
+- symbol: t cyclet ASt AHt DSWt DHWt DHRt OHt ACCt PWLRt PWLWt PWHRt PWHWt CSt CSHt
+    CSFt Rt F
+  description: Clock Cycle Time Address Setup Time Address Hold Time Write Data Setup
+    Time Write Data Hold Time Read Data Hold Time Output Disable Time Access Time
+    Read Low Time Write Low Time Read High Time Write High Time Chip Select Setup
+    Time Chip Select Hold Time to Read Signal Chip Select Hold Time Rise Time Fall
+    Time
+  min: 300 10 0 40 7 20 - - 120 60 60 60 0 0 20 - -
+  max: '- - - - - - 70 140 - - - - - - - 40 40'
+  unit: ns ns ns ns ns ns ns ns ns ns ns ns ns ns ns ns ns
+- symbol: '* (V - V = 1.65V to 3.3V, T = 25°C) DDSSa'

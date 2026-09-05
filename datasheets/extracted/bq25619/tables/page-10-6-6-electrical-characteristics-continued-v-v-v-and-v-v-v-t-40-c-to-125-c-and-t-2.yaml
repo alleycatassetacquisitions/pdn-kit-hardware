@@ -1,0 +1,393 @@
+source: bq25619.pdf
+page: 10
+title: 6.6 Electrical Characteristics (continued) V < V < V and V > V + V, T = -40°C
+  to +125°C, and T = 25°C for typical values (unless VBUS_UVLOZVBUSVBUS_OVVBUSBATSLEEPJJotherwise
+  noted)
+header:
+- PARAMETER
+- ''
+- TEST CONDITIONS
+- MIN
+- TYP
+- MAX
+- UNIT
+rows:
+- - I CHG_ACC
+  - Fast charge current regulation accuracy
+  - ICHG = 0.24A, VBAT = 3.1V or 3.8V, T = –40°C - 85°CJ
+  - 0.2160.240.264
+  - ''
+  - ''
+  - A
+- - ''
+  - ''
+  - ICHG = 0.72A, VBAT = 3.1V or 3.8V, T = –40°C - 85°CJ
+  - 0.6840.720.756
+  - ''
+  - ''
+  - A
+- - ''
+  - ''
+  - ICHG = 1.50A, VBAT = 3.1V or 3.8V, T = –40°C - 85°CJ
+  - 1.4251.51.575
+  - ''
+  - ''
+  - A
+- - IPRECHG_RANGE
+  - Typical pre-charge current range
+  - ''
+  - '20260'
+  - ''
+  - ''
+  - mA
+- - IPRECHG_STEP
+  - Typical pre-charge current step
+  - ''
+  - '20'
+  - ''
+  - ''
+  - mA
+- - IPRECHG_ACC
+  - Precharge current accuracy
+  - VBAT = 2.6V, IPRECHG = 40mA
+  - '284052'
+  - ''
+  - ''
+  - mA
+- - ''
+  - ''
+  - VBAT = 2.6V, IPRECHG = 120mA
+  - '84120156'
+  - ''
+  - ''
+  - mA
+- - ITERM_RANGE
+  - Typical termination current range
+  - ''
+  - '20260'
+  - ''
+  - ''
+  - mA
+- - ITERM_STEP
+  - Typical termination current step
+  - ''
+  - '20'
+  - ''
+  - ''
+  - mA
+- - I TERM_ACC
+  - Termination current accuracy
+  - ITERM=40mA, ICHG>260mA, VREG=4.35V, T = 0°C - 85°CJ
+  - '304050'
+  - ''
+  - ''
+  - mA
+- - ''
+  - ''
+  - ITERM=20mA, ICHG<260mA, VREG=4.35V, T = 0°C - 85°C J
+  - '102030'
+  - ''
+  - ''
+  - mA
+- - VBAT_SHORTZ
+  - Battery short voltage rising threshold to start pre-charge
+  - VBAT rising
+  - 2.132.252.35
+  - ''
+  - ''
+  - V
+- - VBAT_SHORT
+  - Battery short voltage falling threshold to stop pre-charge
+  - VBAT falling
+  - 1.8522.15
+  - ''
+  - ''
+  - V
+- - IBAT_SHORT
+  - Battery short trickle charging current
+  - VBAT < VBAT_SHORTZ
+  - '152530'
+  - ''
+  - ''
+  - mA
+- - VBATLOWV
+  - Battery LOWV rising threshold to start fast-charge
+  - VBAT rising
+  - 33.123.24
+  - ''
+  - ''
+  - V
+- - ''
+  - Battery LOWV falling threshold to stop fast-charge
+  - VBAT falling
+  - 2.72.82.9
+  - ''
+  - ''
+  - V
+- - VRECHG
+  - Battery recharge threshold
+  - VRECHG=0, VBAT falling (default)
+  - '90120150'
+  - ''
+  - ''
+  - mV
+- - ''
+  - ''
+  - VRECHG=1, VBAT falling
+  - '185210245'
+  - ''
+  - ''
+  - mV
+- - ISYS_LOAD
+  - System discharge load current during SYSOVP
+  - ''
+  - '30'
+  - ''
+  - ''
+  - mA
+- - RON_BATFET
+  - Battery FET on-resistance
+  - T = -40°C - 85°CJ
+  - '19.526'
+  - ''
+  - ''
+  - mΩ
+- - ''
+  - ''
+  - T = -40°C - 125°CJ
+  - '19.530'
+  - ''
+  - ''
+  - mΩ
+- - BATTERY OVERVOLTAGE PROTECTION
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+- - VBAT_OVP
+  - Battery overvoltage rising threshold
+  - VBAT rising, as percentage of VREG
+  - '103104105'
+  - ''
+  - ''
+  - '%'
+- - ''
+  - Battery overvoltage falling threshold
+  - VBAT falling, as percentage of VREG
+  - '101102103'
+  - ''
+  - ''
+  - '%'
+- - INPUT VOLTAGE / CURRENT REGULATION
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+- - VINDPM_RANGE
+  - Typical input voltage regulation range
+  - ''
+  - 3.95.4
+  - ''
+  - ''
+  - V
+- - VINDPM_STEP
+  - Typical input voltage regulation step
+  - ''
+  - '100'
+  - ''
+  - ''
+  - mV
+- - V INDPM_ACC
+  - Typical input voltage regulation accuracy
+  - ''
+  - 4.3654.54.635
+  - ''
+  - ''
+  - V
+- - V INDPM_TRACK
+  - VINDPM threshold to track battery voltage
+  - VBAT = 4.35V, VINDPM_BAT_TRACK = VBAT+200mV
+  - 4.454.554.74
+  - ''
+  - ''
+  - V
+- - IINDPM_RANGE
+  - Typical input current regulation range
+  - ''
+  - 0.13.2
+  - ''
+  - ''
+  - A
+- - IINDPM_STEP
+  - Typical input current regulation step
+  - ''
+  - '100'
+  - ''
+  - ''
+  - mA
+- - IINDPM_ACC
+  - Input current regulation accuracy
+  - IINDPM = 500mA (T=-40°C - 85°C) J
+  - '450465500'
+  - ''
+  - ''
+  - mA
+- - IINDPM_ACC
+  - Input current regulation accuracy
+  - IINDPM = 900mA (T=-40°C-85°C) J
+  - '750835900'
+  - ''
+  - ''
+  - mA
+- - IINDPM_ACC
+  - Input current regulation accuracy
+  - IINDPM = 1500mA (T=-40°C-85°C) J
+  - '130013901500'
+  - ''
+  - ''
+  - mA
+- - THERMAL REGULATION AND THERMAL SHUTDOWN
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+records:
+- parameter: I CHG_ACC
+  col_1: Fast charge current regulation accuracy
+  test_conditions: ICHG = 0.24A, VBAT = 3.1V or 3.8V, T = –40°C - 85°CJ; ICHG = 0.72A,
+    VBAT = 3.1V or 3.8V, T = –40°C - 85°CJ; ICHG = 1.50A, VBAT = 3.1V or 3.8V, T =
+    –40°C - 85°CJ
+  min: 0.2160.240.264
+  unit: A
+  min_2: 1.4251.51.575
+  unit_2: A
+- parameter: IPRECHG_RANGE
+  col_1: Typical pre-charge current range
+  min: '20260'
+  unit: mA
+- parameter: IPRECHG_STEP
+  col_1: Typical pre-charge current step
+  min: '20'
+  unit: mA
+- parameter: IPRECHG_ACC
+  col_1: Precharge current accuracy
+  test_conditions: VBAT = 2.6V, IPRECHG = 40mA; VBAT = 2.6V, IPRECHG = 120mA
+  min: '284052'
+  unit: mA
+  min_2: '84120156'
+  unit_2: mA
+- parameter: ITERM_RANGE
+  col_1: Typical termination current range
+  min: '20260'
+  unit: mA
+- parameter: ITERM_STEP
+  col_1: Typical termination current step
+  min: '20'
+  unit: mA
+- parameter: I TERM_ACC
+  col_1: Termination current accuracy
+  test_conditions: ITERM=40mA, ICHG>260mA, VREG=4.35V, T = 0°C - 85°CJ; ITERM=20mA,
+    ICHG<260mA, VREG=4.35V, T = 0°C - 85°C J
+  min: '304050'
+  unit: mA
+  min_2: '102030'
+  unit_2: mA
+- parameter: VBAT_SHORTZ
+  col_1: Battery short voltage rising threshold to start pre-charge
+  test_conditions: VBAT rising
+  min: 2.132.252.35
+  unit: V
+- parameter: VBAT_SHORT
+  col_1: Battery short voltage falling threshold to stop pre-charge
+  test_conditions: VBAT falling
+  min: 1.8522.15
+  unit: V
+- parameter: IBAT_SHORT
+  col_1: Battery short trickle charging current
+  test_conditions: VBAT < VBAT_SHORTZ
+  min: '152530'
+  unit: mA
+- parameter: VBATLOWV
+  col_1: Battery LOWV rising threshold to start fast-charge
+  test_conditions: VBAT rising; VBAT falling
+  min: 33.123.24
+  unit: V
+  col_1_2: Battery LOWV falling threshold to stop fast-charge
+  min_2: 2.72.82.9
+  unit_2: V
+- parameter: VRECHG
+  col_1: Battery recharge threshold
+  test_conditions: VRECHG=0, VBAT falling (default); VRECHG=1, VBAT falling
+  min: '90120150'
+  unit: mV
+  min_2: '185210245'
+  unit_2: mV
+- parameter: ISYS_LOAD
+  col_1: System discharge load current during SYSOVP
+  min: '30'
+  unit: mA
+- parameter: RON_BATFET
+  col_1: Battery FET on-resistance
+  test_conditions: T = -40°C - 85°CJ; T = -40°C - 125°CJ
+  min: '19.526'
+  unit: mΩ
+  min_2: '19.530'
+  unit_2: mΩ
+- parameter: BATTERY OVERVOLTAGE PROTECTION
+- parameter: VBAT_OVP
+  col_1: Battery overvoltage rising threshold
+  test_conditions: VBAT rising, as percentage of VREG; VBAT falling, as percentage
+    of VREG
+  min: '103104105'
+  unit: '%'
+  col_1_2: Battery overvoltage falling threshold
+  min_2: '101102103'
+  unit_2: '%'
+- parameter: INPUT VOLTAGE / CURRENT REGULATION
+- parameter: VINDPM_RANGE
+  col_1: Typical input voltage regulation range
+  min: 3.95.4
+  unit: V
+- parameter: VINDPM_STEP
+  col_1: Typical input voltage regulation step
+  min: '100'
+  unit: mV
+- parameter: V INDPM_ACC
+  col_1: Typical input voltage regulation accuracy
+  min: 4.3654.54.635
+  unit: V
+- parameter: V INDPM_TRACK
+  col_1: VINDPM threshold to track battery voltage
+  test_conditions: VBAT = 4.35V, VINDPM_BAT_TRACK = VBAT+200mV
+  min: 4.454.554.74
+  unit: V
+- parameter: IINDPM_RANGE
+  col_1: Typical input current regulation range
+  min: 0.13.2
+  unit: A
+- parameter: IINDPM_STEP
+  col_1: Typical input current regulation step
+  min: '100'
+  unit: mA
+- parameter: IINDPM_ACC
+  col_1: Input current regulation accuracy
+  test_conditions: IINDPM = 500mA (T=-40°C - 85°C) J
+  min: '450465500'
+  unit: mA
+- parameter: IINDPM_ACC
+  col_1: Input current regulation accuracy
+  test_conditions: IINDPM = 900mA (T=-40°C-85°C) J
+  min: '750835900'
+  unit: mA
+- parameter: IINDPM_ACC
+  col_1: Input current regulation accuracy
+  test_conditions: IINDPM = 1500mA (T=-40°C-85°C) J
+  min: '130013901500'
+  unit: mA
+- parameter: THERMAL REGULATION AND THERMAL SHUTDOWN

@@ -1,0 +1,88 @@
+source: max17260.pdf
+page: 15
+title: capacity values are displayed as a voltage and must be divided by the sense
+  resistor to determine Amps or Amp-hours. Table 2. ModelGauge m5 Register Standard
+  Resolutions
+header:
+- REGISTER TYPE
+- LSb SIZE
+- MINIMUM VALUE
+- MAXIMUM VALUE
+- NOTES
+rows:
+- - Capacity
+  - 5.0μVh/ RSENSE
+  - 0.0μVh
+  - 327.675mVh/ RSENSE
+  - Equivalent to 0.5mAh with a 0.010Ω sense resistor.
+- - Percentage
+  - 1/256%
+  - 0.0%
+  - 255.9961%
+  - 1% LSb when reading only the upper byte.
+- - Voltage
+  - 78.125μV
+  - 0.0V
+  - 5.11992V
+  - ''
+- - Current
+  - 1.5625μV/ RSENSE
+  - -51.2mV/ RSENSE
+  - 51.1984mV/ RSENSE
+  - Signed 2's complement format. Equivalent to 156.25μA with a 0.010Ω sense resistor.
+- - Temperature
+  - 1/256°C
+  - -128.0°C
+  - 127.996°C
+  - Signed 2's complement format. 1°C LSb when reading only the upper byte.
+- - Resistance
+  - 1/4096Ω
+  - 0.0Ω
+  - 15.99976Ω
+  - ''
+- - Time
+  - 5.625s
+  - 0.0s
+  - 102.3984h
+  - ''
+- - Special
+  - ''
+  - ''
+  - ''
+  - Format details are included with the register description.
+records:
+- register_type: Capacity
+  lsb_size: 5.0μVh/ RSENSE
+  minimum_value: 0.0μVh
+  maximum_value: 327.675mVh/ RSENSE
+  notes: Equivalent to 0.5mAh with a 0.010Ω sense resistor.
+- register_type: Percentage
+  lsb_size: 1/256%
+  minimum_value: 0.0%
+  maximum_value: 255.9961%
+  notes: 1% LSb when reading only the upper byte.
+- register_type: Voltage
+  lsb_size: 78.125μV
+  minimum_value: 0.0V
+  maximum_value: 5.11992V
+- register_type: Current
+  lsb_size: 1.5625μV/ RSENSE
+  minimum_value: -51.2mV/ RSENSE
+  maximum_value: 51.1984mV/ RSENSE
+  notes: Signed 2's complement format. Equivalent to 156.25μA with a 0.010Ω sense
+    resistor.
+- register_type: Temperature
+  lsb_size: 1/256°C
+  minimum_value: -128.0°C
+  maximum_value: 127.996°C
+  notes: Signed 2's complement format. 1°C LSb when reading only the upper byte.
+- register_type: Resistance
+  lsb_size: 1/4096Ω
+  minimum_value: 0.0Ω
+  maximum_value: 15.99976Ω
+- register_type: Time
+  lsb_size: 5.625s
+  minimum_value: 0.0s
+  maximum_value: 102.3984h
+- register_type: Special
+  notes: Format details are included with the register description.

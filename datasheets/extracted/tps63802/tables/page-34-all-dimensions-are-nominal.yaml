@@ -1,0 +1,30 @@
+source: tps63802.pdf
+page: 34
+title: '*All dimensions are nominal'
+header:
+- Device
+- Package Type
+- Package Drawing
+- Pins
+- SPQ
+- Length (mm)
+- Width (mm)
+- Height (mm)
+rows:
+- - TPS63802DLAT
+  - VSON-HR
+  - DLA
+  - '10'
+  - '250'
+  - '341.0'
+  - '182.0'
+  - '80.0'
+records:
+- device: TPS63802DLAT
+  package_type: VSON-HR
+  package_drawing: DLA
+  pins: '10'
+  spq: '250'
+  length_(mm): '341.0'
+  width_(mm): '182.0'
+  height_(mm): '80.0'

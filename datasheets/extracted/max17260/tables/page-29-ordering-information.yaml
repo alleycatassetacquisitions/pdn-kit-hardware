@@ -1,0 +1,71 @@
+source: max17260.pdf
+page: 29
+title: Ordering Information
+header:
+- PART NUMBER
+- TEMP RANGE
+- DESCRIPTION
+- SLAVE ADDRESS
+- PIN-PACKAGE
+rows:
+- - MAX17260SEWL+
+  - -40°C to +85°C
+  - Single Cell, External Hi/Lo-Side Sensing
+  - '0x6C'
+  - 9-WLP
+- - MAX17260SEWL+T
+  - -40°C to +85°C
+  - Single Cell, External Hi/Lo-Side Sensing
+  - '0x6C'
+  - 9-WLP
+- - MAX17260SETD+
+  - -40°C to +85°C
+  - Single Cell, External Hi/Lo-Side Sensing
+  - '0x6C'
+  - 14-TDFN-EP*
+- - MAX17260SETD+T
+  - -40°C to +85°C
+  - Single Cell, External Hi/Lo-Side Sensing
+  - '0x6C'
+  - 14-TDFN-EP*
+- - MAX17260BEWL+
+  - -40°C to +85°C
+  - Single Cell, External Hi/Lo-Side Sensing
+  - '0x1A'
+  - 9-WLP
+- - MAX17260BEWL+T
+  - -40°C to +85°C
+  - Single Cell, External Hi/Lo-Side Sensing
+  - '0x1A'
+  - 9-WLP
+records:
+- part_number: MAX17260SEWL+
+  temp_range: -40°C to +85°C
+  description: Single Cell, External Hi/Lo-Side Sensing
+  slave_address: '0x6C'
+  pin-package: 9-WLP
+- part_number: MAX17260SEWL+T
+  temp_range: -40°C to +85°C
+  description: Single Cell, External Hi/Lo-Side Sensing
+  slave_address: '0x6C'
+  pin-package: 9-WLP
+- part_number: MAX17260SETD+
+  temp_range: -40°C to +85°C
+  description: Single Cell, External Hi/Lo-Side Sensing
+  slave_address: '0x6C'
+  pin-package: 14-TDFN-EP*
+- part_number: MAX17260SETD+T
+  temp_range: -40°C to +85°C
+  description: Single Cell, External Hi/Lo-Side Sensing
+  slave_address: '0x6C'
+  pin-package: 14-TDFN-EP*
+- part_number: MAX17260BEWL+
+  temp_range: -40°C to +85°C
+  description: Single Cell, External Hi/Lo-Side Sensing
+  slave_address: '0x1A'
+  pin-package: 9-WLP
+- part_number: MAX17260BEWL+T
+  temp_range: -40°C to +85°C
+  description: Single Cell, External Hi/Lo-Side Sensing
+  slave_address: '0x1A'
+  pin-package: 9-WLP

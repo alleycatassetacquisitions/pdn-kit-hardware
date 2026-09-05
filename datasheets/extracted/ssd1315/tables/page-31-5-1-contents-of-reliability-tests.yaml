@@ -1,0 +1,19 @@
+source: ssd1315.pdf
+page: 31
+title: 5.1 Contents of Reliability Tests
+header:
+- Item
+- Conditions
+- Criteria
+rows:
+- - High Temperature Operation Low Temperature Operation High Temperature Storage
+    Low Temperature Storage High Temperature/Humidity Operation Thermal Shock
+  - 70°C, 240 hrs -40°C, 240 hrs 85°C, 240 hrs -40°C, 240 hrs 60°C, 90% RH, 120 hrs
+    -40°C  85°C, 24 cycles 60 mins dwell
+  - The operational functions work.
+records:
+- item: High Temperature Operation Low Temperature Operation High Temperature Storage
+    Low Temperature Storage High Temperature/Humidity Operation Thermal Shock
+  conditions: 70°C, 240 hrs -40°C, 240 hrs 85°C, 240 hrs -40°C, 240 hrs 60°C, 90%
+    RH, 120 hrs -40°C  85°C, 24 cycles 60 mins dwell
+  criteria: The operational functions work.

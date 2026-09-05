@@ -1,0 +1,110 @@
+source: IS31FL3236A.pdf
+sourcePath: C:/Users/Elli Furedy/projects/pdn-kit-hardware/datasheets/IS31FL3236A.pdf
+sha256: 459089c0441238289bb30bbf9a51dfede60c22d828930ea55b3f1b82267c4536
+extractedAt: '2026-09-05T16:38:46.183583+00:00'
+pageCount: 15
+imageCount: 31
+tableCount: 13
+pages:
+- page: 1
+  file: pages/page-01.md
+  chars: 1649
+- page: 2
+  file: pages/page-02.md
+  chars: 225
+- page: 3
+  file: pages/page-03.md
+  chars: 1325
+- page: 4
+  file: pages/page-04.md
+  chars: 911
+- page: 5
+  file: pages/page-05.md
+  chars: 530
+- page: 6
+  file: pages/page-06.md
+  chars: 3285
+- page: 7
+  file: pages/page-07.md
+  chars: 1086
+- page: 8
+  file: pages/page-08.md
+  chars: 1915
+- page: 9
+  file: pages/page-09.md
+  chars: 124
+- page: 10
+  file: pages/page-10.md
+  chars: 2935
+- page: 11
+  file: pages/page-11.md
+  chars: 1889
+- page: 12
+  file: pages/page-12.md
+  chars: 304
+- page: 13
+  file: pages/page-13.md
+  chars: 136
+- page: 14
+  file: pages/page-14.md
+  chars: 498
+- page: 15
+  file: pages/page-15.md
+  chars: 179
+tables:
+- page: 2
+  title: PIN DESCRIPTION
+  file: tables/page-02-pin-description.yaml
+  rowCount: 13
+- page: 4
+  title: IS31FL3236A ABSOLUTE MAXIMUM RATINGS Supply voltage, V -0.3V ~ +6.0V
+  file: tables/page-04-is31fl3236a-absolute-maximum-ratings-supply-voltage-v-0-3v-6-0v.yaml
+  rowCount: 6
+- page: 4
+  title: ELECTRICAL CHARACTERISTICS Typical values are T= 25°C, V= 3.6V. A CC
+  file: tables/page-04-electrical-characteristics-typical-values-are-t-25-c-v-3-6v-a-cc.yaml
+  rowCount: 17
+- page: 5
+  title: IS31FL3236A DIGITAL INPUT SWITCHING CHARACTERISTICS (NOTE 2)
+  file: tables/page-05-is31fl3236a-digital-input-switching-characteristics-note-2.yaml
+  rowCount: 11
+- page: 6
+  title: 'The complete slave address is: Table 1 Slave Address (Write only):'
+  file: tables/page-06-the-complete-slave-address-is-table-1-slave-address-write-only.yaml
+  rowCount: 3
+- page: 7
+  title: REGISTERS DEFINITIONS Table 2 Register Function
+  file: tables/page-07-registers-definitions-table-2-register-function.yaml
+  rowCount: 9
+- page: 8
+  title: Table 6 4Ah Global Control Register
+  file: tables/page-08-table-6-4ah-global-control-register.yaml
+  rowCount: 4
+- page: 8
+  title: 1 Shutdown all LEDs Table 7 4Bh Output Frequency Setting Register
+  file: tables/page-08-1-shutdown-all-leds-table-7-4bh-output-frequency-setting-register.yaml
+  rowCount: 3
+- page: 8
+  title: Table 5 26h~49h LED Control Register (OUT1~OUT36)
+  file: tables/page-08-table-5-26h-49h-led-control-register-out1-out36.yaml
+  rowCount: 2
+- page: 10
+  title: Table 8 32 Gamma Steps With 256 PWM Steps
+  file: tables/page-10-table-8-32-gamma-steps-with-256-pwm-steps.yaml
+  rowCount: 7
+- page: 10
+  title: product. Table 9 64 Gamma Steps With 256 PWM Steps
+  file: tables/page-10-product-table-9-64-gamma-steps-with-256-pwm-steps.yaml
+  rowCount: 15
+- page: 12
+  title: IS31FL3236A CLASSIFICATION REFLOW PROFILES
+  file: tables/page-12-is31fl3236a-classification-reflow-profiles.yaml
+  rowCount: 7
+- page: 15
+  title: IS31FL3236A REVISION HISTORY
+  file: tables/page-15-is31fl3236a-revision-history.yaml
+  rowCount: 2
+notes:
+- Tables are stored as YAML with span-aware symbol normalization.
+- Electrical symbols merge typographic subscripts (e.g. Ci/o-GND, ΔCi/o-GND).
+- Prefer tables/*.yaml over markdown pipe tables for specs.

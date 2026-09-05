@@ -1,0 +1,464 @@
+source: tps63802.pdf
+page: 6
+title: V= 1.8 V to 5.5 V, V = 1.8 V to 5.2 V , T= –40°C to +125°C, typical values
+  are at V= 3.6 V, V = 3.3 V and T= INOUTJINOUTJ25°C (unless otherwise noted)
+header:
+- PARAMETER
+- ''
+- TEST CONDITIONS
+- ''
+- MIN
+- TYP
+- MAX
+- UNIT
+rows:
+- - SUPPLY
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+- - VIN;LOAD
+  - Minimum input voltage for full load, once started
+  - I = 2 A, VOUT = 3.3 V, T = 25°COUTJ
+  - ''
+  - '2.3'
+  - ''
+  - ''
+  - V
+- - IQ;VIN
+  - Quiescent current into VIN
+  - TPS63802; T = 25°C, EN = V = 3.6 V, V = 3.3 V, notJINOUT switching
+  - ''
+  - '11'
+  - ''
+  - ''
+  - μA
+- - ISD
+  - Shutdown current into VIN
+  - EN = low, -40°C ≤ T ≤ 85°C, V = 3.6 V, V = 0 VJINOUT
+  - ''
+  - '45600'
+  - ''
+  - ''
+  - nA
+- - UVLO
+  - Undervoltage lockout threshold
+  - V falling, VOUT ≥ 1.8 V, once startedIN
+  - ''
+  - 1.21.251.29
+  - ''
+  - ''
+  - V
+- - ''
+  - Undervoltage lockout threshold
+  - V risingIN
+  - ''
+  - 1.61.71.79
+  - ''
+  - ''
+  - V
+- - TSD
+  - Thermal shutdown
+  - Temperature rising
+  - ''
+  - '150'
+  - ''
+  - ''
+  - °C
+- - TSD;HYST
+  - Thermal shutdown hysteresis
+  - ''
+  - ''
+  - '20'
+  - ''
+  - ''
+  - °C
+- - SOFT-START, POWER GOOD
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+- - Tramp
+  - Soft-start, Current limit ramp time
+  - T = 25°C, V = 3.6 V, V = 3.3 V, I = 3.5 A, time fromJINOUTO first switching to
+    power good
+  - ''
+  - '224'
+  - ''
+  - ''
+  - µs
+- - Tdelay
+  - Delay from EN-edge until risingV OUT
+  - T = 25°C, V = 3.6 V, V = 3.3 V, Delay from EN-edgeJINOUT until risingfirst switching
+  - ''
+  - '321'
+  - ''
+  - ''
+  - µs
+- - LOGIC SIGNALS EN, MODE
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+- - VTHR;EN
+  - Threshold Voltage rising for EN-Pin
+  - ''
+  - ''
+  - 1.071.11.13
+  - ''
+  - ''
+  - V
+- - VTHF;EN
+  - Threshold Voltage falling for EN- Pin
+  - ''
+  - ''
+  - 0.9711.03
+  - ''
+  - ''
+  - V
+- - VIH
+  - High-level input voltage
+  - ''
+  - ''
+  - '1.2'
+  - ''
+  - ''
+  - V
+- - VIL
+  - Low-level input voltage
+  - ''
+  - ''
+  - '0.4'
+  - ''
+  - ''
+  - V
+- - VPG;rising
+  - Power Good threshold voltage
+  - VOUT rising, referenced to VOUT nominal
+  - ''
+  - '95'
+  - ''
+  - ''
+  - '%'
+- - VPG;falling
+  - ''
+  - VOUT falling, referenced to VOUT nominal
+  - ''
+  - '90'
+  - ''
+  - ''
+  - '%'
+- - VPG;Low
+  - Power Good low-level outputvoltage
+  - I = 1 mASINK
+  - ''
+  - '0.4'
+  - ''
+  - ''
+  - V
+- - tPG;delay
+  - Power Good delay time
+  - V fallingFB
+  - ''
+  - '14'
+  - ''
+  - ''
+  - µs
+- - Ilkg
+  - Input leakage current
+  - ''
+  - ''
+  - 0.010.2
+  - ''
+  - ''
+  - µA
+- - OUTPUT
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+- - ISD
+  - Shutdown current into VOUT
+  - EN = low, -40°C ≤ T ≤ 85°C, V = 3.6 V, V = 3.3 VJINOUT
+  - ''
+  - ±0.5±600
+  - ''
+  - ''
+  - nA
+- - VFB
+  - Feedback Regulation Voltage
+  - ''
+  - ''
+  - '500'
+  - ''
+  - ''
+  - mV
+- - VFB
+  - Feedback Voltage accuracy
+  - PWM mode
+  - ''
+  - –11
+  - ''
+  - ''
+  - '%'
+- - ''
+  - Overvoltage Protection Threshold
+  - Vrising OUT
+  - ''
+  - 5.55.75.9
+  - ''
+  - ''
+  - V
+- - ''
+  - ''
+  - V risingIN
+  - ''
+  - 5.55.75.9
+  - ''
+  - ''
+  - V
+- - I PWM/PFM
+  - Peak Inductor Current to enterPFM-Mode
+  - V = 3.6 V; V = 3.3 VINOUT
+  - ''
+  - '1.06'
+  - ''
+  - ''
+  - A
+- - IFB
+  - Feedback Input Bias Current
+  - V = 500 mVFB
+  - ''
+  - '5100'
+  - ''
+  - ''
+  - nA
+- - I PK
+  - Peak Current Limit, Boost Mode
+  - TPS63802; V ≥ 2.5 VIN
+  - ''
+  - '455.75'
+  - ''
+  - ''
+  - A
+- - ''
+  - Peak Current Limit, Buck-BoostMode
+  - ''
+  - ''
+  - '5'
+  - ''
+  - ''
+  - A
+- - ''
+  - Peak Current Limit, Buck Mode
+  - ''
+  - ''
+  - '3.8'
+  - ''
+  - ''
+  - A
+- - IPK;Reverse
+  - Peak Current Limit for ReverseOperation
+  - V = 5 V, V= 3.3 VIO
+  - ''
+  - –0.9
+  - ''
+  - ''
+  - A
+- - BuckR DS;ON
+  - High-side FET on-resistance
+  - V = 3 V, V = 3.3 V; I= 0.19 INOUT(L2) A
+  - V = 3 V, V = 3.3 INOUTV; I = 0.5 AO
+  - '47'
+  - ''
+  - ''
+  - mΩ
+- - ''
+  - Low-side FET on-resistance
+  - V = 3 V, V = 3.3 V; I= 0.19 INOUT(L2) A
+  - V = 3 V, V = 3.3 INOUTV; I = 0.5 AO
+  - '30'
+  - ''
+  - ''
+  - mΩ
+- - BoostR DS;ON
+  - High-side FET on-resistance
+  - V = 3 V, V = 3.3 V; I= 0.19 INOUT(L1) A
+  - V = 3 V, V = 3.3 INOUTV; I = 0.5 AO
+  - '43'
+  - ''
+  - ''
+  - mΩ
+- - ''
+  - Low-side FET on-resistance
+  - V = 3 V, V = 3.3 V; I= 0.19 INOUT(L1) A
+  - V = 3 V, V = 3.3 INOUTV; I = 0.5 AO
+  - '18'
+  - ''
+  - ''
+  - mΩ
+records:
+- parameter: SUPPLY
+- parameter: VIN;LOAD
+  col_1: Minimum input voltage for full load, once started
+  test_conditions: I = 2 A, VOUT = 3.3 V, T = 25°COUTJ
+  min: '2.3'
+  unit: V
+- parameter: IQ;VIN
+  col_1: Quiescent current into VIN
+  test_conditions: TPS63802; T = 25°C, EN = V = 3.6 V, V = 3.3 V, notJINOUT switching
+  min: '11'
+  unit: μA
+- parameter: ISD
+  col_1: Shutdown current into VIN
+  test_conditions: EN = low, -40°C ≤ T ≤ 85°C, V = 3.6 V, V = 0 VJINOUT
+  min: '45600'
+  unit: nA
+- parameter: UVLO
+  col_1: Undervoltage lockout threshold
+  test_conditions: V falling, VOUT ≥ 1.8 V, once startedIN; V risingIN
+  min: 1.21.251.29
+  unit: V
+  col_1_2: Undervoltage lockout threshold
+  min_2: 1.61.71.79
+  unit_2: V
+- parameter: TSD
+  col_1: Thermal shutdown
+  test_conditions: Temperature rising
+  min: '150'
+  unit: °C
+- parameter: TSD;HYST
+  col_1: Thermal shutdown hysteresis
+  min: '20'
+  unit: °C
+- parameter: SOFT-START, POWER GOOD
+- parameter: Tramp
+  col_1: Soft-start, Current limit ramp time
+  test_conditions: T = 25°C, V = 3.6 V, V = 3.3 V, I = 3.5 A, time fromJINOUTO first
+    switching to power good
+  min: '224'
+  unit: µs
+- parameter: Tdelay
+  col_1: Delay from EN-edge until risingV OUT
+  test_conditions: T = 25°C, V = 3.6 V, V = 3.3 V, Delay from EN-edgeJINOUT until
+    risingfirst switching
+  min: '321'
+  unit: µs
+- parameter: LOGIC SIGNALS EN, MODE
+- parameter: VTHR;EN
+  col_1: Threshold Voltage rising for EN-Pin
+  min: 1.071.11.13
+  unit: V
+- parameter: VTHF;EN
+  col_1: Threshold Voltage falling for EN- Pin
+  min: 0.9711.03
+  unit: V
+- parameter: VIH
+  col_1: High-level input voltage
+  min: '1.2'
+  unit: V
+- parameter: VIL
+  col_1: Low-level input voltage
+  min: '0.4'
+  unit: V
+- parameter: VPG;rising
+  col_1: Power Good threshold voltage
+  test_conditions: VOUT rising, referenced to VOUT nominal
+  min: '95'
+  unit: '%'
+- parameter: VPG;falling
+  test_conditions: VOUT falling, referenced to VOUT nominal
+  min: '90'
+  unit: '%'
+- parameter: VPG;Low
+  col_1: Power Good low-level outputvoltage
+  test_conditions: I = 1 mASINK
+  min: '0.4'
+  unit: V
+- parameter: tPG;delay
+  col_1: Power Good delay time
+  test_conditions: V fallingFB
+  min: '14'
+  unit: µs
+- parameter: Ilkg
+  col_1: Input leakage current
+  min: 0.010.2
+  unit: µA
+- parameter: OUTPUT
+- parameter: ISD
+  col_1: Shutdown current into VOUT
+  test_conditions: EN = low, -40°C ≤ T ≤ 85°C, V = 3.6 V, V = 3.3 VJINOUT
+  min: ±0.5±600
+  unit: nA
+- parameter: VFB
+  col_1: Feedback Regulation Voltage
+  min: '500'
+  unit: mV
+- parameter: VFB
+  col_1: Feedback Voltage accuracy
+  test_conditions: PWM mode; Vrising OUT; V risingIN
+  min: –11
+  unit: '%'
+  col_1_2: Overvoltage Protection Threshold
+  min_2: 5.55.75.9
+  unit_2: V
+- parameter: I PWM/PFM
+  col_1: Peak Inductor Current to enterPFM-Mode
+  test_conditions: V = 3.6 V; V = 3.3 VINOUT
+  min: '1.06'
+  unit: A
+- parameter: IFB
+  col_1: Feedback Input Bias Current
+  test_conditions: V = 500 mVFB
+  min: '5100'
+  unit: nA
+- parameter: I PK
+  col_1: Peak Current Limit, Boost Mode
+  test_conditions: TPS63802; V ≥ 2.5 VIN
+  min: '455.75'
+  unit: A
+- col_1: Peak Current Limit, Buck-BoostMode
+  min: '5'
+  unit: A
+- col_1: Peak Current Limit, Buck Mode
+  min: '3.8'
+  unit: A
+- parameter: IPK;Reverse
+  col_1: Peak Current Limit for ReverseOperation
+  test_conditions: V = 5 V, V= 3.3 VIO
+  min: –0.9
+  unit: A
+- parameter: BuckR DS;ON
+  col_1: High-side FET on-resistance
+  test_conditions: V = 3 V, V = 3.3 V; I= 0.19 INOUT(L2) A; V = 3 V, V = 3.3 V; I=
+    0.19 INOUT(L2) A
+  col_3: V = 3 V, V = 3.3 INOUTV; I = 0.5 AO
+  min: '47'
+  unit: mΩ
+  col_1_2: Low-side FET on-resistance
+  col_3_2: V = 3 V, V = 3.3 INOUTV; I = 0.5 AO
+  min_2: '30'
+  unit_2: mΩ
+- parameter: BoostR DS;ON
+  col_1: High-side FET on-resistance
+  test_conditions: V = 3 V, V = 3.3 V; I= 0.19 INOUT(L1) A; V = 3 V, V = 3.3 V; I=
+    0.19 INOUT(L1) A
+  col_3: V = 3 V, V = 3.3 INOUTV; I = 0.5 AO
+  min: '43'
+  unit: mΩ
+  col_1_2: Low-side FET on-resistance
+  col_3_2: V = 3 V, V = 3.3 INOUTV; I = 0.5 AO
+  min_2: '18'
+  unit_2: mΩ

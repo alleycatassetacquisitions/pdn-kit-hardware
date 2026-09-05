@@ -1,0 +1,26 @@
+source: bq25619.pdf
+page: 1
+title: space limited design. Package Information
+header:
+- PART NUMBER
+- PACKAGE(1)
+- PACKAGE SIZE(2)
+- BODY SIZE (NOM)
+rows:
+- - BQ25618
+  - YFF (DSBGA, 30)
+  - 2.20mm × 2.60mm
+  - 2.00mm × 2.40mm
+- - BQ25619
+  - RTW (WQFN, 24)
+  - 4.00mm × 4.00mm
+  - 4.00mm × 4.00mm
+records:
+- part_number: BQ25618
+  package(1): YFF (DSBGA, 30)
+  package_size(2): 2.20mm × 2.60mm
+  body_size_(nom): 2.00mm × 2.40mm
+- part_number: BQ25619
+  package(1): RTW (WQFN, 24)
+  package_size(2): 4.00mm × 4.00mm
+  body_size_(nom): 4.00mm × 4.00mm

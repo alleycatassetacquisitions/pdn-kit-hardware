@@ -1,0 +1,7 @@
+###### **7.7.2 Typical Switching Characteristics (continued)** 
+
+![](../images/tps22917.pdf-0011-03.png)
+
+<!-- Start of picture text -->
+29000 34000<br>28000 32000<br>27000<br>30000<br>26000<br>28000<br>25000<br>26000<br>24000<br>23000 220 47 µFµF 24000 3 :<br>1 µF 10 :<br>22000 22000<br>1 1.5 2 2.5 3 3.5 4 4.5 5 5.5 1 1.5 2 2.5 3 3.5 4 4.5 5 5.5<br>VIN (V) D022 VIN (V) D023<br>RL = 10 Ω CL = 47 µF<br>Figure 7-19. Turn-On vs Load Capacitance (CT = 10000 pF) Figure 7-20. Turn-On vs Load Resistance (CT = 10000 pF)<br>12000 3600<br>3 :<br>3300 10 :<br>10000 3000 Open<br>2700<br>8000 2400<br>2100<br>6000 1800<br>1500<br>4000 220 µF 1200<br>47 µF 900<br>1 µF<br>2000 600<br>1 1.5 2 2.5 3 3.5 4 4.5 5 5.5 1 1.5 2 2.5 3 3.5 4 4.5 5 5.5<br>VIN (V) D024 VIN (V) D025<br>RL = 10 Ω CL = 47 µF<br>Figure 7-21. Rise Time vs Load Capacitance (CT = 10000 pF) Figure 7-22. Rise Time vs Load Resistance (CT = 10000 pF)<br>0.6 0.6<br>3 :<br>10 :<br>0.5 0.5<br>0.4 0.4<br>0.3 0.3<br>0.2 0.2<br>0.1 220 µF 0.1<br>47 µF<br>1 µF<br>0 0<br>1 1.5 2 2.5 3 3.5 4 4.5 5 5.5 1 1.5 2 2.5 3 3.5 4 4.5 5 5.5<br>VIN (V) D026 VIN (V) D027<br>RL = 10 Ω CL = 47 µF<br>Figure 7-23. Slew Rate vs Load Capacitance (CT = 10000 pF) Figure 7-24. Slew Rate vs Load Resistance (CT = 10000 pF)<br>s) s)<br>P P<br> (  (<br>tON tON<br>s) (tPR s) (tPR<br>s) s)<br>P P<br> (mV/  (mV/<br>ON ON<br>SR SR<br><!-- End of picture text -->
+

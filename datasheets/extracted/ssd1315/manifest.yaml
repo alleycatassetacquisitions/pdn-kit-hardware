@@ -1,0 +1,172 @@
+source: ssd1315.pdf
+sourcePath: C:/Users/Elli Furedy/projects/pdn-kit-hardware/datasheets/ssd1315.pdf
+sha256: c6299cbd6e8142b3aa8f00a014721ecc603736a3561d67906ba7227711728999
+extractedAt: '2026-09-05T16:40:53.509875+00:00'
+pageCount: 39
+imageCount: 113
+tableCount: 10
+pages:
+- page: 1
+  file: pages/page-01.md
+  chars: 867
+- page: 2
+  file: pages/page-02.md
+  chars: 271
+- page: 3
+  file: pages/page-03.md
+  chars: 6595
+- page: 4
+  file: pages/page-04.md
+  chars: 845
+- page: 5
+  file: pages/page-05.md
+  chars: 1849
+- page: 6
+  file: pages/page-06.md
+  chars: 200
+- page: 7
+  file: pages/page-07.md
+  chars: 274
+- page: 8
+  file: pages/page-08.md
+  chars: 1157
+- page: 9
+  file: pages/page-09.md
+  chars: 954
+- page: 10
+  file: pages/page-10.md
+  chars: 451
+- page: 11
+  file: pages/page-11.md
+  chars: 1344
+- page: 12
+  file: pages/page-12.md
+  chars: 339
+- page: 13
+  file: pages/page-13.md
+  chars: 1315
+- page: 14
+  file: pages/page-14.md
+  chars: 230
+- page: 15
+  file: pages/page-15.md
+  chars: 1466
+- page: 16
+  file: pages/page-16.md
+  chars: 225
+- page: 17
+  file: pages/page-17.md
+  chars: 1347
+- page: 18
+  file: pages/page-18.md
+  chars: 266
+- page: 19
+  file: pages/page-19.md
+  chars: 1476
+- page: 20
+  file: pages/page-20.md
+  chars: 2226
+- page: 21
+  file: pages/page-21.md
+  chars: 1356
+- page: 22
+  file: pages/page-22.md
+  chars: 938
+- page: 23
+  file: pages/page-23.md
+  chars: 832
+- page: 24
+  file: pages/page-24.md
+  chars: 419
+- page: 25
+  file: pages/page-25.md
+  chars: 1277
+- page: 26
+  file: pages/page-26.md
+  chars: 1100
+- page: 27
+  file: pages/page-27.md
+  chars: 976
+- page: 28
+  file: pages/page-28.md
+  chars: 343
+- page: 29
+  file: pages/page-29.md
+  chars: 334
+- page: 30
+  file: pages/page-30.md
+  chars: 161
+- page: 31
+  file: pages/page-31.md
+  chars: 639
+- page: 32
+  file: pages/page-32.md
+  chars: 1162
+- page: 33
+  file: pages/page-33.md
+  chars: 672
+- page: 34
+  file: pages/page-34.md
+  chars: 503
+- page: 35
+  file: pages/page-35.md
+  chars: 410
+- page: 36
+  file: pages/page-36.md
+  chars: 913
+- page: 37
+  file: pages/page-37.md
+  chars: 3176
+- page: 38
+  file: pages/page-38.md
+  chars: 3758
+- page: 39
+  file: pages/page-39.md
+  chars: 2350
+tables:
+- page: 6
+  title: 1.5 Pin Definition
+  file: tables/page-06-1-5-pin-definition.yaml
+  rowCount: 8
+- page: 7
+  title: 1.5 Pin Definition (Continued)
+  file: tables/page-07-1-5-pin-definition-continued.yaml
+  rowCount: 5
+- page: 8
+  title: 2. Absolute Maximum Ratings
+  file: tables/page-08-2-absolute-maximum-ratings.yaml
+  rowCount: 1
+- page: 9
+  title: 3.1 Optics Characteristics
+  file: tables/page-09-3-1-optics-characteristics.yaml
+  rowCount: 1
+- page: 9
+  title: Software configuration follows Section 4.4 Initialization. 3.2 DC Characteristics
+  file: tables/page-09-software-configuration-follows-section-4-4-initialization-3-2-dc-characteristics.yaml
+  rowCount: 2
+- page: 10
+  title: '3.3 AC Characteristics 3.3.1.1 68XX-Series MPU Parallel Interface Timing
+    Characteristics:'
+  file: tables/page-10-3-3-ac-characteristics-3-3-1-1-68xx-series-mpu-parallel-interface-timing-charact.yaml
+  rowCount: 2
+- page: 12
+  title: '3.3.2.1 80XX-Series MPU Parallel Interface Timing Characteristics:'
+  file: tables/page-12-3-3-2-1-80xx-series-mpu-parallel-interface-timing-characteristics.yaml
+  rowCount: 2
+- page: 31
+  title: 5.1 Contents of Reliability Tests
+  file: tables/page-31-5-1-contents-of-reliability-tests.yaml
+  rowCount: 1
+- page: 34
+  title: 6.3.2 Cosmetic Check (Display Off) in Active Area It is recommended to execute
+    in clear room environment (class 10k) if actual in necessary.
+  file: tables/page-34-6-3-2-cosmetic-check-display-off-in-active-area-it-is-recommended-to-execute-in.yaml
+  rowCount: 2
+- page: 36
+  title: Table 1
+  file: tables/page-36-table-1.yaml
+  rowCount: 1
+notes:
+- Tables are stored as YAML with span-aware symbol normalization.
+- Electrical symbols merge typographic subscripts (e.g. Ci/o-GND, ΔCi/o-GND).
+- Prefer tables/*.yaml over markdown pipe tables for specs.

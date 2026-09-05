@@ -1,0 +1,138 @@
+source: max17260.pdf
+page: 12
+title: Pin Descriptions
+header:
+- PIN
+- ''
+- NAME
+- FUNCTION
+rows:
+- - TDFN
+  - WLP
+  - ''
+  - ''
+- - 2, 3, 4, 5
+  - —
+  - NC
+  - No Connection.
+- - '1'
+  - A1
+  - TH
+  - Thermistor Input. Connect a thermistor from TH to GND. TH also provides battery
+    insertion/removal detection. Connect to BATT if not used.
+- - '14'
+  - A2
+  - SCL
+  - Serial Clock Input. 2-wire clock line. Input only. SCL has an internal pulldown
+    (I) PDfor sensing disconnection.
+- - '13'
+  - C1
+  - SDA
+  - Serial Data Input/Output. 2-wire data line. Open-drain output driver. SDA has
+    an internal pulldown (I) for sensing disconnection. PD
+- - '7'
+  - A3
+  - CSN
+  - Sense Resistor Negative Sense Point. On start up, the CSN voltage is measured
+    to determine whether it is a high-side or low-side application. For a low-side
+    application, Kelvin connect to the system side of the sense resistor; for a high-side
+    application, Kelvin connect to the cell side of the sense resistor.
+- - '10'
+  - C2
+  - CSPH
+  - High-Side Sense Resistor Positive Sense Point. For a high-side current sensing
+    application, Kelvin connect to the system side of an external high-side sense
+    resistor. For a low-side current sensing application, tie to the BATT pin.
+- - '9'
+  - —
+  - CSPL
+  - Low-Side Sense Resistor Positive Sense Point. Kelvin connect to the cell side
+    of the sense resistor.
+- - '6'
+  - B1
+  - BATT
+  - IC Power Supply and Battery Voltage Sense Input. Connect to the positive terminal
+    of a battery cell. Bypass with a 0.1μF capacitor to GND.
+- - —
+  - C3
+  - GND/CSPL
+  - IC Ground and Low-Side Sense Resistor Positive Sense Point. Kelvin connect to
+    the cell side of the sense resistor.
+- - '8'
+  - —
+  - GND
+  - IC Ground.
+- - '11'
+  - B3
+  - REG
+  - Internal 1.8V Regulator Output. Bypass with an external 0.47μF capacitor to GND.
+    Do not load externally.
+- - '12'
+  - B2
+  - ALRT
+  - Alert Output. The ALRT pin is an open-drain active-low output which indicates
+    fuel-gauge alerts. Connect to GND if not used.
+records:
+- pin: TDFN
+  col_1: WLP
+- pin: 2, 3, 4, 5
+  col_1: —
+  name: NC
+  function: No Connection.
+- pin: '1'
+  col_1: A1
+  name: TH
+  function: Thermistor Input. Connect a thermistor from TH to GND. TH also provides
+    battery insertion/removal detection. Connect to BATT if not used.
+- pin: '14'
+  col_1: A2
+  name: SCL
+  function: Serial Clock Input. 2-wire clock line. Input only. SCL has an internal
+    pulldown (I) PDfor sensing disconnection.
+- pin: '13'
+  col_1: C1
+  name: SDA
+  function: Serial Data Input/Output. 2-wire data line. Open-drain output driver.
+    SDA has an internal pulldown (I) for sensing disconnection. PD
+- pin: '7'
+  col_1: A3
+  name: CSN
+  function: Sense Resistor Negative Sense Point. On start up, the CSN voltage is measured
+    to determine whether it is a high-side or low-side application. For a low-side
+    application, Kelvin connect to the system side of the sense resistor; for a high-side
+    application, Kelvin connect to the cell side of the sense resistor.
+- pin: '10'
+  col_1: C2
+  name: CSPH
+  function: High-Side Sense Resistor Positive Sense Point. For a high-side current
+    sensing application, Kelvin connect to the system side of an external high-side
+    sense resistor. For a low-side current sensing application, tie to the BATT pin.
+- pin: '9'
+  col_1: —
+  name: CSPL
+  function: Low-Side Sense Resistor Positive Sense Point. Kelvin connect to the cell
+    side of the sense resistor.
+- pin: '6'
+  col_1: B1
+  name: BATT
+  function: IC Power Supply and Battery Voltage Sense Input. Connect to the positive
+    terminal of a battery cell. Bypass with a 0.1μF capacitor to GND.
+- pin: —
+  col_1: C3
+  name: GND/CSPL
+  function: IC Ground and Low-Side Sense Resistor Positive Sense Point. Kelvin connect
+    to the cell side of the sense resistor.
+- pin: '8'
+  col_1: —
+  name: GND
+  function: IC Ground.
+- pin: '11'
+  col_1: B3
+  name: REG
+  function: Internal 1.8V Regulator Output. Bypass with an external 0.47μF capacitor
+    to GND. Do not load externally.
+- pin: '12'
+  col_1: B2
+  name: ALRT
+  function: Alert Output. The ALRT pin is an open-drain active-low output which indicates
+    fuel-gauge alerts. Connect to GND if not used.

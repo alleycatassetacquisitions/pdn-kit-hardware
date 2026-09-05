@@ -1,0 +1,109 @@
+source: bq25619.pdf
+page: 44
+title: 'LEGEND: R/W = Read/Write; R = Read only; -n = value after resetTable 7-18.
+  REG0B Field Descriptions'
+header:
+- Bit
+- Field
+- POR
+- Type
+- Reset
+- Description
+rows:
+- - '7'
+  - REG_RST
+  - '0'
+  - R/W
+  - NA
+  - Register reset0 – Keep current register setting (default). 1 – Reset to default
+    register value and reset safety timer. This bit returns to 0 after register reset
+    is completed.
+- - '6'
+  - PN[3]
+  - '0'
+  - R
+  - NA
+  - Reserved
+- - '5'
+  - PN[2]
+  - '1'
+  - R
+  - NA
+  - ''
+- - '4'
+  - PN[1]
+  - '0'
+  - R
+  - NA
+  - ''
+- - '3'
+  - PN[0]
+  - '1'
+  - R
+  - NA
+  - ''
+- - '2'
+  - Reserved
+  - '1'
+  - R
+  - NA
+  - Reserved
+- - '1'
+  - Reserved
+  - '0'
+  - R
+  - NA
+  - Reserved
+- - '0'
+  - Reserved
+  - '0'
+  - R
+  - NA
+  - ''
+records:
+- bit: '7'
+  field: REG_RST
+  por: '0'
+  type: R/W
+  reset: NA
+  description: Register reset0 – Keep current register setting (default). 1 – Reset
+    to default register value and reset safety timer. This bit returns to 0 after
+    register reset is completed.
+- bit: '6'
+  field: PN[3]
+  por: '0'
+  type: R
+  reset: NA
+  description: Reserved
+- bit: '5'
+  field: PN[2]
+  por: '1'
+  type: R
+  reset: NA
+- bit: '4'
+  field: PN[1]
+  por: '0'
+  type: R
+  reset: NA
+- bit: '3'
+  field: PN[0]
+  por: '1'
+  type: R
+  reset: NA
+- bit: '2'
+  field: Reserved
+  por: '1'
+  type: R
+  reset: NA
+  description: Reserved
+- bit: '1'
+  field: Reserved
+  por: '0'
+  type: R
+  reset: NA
+  description: Reserved
+- bit: '0'
+  field: Reserved
+  por: '0'
+  type: R
+  reset: NA

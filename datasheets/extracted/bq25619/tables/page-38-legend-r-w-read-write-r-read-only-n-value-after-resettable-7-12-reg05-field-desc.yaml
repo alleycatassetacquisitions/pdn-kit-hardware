@@ -1,0 +1,117 @@
+source: bq25619.pdf
+page: 38
+title: 'LEGEND: R/W = Read/Write; R = Read only; -n = value after resetTable 7-12.
+  REG05 Field Descriptions'
+header:
+- Bit
+- Field
+- POR
+- Type
+- Reset
+- Description
+rows:
+- - '7'
+  - EN_TERM
+  - '1'
+  - R/W
+  - by REG_RSTby Watchdog
+  - Battery charging termination enable. 0 – Disable1 – Enable (default)
+- - '6'
+  - Reserved
+  - '0'
+  - R/W
+  - by REG_RSTby Watchdog
+  - Reserved
+- - '5'
+  - WATCHDOG[1]
+  - '0'
+  - R/W
+  - by REG_RSTby Watchdog
+  - Watchdog timer setting. 00 – Disable timer01 – 40 s (default) 10 – 80 s11 – 160
+    s
+- - '4'
+  - WATCHDOG[0]
+  - '1'
+  - R/W
+  - by REG_RSTby Watchdog
+  - ''
+- - '3'
+  - EN_TIMER
+  - '1'
+  - R/W
+  - by REG_RSTby Watchdog
+  - Battery charging safety timer enable, including both fast charge and precharge
+    timers. Precharge timer is 2 hours. Fast charge timer is set by REG05[2] 0 – Disable1
+    – Enable timer (default)
+- - '2'
+  - CHG_TIMER
+  - '1'
+  - R/W
+  - by REG_RSTby Watchdog
+  - Battery fast charging safety timer setting. 0 – 20 hrs1 – 10 hrs (default)
+- - '1'
+  - TREG
+  - '1'
+  - R/W
+  - by REG_RSTby Watchdog
+  - 'Thermal regulation threshold: 0 – 90°C1 – 110°C (default)'
+- - '0'
+  - JEITA_VSET (45C-60C)
+  - '0'
+  - R/W
+  - by REG_RSTby Watchdog
+  - Battery voltage setting during JEITA warm (T3 - T5, typically 45C - 60C) 0 – Set
+    charge voltage to 4.1 V (max) (default) 1 – Set charge voltage to VREG
+records:
+- bit: '7'
+  field: EN_TERM
+  por: '1'
+  type: R/W
+  reset: by REG_RSTby Watchdog
+  description: Battery charging termination enable. 0 – Disable1 – Enable (default)
+- bit: '6'
+  field: Reserved
+  por: '0'
+  type: R/W
+  reset: by REG_RSTby Watchdog
+  description: Reserved
+- bit: '5'
+  field: WATCHDOG[1]
+  por: '0'
+  type: R/W
+  reset: by REG_RSTby Watchdog
+  description: Watchdog timer setting. 00 – Disable timer01 – 40 s (default) 10 –
+    80 s11 – 160 s
+- bit: '4'
+  field: WATCHDOG[0]
+  por: '1'
+  type: R/W
+  reset: by REG_RSTby Watchdog
+- bit: '3'
+  field: EN_TIMER
+  por: '1'
+  type: R/W
+  reset: by REG_RSTby Watchdog
+  description: Battery charging safety timer enable, including both fast charge and
+    precharge timers. Precharge timer is 2 hours. Fast charge timer is set by REG05[2]
+    0 – Disable1 – Enable timer (default)
+- bit: '2'
+  field: CHG_TIMER
+  por: '1'
+  type: R/W
+  reset: by REG_RSTby Watchdog
+  description: Battery fast charging safety timer setting. 0 – 20 hrs1 – 10 hrs (default)
+- bit: '1'
+  field: TREG
+  por: '1'
+  type: R/W
+  reset: by REG_RSTby Watchdog
+  description: 'Thermal regulation threshold: 0 – 90°C1 – 110°C (default)'
+- bit: '0'
+  field: JEITA_VSET (45C-60C)
+  por: '0'
+  type: R/W
+  reset: by REG_RSTby Watchdog
+  description: Battery voltage setting during JEITA warm (T3 - T5, typically 45C -
+    60C) 0 – Set charge voltage to 4.1 V (max) (default) 1 – Set charge voltage to
+    VREG

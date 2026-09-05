@@ -1,0 +1,18 @@
+##### **4 Description (continued)** 
+
+The BQ25619/618 is a highly integrated 1.5A switch-mode battery charge management and system power path management device for Li-ion and Li-polymer battery. It features fast charging with high input voltage support for a wide range of applications including wearables, and earphone charging case. Its low impedance power path optimizes switch-mode operation efficiency, reduces battery charging time, and extends battery run time during discharging phase. Its input voltage and current regulation, low termination current, and battery remote sensing deliver maximum charging power to the battery. The solution is highly integrated with input reverse-blocking FET (RBFET, Q1), high-side switching FET (HSFET, Q2), low-side switching FET (LSFET, Q3), and battery FET (BATFET, Q4) between system and battery. It also integrates the bootstrap diode for the high-side gate drive for simplified system design. The I<sup>2</sup> C serial interface with charging and system settings makes the device a truly flexible solution. 
+
+The device supports a wide range of input sources, including standard USB host port, USB charging port, USB compliant high voltage adapter and wireless power. It is compliant with USB 2.0 and USB 3.0 power spec with input current and voltage regulation. The device takes the result from the detection circuit in the system, such as USB PHY device. 
+
+The device integrates the buck charger and boost regulator into one solution with single inductor. The Boost mode supplies 5V (adjustable 4.6V/4.75V/5V/5.15V) on PMID pin. Boost mode is used to save BOM and charge another battery by control of PMID_GOOD. The PMID_GOOD pin is used to drive the external PMOS FET to disconnect boost output PMID from the attached accessories. 
+
+The power path management regulates the system slightly above battery voltage but does not drop below 3.5V minimum system voltage (programmable) with adapter applied. With this feature, the system maintains operation even when the battery is completely depleted or removed. When the input current limit or voltage limit is reached, the power path management automatically reduces the charge current. As the system load continues to increase, the battery starts to discharge the battery until the system power requirement is met. This supplement mode prevents overloading the input source. 
+
+The device initiates and completes a charging cycle without software control. It senses the battery voltage and charges the battery in three phases: pre-conditioning, constant current and constant voltage. At the end of the charging cycle, the charger automatically terminates when the charge current is below a preset limit and the battery voltage is higher than the recharge threshold. If the fully charged battery falls below the recharge threshold, the charger automatically starts another charging cycle. 
+
+The charger provides various safety features for battery charging and system operations, including battery negative temperature coefficient thermistor monitoring, charging safety timer and overvoltage and overcurrent protections. Thermal regulation reduces charge current when the junction temperature exceeds 110°C. The status register reports the charging status and any fault conditions. With I<sup>2</sup> C, the VBUS_GD bit indicates if a good power source is present, and the INT output immediately notifies host when a fault occurs. 
+
+The device also provides the QON pin for BATFET enable and reset control to exit low power Ship mode or full system reset function. 
+
+The BQ25619 device is available in 24-pin, 4mm × 4mm x 0.75mm thin WQFN package and BQ25618 is available in 30-ball, 2.0mm × 2.4mm WCSP package. 
+

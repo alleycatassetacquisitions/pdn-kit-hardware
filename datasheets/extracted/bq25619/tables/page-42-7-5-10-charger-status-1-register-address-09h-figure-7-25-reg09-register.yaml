@@ -1,0 +1,39 @@
+source: bq25619.pdf
+page: 42
+title: 7.5.10 Charger Status 1 Register (Address = 09h) Figure 7-25. REG09 Register
+header:
+- '7'
+- '6'
+- '5'
+- '4'
+- '3'
+- '2'
+- '1'
+- '0'
+rows:
+- - '1'
+  - x
+  - x
+  - x
+  - x
+  - x
+  - x
+  - x
+- - RRRRRRRR
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+records:
+- '7': '1'
+  '6': x
+  '5': x
+  '4': x
+  '3': x
+  '2': x
+  '1': x
+  '0': x
+- '7': RRRRRRRR

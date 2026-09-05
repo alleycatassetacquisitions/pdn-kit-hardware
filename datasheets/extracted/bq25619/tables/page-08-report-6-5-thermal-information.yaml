@@ -1,0 +1,70 @@
+source: bq25619.pdf
+page: 8
+title: report. 6.5 Thermal Information
+header:
+- ''
+- ''
+- BQ25619
+- ''
+rows:
+- - THERMAL METRIC(1)
+  - ''
+  - RTW (WQFN)
+  - UNIT
+- - ''
+  - ''
+  - 24 Pins
+  - ''
+- - R θJA
+  - Junction-to-ambient thermal resistance (JEDEC(1))
+  - '35.6'
+  - °C/W
+- - R θJC(top)
+  - Junction-to-case (top) thermal resistance
+  - '22.7'
+  - °C/W
+- - R θJB
+  - Junction-to-board thermal resistance
+  - '11.9'
+  - °C/W
+- - Ψ JT
+  - Junction-to-top characterization parameter
+  - '0.2'
+  - °C/W
+- - Ψ JB
+  - Junction-to-board characterization parameter
+  - '12'
+  - °C/W
+- - R θJC(bot)
+  - Junction-to-case (bottom) thermal resistance
+  - '2.6'
+  - °C/W
+records:
+- col_0: THERMAL METRIC(1)
+  bq25619: RTW (WQFN)
+  col_3: UNIT
+- bq25619: 24 Pins
+- col_0: R θJA
+  col_1: Junction-to-ambient thermal resistance (JEDEC(1))
+  bq25619: '35.6'
+  col_3: °C/W
+- col_0: R θJC(top)
+  col_1: Junction-to-case (top) thermal resistance
+  bq25619: '22.7'
+  col_3: °C/W
+- col_0: R θJB
+  col_1: Junction-to-board thermal resistance
+  bq25619: '11.9'
+  col_3: °C/W
+- col_0: Ψ JT
+  col_1: Junction-to-top characterization parameter
+  bq25619: '0.2'
+  col_3: °C/W
+- col_0: Ψ JB
+  col_1: Junction-to-board characterization parameter
+  bq25619: '12'
+  col_3: °C/W
+- col_0: R θJC(bot)
+  col_1: Junction-to-case (bottom) thermal resistance
+  bq25619: '2.6'
+  col_3: °C/W
