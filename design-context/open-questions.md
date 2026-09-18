@@ -17,7 +17,7 @@
 
 ## Net Naming
 
-- [ ] **auto-net-names** — 96 nets still use KiCad auto-names (Net-(C7-Pad1), Net-(D2-A), Net-(D2-K), Net-(D4-A), Net-(D5-A), Net-(D6-K), Net-(D7-K), Net-(LED1-BK) (+88 more)). Review before treating netlist as documentation.
+- [ ] **auto-net-names** — 96 nets still use KiCad auto-names (Net-(C7-Pad1), Net-(D2-A), Net-(D2-K), Net-(D4-A), Net-(D5-A), Net-(D6-K), Net-(D7-K), Net-(NTC1-Pad1) (+88 more)). Review before treating netlist as documentation.
   - Source: `netlist`
 
 ## Part Selection

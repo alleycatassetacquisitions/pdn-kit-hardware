@@ -290,18 +290,20 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:LED_ARGB"
+		(symbol "Device:R"
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
 				(offset 0)
-				(hide yes)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "D"
-				(at 0 9.398 0)
+			(property "Reference" "R"
+				(at 2.032 0 90)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -310,8 +312,8 @@
 					)
 				)
 			)
-			(property "Value" "LED_ARGB"
-				(at 0 -8.89 0)
+			(property "Value" "R"
+				(at 0 0 90)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -321,7 +323,7 @@
 				)
 			)
 			(property "Footprint" ""
-				(at 0 -1.27 0)
+				(at -1.778 0 90)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -332,17 +334,6 @@
 				)
 			)
 			(property "Datasheet" ""
-				(at 0 -1.27 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "RGB LED, anode/red/green/blue"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -353,7 +344,7 @@
 					)
 				)
 			)
-			(property "ki_keywords" "LED RGB diode"
+			(property "Description" "Resistor"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -364,7 +355,7 @@
 					)
 				)
 			)
-			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
+			(property "ki_keywords" "R res resistor"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -375,7 +366,175 @@
 					)
 				)
 			)
-			(symbol "LED_ARGB_0_0"
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "R_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "global:FM-3510RGBA-SG"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "LED"
+				(at 0 12.7 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "FM-3510RGBA-SG"
+				(at 0 -8.89 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "global:LED-SMD_FM-3510RGBA-SG"
+				(at 0 -11.43 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_Foshan-NationStar-Optoelectronics-FM-3510RGBA-SG_C727903.html"
+				(at 0 -13.97 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" "国星光电"
+				(at 0 -16.51 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "MPN" "FM-3510RGBA-SG"
+				(at 0 -19.05 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "LCSC Part" "C727903"
+				(at 0 -21.59 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "Light Emitting Diodes (LED)"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "FM-3510RGBA-SG_0_0"
 				(text "R"
 					(at -1.905 3.81 0)
 					(effects
@@ -401,7 +560,18 @@
 					)
 				)
 			)
-			(symbol "LED_ARGB_0_1"
+			(symbol "FM-3510RGBA-SG_0_1"
+				(rectangle
+					(start -2.794 8.382)
+					(end 2.794 -7.62)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
 				(polyline
 					(pts
 						(xy -1.27 6.35) (xy -1.27 3.81)
@@ -721,23 +891,12 @@
 						(type outline)
 					)
 				)
-				(rectangle
-					(start 2.794 8.382)
-					(end -2.794 -7.62)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
 			)
-			(symbol "LED_ARGB_1_1"
+			(symbol "FM-3510RGBA-SG_1_1"
 				(pin passive line
-					(at 5.08 0 180)
+					(at -5.08 5.08 0)
 					(length 2.54)
-					(name "A"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -753,9 +912,9 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 5.08 0)
+					(at 5.08 0 180)
 					(length 2.54)
-					(name "RK"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -773,7 +932,7 @@
 				(pin passive line
 					(at -5.08 0 0)
 					(length 2.54)
-					(name "GK"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -791,7 +950,7 @@
 				(pin passive line
 					(at -5.08 -5.08 0)
 					(length 2.54)
-					(name "BK"
+					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -799,146 +958,6 @@
 						)
 					)
 					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Device:R"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "R"
-				(at 2.032 0 90)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "R"
-				(at 0 0 90)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at -1.778 0 90)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Resistor"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "R res resistor"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "R_*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "R_0_1"
-				(rectangle
-					(start -1.016 -2.54)
-					(end 1.016 2.54)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "R_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 1.27)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1877,6 +1896,543 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "global:NH-Z1921RGBA-SG"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "LED"
+				(at 0 9.906 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "NH-Z1921RGBA-SG"
+				(at 0 -8.89 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "global:LED-ARRAY-SMD_4P-L2.2-W2.1-BR-RD"
+				(at 0 -11.43 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.lcsc.com/datasheet/C2874118.pdf"
+				(at 0 -13.97 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" "国星光电"
+				(at 0 -16.51 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "MPN" "NH-Z1921RGBA-SG"
+				(at 0 -19.05 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "LCSC Part" "C2874118"
+				(at 0 -21.59 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "Light Emitting Diodes (LED)"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "NH-Z1921RGBA-SG_0_0"
+				(text "R"
+					(at -1.905 3.81 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(text "G"
+					(at -1.905 -1.27 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(text "B"
+					(at -1.905 -6.35 0)
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(symbol "NH-Z1921RGBA-SG_0_1"
+				(polyline
+					(pts
+						(xy -1.27 6.35) (xy -1.27 3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 6.35) (xy -1.27 3.81) (xy -1.27 3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 5.08) (xy -2.54 5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 5.08) (xy 1.27 5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 1.27) (xy -1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 1.27) (xy -1.27 -1.27) (xy -1.27 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -3.81) (xy -1.27 -6.35)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -5.08) (xy -2.54 -5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -5.08) (xy 1.27 -5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.016 6.35) (xy 0.508 7.874) (xy -0.254 7.874) (xy 0.508 7.874) (xy 0.508 7.112)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.016 1.27) (xy 0.508 2.794) (xy -0.254 2.794) (xy 0.508 2.794) (xy 0.508 2.032)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.016 -3.81) (xy 0.508 -2.286) (xy -0.254 -2.286) (xy 0.508 -2.286) (xy 0.508 -3.048)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 6.35) (xy 1.524 7.874) (xy 0.762 7.874) (xy 1.524 7.874) (xy 1.524 7.112)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.27) (xy 1.524 2.794) (xy 0.762 2.794) (xy 1.524 2.794) (xy 1.524 2.032)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -3.81) (xy 1.524 -2.286) (xy 0.762 -2.286) (xy 1.524 -2.286) (xy 1.524 -3.048)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 6.35) (xy 1.27 3.81) (xy -1.27 5.08) (xy 1.27 6.35)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 1.27 6.35)
+					(end 1.27 6.35)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 1.27 3.81)
+					(end 1.27 6.35)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 1.27 1.27)
+					(end 1.27 1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 1.27 -1.27)
+					(end 1.27 1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -3.81) (xy 1.27 -6.35) (xy -1.27 -5.08) (xy 1.27 -3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -5.08) (xy 2.032 -5.08) (xy 2.032 5.08) (xy 1.27 5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 0)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 2.794 8.382)
+					(end -2.794 -7.62)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "NH-Z1921RGBA-SG_1_1"
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 0.635 0.635)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 5.08 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -5.08 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "global:VSYS"
 			(power global)
 			(exclude_from_sim no)
@@ -2208,10 +2764,52 @@
 		(uuid "eb9f8929-5a0f-46e8-aee1-6812d5a72e30")
 	)
 	(junction
+		(at 151.13 123.19)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "08831782-627e-44a0-b40c-03fb3071d402")
+	)
+	(junction
+		(at 151.13 133.35)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0d0d32d9-8199-4b65-b4b4-e3fccec1b710")
+	)
+	(junction
 		(at 35.56 46.99)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "104e115c-dd49-4338-a5eb-2a2f24a6eef3")
+	)
+	(junction
+		(at 151.13 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "22c2867a-262f-4c39-b12c-25471de110d9")
+	)
+	(junction
+		(at 151.13 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "26025b76-b251-44d2-a88e-eac521bccb16")
+	)
+	(junction
+		(at 151.13 72.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "26039d2f-5e0a-4588-9927-1488b91265f3")
+	)
+	(junction
+		(at 151.13 111.76)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2a48543d-7b03-438d-a661-d5ee5d827841")
+	)
+	(junction
+		(at 151.13 144.78)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2cd11751-b0bc-4966-baab-6e29135dee34")
 	)
 	(junction
 		(at 48.26 46.99)
@@ -2224,6 +2822,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "438bcd30-5324-4dfa-9785-35c8c68a09bf")
+	)
+	(junction
+		(at 151.13 30.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4ce4e5a9-1c71-4806-a0b1-5216adcca1bd")
 	)
 	(junction
 		(at 256.54 127)
@@ -2256,10 +2860,46 @@
 		(uuid "885bfb57-b9b4-4976-a37e-789c0c22e787")
 	)
 	(junction
+		(at 151.13 60.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8a22f032-85f7-4faa-83bc-3140a3675f3b")
+	)
+	(junction
+		(at 151.13 31.75)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8f3262b0-9970-4048-b737-5da0e7c35b07")
+	)
+	(junction
+		(at 151.13 40.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "af4eb575-68d7-497b-a807-9359c11e17d5")
+	)
+	(junction
 		(at 275.59 48.26)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b1e99861-dcb9-4408-935e-d29a5137c264")
+	)
+	(junction
+		(at 151.13 71.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bd8e8f7f-00d2-4b56-9225-190d36fa3969")
+	)
+	(junction
+		(at 151.13 62.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c1a1c182-4c2f-4a0d-98cf-9180eff50b6d")
+	)
+	(junction
+		(at 151.13 102.87)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d26e25dd-e031-44f7-902f-8ab0d41dc276")
 	)
 	(junction
 		(at 265.43 48.26)
@@ -2274,6 +2914,12 @@
 		(uuid "d79ce8c0-0264-4109-84d5-f4da6f39de13")
 	)
 	(junction
+		(at 151.13 52.07)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d816bf68-ca64-48b2-8e17-979d5974e80f")
+	)
+	(junction
 		(at 44.45 120.65)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2284,6 +2930,24 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "dd6569e4-c80c-4d1a-85d0-cad6b4fe35a7")
+	)
+	(junction
+		(at 151.13 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e3c1f7b1-8ed0-4ef0-b129-f93a4e11e44e")
+	)
+	(junction
+		(at 151.13 41.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ef1de934-34c9-40cc-8e42-a6ee37ddb0a0")
+	)
+	(junction
+		(at 151.13 82.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fa4b8205-e622-4cd6-9945-73a1ba6da847")
 	)
 	(no_connect
 		(at 226.06 101.6)
@@ -2387,6 +3051,16 @@
 	)
 	(wire
 		(pts
+			(xy 151.13 52.07) (xy 172.72 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "04328aff-7273-4556-a209-d1a49b36e72e")
+	)
+	(wire
+		(pts
 			(xy 99.06 101.6) (xy 99.06 110.49)
 		)
 		(stroke
@@ -2464,6 +3138,16 @@
 			(type default)
 		)
 		(uuid "0c5ecd21-4f41-4a10-846a-304aea6afbfe")
+	)
+	(wire
+		(pts
+			(xy 151.13 30.48) (xy 151.13 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c81b615-f95f-46e6-9437-39babc6b7ccd")
 	)
 	(wire
 		(pts
@@ -2637,6 +3321,36 @@
 	)
 	(wire
 		(pts
+			(xy 151.13 82.55) (xy 151.13 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "17891caf-bb05-4047-96e3-3527179c3933")
+	)
+	(wire
+		(pts
+			(xy 116.84 123.19) (xy 151.13 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "188dcb4d-4f0b-49da-875e-d1ae10dd05a1")
+	)
+	(wire
+		(pts
+			(xy 106.68 156.21) (xy 151.13 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1937bce2-08c4-4dc7-a918-61b815318bb2")
+	)
+	(wire
+		(pts
 			(xy 226.06 80.01) (xy 226.06 78.74)
 		)
 		(stroke
@@ -2654,6 +3368,16 @@
 			(type default)
 		)
 		(uuid "1a59f43e-8aed-42d0-bd99-481e614ce60a")
+	)
+	(wire
+		(pts
+			(xy 151.13 72.39) (xy 151.13 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1aad39d3-5cfe-4a1e-a505-d441786ad32f")
 	)
 	(wire
 		(pts
@@ -2717,6 +3441,16 @@
 	)
 	(wire
 		(pts
+			(xy 151.13 102.87) (xy 151.13 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "221403b3-221a-4cd7-b6a3-b2e79e3d5d30")
+	)
+	(wire
+		(pts
 			(xy 74.93 63.5) (xy 74.93 62.23)
 		)
 		(stroke
@@ -2744,6 +3478,16 @@
 			(type default)
 		)
 		(uuid "235c104f-4d9d-4d83-90bc-a172106f5d93")
+	)
+	(wire
+		(pts
+			(xy 151.13 144.78) (xy 151.13 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "242ff79f-c826-4120-941d-4a55e5d3509e")
 	)
 	(wire
 		(pts
@@ -2824,6 +3568,26 @@
 			(type default)
 		)
 		(uuid "2caeb685-3de1-4714-b716-8abcb7d4feff")
+	)
+	(wire
+		(pts
+			(xy 116.84 81.28) (xy 151.13 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2db51016-be86-43b9-a6a9-8296775db3d2")
+	)
+	(wire
+		(pts
+			(xy 151.13 82.55) (xy 184.15 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2e7d8489-a014-479d-88e8-43713e0aac99")
 	)
 	(wire
 		(pts
@@ -3377,6 +4141,16 @@
 	)
 	(wire
 		(pts
+			(xy 128.27 71.12) (xy 151.13 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5afb67d9-d90f-41b3-982e-78d207fcd875")
+	)
+	(wire
+		(pts
 			(xy 74.93 109.22) (xy 93.98 109.22)
 		)
 		(stroke
@@ -3607,6 +4381,16 @@
 	)
 	(wire
 		(pts
+			(xy 115.57 40.64) (xy 151.13 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "709a23ab-c043-48b0-b4d0-2e4920a772c9")
+	)
+	(wire
+		(pts
 			(xy 194.31 104.14) (xy 199.39 104.14)
 		)
 		(stroke
@@ -3624,6 +4408,16 @@
 			(type default)
 		)
 		(uuid "71d1be9e-7329-4d9c-9c85-431f8d77261c")
+	)
+	(wire
+		(pts
+			(xy 129.54 133.35) (xy 151.13 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "72469953-8b05-46e1-b041-f2031a08de06")
 	)
 	(wire
 		(pts
@@ -3707,6 +4501,16 @@
 	)
 	(wire
 		(pts
+			(xy 151.13 62.23) (xy 185.42 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7796eacb-b6fc-44dc-bfa1-98864eb22a44")
+	)
+	(wire
+		(pts
 			(xy 82.55 57.15) (xy 82.55 40.64)
 		)
 		(stroke
@@ -3714,6 +4518,16 @@
 			(type default)
 		)
 		(uuid "786ca30a-9395-46f4-a9bd-f4b559163a27")
+	)
+	(wire
+		(pts
+			(xy 151.13 31.75) (xy 198.12 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7900cf9e-13c4-4fe0-ab54-b061e97b23dc")
 	)
 	(wire
 		(pts
@@ -3767,6 +4581,16 @@
 	)
 	(wire
 		(pts
+			(xy 151.13 19.05) (xy 151.13 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e73a2de-d8b4-4530-b47d-38e167cbb0b0")
+	)
+	(wire
+		(pts
 			(xy 208.28 62.23) (xy 195.58 62.23)
 		)
 		(stroke
@@ -3817,6 +4641,16 @@
 	)
 	(wire
 		(pts
+			(xy 116.84 144.78) (xy 151.13 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "81ad3671-36d8-4645-b5de-a661a36e4933")
+	)
+	(wire
+		(pts
 			(xy 265.43 48.26) (xy 252.73 48.26)
 		)
 		(stroke
@@ -3854,6 +4688,16 @@
 			(type default)
 		)
 		(uuid "869d0889-5c86-425f-a0a9-96b814cefac2")
+	)
+	(wire
+		(pts
+			(xy 151.13 123.19) (xy 151.13 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "88c9c25b-5033-4d8d-875f-a7a59be9e8b6")
 	)
 	(wire
 		(pts
@@ -3914,6 +4758,26 @@
 			(type default)
 		)
 		(uuid "8faead07-9da5-4623-84e9-64fb102f82f9")
+	)
+	(wire
+		(pts
+			(xy 128.27 50.8) (xy 151.13 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "90709bb4-f37d-4a59-8b8f-d7df8ff7fcba")
+	)
+	(wire
+		(pts
+			(xy 151.13 72.39) (xy 172.72 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "916a9892-5c36-49c4-b862-5ac67dcbd4bf")
 	)
 	(wire
 		(pts
@@ -4007,6 +4871,16 @@
 	)
 	(wire
 		(pts
+			(xy 151.13 111.76) (xy 151.13 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b35d306-316a-4dfa-9995-9bac527484f2")
+	)
+	(wire
+		(pts
 			(xy 74.93 111.76) (xy 74.93 113.03)
 		)
 		(stroke
@@ -4077,6 +4951,16 @@
 	)
 	(wire
 		(pts
+			(xy 151.13 71.12) (xy 151.13 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f5712de-291e-4279-a05a-ae7940d0dfcb")
+	)
+	(wire
+		(pts
 			(xy 74.93 66.04) (xy 74.93 67.31)
 		)
 		(stroke
@@ -4094,6 +4978,16 @@
 			(type default)
 		)
 		(uuid "9fdc6543-e2c2-4c65-8c31-ef246b1c7da4")
+	)
+	(wire
+		(pts
+			(xy 116.84 101.6) (xy 151.13 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9fe94ed4-ed72-4aba-b8dd-4a7235c17dc1")
 	)
 	(wire
 		(pts
@@ -4117,6 +5011,16 @@
 	)
 	(wire
 		(pts
+			(xy 184.15 102.87) (xy 151.13 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a2148a4a-9f27-46cb-bda6-a164c07c7c4f")
+	)
+	(wire
+		(pts
 			(xy 74.93 58.42) (xy 83.82 58.42)
 		)
 		(stroke
@@ -4137,6 +5041,16 @@
 	)
 	(wire
 		(pts
+			(xy 151.13 101.6) (xy 151.13 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a29a640a-c5d8-4153-9f20-065cb886ebfa")
+	)
+	(wire
+		(pts
 			(xy 96.52 69.85) (xy 96.52 78.74)
 		)
 		(stroke
@@ -4144,6 +5058,16 @@
 			(type default)
 		)
 		(uuid "a39e35d8-49a9-4df5-a18e-26f037ecd0ce")
+	)
+	(wire
+		(pts
+			(xy 151.13 133.35) (xy 151.13 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a4157ee8-003e-405d-a8e3-417d388b1b50")
 	)
 	(wire
 		(pts
@@ -4174,6 +5098,16 @@
 			(type default)
 		)
 		(uuid "a5a596cb-c9bd-4267-9fcb-ddfbbf618dde")
+	)
+	(wire
+		(pts
+			(xy 115.57 60.96) (xy 151.13 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a6f2e0ea-fdfe-4c1c-9d66-e72ef53ef19f")
 	)
 	(wire
 		(pts
@@ -4224,6 +5158,16 @@
 			(type default)
 		)
 		(uuid "ac5a4231-d02a-4440-b67f-63fdd18e5ef1")
+	)
+	(wire
+		(pts
+			(xy 102.87 30.48) (xy 151.13 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ac8707b2-99b4-470b-9418-1eed252f780a")
 	)
 	(wire
 		(pts
@@ -4414,6 +5358,16 @@
 			(type default)
 		)
 		(uuid "c143f6b0-de66-47f7-a7d6-1b74548f378c")
+	)
+	(wire
+		(pts
+			(xy 151.13 41.91) (xy 151.13 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c1bfa29e-5083-4f9a-b057-8515b7544147")
 	)
 	(wire
 		(pts
@@ -4707,6 +5661,16 @@
 	)
 	(wire
 		(pts
+			(xy 151.13 50.8) (xy 151.13 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ddb25a54-8ae5-404c-8df4-c34dd08feb42")
+	)
+	(wire
+		(pts
 			(xy 194.31 107.95) (xy 194.31 104.14)
 		)
 		(stroke
@@ -4714,6 +5678,16 @@
 			(type default)
 		)
 		(uuid "ddca5fbc-b5b8-446a-96d1-ba57064c4bbd")
+	)
+	(wire
+		(pts
+			(xy 151.13 62.23) (xy 151.13 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "defc7e44-aaf4-4225-bd17-88525c653628")
 	)
 	(wire
 		(pts
@@ -4734,6 +5708,16 @@
 			(type default)
 		)
 		(uuid "e0678994-c30c-4735-b3db-0dbe70ecced5")
+	)
+	(wire
+		(pts
+			(xy 151.13 31.75) (xy 151.13 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e1ed2d5d-f0dc-48ed-87e6-6ffb95094d05")
 	)
 	(wire
 		(pts
@@ -4877,6 +5861,16 @@
 	)
 	(wire
 		(pts
+			(xy 151.13 81.28) (xy 151.13 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ede50631-ebcb-49a5-8114-ac9320bed8d4")
+	)
+	(wire
+		(pts
 			(xy 203.2 72.39) (xy 182.88 72.39)
 		)
 		(stroke
@@ -4917,6 +5911,16 @@
 	)
 	(wire
 		(pts
+			(xy 151.13 52.07) (xy 151.13 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f12a39bc-a765-4668-a080-03f167765163")
+	)
+	(wire
+		(pts
 			(xy 208.28 33.02) (xy 208.28 36.83)
 		)
 		(stroke
@@ -4944,6 +5948,16 @@
 			(type default)
 		)
 		(uuid "f46aabd4-eae8-44bb-aa3a-4e1db75e35b9")
+	)
+	(wire
+		(pts
+			(xy 151.13 41.91) (xy 185.42 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f4745f59-442d-4e33-8118-eb9e562091b8")
 	)
 	(wire
 		(pts
@@ -5047,6 +6061,16 @@
 	)
 	(wire
 		(pts
+			(xy 151.13 40.64) (xy 151.13 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f9c0c361-df1b-4cbb-b93b-91e2c09dda1e")
+	)
+	(wire
+		(pts
 			(xy 83.82 143.51) (xy 106.68 143.51)
 		)
 		(stroke
@@ -5064,6 +6088,26 @@
 			(type default)
 		)
 		(uuid "fb0b3119-c875-4028-9e3f-59cc73644997")
+	)
+	(wire
+		(pts
+			(xy 151.13 60.96) (xy 151.13 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fbdc9ca6-b44e-481e-87a5-fd74466c1847")
+	)
+	(wire
+		(pts
+			(xy 129.54 111.76) (xy 151.13 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd206903-232c-4219-9472-ab95db8896fa")
 	)
 	(wire
 		(pts
@@ -5317,7 +6361,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED_ARGB")
+		(lib_id "global:NH-Z1921RGBA-SG")
 		(at 111.76 144.78 0)
 		(unit 1)
 		(body_style 1)
@@ -5328,7 +6372,7 @@
 		(dnp no)
 		(uuid "0562b24b-8da2-4fb1-a1a8-df1518e09780")
 		(property "Reference" "LED11"
-			(at 99.822 138.176 0)
+			(at 123.698 147.32 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5337,8 +6381,8 @@
 				)
 			)
 		)
-		(property "Value" "LED_ARGB"
-			(at 99.822 140.716 0)
+		(property "Value" "NH-Z1921RGBA-SG"
+			(at 124.46 150.114 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5347,8 +6391,8 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 111.76 146.05 0)
+		(property "Footprint" "global:LED-ARRAY-SMD_4P-L2.2-W2.1-BR-RD"
+			(at 111.76 156.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5358,8 +6402,8 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
-			(at 111.76 146.05 0)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C2874118.pdf"
+			(at 111.76 158.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5369,7 +6413,7 @@
 				)
 			)
 		)
-		(property "Description" "RGB LED, anode/red/green/blue"
+		(property "Description" ""
 			(at 111.76 144.78 0)
 			(hide yes)
 			(show_name no)
@@ -5382,6 +6426,39 @@
 		)
 		(property "Sim.Device" ""
 			(at 111.76 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "国星光电"
+			(at 111.76 161.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "NH-Z1921RGBA-SG"
+			(at 111.76 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C2874118"
+			(at 111.76 166.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5413,7 +6490,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED_ARGB")
+		(lib_id "global:NH-Z1921RGBA-SG")
 		(at 111.76 123.19 0)
 		(unit 1)
 		(body_style 1)
@@ -5424,7 +6501,7 @@
 		(dnp no)
 		(uuid "12d1dc54-def0-441c-8ff6-903d9c3d8408")
 		(property "Reference" "LED9"
-			(at 100.33 116.332 0)
+			(at 99.06 127.508 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5433,8 +6510,8 @@
 				)
 			)
 		)
-		(property "Value" "LED_ARGB"
-			(at 100.33 118.872 0)
+		(property "Value" "NH-Z1921RGBA-SG"
+			(at 99.06 130.048 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5443,8 +6520,8 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 111.76 124.46 0)
+		(property "Footprint" "global:LED-ARRAY-SMD_4P-L2.2-W2.1-BR-RD"
+			(at 111.76 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5454,8 +6531,8 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
-			(at 111.76 124.46 0)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C2874118.pdf"
+			(at 111.76 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5465,7 +6542,7 @@
 				)
 			)
 		)
-		(property "Description" "RGB LED, anode/red/green/blue"
+		(property "Description" ""
 			(at 111.76 123.19 0)
 			(hide yes)
 			(show_name no)
@@ -5478,6 +6555,39 @@
 		)
 		(property "Sim.Device" ""
 			(at 111.76 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "国星光电"
+			(at 111.76 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "NH-Z1921RGBA-SG"
+			(at 111.76 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C2874118"
+			(at 111.76 144.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5588,7 +6698,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED_ARGB")
+		(lib_id "global:FM-3510RGBA-SG")
 		(at 203.2 31.75 0)
 		(mirror y)
 		(unit 1)
@@ -5600,7 +6710,7 @@
 		(dnp no)
 		(uuid "1678cd19-0123-48e4-928e-2e685e06e027")
 		(property "Reference" "LED13"
-			(at 195.326 25.908 0)
+			(at 190.5 25.908 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5610,7 +6720,7 @@
 			)
 		)
 		(property "Value" "LED_ARGB"
-			(at 195.326 28.448 0)
+			(at 190.5 28.448 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5619,8 +6729,8 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 203.2 33.02 0)
+		(property "Footprint" "global:LED-SMD_FM-3510RGBA-SG"
+			(at 203.2 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5630,8 +6740,8 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
-			(at 203.2 33.02 0)
+		(property "Datasheet" "https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_Foshan-NationStar-Optoelectronics-FM-3510RGBA-SG_C727903.html"
+			(at 203.2 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5641,7 +6751,7 @@
 				)
 			)
 		)
-		(property "Description" "RGB LED, anode/red/green/blue"
+		(property "Description" ""
 			(at 203.2 31.75 0)
 			(hide yes)
 			(show_name no)
@@ -5654,6 +6764,39 @@
 		)
 		(property "Sim.Device" ""
 			(at 203.2 31.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "国星光电"
+			(at 203.2 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "FM-3510RGBA-SG"
+			(at 203.2 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C727903"
+			(at 203.2 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5685,7 +6828,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED_ARGB")
+		(lib_id "global:NH-Z1921RGBA-SG")
 		(at 124.46 133.35 0)
 		(unit 1)
 		(body_style 1)
@@ -5696,7 +6839,7 @@
 		(dnp no)
 		(uuid "1a0e8832-3635-44d8-a262-06d3354f649e")
 		(property "Reference" "LED10"
-			(at 132.588 126.746 0)
+			(at 131.318 125.476 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5705,8 +6848,8 @@
 				)
 			)
 		)
-		(property "Value" "LED_ARGB"
-			(at 132.588 129.286 0)
+		(property "Value" "NH-Z1921RGBA-SG"
+			(at 136.906 127.762 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5715,8 +6858,8 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 124.46 134.62 0)
+		(property "Footprint" "global:LED-ARRAY-SMD_4P-L2.2-W2.1-BR-RD"
+			(at 124.46 144.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5726,8 +6869,8 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
-			(at 124.46 134.62 0)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C2874118.pdf"
+			(at 124.46 147.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5737,7 +6880,7 @@
 				)
 			)
 		)
-		(property "Description" "RGB LED, anode/red/green/blue"
+		(property "Description" ""
 			(at 124.46 133.35 0)
 			(hide yes)
 			(show_name no)
@@ -5750,6 +6893,39 @@
 		)
 		(property "Sim.Device" ""
 			(at 124.46 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "国星光电"
+			(at 124.46 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "NH-Z1921RGBA-SG"
+			(at 124.46 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C2874118"
+			(at 124.46 154.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5781,7 +6957,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED_ARGB")
+		(lib_id "global:FM-3510RGBA-SG")
 		(at 190.5 41.91 0)
 		(mirror y)
 		(unit 1)
@@ -5793,7 +6969,7 @@
 		(dnp no)
 		(uuid "2075b84e-ffcd-41b8-9f3e-49acf7f9c97b")
 		(property "Reference" "LED14"
-			(at 182.626 36.576 0)
+			(at 177.8 36.576 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5803,7 +6979,7 @@
 			)
 		)
 		(property "Value" "LED_ARGB"
-			(at 182.626 39.116 0)
+			(at 177.8 39.116 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5812,8 +6988,8 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 190.5 43.18 0)
+		(property "Footprint" "global:LED-SMD_FM-3510RGBA-SG"
+			(at 190.5 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5823,8 +6999,8 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
-			(at 190.5 43.18 0)
+		(property "Datasheet" "https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_Foshan-NationStar-Optoelectronics-FM-3510RGBA-SG_C727903.html"
+			(at 190.5 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5834,7 +7010,7 @@
 				)
 			)
 		)
-		(property "Description" "RGB LED, anode/red/green/blue"
+		(property "Description" ""
 			(at 190.5 41.91 0)
 			(hide yes)
 			(show_name no)
@@ -5847,6 +7023,39 @@
 		)
 		(property "Sim.Device" ""
 			(at 190.5 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "国星光电"
+			(at 190.5 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "FM-3510RGBA-SG"
+			(at 190.5 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C727903"
+			(at 190.5 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5878,7 +7087,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED_ARGB")
+		(lib_id "global:FM-3510RGBA-SG")
 		(at 189.23 82.55 0)
 		(mirror y)
 		(unit 1)
@@ -5890,7 +7099,7 @@
 		(dnp no)
 		(uuid "20af289f-9bf0-45da-8a68-ad9dc1367847")
 		(property "Reference" "LED18"
-			(at 176.784 82.55 0)
+			(at 180.34 85.09 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5900,7 +7109,7 @@
 			)
 		)
 		(property "Value" "LED_ARGB"
-			(at 176.784 85.09 0)
+			(at 180.34 87.63 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5909,8 +7118,8 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 189.23 83.82 0)
+		(property "Footprint" "global:LED-SMD_FM-3510RGBA-SG"
+			(at 189.23 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5920,8 +7129,8 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
-			(at 189.23 83.82 0)
+		(property "Datasheet" "https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_Foshan-NationStar-Optoelectronics-FM-3510RGBA-SG_C727903.html"
+			(at 189.23 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5931,7 +7140,7 @@
 				)
 			)
 		)
-		(property "Description" "RGB LED, anode/red/green/blue"
+		(property "Description" ""
 			(at 189.23 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -5944,6 +7153,39 @@
 		)
 		(property "Sim.Device" ""
 			(at 189.23 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "国星光电"
+			(at 189.23 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "FM-3510RGBA-SG"
+			(at 189.23 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C727903"
+			(at 189.23 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5975,7 +7217,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED_ARGB")
+		(lib_id "global:NH-Z1921RGBA-SG")
 		(at 110.49 40.64 0)
 		(unit 1)
 		(body_style 1)
@@ -5986,7 +7228,7 @@
 		(dnp no)
 		(uuid "22be22e1-b77c-42b6-b859-ba13de8136ef")
 		(property "Reference" "LED2"
-			(at 118.364 35.306 0)
+			(at 117.602 35.052 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5995,8 +7237,8 @@
 				)
 			)
 		)
-		(property "Value" "LED_ARGB"
-			(at 118.364 37.846 0)
+		(property "Value" "NH-Z1921RGBA-SG"
+			(at 128.778 35.052 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6005,8 +7247,8 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 110.49 41.91 0)
+		(property "Footprint" "global:LED-ARRAY-SMD_4P-L2.2-W2.1-BR-RD"
+			(at 110.49 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6016,8 +7258,8 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
-			(at 110.49 41.91 0)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C2874118.pdf"
+			(at 110.49 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6027,7 +7269,7 @@
 				)
 			)
 		)
-		(property "Description" "RGB LED, anode/red/green/blue"
+		(property "Description" ""
 			(at 110.49 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -6040,6 +7282,39 @@
 		)
 		(property "Sim.Device" ""
 			(at 110.49 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "国星光电"
+			(at 110.49 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "NH-Z1921RGBA-SG"
+			(at 110.49 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C2874118"
+			(at 110.49 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6065,85 +7340,6 @@
 			(project "pdn-kit-hardware"
 				(path "/7ba8b3ae-d553-4981-99e4-6a44bc3bbf14/8348a648-27db-498f-a773-f1d155f5cacd"
 					(reference "LED2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 172.72 72.39 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "29a14db8-ccee-4ff4-9e63-ae082813a2a2")
-		(property "Reference" "#PWR070"
-			(at 172.72 78.74 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 172.72 77.47 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 172.72 72.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 172.72 72.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 172.72 72.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "c90586e1-ac59-4182-a8c9-074ed44ff6c4")
-		)
-		(instances
-			(project "pdn-kit-hardware"
-				(path "/7ba8b3ae-d553-4981-99e4-6a44bc3bbf14/8348a648-27db-498f-a773-f1d155f5cacd"
-					(reference "#PWR070")
 					(unit 1)
 				)
 			)
@@ -6229,84 +7425,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 102.87 30.48 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3162d4f0-ba23-4716-9b2e-f7c3e53db98b")
-		(property "Reference" "#PWR046"
-			(at 102.87 36.83 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 102.87 35.56 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 102.87 30.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 102.87 30.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 102.87 30.48 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "2e581cce-333b-4bb3-97e1-b217a9e3a85d")
-		)
-		(instances
-			(project "pdn-kit-hardware"
-				(path "/7ba8b3ae-d553-4981-99e4-6a44bc3bbf14/8348a648-27db-498f-a773-f1d155f5cacd"
-					(reference "#PWR046")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "global:VSYS")
 		(at 265.43 151.13 0)
 		(unit 1)
@@ -6386,7 +7504,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED_ARGB")
+		(lib_id "global:NH-Z1921RGBA-SG")
 		(at 124.46 111.76 0)
 		(unit 1)
 		(body_style 1)
@@ -6397,7 +7515,7 @@
 		(dnp no)
 		(uuid "338b990a-3353-4b00-94d1-2073643b0475")
 		(property "Reference" "LED8"
-			(at 132.08 105.156 0)
+			(at 135.636 104.648 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6406,8 +7524,8 @@
 				)
 			)
 		)
-		(property "Value" "LED_ARGB"
-			(at 132.08 107.696 0)
+		(property "Value" "NH-Z1921RGBA-SG"
+			(at 136.906 107.188 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6416,8 +7534,8 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 124.46 113.03 0)
+		(property "Footprint" "global:LED-ARRAY-SMD_4P-L2.2-W2.1-BR-RD"
+			(at 124.46 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6427,8 +7545,8 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
-			(at 124.46 113.03 0)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C2874118.pdf"
+			(at 124.46 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6438,7 +7556,7 @@
 				)
 			)
 		)
-		(property "Description" "RGB LED, anode/red/green/blue"
+		(property "Description" ""
 			(at 124.46 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -6451,6 +7569,39 @@
 		)
 		(property "Sim.Device" ""
 			(at 124.46 111.76 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "国星光电"
+			(at 124.46 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "NH-Z1921RGBA-SG"
+			(at 124.46 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C2874118"
+			(at 124.46 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6482,7 +7633,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED_ARGB")
+		(lib_id "global:NH-Z1921RGBA-SG")
 		(at 123.19 71.12 0)
 		(unit 1)
 		(body_style 1)
@@ -6493,7 +7644,7 @@
 		(dnp no)
 		(uuid "33a6d39c-4a27-454a-bb75-9bc630f38cc1")
 		(property "Reference" "LED5"
-			(at 130.81 64.516 0)
+			(at 130.81 63.246 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6502,8 +7653,8 @@
 				)
 			)
 		)
-		(property "Value" "LED_ARGB"
-			(at 130.81 67.056 0)
+		(property "Value" "NH-Z1921RGBA-SG"
+			(at 136.144 65.532 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6512,8 +7663,8 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 123.19 72.39 0)
+		(property "Footprint" "global:LED-ARRAY-SMD_4P-L2.2-W2.1-BR-RD"
+			(at 123.19 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6523,8 +7674,8 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
-			(at 123.19 72.39 0)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C2874118.pdf"
+			(at 123.19 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6534,7 +7685,7 @@
 				)
 			)
 		)
-		(property "Description" "RGB LED, anode/red/green/blue"
+		(property "Description" ""
 			(at 123.19 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -6547,6 +7698,39 @@
 		)
 		(property "Sim.Device" ""
 			(at 123.19 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "国星光电"
+			(at 123.19 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "NH-Z1921RGBA-SG"
+			(at 123.19 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C2874118"
+			(at 123.19 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6578,7 +7762,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED_ARGB")
+		(lib_id "global:NH-Z1921RGBA-SG")
 		(at 123.19 50.8 0)
 		(unit 1)
 		(body_style 1)
@@ -6589,7 +7773,7 @@
 		(dnp no)
 		(uuid "3c316c16-3d1c-4042-9614-71ef89e546a8")
 		(property "Reference" "LED3"
-			(at 132.08 44.704 0)
+			(at 134.112 44.196 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6598,8 +7782,8 @@
 				)
 			)
 		)
-		(property "Value" "LED_ARGB"
-			(at 132.08 47.244 0)
+		(property "Value" "NH-Z1921RGBA-SG"
+			(at 135.128 46.736 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6608,8 +7792,8 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 123.19 52.07 0)
+		(property "Footprint" "global:LED-ARRAY-SMD_4P-L2.2-W2.1-BR-RD"
+			(at 123.19 62.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6619,8 +7803,8 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
-			(at 123.19 52.07 0)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C2874118.pdf"
+			(at 123.19 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6630,7 +7814,7 @@
 				)
 			)
 		)
-		(property "Description" "RGB LED, anode/red/green/blue"
+		(property "Description" ""
 			(at 123.19 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -6643,6 +7827,39 @@
 		)
 		(property "Sim.Device" ""
 			(at 123.19 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "国星光电"
+			(at 123.19 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "NH-Z1921RGBA-SG"
+			(at 123.19 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C2874118"
+			(at 123.19 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6668,162 +7885,6 @@
 			(project "pdn-kit-hardware"
 				(path "/7ba8b3ae-d553-4981-99e4-6a44bc3bbf14/8348a648-27db-498f-a773-f1d155f5cacd"
 					(reference "LED3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 116.84 144.78 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3cffbca9-d896-4ba1-bc9f-dd066e36ab09")
-		(property "Reference" "#PWR056"
-			(at 116.84 151.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 116.84 149.86 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 116.84 144.78 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 116.84 144.78 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 116.84 144.78 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "0eb79c29-6bbc-4452-ae20-8d2ef64614ec")
-		)
-		(instances
-			(project "pdn-kit-hardware"
-				(path "/7ba8b3ae-d553-4981-99e4-6a44bc3bbf14/8348a648-27db-498f-a773-f1d155f5cacd"
-					(reference "#PWR056")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 128.27 50.8 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4098a47d-7b81-424e-a50c-1829661a9847")
-		(property "Reference" "#PWR048"
-			(at 128.27 57.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 128.27 55.88 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 128.27 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 128.27 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 128.27 50.8 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "956ebe36-b98a-4536-9b78-c6cd27b5229b")
-		)
-		(instances
-			(project "pdn-kit-hardware"
-				(path "/7ba8b3ae-d553-4981-99e4-6a44bc3bbf14/8348a648-27db-498f-a773-f1d155f5cacd"
-					(reference "#PWR048")
 					(unit 1)
 				)
 			)
@@ -6909,7 +7970,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED_ARGB")
+		(lib_id "global:NH-Z1921RGBA-SG")
 		(at 97.79 30.48 0)
 		(unit 1)
 		(body_style 1)
@@ -6920,7 +7981,7 @@
 		(dnp no)
 		(uuid "49086f65-a462-4ef3-91f4-fbcb8e4eb223")
 		(property "Reference" "LED1"
-			(at 105.664 24.638 0)
+			(at 97.79 20.574 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6929,8 +7990,8 @@
 				)
 			)
 		)
-		(property "Value" "LED_ARGB"
-			(at 105.664 27.178 0)
+		(property "Value" "NH-Z1921RGBA-SG"
+			(at 109.22 20.574 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6939,8 +8000,8 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 97.79 31.75 0)
+		(property "Footprint" "global:LED-ARRAY-SMD_4P-L2.2-W2.1-BR-RD"
+			(at 97.79 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6950,8 +8011,8 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
-			(at 97.79 31.75 0)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C2874118.pdf"
+			(at 97.79 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6961,7 +8022,7 @@
 				)
 			)
 		)
-		(property "Description" "RGB LED, anode/red/green/blue"
+		(property "Description" ""
 			(at 97.79 30.48 0)
 			(hide yes)
 			(show_name no)
@@ -6974,6 +8035,39 @@
 		)
 		(property "Sim.Device" ""
 			(at 97.79 30.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "国星光电"
+			(at 97.79 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "NH-Z1921RGBA-SG"
+			(at 97.79 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C2874118"
+			(at 97.79 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7096,7 +8190,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED_ARGB")
+		(lib_id "global:NH-Z1921RGBA-SG")
 		(at 110.49 60.96 0)
 		(unit 1)
 		(body_style 1)
@@ -7107,7 +8201,7 @@
 		(dnp no)
 		(uuid "4ff97873-2817-46fe-9510-dc6b534ee34b")
 		(property "Reference" "LED4"
-			(at 99.568 64.262 0)
+			(at 96.52 56.388 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7116,8 +8210,8 @@
 				)
 			)
 		)
-		(property "Value" "LED_ARGB"
-			(at 99.568 66.802 0)
+		(property "Value" "NH-Z1921RGBA-SG"
+			(at 97.282 54.61 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7126,8 +8220,8 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 110.49 62.23 0)
+		(property "Footprint" "global:LED-ARRAY-SMD_4P-L2.2-W2.1-BR-RD"
+			(at 110.49 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7137,8 +8231,8 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
-			(at 110.49 62.23 0)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C2874118.pdf"
+			(at 110.49 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7148,7 +8242,7 @@
 				)
 			)
 		)
-		(property "Description" "RGB LED, anode/red/green/blue"
+		(property "Description" ""
 			(at 110.49 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -7161,6 +8255,39 @@
 		)
 		(property "Sim.Device" ""
 			(at 110.49 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "国星光电"
+			(at 110.49 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "NH-Z1921RGBA-SG"
+			(at 110.49 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C2874118"
+			(at 110.49 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7351,86 +8478,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 185.42 41.91 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "65dd34b9-65d1-4ec8-8d42-855af2564cd1")
-		(property "Reference" "#PWR062"
-			(at 185.42 48.26 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 185.42 46.99 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 185.42 41.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 185.42 41.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 185.42 41.91 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "6bc8ff12-8de1-4aa5-90bf-b873b54c56d1")
-		)
-		(instances
-			(project "pdn-kit-hardware"
-				(path "/7ba8b3ae-d553-4981-99e4-6a44bc3bbf14/8348a648-27db-498f-a773-f1d155f5cacd"
-					(reference "#PWR062")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED_ARGB")
+		(lib_id "global:FM-3510RGBA-SG")
 		(at 177.8 72.39 0)
 		(mirror y)
 		(unit 1)
@@ -7442,7 +8490,7 @@
 		(dnp no)
 		(uuid "6af24997-4393-478d-a089-b915c867a871")
 		(property "Reference" "LED17"
-			(at 170.18 65.786 0)
+			(at 165.354 65.786 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7452,7 +8500,7 @@
 			)
 		)
 		(property "Value" "LED_ARGB"
-			(at 170.18 68.326 0)
+			(at 165.354 68.326 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7461,8 +8509,8 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 177.8 73.66 0)
+		(property "Footprint" "global:LED-SMD_FM-3510RGBA-SG"
+			(at 177.8 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7472,8 +8520,8 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
-			(at 177.8 73.66 0)
+		(property "Datasheet" "https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_Foshan-NationStar-Optoelectronics-FM-3510RGBA-SG_C727903.html"
+			(at 177.8 86.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7483,7 +8531,7 @@
 				)
 			)
 		)
-		(property "Description" "RGB LED, anode/red/green/blue"
+		(property "Description" ""
 			(at 177.8 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -7496,6 +8544,39 @@
 		)
 		(property "Sim.Device" ""
 			(at 177.8 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "国星光电"
+			(at 177.8 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "FM-3510RGBA-SG"
+			(at 177.8 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C727903"
+			(at 177.8 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7521,84 +8602,6 @@
 			(project "pdn-kit-hardware"
 				(path "/7ba8b3ae-d553-4981-99e4-6a44bc3bbf14/8348a648-27db-498f-a773-f1d155f5cacd"
 					(reference "LED17")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 115.57 60.96 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "759249e9-4aa7-48c0-a14d-b883341155b9")
-		(property "Reference" "#PWR049"
-			(at 115.57 67.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 115.57 66.04 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 115.57 60.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 115.57 60.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 115.57 60.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "f0074da1-623b-4583-b4ec-360390ad3ad1")
-		)
-		(instances
-			(project "pdn-kit-hardware"
-				(path "/7ba8b3ae-d553-4981-99e4-6a44bc3bbf14/8348a648-27db-498f-a773-f1d155f5cacd"
-					(reference "#PWR049")
 					(unit 1)
 				)
 			)
@@ -7692,84 +8695,6 @@
 			(project "pdn-kit-hardware"
 				(path "/7ba8b3ae-d553-4981-99e4-6a44bc3bbf14/8348a648-27db-498f-a773-f1d155f5cacd"
 					(reference "R3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 106.68 156.21 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7a8ec936-5f74-4b2b-81fd-11be4dda7fac")
-		(property "Reference" "#PWR057"
-			(at 106.68 162.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 106.68 161.29 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 106.68 156.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 106.68 156.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 106.68 156.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "3dabdccf-e548-4960-8b12-fa2c128fde94")
-		)
-		(instances
-			(project "pdn-kit-hardware"
-				(path "/7ba8b3ae-d553-4981-99e4-6a44bc3bbf14/8348a648-27db-498f-a773-f1d155f5cacd"
-					(reference "#PWR057")
 					(unit 1)
 				)
 			)
@@ -8122,85 +9047,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 116.84 101.6 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8191374a-fbfd-4ce4-b6a1-c8932c1850b5")
-		(property "Reference" "#PWR051"
-			(at 116.84 107.95 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 116.84 106.68 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 116.84 101.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 116.84 101.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 116.84 101.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "0bd4a320-a8a6-496a-8d18-aedb1f98cde8")
-		)
-		(instances
-			(project "pdn-kit-hardware"
-				(path "/7ba8b3ae-d553-4981-99e4-6a44bc3bbf14/8348a648-27db-498f-a773-f1d155f5cacd"
-					(reference "#PWR051")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED_ARGB")
+		(lib_id "global:FM-3510RGBA-SG")
 		(at 190.5 62.23 0)
 		(mirror y)
 		(unit 1)
@@ -8231,8 +9078,8 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 190.5 63.5 0)
+		(property "Footprint" "global:LED-SMD_FM-3510RGBA-SG"
+			(at 190.5 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8242,8 +9089,8 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
-			(at 190.5 63.5 0)
+		(property "Datasheet" "https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_Foshan-NationStar-Optoelectronics-FM-3510RGBA-SG_C727903.html"
+			(at 190.5 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8253,7 +9100,7 @@
 				)
 			)
 		)
-		(property "Description" "RGB LED, anode/red/green/blue"
+		(property "Description" ""
 			(at 190.5 62.23 0)
 			(hide yes)
 			(show_name no)
@@ -8266,6 +9113,39 @@
 		)
 		(property "Sim.Device" ""
 			(at 190.5 62.23 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "国星光电"
+			(at 190.5 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "FM-3510RGBA-SG"
+			(at 190.5 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C727903"
+			(at 190.5 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8291,163 +9171,6 @@
 			(project "pdn-kit-hardware"
 				(path "/7ba8b3ae-d553-4981-99e4-6a44bc3bbf14/8348a648-27db-498f-a773-f1d155f5cacd"
 					(reference "LED16")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 116.84 123.19 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a173cfe7-fb34-48b4-8e60-3e8c8c2e8afc")
-		(property "Reference" "#PWR055"
-			(at 116.84 129.54 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 116.84 128.27 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 116.84 123.19 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 116.84 123.19 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 116.84 123.19 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "abcd3d56-9d43-4287-b1d0-796e30104703")
-		)
-		(instances
-			(project "pdn-kit-hardware"
-				(path "/7ba8b3ae-d553-4981-99e4-6a44bc3bbf14/8348a648-27db-498f-a773-f1d155f5cacd"
-					(reference "#PWR055")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 185.42 62.23 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a21085e4-c66d-43fe-b5f0-74b12119f5e6")
-		(property "Reference" "#PWR063"
-			(at 185.42 68.58 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 185.42 67.31 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 185.42 62.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 185.42 62.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 185.42 62.23 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "06677824-0035-4608-bff3-d8554f7173b2")
-		)
-		(instances
-			(project "pdn-kit-hardware"
-				(path "/7ba8b3ae-d553-4981-99e4-6a44bc3bbf14/8348a648-27db-498f-a773-f1d155f5cacd"
-					(reference "#PWR063")
 					(unit 1)
 				)
 			)
@@ -8532,7 +9255,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED_ARGB")
+		(lib_id "global:NH-Z1921RGBA-SG")
 		(at 101.6 156.21 0)
 		(unit 1)
 		(body_style 1)
@@ -8543,7 +9266,7 @@
 		(dnp no)
 		(uuid "ab9be97c-b6fc-4a39-b0eb-81212e426596")
 		(property "Reference" "LED12"
-			(at 90.424 149.606 0)
+			(at 113.03 159.512 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8552,8 +9275,8 @@
 				)
 			)
 		)
-		(property "Value" "LED_ARGB"
-			(at 90.424 152.146 0)
+		(property "Value" "NH-Z1921RGBA-SG"
+			(at 113.284 161.798 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8562,8 +9285,8 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 101.6 157.48 0)
+		(property "Footprint" "global:LED-ARRAY-SMD_4P-L2.2-W2.1-BR-RD"
+			(at 101.6 167.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8573,8 +9296,8 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
-			(at 101.6 157.48 0)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C2874118.pdf"
+			(at 101.6 170.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8584,7 +9307,7 @@
 				)
 			)
 		)
-		(property "Description" "RGB LED, anode/red/green/blue"
+		(property "Description" ""
 			(at 101.6 156.21 0)
 			(hide yes)
 			(show_name no)
@@ -8597,6 +9320,39 @@
 		)
 		(property "Sim.Device" ""
 			(at 101.6 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "国星光电"
+			(at 101.6 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "NH-Z1921RGBA-SG"
+			(at 101.6 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C2874118"
+			(at 101.6 177.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8628,85 +9384,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 115.57 40.64 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ad384783-019e-4a4e-9426-4d1918449e32")
-		(property "Reference" "#PWR047"
-			(at 115.57 46.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 115.57 45.72 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 115.57 40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 115.57 40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 115.57 40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "0ad0281a-72d6-42fa-83d4-0d424e6f4fe8")
-		)
-		(instances
-			(project "pdn-kit-hardware"
-				(path "/7ba8b3ae-d553-4981-99e4-6a44bc3bbf14/8348a648-27db-498f-a773-f1d155f5cacd"
-					(reference "#PWR047")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED_ARGB")
+		(lib_id "global:NH-Z1921RGBA-SG")
 		(at 111.76 81.28 0)
 		(unit 1)
 		(body_style 1)
@@ -8717,7 +9395,7 @@
 		(dnp no)
 		(uuid "ad6a616a-0a64-4a02-8552-8cf9af79dc9a")
 		(property "Reference" "LED6"
-			(at 124.206 81.28 0)
+			(at 123.19 84.582 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8726,8 +9404,8 @@
 				)
 			)
 		)
-		(property "Value" "LED_ARGB"
-			(at 124.206 83.82 0)
+		(property "Value" "NH-Z1921RGBA-SG"
+			(at 124.206 86.868 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8736,8 +9414,8 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 111.76 82.55 0)
+		(property "Footprint" "global:LED-ARRAY-SMD_4P-L2.2-W2.1-BR-RD"
+			(at 111.76 92.71 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8747,8 +9425,8 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
-			(at 111.76 82.55 0)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C2874118.pdf"
+			(at 111.76 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8758,7 +9436,7 @@
 				)
 			)
 		)
-		(property "Description" "RGB LED, anode/red/green/blue"
+		(property "Description" ""
 			(at 111.76 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -8771,6 +9449,39 @@
 		)
 		(property "Sim.Device" ""
 			(at 111.76 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "国星光电"
+			(at 111.76 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "NH-Z1921RGBA-SG"
+			(at 111.76 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C2874118"
+			(at 111.76 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8802,243 +9513,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 184.15 102.87 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "af950a0f-f714-4e98-ba7d-c82602d197a1")
-		(property "Reference" "#PWR066"
-			(at 184.15 109.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 184.15 107.95 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 184.15 102.87 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 184.15 102.87 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 184.15 102.87 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "4abfe4ad-9ee0-4495-8880-886ae7e9469e")
-		)
-		(instances
-			(project "pdn-kit-hardware"
-				(path "/7ba8b3ae-d553-4981-99e4-6a44bc3bbf14/8348a648-27db-498f-a773-f1d155f5cacd"
-					(reference "#PWR066")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 184.15 82.55 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b0f14130-e46a-4f6b-80ef-206691e43ab8")
-		(property "Reference" "#PWR065"
-			(at 184.15 88.9 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 184.15 87.63 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 184.15 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 184.15 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 184.15 82.55 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "7360ea9c-eef7-4e52-8b10-17624bc298a2")
-		)
-		(instances
-			(project "pdn-kit-hardware"
-				(path "/7ba8b3ae-d553-4981-99e4-6a44bc3bbf14/8348a648-27db-498f-a773-f1d155f5cacd"
-					(reference "#PWR065")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 116.84 81.28 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b1807660-f29a-4662-b2f3-f1351af2a401")
-		(property "Reference" "#PWR052"
-			(at 116.84 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 116.84 86.36 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 116.84 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 116.84 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 116.84 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "e78e415d-79f6-449b-9e5b-353dad1f5866")
-		)
-		(instances
-			(project "pdn-kit-hardware"
-				(path "/7ba8b3ae-d553-4981-99e4-6a44bc3bbf14/8348a648-27db-498f-a773-f1d155f5cacd"
-					(reference "#PWR052")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED_ARGB")
+		(lib_id "global:FM-3510RGBA-SG")
 		(at 177.8 52.07 0)
 		(mirror y)
 		(unit 1)
@@ -9050,7 +9525,7 @@
 		(dnp no)
 		(uuid "b740b3b1-f37c-48d4-9e17-93cd604d4439")
 		(property "Reference" "LED15"
-			(at 168.91 45.974 0)
+			(at 164.084 45.974 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9060,7 +9535,7 @@
 			)
 		)
 		(property "Value" "LED_ARGB"
-			(at 168.91 48.514 0)
+			(at 164.084 48.514 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9069,8 +9544,8 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 177.8 53.34 0)
+		(property "Footprint" "global:LED-SMD_FM-3510RGBA-SG"
+			(at 177.8 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9080,8 +9555,8 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
-			(at 177.8 53.34 0)
+		(property "Datasheet" "https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_Foshan-NationStar-Optoelectronics-FM-3510RGBA-SG_C727903.html"
+			(at 177.8 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9091,7 +9566,7 @@
 				)
 			)
 		)
-		(property "Description" "RGB LED, anode/red/green/blue"
+		(property "Description" ""
 			(at 177.8 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -9104,6 +9579,39 @@
 		)
 		(property "Sim.Device" ""
 			(at 177.8 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "国星光电"
+			(at 177.8 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "FM-3510RGBA-SG"
+			(at 177.8 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C727903"
+			(at 177.8 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9214,20 +9722,19 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 198.12 31.75 0)
-		(mirror y)
+		(lib_id "global:VSYS")
+		(at 151.13 19.05 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
+		(in_bom no)
+		(on_board no)
+		(in_pos_files no)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "beed69b0-0bcc-4dcd-869f-dd2f503fea2e")
-		(property "Reference" "#PWR061"
-			(at 198.12 38.1 0)
+		(uuid "c1ba3b15-87e9-4e51-b83f-55bb0ec241f2")
+		(property "Reference" "#PWR046"
+			(at 151.13 22.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9237,18 +9744,19 @@
 				)
 			)
 		)
-		(property "Value" "GND"
-			(at 198.12 36.83 0)
+		(property "Value" "VCC"
+			(at 152.4 17.7799 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 198.12 31.75 0)
+			(at 151.13 19.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9259,7 +9767,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 198.12 31.75 0)
+			(at 151.13 19.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9269,8 +9777,8 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 198.12 31.75 0)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 151.13 19.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9280,13 +9788,13 @@
 				)
 			)
 		)
-		(pin "1"
-			(uuid "cafdeb00-3b23-4475-a6d9-f92adb0bae5a")
+		(pin ""
+			(uuid "9848d34b-3674-4187-8331-3fc1435064ed")
 		)
 		(instances
 			(project "pdn-kit-hardware"
 				(path "/7ba8b3ae-d553-4981-99e4-6a44bc3bbf14/8348a648-27db-498f-a773-f1d155f5cacd"
-					(reference "#PWR061")
+					(reference "#PWR046")
 					(unit 1)
 				)
 			)
@@ -9386,85 +9894,7 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 128.27 71.12 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c482a84e-a332-4419-aef0-438e7247e585")
-		(property "Reference" "#PWR050"
-			(at 128.27 77.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 128.27 76.2 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 128.27 71.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 128.27 71.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 128.27 71.12 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "80f8868e-25a5-492e-b27f-4a6345664cd3")
-		)
-		(instances
-			(project "pdn-kit-hardware"
-				(path "/7ba8b3ae-d553-4981-99e4-6a44bc3bbf14/8348a648-27db-498f-a773-f1d155f5cacd"
-					(reference "#PWR050")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED_ARGB")
+		(lib_id "global:NH-Z1921RGBA-SG")
 		(at 111.76 101.6 0)
 		(unit 1)
 		(body_style 1)
@@ -9475,7 +9905,7 @@
 		(dnp no)
 		(uuid "ca7632b4-4cb5-4709-a69c-fbde73058b3d")
 		(property "Reference" "LED7"
-			(at 119.634 94.488 0)
+			(at 111.76 91.694 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9484,8 +9914,8 @@
 				)
 			)
 		)
-		(property "Value" "LED_ARGB"
-			(at 119.634 97.028 0)
+		(property "Value" "NH-Z1921RGBA-SG"
+			(at 123.19 91.694 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9494,8 +9924,8 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 111.76 102.87 0)
+		(property "Footprint" "global:LED-ARRAY-SMD_4P-L2.2-W2.1-BR-RD"
+			(at 111.76 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9505,8 +9935,8 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
-			(at 111.76 102.87 0)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C2874118.pdf"
+			(at 111.76 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9516,7 +9946,7 @@
 				)
 			)
 		)
-		(property "Description" "RGB LED, anode/red/green/blue"
+		(property "Description" ""
 			(at 111.76 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -9529,6 +9959,39 @@
 		)
 		(property "Sim.Device" ""
 			(at 111.76 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "国星光电"
+			(at 111.76 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "NH-Z1921RGBA-SG"
+			(at 111.76 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C2874118"
+			(at 111.76 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9739,85 +10202,6 @@
 			(project "pdn-kit-hardware"
 				(path "/7ba8b3ae-d553-4981-99e4-6a44bc3bbf14/8348a648-27db-498f-a773-f1d155f5cacd"
 					(reference "R26")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 172.72 52.07 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "dfdce07b-ba1e-430b-ba33-e27f052ecbd4")
-		(property "Reference" "#PWR069"
-			(at 172.72 58.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 172.72 57.15 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 172.72 52.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 172.72 52.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 172.72 52.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "b9a244c6-e603-41f6-9be3-f36fbe39ab7f")
-		)
-		(instances
-			(project "pdn-kit-hardware"
-				(path "/7ba8b3ae-d553-4981-99e4-6a44bc3bbf14/8348a648-27db-498f-a773-f1d155f5cacd"
-					(reference "#PWR069")
 					(unit 1)
 				)
 			)
@@ -10169,7 +10553,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED_ARGB")
+		(lib_id "global:FM-3510RGBA-SG")
 		(at 189.23 102.87 0)
 		(mirror y)
 		(unit 1)
@@ -10181,7 +10565,7 @@
 		(dnp no)
 		(uuid "ef876514-eae0-42c3-b5b7-9219631f5ffb")
 		(property "Reference" "LED19"
-			(at 181.356 95.758 0)
+			(at 176.53 95.758 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10191,7 +10575,7 @@
 			)
 		)
 		(property "Value" "LED_ARGB"
-			(at 181.356 98.298 0)
+			(at 176.53 98.298 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10200,8 +10584,8 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 189.23 104.14 0)
+		(property "Footprint" "global:LED-SMD_FM-3510RGBA-SG"
+			(at 189.23 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10211,8 +10595,8 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
-			(at 189.23 104.14 0)
+		(property "Datasheet" "https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_Foshan-NationStar-Optoelectronics-FM-3510RGBA-SG_C727903.html"
+			(at 189.23 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10222,7 +10606,7 @@
 				)
 			)
 		)
-		(property "Description" "RGB LED, anode/red/green/blue"
+		(property "Description" ""
 			(at 189.23 102.87 0)
 			(hide yes)
 			(show_name no)
@@ -10235,6 +10619,39 @@
 		)
 		(property "Sim.Device" ""
 			(at 189.23 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "国星光电"
+			(at 189.23 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "FM-3510RGBA-SG"
+			(at 189.23 121.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C727903"
+			(at 189.23 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10260,84 +10677,6 @@
 			(project "pdn-kit-hardware"
 				(path "/7ba8b3ae-d553-4981-99e4-6a44bc3bbf14/8348a648-27db-498f-a773-f1d155f5cacd"
 					(reference "LED19")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 129.54 133.35 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ef903344-7699-490f-afe3-50e8d16575d3")
-		(property "Reference" "#PWR054"
-			(at 129.54 139.7 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 129.54 138.43 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 129.54 133.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 129.54 133.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 129.54 133.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "7b5871e0-62ad-422b-9cc0-c5e44cd7d2b2")
-		)
-		(instances
-			(project "pdn-kit-hardware"
-				(path "/7ba8b3ae-d553-4981-99e4-6a44bc3bbf14/8348a648-27db-498f-a773-f1d155f5cacd"
-					(reference "#PWR054")
 					(unit 1)
 				)
 			)
@@ -10416,84 +10755,6 @@
 			(project "pdn-kit-hardware"
 				(path "/7ba8b3ae-d553-4981-99e4-6a44bc3bbf14/8348a648-27db-498f-a773-f1d155f5cacd"
 					(reference "#PWR045")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 129.54 111.76 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "fd39de60-000e-426c-8f03-e86da9752241")
-		(property "Reference" "#PWR053"
-			(at 129.54 118.11 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 129.54 116.84 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 129.54 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 129.54 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 129.54 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "29cc7374-902d-45f7-9608-3424095a5353")
-		)
-		(instances
-			(project "pdn-kit-hardware"
-				(path "/7ba8b3ae-d553-4981-99e4-6a44bc3bbf14/8348a648-27db-498f-a773-f1d155f5cacd"
-					(reference "#PWR053")
 					(unit 1)
 				)
 			)

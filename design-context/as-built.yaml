@@ -2,7 +2,7 @@ manifest:
   kind: design-context-dump
   status: as-built
   epistemicStatus: observation_not_requirement
-  generatedAt: '2026-08-30T19:50:50Z'
+  generatedAt: '2026-09-18T13:17:10Z'
   rootSchematic: C:\Users\Elli Furedy\projects\pdn-kit-hardware\pdn-kit-hardware.kicad_sch
   projectDir: C:\Users\Elli Furedy\projects\pdn-kit-hardware
   sourceTool: dump_design_context.py
@@ -1168,191 +1168,191 @@ components:
   isGeneric: false
   isMajorIc: false
 - reference: LED1
-  value: LED_ARGB
-  libId: Device:LED_ARGB
-  footprint: ''
-  lcsc: ''
-  datasheet: ''
+  value: NH-Z1921RGBA-SG
+  libId: global:NH-Z1921RGBA-SG
+  footprint: global:LED-ARRAY-SMD_4P-L2.2-W2.1-BR-RD
+  lcsc: C2874118
+  datasheet: https://www.lcsc.com/datasheet/C2874118.pdf
   sheet: /LEDs/
   sheetFile: leds.kicad_sch
   isGeneric: false
   isMajorIc: false
 - reference: LED2
-  value: LED_ARGB
-  libId: Device:LED_ARGB
-  footprint: ''
-  lcsc: ''
-  datasheet: ''
+  value: NH-Z1921RGBA-SG
+  libId: global:NH-Z1921RGBA-SG
+  footprint: global:LED-ARRAY-SMD_4P-L2.2-W2.1-BR-RD
+  lcsc: C2874118
+  datasheet: https://www.lcsc.com/datasheet/C2874118.pdf
   sheet: /LEDs/
   sheetFile: leds.kicad_sch
   isGeneric: false
   isMajorIc: false
 - reference: LED3
-  value: LED_ARGB
-  libId: Device:LED_ARGB
-  footprint: ''
-  lcsc: ''
-  datasheet: ''
+  value: NH-Z1921RGBA-SG
+  libId: global:NH-Z1921RGBA-SG
+  footprint: global:LED-ARRAY-SMD_4P-L2.2-W2.1-BR-RD
+  lcsc: C2874118
+  datasheet: https://www.lcsc.com/datasheet/C2874118.pdf
   sheet: /LEDs/
   sheetFile: leds.kicad_sch
   isGeneric: false
   isMajorIc: false
 - reference: LED4
-  value: LED_ARGB
-  libId: Device:LED_ARGB
-  footprint: ''
-  lcsc: ''
-  datasheet: ''
+  value: NH-Z1921RGBA-SG
+  libId: global:NH-Z1921RGBA-SG
+  footprint: global:LED-ARRAY-SMD_4P-L2.2-W2.1-BR-RD
+  lcsc: C2874118
+  datasheet: https://www.lcsc.com/datasheet/C2874118.pdf
   sheet: /LEDs/
   sheetFile: leds.kicad_sch
   isGeneric: false
   isMajorIc: false
 - reference: LED5
-  value: LED_ARGB
-  libId: Device:LED_ARGB
-  footprint: ''
-  lcsc: ''
-  datasheet: ''
+  value: NH-Z1921RGBA-SG
+  libId: global:NH-Z1921RGBA-SG
+  footprint: global:LED-ARRAY-SMD_4P-L2.2-W2.1-BR-RD
+  lcsc: C2874118
+  datasheet: https://www.lcsc.com/datasheet/C2874118.pdf
   sheet: /LEDs/
   sheetFile: leds.kicad_sch
   isGeneric: false
   isMajorIc: false
 - reference: LED6
-  value: LED_ARGB
-  libId: Device:LED_ARGB
-  footprint: ''
-  lcsc: ''
-  datasheet: ''
+  value: NH-Z1921RGBA-SG
+  libId: global:NH-Z1921RGBA-SG
+  footprint: global:LED-ARRAY-SMD_4P-L2.2-W2.1-BR-RD
+  lcsc: C2874118
+  datasheet: https://www.lcsc.com/datasheet/C2874118.pdf
   sheet: /LEDs/
   sheetFile: leds.kicad_sch
   isGeneric: false
   isMajorIc: false
 - reference: LED7
-  value: LED_ARGB
-  libId: Device:LED_ARGB
-  footprint: ''
-  lcsc: ''
-  datasheet: ''
+  value: NH-Z1921RGBA-SG
+  libId: global:NH-Z1921RGBA-SG
+  footprint: global:LED-ARRAY-SMD_4P-L2.2-W2.1-BR-RD
+  lcsc: C2874118
+  datasheet: https://www.lcsc.com/datasheet/C2874118.pdf
   sheet: /LEDs/
   sheetFile: leds.kicad_sch
   isGeneric: false
   isMajorIc: false
 - reference: LED8
-  value: LED_ARGB
-  libId: Device:LED_ARGB
-  footprint: ''
-  lcsc: ''
-  datasheet: ''
+  value: NH-Z1921RGBA-SG
+  libId: global:NH-Z1921RGBA-SG
+  footprint: global:LED-ARRAY-SMD_4P-L2.2-W2.1-BR-RD
+  lcsc: C2874118
+  datasheet: https://www.lcsc.com/datasheet/C2874118.pdf
   sheet: /LEDs/
   sheetFile: leds.kicad_sch
   isGeneric: false
   isMajorIc: false
 - reference: LED9
-  value: LED_ARGB
-  libId: Device:LED_ARGB
-  footprint: ''
-  lcsc: ''
-  datasheet: ''
+  value: NH-Z1921RGBA-SG
+  libId: global:NH-Z1921RGBA-SG
+  footprint: global:LED-ARRAY-SMD_4P-L2.2-W2.1-BR-RD
+  lcsc: C2874118
+  datasheet: https://www.lcsc.com/datasheet/C2874118.pdf
   sheet: /LEDs/
   sheetFile: leds.kicad_sch
   isGeneric: false
   isMajorIc: false
 - reference: LED10
-  value: LED_ARGB
-  libId: Device:LED_ARGB
-  footprint: ''
-  lcsc: ''
-  datasheet: ''
+  value: NH-Z1921RGBA-SG
+  libId: global:NH-Z1921RGBA-SG
+  footprint: global:LED-ARRAY-SMD_4P-L2.2-W2.1-BR-RD
+  lcsc: C2874118
+  datasheet: https://www.lcsc.com/datasheet/C2874118.pdf
   sheet: /LEDs/
   sheetFile: leds.kicad_sch
   isGeneric: false
   isMajorIc: false
 - reference: LED11
-  value: LED_ARGB
-  libId: Device:LED_ARGB
-  footprint: ''
-  lcsc: ''
-  datasheet: ''
+  value: NH-Z1921RGBA-SG
+  libId: global:NH-Z1921RGBA-SG
+  footprint: global:LED-ARRAY-SMD_4P-L2.2-W2.1-BR-RD
+  lcsc: C2874118
+  datasheet: https://www.lcsc.com/datasheet/C2874118.pdf
   sheet: /LEDs/
   sheetFile: leds.kicad_sch
   isGeneric: false
   isMajorIc: false
 - reference: LED12
-  value: LED_ARGB
-  libId: Device:LED_ARGB
-  footprint: ''
-  lcsc: ''
-  datasheet: ''
+  value: NH-Z1921RGBA-SG
+  libId: global:NH-Z1921RGBA-SG
+  footprint: global:LED-ARRAY-SMD_4P-L2.2-W2.1-BR-RD
+  lcsc: C2874118
+  datasheet: https://www.lcsc.com/datasheet/C2874118.pdf
   sheet: /LEDs/
   sheetFile: leds.kicad_sch
   isGeneric: false
   isMajorIc: false
 - reference: LED13
   value: LED_ARGB
-  libId: Device:LED_ARGB
-  footprint: ''
-  lcsc: ''
-  datasheet: ''
+  libId: global:FM-3510RGBA-SG
+  footprint: global:LED-SMD_FM-3510RGBA-SG
+  lcsc: C727903
+  datasheet: https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_Foshan-NationStar-Optoelectronics-FM-3510RGBA-SG_C727903.html
   sheet: /LEDs/
   sheetFile: leds.kicad_sch
   isGeneric: false
   isMajorIc: false
 - reference: LED14
   value: LED_ARGB
-  libId: Device:LED_ARGB
-  footprint: ''
-  lcsc: ''
-  datasheet: ''
+  libId: global:FM-3510RGBA-SG
+  footprint: global:LED-SMD_FM-3510RGBA-SG
+  lcsc: C727903
+  datasheet: https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_Foshan-NationStar-Optoelectronics-FM-3510RGBA-SG_C727903.html
   sheet: /LEDs/
   sheetFile: leds.kicad_sch
   isGeneric: false
   isMajorIc: false
 - reference: LED15
   value: LED_ARGB
-  libId: Device:LED_ARGB
-  footprint: ''
-  lcsc: ''
-  datasheet: ''
+  libId: global:FM-3510RGBA-SG
+  footprint: global:LED-SMD_FM-3510RGBA-SG
+  lcsc: C727903
+  datasheet: https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_Foshan-NationStar-Optoelectronics-FM-3510RGBA-SG_C727903.html
   sheet: /LEDs/
   sheetFile: leds.kicad_sch
   isGeneric: false
   isMajorIc: false
 - reference: LED16
   value: LED_ARGB
-  libId: Device:LED_ARGB
-  footprint: ''
-  lcsc: ''
-  datasheet: ''
+  libId: global:FM-3510RGBA-SG
+  footprint: global:LED-SMD_FM-3510RGBA-SG
+  lcsc: C727903
+  datasheet: https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_Foshan-NationStar-Optoelectronics-FM-3510RGBA-SG_C727903.html
   sheet: /LEDs/
   sheetFile: leds.kicad_sch
   isGeneric: false
   isMajorIc: false
 - reference: LED17
   value: LED_ARGB
-  libId: Device:LED_ARGB
-  footprint: ''
-  lcsc: ''
-  datasheet: ''
+  libId: global:FM-3510RGBA-SG
+  footprint: global:LED-SMD_FM-3510RGBA-SG
+  lcsc: C727903
+  datasheet: https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_Foshan-NationStar-Optoelectronics-FM-3510RGBA-SG_C727903.html
   sheet: /LEDs/
   sheetFile: leds.kicad_sch
   isGeneric: false
   isMajorIc: false
 - reference: LED18
   value: LED_ARGB
-  libId: Device:LED_ARGB
-  footprint: ''
-  lcsc: ''
-  datasheet: ''
+  libId: global:FM-3510RGBA-SG
+  footprint: global:LED-SMD_FM-3510RGBA-SG
+  lcsc: C727903
+  datasheet: https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_Foshan-NationStar-Optoelectronics-FM-3510RGBA-SG_C727903.html
   sheet: /LEDs/
   sheetFile: leds.kicad_sch
   isGeneric: false
   isMajorIc: false
 - reference: LED19
   value: LED_ARGB
-  libId: Device:LED_ARGB
-  footprint: ''
-  lcsc: ''
-  datasheet: ''
+  libId: global:FM-3510RGBA-SG
+  footprint: global:LED-SMD_FM-3510RGBA-SG
+  lcsc: C727903
+  datasheet: https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_Foshan-NationStar-Optoelectronics-FM-3510RGBA-SG_C727903.html
   sheet: /LEDs/
   sheetFile: leds.kicad_sch
   isGeneric: false
@@ -2500,88 +2500,12 @@ nets:
     pin: S
     pinFunction: ''
     pinType: passive
-  - reference: LED1
-    pin: '1'
-    pinFunction: A_1
-    pinType: passive
-  - reference: LED10
-    pin: '1'
-    pinFunction: A_1
-    pinType: passive
-  - reference: LED11
-    pin: '1'
-    pinFunction: A_1
-    pinType: passive
-  - reference: LED12
-    pin: '1'
-    pinFunction: A_1
-    pinType: passive
-  - reference: LED13
-    pin: '1'
-    pinFunction: A_1
-    pinType: passive
-  - reference: LED14
-    pin: '1'
-    pinFunction: A_1
-    pinType: passive
-  - reference: LED15
-    pin: '1'
-    pinFunction: A_1
-    pinType: passive
-  - reference: LED16
-    pin: '1'
-    pinFunction: A_1
-    pinType: passive
-  - reference: LED17
-    pin: '1'
-    pinFunction: A_1
-    pinType: passive
-  - reference: LED18
-    pin: '1'
-    pinFunction: A_1
-    pinType: passive
-  - reference: LED19
-    pin: '1'
-    pinFunction: A_1
-    pinType: passive
-  - reference: LED2
-    pin: '1'
-    pinFunction: A_1
-    pinType: passive
-  - reference: LED3
-    pin: '1'
-    pinFunction: A_1
-    pinType: passive
-  - reference: LED4
-    pin: '1'
-    pinFunction: A_1
-    pinType: passive
-  - reference: LED5
-    pin: '1'
-    pinFunction: A_1
-    pinType: passive
-  - reference: LED6
-    pin: '1'
-    pinFunction: A_1
-    pinType: passive
-  - reference: LED7
-    pin: '1'
-    pinFunction: A_1
-    pinType: passive
-  - reference: LED8
-    pin: '1'
-    pinFunction: A_1
-    pinType: passive
-  - reference: LED9
-    pin: '1'
-    pinFunction: A_1
-    pinType: passive
   - reference: Q2
     pin: '2'
     pinFunction: E_2
     pinType: passive
   - reference: R1
-    pin: '1'
+    pin: '2'
     pinFunction: ''
     pinType: passive
   - reference: R11
@@ -2593,7 +2517,7 @@ nets:
     pinFunction: ''
     pinType: passive
   - reference: R2
-    pin: '1'
+    pin: '2'
     pinFunction: ''
     pinType: passive
   - reference: R24
@@ -2881,635 +2805,8 @@ nets:
     pin: '1'
     pinFunction: ''
     pinType: passive
-- name: Net-(LED1-BK)
-  code: '42'
-  nodes:
-  - reference: LED1
-    pin: '4'
-    pinFunction: BK_4
-    pinType: passive
-  - reference: U5
-    pin: '1'
-    pinFunction: OUT3_1
-    pinType: output
-- name: Net-(LED1-GK)
-  code: '43'
-  nodes:
-  - reference: LED1
-    pin: '3'
-    pinFunction: GK_3
-    pinType: passive
-  - reference: U5
-    pin: '44'
-    pinFunction: OUT2_44
-    pinType: output
-- name: Net-(LED1-RK)
-  code: '44'
-  nodes:
-  - reference: LED1
-    pin: '2'
-    pinFunction: RK_2
-    pinType: passive
-  - reference: U5
-    pin: '43'
-    pinFunction: OUT1_43
-    pinType: output
-- name: Net-(LED2-BK)
-  code: '45'
-  nodes:
-  - reference: LED2
-    pin: '4'
-    pinFunction: BK_4
-    pinType: passive
-  - reference: U5
-    pin: '4'
-    pinFunction: OUT6_4
-    pinType: output
-- name: Net-(LED2-GK)
-  code: '46'
-  nodes:
-  - reference: LED2
-    pin: '3'
-    pinFunction: GK_3
-    pinType: passive
-  - reference: U5
-    pin: '3'
-    pinFunction: OUT5_3
-    pinType: output
-- name: Net-(LED2-RK)
-  code: '47'
-  nodes:
-  - reference: LED2
-    pin: '2'
-    pinFunction: RK_2
-    pinType: passive
-  - reference: U5
-    pin: '2'
-    pinFunction: OUT4_2
-    pinType: output
-- name: Net-(LED3-BK)
-  code: '48'
-  nodes:
-  - reference: LED3
-    pin: '4'
-    pinFunction: BK_4
-    pinType: passive
-  - reference: U5
-    pin: '7'
-    pinFunction: OUT9_7
-    pinType: output
-- name: Net-(LED3-GK)
-  code: '49'
-  nodes:
-  - reference: LED3
-    pin: '3'
-    pinFunction: GK_3
-    pinType: passive
-  - reference: U5
-    pin: '6'
-    pinFunction: OUT8_6
-    pinType: output
-- name: Net-(LED3-RK)
-  code: '50'
-  nodes:
-  - reference: LED3
-    pin: '2'
-    pinFunction: RK_2
-    pinType: passive
-  - reference: U5
-    pin: '5'
-    pinFunction: OUT7_5
-    pinType: output
-- name: Net-(LED4-BK)
-  code: '51'
-  nodes:
-  - reference: LED4
-    pin: '4'
-    pinFunction: BK_4
-    pinType: passive
-  - reference: U5
-    pin: '10'
-    pinFunction: OUT12_10
-    pinType: output
-- name: Net-(LED4-GK)
-  code: '52'
-  nodes:
-  - reference: LED4
-    pin: '3'
-    pinFunction: GK_3
-    pinType: passive
-  - reference: U5
-    pin: '9'
-    pinFunction: OUT11_9
-    pinType: output
-- name: Net-(LED4-RK)
-  code: '53'
-  nodes:
-  - reference: LED4
-    pin: '2'
-    pinFunction: RK_2
-    pinType: passive
-  - reference: U5
-    pin: '8'
-    pinFunction: OUT10_8
-    pinType: output
-- name: Net-(LED5-BK)
-  code: '54'
-  nodes:
-  - reference: LED5
-    pin: '4'
-    pinFunction: BK_4
-    pinType: passive
-  - reference: U5
-    pin: '13'
-    pinFunction: OUT15_13
-    pinType: output
-- name: Net-(LED5-GK)
-  code: '55'
-  nodes:
-  - reference: LED5
-    pin: '3'
-    pinFunction: GK_3
-    pinType: passive
-  - reference: U5
-    pin: '12'
-    pinFunction: OUT14_12
-    pinType: output
-- name: Net-(LED5-RK)
-  code: '56'
-  nodes:
-  - reference: LED5
-    pin: '2'
-    pinFunction: RK_2
-    pinType: passive
-  - reference: U5
-    pin: '11'
-    pinFunction: OUT13_11
-    pinType: output
-- name: Net-(LED6-BK)
-  code: '57'
-  nodes:
-  - reference: LED6
-    pin: '4'
-    pinFunction: BK_4
-    pinType: passive
-  - reference: U5
-    pin: '16'
-    pinFunction: OUT18_16
-    pinType: output
-- name: Net-(LED6-GK)
-  code: '58'
-  nodes:
-  - reference: LED6
-    pin: '3'
-    pinFunction: GK_3
-    pinType: passive
-  - reference: U5
-    pin: '15'
-    pinFunction: OUT17_15
-    pinType: output
-- name: Net-(LED6-RK)
-  code: '59'
-  nodes:
-  - reference: LED6
-    pin: '2'
-    pinFunction: RK_2
-    pinType: passive
-  - reference: U5
-    pin: '14'
-    pinFunction: OUT16_14
-    pinType: output
-- name: Net-(LED7-BK)
-  code: '60'
-  nodes:
-  - reference: LED7
-    pin: '4'
-    pinFunction: BK_4
-    pinType: passive
-  - reference: U5
-    pin: '20'
-    pinFunction: OUT21_20
-    pinType: output
-- name: Net-(LED7-GK)
-  code: '61'
-  nodes:
-  - reference: LED7
-    pin: '3'
-    pinFunction: GK_3
-    pinType: passive
-  - reference: U5
-    pin: '19'
-    pinFunction: OUT20_19
-    pinType: output
-- name: Net-(LED7-RK)
-  code: '62'
-  nodes:
-  - reference: LED7
-    pin: '2'
-    pinFunction: RK_2
-    pinType: passive
-  - reference: U5
-    pin: '18'
-    pinFunction: OUT19_18
-    pinType: output
-- name: Net-(LED8-BK)
-  code: '63'
-  nodes:
-  - reference: LED8
-    pin: '4'
-    pinFunction: BK_4
-    pinType: passive
-  - reference: U5
-    pin: '23'
-    pinFunction: OUT24_23
-    pinType: output
-- name: Net-(LED8-GK)
-  code: '64'
-  nodes:
-  - reference: LED8
-    pin: '3'
-    pinFunction: GK_3
-    pinType: passive
-  - reference: U5
-    pin: '22'
-    pinFunction: OUT23_22
-    pinType: output
-- name: Net-(LED8-RK)
-  code: '65'
-  nodes:
-  - reference: LED8
-    pin: '2'
-    pinFunction: RK_2
-    pinType: passive
-  - reference: U5
-    pin: '21'
-    pinFunction: OUT22_21
-    pinType: output
-- name: Net-(LED9-BK)
-  code: '66'
-  nodes:
-  - reference: LED9
-    pin: '4'
-    pinFunction: BK_4
-    pinType: passive
-  - reference: U5
-    pin: '26'
-    pinFunction: OUT27_26
-    pinType: output
-- name: Net-(LED9-GK)
-  code: '67'
-  nodes:
-  - reference: LED9
-    pin: '3'
-    pinFunction: GK_3
-    pinType: passive
-  - reference: U5
-    pin: '25'
-    pinFunction: OUT26_25
-    pinType: output
-- name: Net-(LED9-RK)
-  code: '68'
-  nodes:
-  - reference: LED9
-    pin: '2'
-    pinFunction: RK_2
-    pinType: passive
-  - reference: U5
-    pin: '24'
-    pinFunction: OUT25_24
-    pinType: output
-- name: Net-(LED10-BK)
-  code: '69'
-  nodes:
-  - reference: LED10
-    pin: '4'
-    pinFunction: BK_4
-    pinType: passive
-  - reference: U5
-    pin: '29'
-    pinFunction: OUT30_29
-    pinType: output
-- name: Net-(LED10-GK)
-  code: '70'
-  nodes:
-  - reference: LED10
-    pin: '3'
-    pinFunction: GK_3
-    pinType: passive
-  - reference: U5
-    pin: '28'
-    pinFunction: OUT29_28
-    pinType: output
-- name: Net-(LED10-RK)
-  code: '71'
-  nodes:
-  - reference: LED10
-    pin: '2'
-    pinFunction: RK_2
-    pinType: passive
-  - reference: U5
-    pin: '27'
-    pinFunction: OUT28_27
-    pinType: output
-- name: Net-(LED11-BK)
-  code: '72'
-  nodes:
-  - reference: LED11
-    pin: '4'
-    pinFunction: BK_4
-    pinType: passive
-  - reference: U5
-    pin: '32'
-    pinFunction: OUT33_32
-    pinType: output
-- name: Net-(LED11-GK)
-  code: '73'
-  nodes:
-  - reference: LED11
-    pin: '3'
-    pinFunction: GK_3
-    pinType: passive
-  - reference: U5
-    pin: '31'
-    pinFunction: OUT32_31
-    pinType: output
-- name: Net-(LED11-RK)
-  code: '74'
-  nodes:
-  - reference: LED11
-    pin: '2'
-    pinFunction: RK_2
-    pinType: passive
-  - reference: U5
-    pin: '30'
-    pinFunction: OUT31_30
-    pinType: output
-- name: Net-(LED12-BK)
-  code: '75'
-  nodes:
-  - reference: LED12
-    pin: '4'
-    pinFunction: BK_4
-    pinType: passive
-  - reference: U5
-    pin: '35'
-    pinFunction: OUT36_35
-    pinType: output
-- name: Net-(LED12-GK)
-  code: '76'
-  nodes:
-  - reference: LED12
-    pin: '3'
-    pinFunction: GK_3
-    pinType: passive
-  - reference: U5
-    pin: '34'
-    pinFunction: OUT35_34
-    pinType: output
-- name: Net-(LED12-RK)
-  code: '77'
-  nodes:
-  - reference: LED12
-    pin: '2'
-    pinFunction: RK_2
-    pinType: passive
-  - reference: U5
-    pin: '33'
-    pinFunction: OUT34_33
-    pinType: output
-- name: Net-(LED13-BK)
-  code: '78'
-  nodes:
-  - reference: LED13
-    pin: '4'
-    pinFunction: BK_4
-    pinType: passive
-  - reference: U7
-    pin: '1'
-    pinFunction: OUT3_1
-    pinType: output
-- name: Net-(LED13-GK)
-  code: '79'
-  nodes:
-  - reference: LED13
-    pin: '3'
-    pinFunction: GK_3
-    pinType: passive
-  - reference: U7
-    pin: '44'
-    pinFunction: OUT2_44
-    pinType: output
-- name: Net-(LED13-RK)
-  code: '80'
-  nodes:
-  - reference: LED13
-    pin: '2'
-    pinFunction: RK_2
-    pinType: passive
-  - reference: U7
-    pin: '43'
-    pinFunction: OUT1_43
-    pinType: output
-- name: Net-(LED14-BK)
-  code: '81'
-  nodes:
-  - reference: LED14
-    pin: '4'
-    pinFunction: BK_4
-    pinType: passive
-  - reference: U7
-    pin: '4'
-    pinFunction: OUT6_4
-    pinType: output
-- name: Net-(LED14-GK)
-  code: '82'
-  nodes:
-  - reference: LED14
-    pin: '3'
-    pinFunction: GK_3
-    pinType: passive
-  - reference: U7
-    pin: '3'
-    pinFunction: OUT5_3
-    pinType: output
-- name: Net-(LED14-RK)
-  code: '83'
-  nodes:
-  - reference: LED14
-    pin: '2'
-    pinFunction: RK_2
-    pinType: passive
-  - reference: U7
-    pin: '2'
-    pinFunction: OUT4_2
-    pinType: output
-- name: Net-(LED15-BK)
-  code: '84'
-  nodes:
-  - reference: LED15
-    pin: '4'
-    pinFunction: BK_4
-    pinType: passive
-  - reference: U7
-    pin: '7'
-    pinFunction: OUT9_7
-    pinType: output
-- name: Net-(LED15-GK)
-  code: '85'
-  nodes:
-  - reference: LED15
-    pin: '3'
-    pinFunction: GK_3
-    pinType: passive
-  - reference: U7
-    pin: '6'
-    pinFunction: OUT8_6
-    pinType: output
-- name: Net-(LED15-RK)
-  code: '86'
-  nodes:
-  - reference: LED15
-    pin: '2'
-    pinFunction: RK_2
-    pinType: passive
-  - reference: U7
-    pin: '5'
-    pinFunction: OUT7_5
-    pinType: output
-- name: Net-(LED16-BK)
-  code: '87'
-  nodes:
-  - reference: LED16
-    pin: '4'
-    pinFunction: BK_4
-    pinType: passive
-  - reference: U7
-    pin: '10'
-    pinFunction: OUT12_10
-    pinType: output
-- name: Net-(LED16-GK)
-  code: '88'
-  nodes:
-  - reference: LED16
-    pin: '3'
-    pinFunction: GK_3
-    pinType: passive
-  - reference: U7
-    pin: '9'
-    pinFunction: OUT11_9
-    pinType: output
-- name: Net-(LED16-RK)
-  code: '89'
-  nodes:
-  - reference: LED16
-    pin: '2'
-    pinFunction: RK_2
-    pinType: passive
-  - reference: U7
-    pin: '8'
-    pinFunction: OUT10_8
-    pinType: output
-- name: Net-(LED17-BK)
-  code: '90'
-  nodes:
-  - reference: LED17
-    pin: '4'
-    pinFunction: BK_4
-    pinType: passive
-  - reference: U7
-    pin: '13'
-    pinFunction: OUT15_13
-    pinType: output
-- name: Net-(LED17-GK)
-  code: '91'
-  nodes:
-  - reference: LED17
-    pin: '3'
-    pinFunction: GK_3
-    pinType: passive
-  - reference: U7
-    pin: '12'
-    pinFunction: OUT14_12
-    pinType: output
-- name: Net-(LED17-RK)
-  code: '92'
-  nodes:
-  - reference: LED17
-    pin: '2'
-    pinFunction: RK_2
-    pinType: passive
-  - reference: U7
-    pin: '11'
-    pinFunction: OUT13_11
-    pinType: output
-- name: Net-(LED18-BK)
-  code: '93'
-  nodes:
-  - reference: LED18
-    pin: '4'
-    pinFunction: BK_4
-    pinType: passive
-  - reference: U7
-    pin: '16'
-    pinFunction: OUT18_16
-    pinType: output
-- name: Net-(LED18-GK)
-  code: '94'
-  nodes:
-  - reference: LED18
-    pin: '3'
-    pinFunction: GK_3
-    pinType: passive
-  - reference: U7
-    pin: '15'
-    pinFunction: OUT17_15
-    pinType: output
-- name: Net-(LED18-RK)
-  code: '95'
-  nodes:
-  - reference: LED18
-    pin: '2'
-    pinFunction: RK_2
-    pinType: passive
-  - reference: U7
-    pin: '14'
-    pinFunction: OUT16_14
-    pinType: output
-- name: Net-(LED19-BK)
-  code: '96'
-  nodes:
-  - reference: LED19
-    pin: '4'
-    pinFunction: BK_4
-    pinType: passive
-  - reference: U7
-    pin: '20'
-    pinFunction: OUT21_20
-    pinType: output
-- name: Net-(LED19-GK)
-  code: '97'
-  nodes:
-  - reference: LED19
-    pin: '3'
-    pinFunction: GK_3
-    pinType: passive
-  - reference: U7
-    pin: '19'
-    pinFunction: OUT20_19
-    pinType: output
-- name: Net-(LED19-RK)
-  code: '98'
-  nodes:
-  - reference: LED19
-    pin: '2'
-    pinFunction: RK_2
-    pinType: passive
-  - reference: U7
-    pin: '18'
-    pinFunction: OUT19_18
-    pinType: output
 - name: Net-(NTC1-Pad1)
-  code: '99'
+  code: '42'
   nodes:
   - reference: NTC1
     pin: '1'
@@ -3520,7 +2817,7 @@ nets:
     pinFunction: ''
     pinType: passive
 - name: Net-(Q1-G)
-  code: '100'
+  code: '43'
   nodes:
   - reference: Q1
     pin: '1'
@@ -3531,7 +2828,7 @@ nets:
     pinFunction: ''
     pinType: passive
 - name: Net-(Q1-S)
-  code: '101'
+  code: '44'
   nodes:
   - reference: F1
     pin: '2'
@@ -3542,7 +2839,7 @@ nets:
     pinFunction: S_2
     pinType: passive
 - name: Net-(Q2-B)
-  code: '102'
+  code: '45'
   nodes:
   - reference: Q2
     pin: '1'
@@ -3553,7 +2850,7 @@ nets:
     pinFunction: ''
     pinType: passive
 - name: Net-(SW1-B)
-  code: '103'
+  code: '46'
   nodes:
   - reference: R30
     pin: '2'
@@ -3564,7 +2861,7 @@ nets:
     pinFunction: B_2
     pinType: passive
 - name: Net-(SW3-B)
-  code: '104'
+  code: '47'
   nodes:
   - reference: R32
     pin: '1'
@@ -3575,7 +2872,7 @@ nets:
     pinFunction: B_2
     pinType: passive
 - name: Net-(SW4-A)
-  code: '105'
+  code: '48'
   nodes:
   - reference: R23
     pin: '1'
@@ -3586,7 +2883,7 @@ nets:
     pinFunction: A_1
     pinType: passive
 - name: Net-(U1-BTST)
-  code: '106'
+  code: '49'
   nodes:
   - reference: C7
     pin: '2'
@@ -3597,7 +2894,7 @@ nets:
     pinFunction: BTST_21
     pinType: passive
 - name: Net-(U1-PMID)
-  code: '107'
+  code: '50'
   nodes:
   - reference: C3
     pin: '1'
@@ -3620,7 +2917,7 @@ nets:
     pinFunction: PMID_23
     pinType: power_out
 - name: Net-(U1-PMID_GOOD)
-  code: '108'
+  code: '51'
   nodes:
   - reference: R4
     pin: '2'
@@ -3631,7 +2928,7 @@ nets:
     pinFunction: PMID_GOOD_3
     pinType: input
 - name: Net-(U1-STAT)
-  code: '109'
+  code: '52'
   nodes:
   - reference: R6
     pin: '2'
@@ -3646,7 +2943,7 @@ nets:
     pinFunction: STAT_4
     pinType: open_collector
 - name: Net-(U1-TS)
-  code: '110'
+  code: '53'
   nodes:
   - reference: NTC1
     pin: '2'
@@ -3665,7 +2962,7 @@ nets:
     pinFunction: TS_11
     pinType: passive
 - name: Net-(U1-~{QON})
-  code: '111'
+  code: '54'
   nodes:
   - reference: R19
     pin: '1'
@@ -3676,7 +2973,7 @@ nets:
     pinFunction: ~{QON}_12
     pinType: input
 - name: Net-(U2-CT)
-  code: '112'
+  code: '55'
   nodes:
   - reference: C11
     pin: '1'
@@ -3687,7 +2984,7 @@ nets:
     pinFunction: CT_4
     pinType: passive
 - name: Net-(U3-FB)
-  code: '113'
+  code: '56'
   nodes:
   - reference: R13
     pin: '1'
@@ -3702,7 +2999,7 @@ nets:
     pinFunction: FB_4
     pinType: passive
 - name: Net-(U3-L1)
-  code: '114'
+  code: '57'
   nodes:
   - reference: L2
     pin: '1'
@@ -3713,7 +3010,7 @@ nets:
     pinFunction: L1_9
     pinType: passive
 - name: Net-(U3-L2)
-  code: '115'
+  code: '58'
   nodes:
   - reference: L2
     pin: '2'
@@ -3724,7 +3021,7 @@ nets:
     pinFunction: L2_7
     pinType: passive
 - name: Net-(U3-PG)
-  code: '116'
+  code: '59'
   nodes:
   - reference: R12
     pin: '2'
@@ -3739,7 +3036,7 @@ nets:
     pinFunction: PG_5
     pinType: open_collector
 - name: Net-(U4-REG)
-  code: '117'
+  code: '60'
   nodes:
   - reference: C15
     pin: '1'
@@ -3749,8 +3046,404 @@ nets:
     pin: B3
     pinFunction: REG_B3
     pinType: power_out
+- name: Net-(U5-OUT1)
+  code: '61'
+  nodes:
+  - reference: LED1
+    pin: '2'
+    pinFunction: ''
+    pinType: passive
+  - reference: U5
+    pin: '43'
+    pinFunction: OUT1_43
+    pinType: output
+- name: Net-(U5-OUT2)
+  code: '62'
+  nodes:
+  - reference: LED1
+    pin: '3'
+    pinFunction: ''
+    pinType: passive
+  - reference: U5
+    pin: '44'
+    pinFunction: OUT2_44
+    pinType: output
+- name: Net-(U5-OUT3)
+  code: '63'
+  nodes:
+  - reference: LED1
+    pin: '4'
+    pinFunction: ''
+    pinType: passive
+  - reference: U5
+    pin: '1'
+    pinFunction: OUT3_1
+    pinType: output
+- name: Net-(U5-OUT4)
+  code: '64'
+  nodes:
+  - reference: LED2
+    pin: '2'
+    pinFunction: ''
+    pinType: passive
+  - reference: U5
+    pin: '2'
+    pinFunction: OUT4_2
+    pinType: output
+- name: Net-(U5-OUT5)
+  code: '65'
+  nodes:
+  - reference: LED2
+    pin: '3'
+    pinFunction: ''
+    pinType: passive
+  - reference: U5
+    pin: '3'
+    pinFunction: OUT5_3
+    pinType: output
+- name: Net-(U5-OUT6)
+  code: '66'
+  nodes:
+  - reference: LED2
+    pin: '4'
+    pinFunction: ''
+    pinType: passive
+  - reference: U5
+    pin: '4'
+    pinFunction: OUT6_4
+    pinType: output
+- name: Net-(U5-OUT7)
+  code: '67'
+  nodes:
+  - reference: LED3
+    pin: '2'
+    pinFunction: ''
+    pinType: passive
+  - reference: U5
+    pin: '5'
+    pinFunction: OUT7_5
+    pinType: output
+- name: Net-(U5-OUT8)
+  code: '68'
+  nodes:
+  - reference: LED3
+    pin: '3'
+    pinFunction: ''
+    pinType: passive
+  - reference: U5
+    pin: '6'
+    pinFunction: OUT8_6
+    pinType: output
+- name: Net-(U5-OUT9)
+  code: '69'
+  nodes:
+  - reference: LED3
+    pin: '4'
+    pinFunction: ''
+    pinType: passive
+  - reference: U5
+    pin: '7'
+    pinFunction: OUT9_7
+    pinType: output
+- name: Net-(U5-OUT10)
+  code: '70'
+  nodes:
+  - reference: LED4
+    pin: '2'
+    pinFunction: ''
+    pinType: passive
+  - reference: U5
+    pin: '8'
+    pinFunction: OUT10_8
+    pinType: output
+- name: Net-(U5-OUT11)
+  code: '71'
+  nodes:
+  - reference: LED4
+    pin: '3'
+    pinFunction: ''
+    pinType: passive
+  - reference: U5
+    pin: '9'
+    pinFunction: OUT11_9
+    pinType: output
+- name: Net-(U5-OUT12)
+  code: '72'
+  nodes:
+  - reference: LED4
+    pin: '4'
+    pinFunction: ''
+    pinType: passive
+  - reference: U5
+    pin: '10'
+    pinFunction: OUT12_10
+    pinType: output
+- name: Net-(U5-OUT13)
+  code: '73'
+  nodes:
+  - reference: LED5
+    pin: '2'
+    pinFunction: ''
+    pinType: passive
+  - reference: U5
+    pin: '11'
+    pinFunction: OUT13_11
+    pinType: output
+- name: Net-(U5-OUT14)
+  code: '74'
+  nodes:
+  - reference: LED5
+    pin: '3'
+    pinFunction: ''
+    pinType: passive
+  - reference: U5
+    pin: '12'
+    pinFunction: OUT14_12
+    pinType: output
+- name: Net-(U5-OUT15)
+  code: '75'
+  nodes:
+  - reference: LED5
+    pin: '4'
+    pinFunction: ''
+    pinType: passive
+  - reference: U5
+    pin: '13'
+    pinFunction: OUT15_13
+    pinType: output
+- name: Net-(U5-OUT16)
+  code: '76'
+  nodes:
+  - reference: LED6
+    pin: '2'
+    pinFunction: ''
+    pinType: passive
+  - reference: U5
+    pin: '14'
+    pinFunction: OUT16_14
+    pinType: output
+- name: Net-(U5-OUT17)
+  code: '77'
+  nodes:
+  - reference: LED6
+    pin: '3'
+    pinFunction: ''
+    pinType: passive
+  - reference: U5
+    pin: '15'
+    pinFunction: OUT17_15
+    pinType: output
+- name: Net-(U5-OUT18)
+  code: '78'
+  nodes:
+  - reference: LED6
+    pin: '4'
+    pinFunction: ''
+    pinType: passive
+  - reference: U5
+    pin: '16'
+    pinFunction: OUT18_16
+    pinType: output
+- name: Net-(U5-OUT19)
+  code: '79'
+  nodes:
+  - reference: LED7
+    pin: '2'
+    pinFunction: ''
+    pinType: passive
+  - reference: U5
+    pin: '18'
+    pinFunction: OUT19_18
+    pinType: output
+- name: Net-(U5-OUT20)
+  code: '80'
+  nodes:
+  - reference: LED7
+    pin: '3'
+    pinFunction: ''
+    pinType: passive
+  - reference: U5
+    pin: '19'
+    pinFunction: OUT20_19
+    pinType: output
+- name: Net-(U5-OUT21)
+  code: '81'
+  nodes:
+  - reference: LED7
+    pin: '4'
+    pinFunction: ''
+    pinType: passive
+  - reference: U5
+    pin: '20'
+    pinFunction: OUT21_20
+    pinType: output
+- name: Net-(U5-OUT22)
+  code: '82'
+  nodes:
+  - reference: LED8
+    pin: '2'
+    pinFunction: ''
+    pinType: passive
+  - reference: U5
+    pin: '21'
+    pinFunction: OUT22_21
+    pinType: output
+- name: Net-(U5-OUT23)
+  code: '83'
+  nodes:
+  - reference: LED8
+    pin: '3'
+    pinFunction: ''
+    pinType: passive
+  - reference: U5
+    pin: '22'
+    pinFunction: OUT23_22
+    pinType: output
+- name: Net-(U5-OUT24)
+  code: '84'
+  nodes:
+  - reference: LED8
+    pin: '4'
+    pinFunction: ''
+    pinType: passive
+  - reference: U5
+    pin: '23'
+    pinFunction: OUT24_23
+    pinType: output
+- name: Net-(U5-OUT25)
+  code: '85'
+  nodes:
+  - reference: LED9
+    pin: '2'
+    pinFunction: ''
+    pinType: passive
+  - reference: U5
+    pin: '24'
+    pinFunction: OUT25_24
+    pinType: output
+- name: Net-(U5-OUT26)
+  code: '86'
+  nodes:
+  - reference: LED9
+    pin: '3'
+    pinFunction: ''
+    pinType: passive
+  - reference: U5
+    pin: '25'
+    pinFunction: OUT26_25
+    pinType: output
+- name: Net-(U5-OUT27)
+  code: '87'
+  nodes:
+  - reference: LED9
+    pin: '4'
+    pinFunction: ''
+    pinType: passive
+  - reference: U5
+    pin: '26'
+    pinFunction: OUT27_26
+    pinType: output
+- name: Net-(U5-OUT28)
+  code: '88'
+  nodes:
+  - reference: LED10
+    pin: '2'
+    pinFunction: ''
+    pinType: passive
+  - reference: U5
+    pin: '27'
+    pinFunction: OUT28_27
+    pinType: output
+- name: Net-(U5-OUT29)
+  code: '89'
+  nodes:
+  - reference: LED10
+    pin: '3'
+    pinFunction: ''
+    pinType: passive
+  - reference: U5
+    pin: '28'
+    pinFunction: OUT29_28
+    pinType: output
+- name: Net-(U5-OUT30)
+  code: '90'
+  nodes:
+  - reference: LED10
+    pin: '4'
+    pinFunction: ''
+    pinType: passive
+  - reference: U5
+    pin: '29'
+    pinFunction: OUT30_29
+    pinType: output
+- name: Net-(U5-OUT31)
+  code: '91'
+  nodes:
+  - reference: LED11
+    pin: '2'
+    pinFunction: ''
+    pinType: passive
+  - reference: U5
+    pin: '30'
+    pinFunction: OUT31_30
+    pinType: output
+- name: Net-(U5-OUT32)
+  code: '92'
+  nodes:
+  - reference: LED11
+    pin: '3'
+    pinFunction: ''
+    pinType: passive
+  - reference: U5
+    pin: '31'
+    pinFunction: OUT32_31
+    pinType: output
+- name: Net-(U5-OUT33)
+  code: '93'
+  nodes:
+  - reference: LED11
+    pin: '4'
+    pinFunction: ''
+    pinType: passive
+  - reference: U5
+    pin: '32'
+    pinFunction: OUT33_32
+    pinType: output
+- name: Net-(U5-OUT34)
+  code: '94'
+  nodes:
+  - reference: LED12
+    pin: '2'
+    pinFunction: ''
+    pinType: passive
+  - reference: U5
+    pin: '33'
+    pinFunction: OUT34_33
+    pinType: output
+- name: Net-(U5-OUT35)
+  code: '95'
+  nodes:
+  - reference: LED12
+    pin: '3'
+    pinFunction: ''
+    pinType: passive
+  - reference: U5
+    pin: '34'
+    pinFunction: OUT35_34
+    pinType: output
+- name: Net-(U5-OUT36)
+  code: '96'
+  nodes:
+  - reference: LED12
+    pin: '4'
+    pinFunction: ''
+    pinType: passive
+  - reference: U5
+    pin: '35'
+    pinFunction: OUT36_35
+    pinType: output
 - name: Net-(U5-R-EXT)
-  code: '118'
+  code: '97'
   nodes:
   - reference: R24
     pin: '2'
@@ -3761,7 +3454,7 @@ nets:
     pinFunction: R-EXT_40
     pinType: passive
 - name: Net-(U6-EN)
-  code: '119'
+  code: '98'
   nodes:
   - reference: C17
     pin: '2'
@@ -3780,7 +3473,7 @@ nets:
     pinFunction: EN_3
     pinType: input
 - name: Net-(U6-IO0)
-  code: '120'
+  code: '99'
   nodes:
   - reference: R23
     pin: '2'
@@ -3798,6 +3491,237 @@ nets:
     pin: '27'
     pinFunction: IO0_27
     pinType: bidirectional
+- name: Net-(U7-OUT1)
+  code: '100'
+  nodes:
+  - reference: LED13
+    pin: '1'
+    pinFunction: ''
+    pinType: passive
+  - reference: U7
+    pin: '43'
+    pinFunction: OUT1_43
+    pinType: output
+- name: Net-(U7-OUT2)
+  code: '101'
+  nodes:
+  - reference: LED13
+    pin: '3'
+    pinFunction: ''
+    pinType: passive
+  - reference: U7
+    pin: '44'
+    pinFunction: OUT2_44
+    pinType: output
+- name: Net-(U7-OUT3)
+  code: '102'
+  nodes:
+  - reference: LED13
+    pin: '4'
+    pinFunction: ''
+    pinType: passive
+  - reference: U7
+    pin: '1'
+    pinFunction: OUT3_1
+    pinType: output
+- name: Net-(U7-OUT4)
+  code: '103'
+  nodes:
+  - reference: LED14
+    pin: '1'
+    pinFunction: ''
+    pinType: passive
+  - reference: U7
+    pin: '2'
+    pinFunction: OUT4_2
+    pinType: output
+- name: Net-(U7-OUT5)
+  code: '104'
+  nodes:
+  - reference: LED14
+    pin: '3'
+    pinFunction: ''
+    pinType: passive
+  - reference: U7
+    pin: '3'
+    pinFunction: OUT5_3
+    pinType: output
+- name: Net-(U7-OUT6)
+  code: '105'
+  nodes:
+  - reference: LED14
+    pin: '4'
+    pinFunction: ''
+    pinType: passive
+  - reference: U7
+    pin: '4'
+    pinFunction: OUT6_4
+    pinType: output
+- name: Net-(U7-OUT7)
+  code: '106'
+  nodes:
+  - reference: LED15
+    pin: '1'
+    pinFunction: ''
+    pinType: passive
+  - reference: U7
+    pin: '5'
+    pinFunction: OUT7_5
+    pinType: output
+- name: Net-(U7-OUT8)
+  code: '107'
+  nodes:
+  - reference: LED15
+    pin: '3'
+    pinFunction: ''
+    pinType: passive
+  - reference: U7
+    pin: '6'
+    pinFunction: OUT8_6
+    pinType: output
+- name: Net-(U7-OUT9)
+  code: '108'
+  nodes:
+  - reference: LED15
+    pin: '4'
+    pinFunction: ''
+    pinType: passive
+  - reference: U7
+    pin: '7'
+    pinFunction: OUT9_7
+    pinType: output
+- name: Net-(U7-OUT10)
+  code: '109'
+  nodes:
+  - reference: LED16
+    pin: '1'
+    pinFunction: ''
+    pinType: passive
+  - reference: U7
+    pin: '8'
+    pinFunction: OUT10_8
+    pinType: output
+- name: Net-(U7-OUT11)
+  code: '110'
+  nodes:
+  - reference: LED16
+    pin: '3'
+    pinFunction: ''
+    pinType: passive
+  - reference: U7
+    pin: '9'
+    pinFunction: OUT11_9
+    pinType: output
+- name: Net-(U7-OUT12)
+  code: '111'
+  nodes:
+  - reference: LED16
+    pin: '4'
+    pinFunction: ''
+    pinType: passive
+  - reference: U7
+    pin: '10'
+    pinFunction: OUT12_10
+    pinType: output
+- name: Net-(U7-OUT13)
+  code: '112'
+  nodes:
+  - reference: LED17
+    pin: '1'
+    pinFunction: ''
+    pinType: passive
+  - reference: U7
+    pin: '11'
+    pinFunction: OUT13_11
+    pinType: output
+- name: Net-(U7-OUT14)
+  code: '113'
+  nodes:
+  - reference: LED17
+    pin: '3'
+    pinFunction: ''
+    pinType: passive
+  - reference: U7
+    pin: '12'
+    pinFunction: OUT14_12
+    pinType: output
+- name: Net-(U7-OUT15)
+  code: '114'
+  nodes:
+  - reference: LED17
+    pin: '4'
+    pinFunction: ''
+    pinType: passive
+  - reference: U7
+    pin: '13'
+    pinFunction: OUT15_13
+    pinType: output
+- name: Net-(U7-OUT16)
+  code: '115'
+  nodes:
+  - reference: LED18
+    pin: '1'
+    pinFunction: ''
+    pinType: passive
+  - reference: U7
+    pin: '14'
+    pinFunction: OUT16_14
+    pinType: output
+- name: Net-(U7-OUT17)
+  code: '116'
+  nodes:
+  - reference: LED18
+    pin: '3'
+    pinFunction: ''
+    pinType: passive
+  - reference: U7
+    pin: '15'
+    pinFunction: OUT17_15
+    pinType: output
+- name: Net-(U7-OUT18)
+  code: '117'
+  nodes:
+  - reference: LED18
+    pin: '4'
+    pinFunction: ''
+    pinType: passive
+  - reference: U7
+    pin: '16'
+    pinFunction: OUT18_16
+    pinType: output
+- name: Net-(U7-OUT19)
+  code: '118'
+  nodes:
+  - reference: LED19
+    pin: '1'
+    pinFunction: ''
+    pinType: passive
+  - reference: U7
+    pin: '18'
+    pinFunction: OUT19_18
+    pinType: output
+- name: Net-(U7-OUT20)
+  code: '119'
+  nodes:
+  - reference: LED19
+    pin: '3'
+    pinFunction: ''
+    pinType: passive
+  - reference: U7
+    pin: '19'
+    pinFunction: OUT20_19
+    pinType: output
+- name: Net-(U7-OUT21)
+  code: '120'
+  nodes:
+  - reference: LED19
+    pin: '4'
+    pinFunction: ''
+    pinType: passive
+  - reference: U7
+    pin: '20'
+    pinFunction: OUT21_20
+    pinType: output
 - name: Net-(U7-R-EXT)
   code: '121'
   nodes:
@@ -3898,7 +3822,7 @@ nets:
     pinFunction: '2_2'
     pinType: bidirectional
   - reference: R1
-    pin: '2'
+    pin: '1'
     pinFunction: ''
     pinType: passive
   - reference: USB1
@@ -3913,7 +3837,7 @@ nets:
     pinFunction: '3_3'
     pinType: bidirectional
   - reference: R2
-    pin: '2'
+    pin: '1'
     pinFunction: ''
     pinType: passive
   - reference: USB1
@@ -3999,6 +3923,82 @@ nets:
     pinFunction: ''
     pinType: passive
   - reference: C9
+    pin: '1'
+    pinFunction: ''
+    pinType: passive
+  - reference: LED1
+    pin: '1'
+    pinFunction: ''
+    pinType: passive
+  - reference: LED10
+    pin: '1'
+    pinFunction: ''
+    pinType: passive
+  - reference: LED11
+    pin: '1'
+    pinFunction: ''
+    pinType: passive
+  - reference: LED12
+    pin: '1'
+    pinFunction: ''
+    pinType: passive
+  - reference: LED13
+    pin: '2'
+    pinFunction: ''
+    pinType: passive
+  - reference: LED14
+    pin: '2'
+    pinFunction: ''
+    pinType: passive
+  - reference: LED15
+    pin: '2'
+    pinFunction: ''
+    pinType: passive
+  - reference: LED16
+    pin: '2'
+    pinFunction: ''
+    pinType: passive
+  - reference: LED17
+    pin: '2'
+    pinFunction: ''
+    pinType: passive
+  - reference: LED18
+    pin: '2'
+    pinFunction: ''
+    pinType: passive
+  - reference: LED19
+    pin: '2'
+    pinFunction: ''
+    pinType: passive
+  - reference: LED2
+    pin: '1'
+    pinFunction: ''
+    pinType: passive
+  - reference: LED3
+    pin: '1'
+    pinFunction: ''
+    pinType: passive
+  - reference: LED4
+    pin: '1'
+    pinFunction: ''
+    pinType: passive
+  - reference: LED5
+    pin: '1'
+    pinFunction: ''
+    pinType: passive
+  - reference: LED6
+    pin: '1'
+    pinFunction: ''
+    pinType: passive
+  - reference: LED7
+    pin: '1'
+    pinFunction: ''
+    pinType: passive
+  - reference: LED8
+    pin: '1'
+    pinFunction: ''
+    pinType: passive
+  - reference: LED9
     pin: '1'
     pinFunction: ''
     pinType: passive
@@ -4515,7 +4515,7 @@ powerRails:
   icConnections:
   - U1.REGN_22
 - net: GND
-  nodeCount: 106
+  nodeCount: 87
   icConnections:
   - U1.PGND_17
   - U1.PGND_18
@@ -4541,7 +4541,7 @@ powerRails:
   - USB1.VBUS_A4B9
   - USB1.VBUS_B4A9
 - net: VCC
-  nodeCount: 19
+  nodeCount: 38
   icConnections:
   - U2.QOD_5
   - U2.VOUT_6

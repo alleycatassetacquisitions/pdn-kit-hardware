@@ -1,7 +1,7 @@
 kind: design-context-dump
 status: as-built
 epistemicStatus: observation_not_requirement
-generatedAt: '2026-08-30T19:50:50Z'
+generatedAt: '2026-09-18T13:17:10Z'
 rootSchematic: C:\Users\Elli Furedy\projects\pdn-kit-hardware\pdn-kit-hardware.kicad_sch
 projectDir: C:\Users\Elli Furedy\projects\pdn-kit-hardware
 sourceTool: dump_design_context.py
